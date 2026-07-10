@@ -1,0 +1,14 @@
+{
+  "$schema": "https://raw.githubusercontent.com/jetify-com/devbox/0.13.0/.schema/devbox.schema.json",
+  "packages": ["python@3.13", "uv@latest"],
+  "shell": {
+    "init_hook": ["uv sync"],
+    "scripts": {
+      "update": ["uv run prof-tracker update"],
+      "announce": ["uv run prof-tracker announce"],
+      "bootstrap": ["uv run prof-tracker bootstrap"],
+      "regen-readme": ["uv run prof-tracker regen-readme"],
+      "test": ["uv run pytest"]
+    }
+  }
+}
