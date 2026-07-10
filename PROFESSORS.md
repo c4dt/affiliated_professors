@@ -22,9 +22,11 @@ Research tracker for C4DT's affiliated professors. Each weekday an automated age
 Anne-Marie Kermarrec leads the SACS lab at EPFL, researching large-scale distributed systems with a strong current focus on federated and decentralized machine learning, scalable inference, and retrieval-augmented generation.
 
 ### [Annie Hartley](professors/ANNIE-HARTLEY.md)
-*Laboratory for Intelligent Global Health and Humanitarian Response Technologies (LiGHT)* · last updated — · ✅ reviewed
+*Laboratory for Intelligent Global Health and Humanitarian Response Technologies (LiGHT)* · last updated 2026-07-10 · ✅ reviewed
 
 [EPFL profile](https://people.epfl.ch/mary-anne.hartley) · [light-laboratory.org](https://www.light-laboratory.org/) · [ORCID 0000-0002-8826-3870](https://orcid.org/0000-0002-8826-3870) · [OpenAlex a5063796208](https://openalex.org/a5063796208)
+
+Annie Hartley leads EPFL's LiGHT lab, developing open, auditable AI systems—most notably the Meditron clinical LLM family—for global health equity and humanitarian response in low-resource settings.
 
 ### [Antoine Bosselut](professors/ANTOINE-BOSSELUT.md)
 *Natural Language Processing Lab (NLP Lab)* · last updated — · ✅ reviewed
