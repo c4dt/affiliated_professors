@@ -16,3 +16,453 @@
     in formal logic.
   last_updated: '2026-07-10'
   reviewed: true
+- slug: katerina-argyraki
+  name: Katerina Argyraki
+  lab: Network Architecture Laboratory (NAL)
+  lab_url: https://www.epfl.ch/labs/nal/
+  github_org: null
+  openalex_id: A5011668097
+  one_sentence_summary: ''
+  readme_paragraph: ''
+  last_updated: null
+  reviewed: false
+- slug: david-atienza
+  name: David Atienza
+  lab: Embedded Systems Laboratory (ESL)
+  lab_url: https://esl.epfl.ch/
+  github_org: null
+  openalex_id: A5074236306
+  one_sentence_summary: ''
+  readme_paragraph: ''
+  last_updated: null
+  reviewed: false
+- slug: antoine-bosselut
+  name: Antoine Bosselut
+  lab: Natural Language Processing Lab (NLP Lab)
+  lab_url: https://nlp.epfl.ch/
+  github_org: null
+  openalex_id: A5088410008
+  one_sentence_summary: ''
+  readme_paragraph: ''
+  last_updated: null
+  reviewed: false
+- slug: thomas-bourgeat
+  name: Thomas Bourgeat
+  lab: Verification and Computer Architecture Lab (VCA)
+  lab_url: https://vca.epfl.ch/
+  github_org: null
+  openalex_id: A5008699657
+  one_sentence_summary: ''
+  readme_paragraph: ''
+  last_updated: null
+  reviewed: false
+- slug: edouard-bugnion
+  name: Edouard Bugnion
+  lab: Data Center Systems Laboratory (DCSL)
+  lab_url: https://www.epfl.ch/labs/dcsl/
+  github_org: null
+  openalex_id: A5049034675
+  one_sentence_summary: ''
+  readme_paragraph: ''
+  last_updated: null
+  reviewed: false
+- slug: charlotte-bunne
+  name: Charlotte Bunne
+  lab: Artificial Intelligence in Molecular Medicine Lab (AIMM)
+  lab_url: https://aimm.epfl.ch/
+  github_org: null
+  openalex_id: A5033283546
+  one_sentence_summary: ''
+  readme_paragraph: ''
+  last_updated: null
+  reviewed: false
+- slug: george-candea
+  name: George Candea
+  lab: Dependable Systems Laboratory (DSLAB)
+  lab_url: https://dslab.epfl.ch/
+  github_org: null
+  openalex_id: A5028907149
+  one_sentence_summary: ''
+  readme_paragraph: ''
+  last_updated: null
+  reviewed: false
+- slug: andrea-cavallaro
+  name: Andrea Cavallaro
+  lab: Laboratory of Multimodal Intelligent Systems (MINTS)
+  lab_url: https://www.epfl.ch/labs/mints/
+  github_org: null
+  openalex_id: A5004087827
+  one_sentence_summary: ''
+  readme_paragraph: ''
+  last_updated: null
+  reviewed: false
+- slug: volkan-cevher
+  name: Volkan Cevher
+  lab: Laboratory for Information and Inference Systems (LIONS)
+  lab_url: https://lions.epfl.ch/
+  github_org: null
+  openalex_id: A5027059837
+  one_sentence_summary: ''
+  readme_paragraph: ''
+  last_updated: null
+  reviewed: false
+- slug: alessandro-chiesa
+  name: Alessandro Chiesa
+  lab: Laboratory for Computation Security (COMPSEC)
+  lab_url: https://ic-people.epfl.ch/~achiesa/
+  github_org: null
+  openalex_id: A5101591310
+  one_sentence_summary: ''
+  readme_paragraph: ''
+  last_updated: null
+  reviewed: false
+- slug: pierre-collin-dufresne
+  name: Pierre Collin-Dufresne
+  lab: Chair SFI-PCD
+  lab_url: https://sfi.epfl.ch/
+  github_org: null
+  openalex_id: A5020878074
+  one_sentence_summary: ''
+  readme_paragraph: ''
+  last_updated: null
+  reviewed: false
+- slug: giovanni-de-micheli
+  name: Giovanni de Micheli
+  lab: Integrated Systems Laboratory (LSI)
+  lab_url: https://lsi.epfl.ch/
+  github_org: null
+  openalex_id: A5072927296
+  one_sentence_summary: ''
+  readme_paragraph: ''
+  last_updated: null
+  reviewed: false
+- slug: gaetan-de-rassenfosse
+  name: Gaétan de Rassenfosse
+  lab: Chair of Science Technology and Innovation Policy (STIP)
+  lab_url: https://www.epfl.ch/labs/stip/
+  github_org: null
+  openalex_id: A5086533373
+  one_sentence_summary: ''
+  readme_paragraph: ''
+  last_updated: null
+  reviewed: false
+- slug: touradj-ebrahimi
+  name: Touradj Ebrahimi
+  lab: Multimedia Signal Processing Group (MMSPG)
+  lab_url: https://mmspg.epfl.ch/
+  github_org: null
+  openalex_id: A5109068347
+  one_sentence_summary: ''
+  readme_paragraph: ''
+  last_updated: null
+  reviewed: false
+- slug: ruediger-fahlenbrach
+  name: Ruediger Fahlenbrach
+  lab: Chair SFI-RF
+  lab_url: https://sfi.epfl.ch/
+  github_org: null
+  openalex_id: A5022485788
+  one_sentence_summary: ''
+  readme_paragraph: ''
+  last_updated: null
+  reviewed: false
+- slug: babak-falsafi
+  name: Babak Falsafi
+  lab: Parallel Systems Architecture Laboratory (PARSA)
+  lab_url: https://parsa.epfl.ch/
+  github_org: null
+  openalex_id: A5057697787
+  one_sentence_summary: ''
+  readme_paragraph: ''
+  last_updated: null
+  reviewed: false
+- slug: boi-faltings
+  name: Boi Faltings
+  lab: Artificial Intelligence Laboratory (LIA)
+  lab_url: https://lia.epfl.ch/
+  github_org: null
+  openalex_id: A5109041721
+  one_sentence_summary: ''
+  readme_paragraph: ''
+  last_updated: null
+  reviewed: false
+- slug: jacques-fellay
+  name: Jacques Fellay
+  lab: Fellay Lab – Human Genomics of Infection and Immunity (GR-FE)
+  lab_url: https://fellay-lab.epfl.ch/
+  github_org: null
+  openalex_id: A5089009771
+  one_sentence_summary: ''
+  readme_paragraph: ''
+  last_updated: null
+  reviewed: false
+- slug: damir-filipovic
+  name: Damir Filipovic
+  lab: Swissquote Chair in Quantitative Finance
+  lab_url: https://sfi.epfl.ch/
+  github_org: null
+  openalex_id: A5013452225
+  one_sentence_summary: ''
+  readme_paragraph: ''
+  last_updated: null
+  reviewed: false
+- slug: nicolas-flammarion
+  name: Nicolas Flammarion
+  lab: Theory of Machine Learning Laboratory (TML)
+  lab_url: https://search.epfl.ch/?filter=unit&q=TML
+  github_org: null
+  openalex_id: A5072857797
+  one_sentence_summary: ''
+  readme_paragraph: ''
+  last_updated: null
+  reviewed: false
+- slug: nate-foster
+  name: Nate Foster
+  lab: Prof. Foster Group (UPFOSTER)
+  lab_url: https://search.epfl.ch/?filter=unit&q=UPFOSTER
+  github_org: null
+  openalex_id: A5013378091
+  one_sentence_summary: ''
+  readme_paragraph: ''
+  last_updated: null
+  reviewed: false
+- slug: pascal-frossard
+  name: Pascal Frossard
+  lab: Signal Processing Laboratory (LTS4)
+  lab_url: https://lts4.epfl.ch/
+  github_org: null
+  openalex_id: A5000947076
+  one_sentence_summary: ''
+  readme_paragraph: ''
+  last_updated: null
+  reviewed: false
+- slug: florence-graezer-bideau
+  name: Florence Graezer Bideau
+  lab: Heritage, Anthropology and Technologies Research Group (HAT)
+  lab_url: https://www.epfl.ch/labs/hat/fr/
+  github_org: null
+  openalex_id: A5013456142
+  one_sentence_summary: ''
+  readme_paragraph: ''
+  last_updated: null
+  reviewed: false
+- slug: matthias-grossglauser
+  name: Matthias Grossglauser
+  lab: Information and Network Dynamics Laboratory (INDY)
+  lab_url: https://indy.epfl.ch/
+  github_org: null
+  openalex_id: A5087035582
+  one_sentence_summary: ''
+  readme_paragraph: ''
+  last_updated: null
+  reviewed: false
+- slug: rachid-guerraoui
+  name: Rachid Guerraoui
+  lab: Distributed Computing Laboratory (DCL)
+  lab_url: https://dcl.epfl.ch/
+  github_org: null
+  openalex_id: A5049321288
+  one_sentence_summary: ''
+  readme_paragraph: ''
+  last_updated: null
+  reviewed: false
+- slug: caglar-gulcehre
+  name: Caglar Gulcehre
+  lab: Caglar Gulcehre Lab for AI Research (CLAIRE)
+  lab_url: https://www.epfl.ch/labs/claire/
+  github_org: null
+  openalex_id: A5041145688
+  one_sentence_summary: ''
+  readme_paragraph: ''
+  last_updated: null
+  reviewed: false
+- slug: annie-hartley
+  name: Annie Hartley
+  lab: Laboratory for Intelligent Global Health and Humanitarian Response Technologies (LiGHT)
+  lab_url: https://www.light-laboratory.org/
+  github_org: null
+  openalex_id: A5119699799
+  one_sentence_summary: ''
+  readme_paragraph: ''
+  last_updated: null
+  reviewed: false
+- slug: julien-hugonnier
+  name: Julien Hugonnier
+  lab: Chair SFI-JH
+  lab_url: https://sfi.epfl.ch/
+  github_org: null
+  openalex_id: A5002167713
+  one_sentence_summary: ''
+  readme_paragraph: ''
+  last_updated: null
+  reviewed: false
+- slug: paolo-ienne
+  name: Paolo Ienne
+  lab: Processor Architecture Laboratory (LAP)
+  lab_url: https://lap.epfl.ch/
+  github_org: null
+  openalex_id: A5020575991
+  one_sentence_summary: ''
+  readme_paragraph: ''
+  last_updated: null
+  reviewed: false
+- slug: martin-jaggi
+  name: Martin Jaggi
+  lab: Machine Learning and Optimization Laboratory (MLO)
+  lab_url: https://mlo.epfl.ch/
+  github_org: null
+  openalex_id: A5088410008
+  one_sentence_summary: ''
+  readme_paragraph: ''
+  last_updated: null
+  reviewed: false
+- slug: sanidhya-kashyap
+  name: Sanidhya Kashyap
+  lab: Robust Scalable Systems Software Lab (RS3Lab)
+  lab_url: https://sanidhya.github.io/
+  github_org: null
+  openalex_id: A5030479442
+  one_sentence_summary: ''
+  readme_paragraph: ''
+  last_updated: null
+  reviewed: false
+- slug: anne-marie-kermarrec
+  name: Anne-Marie Kermarrec
+  lab: Scalable Computing Systems Laboratory (SaCS)
+  lab_url: https://www.epfl.ch/labs/sacs/
+  github_org: null
+  openalex_id: A5031849486
+  one_sentence_summary: ''
+  readme_paragraph: ''
+  last_updated: null
+  reviewed: false
+- slug: viktor-kuncak
+  name: Viktor Kunčak
+  lab: Lab for Automated Reasoning and Analysis (LARA)
+  lab_url: https://lara.epfl.ch/w/
+  github_org: null
+  openalex_id: A5008699657
+  one_sentence_summary: ''
+  readme_paragraph: ''
+  last_updated: null
+  reviewed: false
+- slug: semyon-malamud
+  name: Semyon Malamud
+  lab: Chair SFI-SM
+  lab_url: https://sfi.epfl.ch/
+  github_org: null
+  openalex_id: A5067616912
+  one_sentence_summary: ''
+  readme_paragraph: ''
+  last_updated: null
+  reviewed: false
+- slug: martin-odersky
+  name: Martin Odersky
+  lab: Programming Methods Laboratory (LAMP)
+  lab_url: https://lamp.epfl.ch/
+  github_org: null
+  openalex_id: A5085410724
+  one_sentence_summary: ''
+  readme_paragraph: ''
+  last_updated: null
+  reviewed: false
+- slug: mario-paolone
+  name: Mario Paolone
+  lab: Distributed Electrical Systems Laboratory (DESL)
+  lab_url: https://desl-pwrs.epfl.ch/
+  github_org: null
+  openalex_id: A5050504092
+  one_sentence_summary: ''
+  readme_paragraph: ''
+  last_updated: null
+  reviewed: false
+- slug: mathias-payer
+  name: Mathias Payer
+  lab: HexHive Laboratory
+  lab_url: https://hexhive.epfl.ch/
+  github_org: null
+  openalex_id: A5065116578
+  one_sentence_summary: ''
+  readme_paragraph: ''
+  last_updated: null
+  reviewed: false
+- slug: clement-pit-claudel
+  name: Clément Pit-Claudel
+  lab: Systems and Formalisms Lab (SYSTEMF)
+  lab_url: https://pit-claudel.fr/clement/
+  github_org: null
+  openalex_id: A5018186543
+  one_sentence_summary: ''
+  readme_paragraph: ''
+  last_updated: null
+  reviewed: false
+- slug: marcel-salathe
+  name: Marcel Salathé
+  lab: Digital Epidemiology Lab (SALATHELAB)
+  lab_url: https://www.digitalepidemiologylab.org/
+  github_org: null
+  openalex_id: A5010649096
+  one_sentence_summary: ''
+  readme_paragraph: ''
+  last_updated: null
+  reviewed: false
+- slug: yanina-shkel
+  name: Yanina Shkel
+  lab: Mathematics of Information Laboratory (MIL)
+  lab_url: https://search.epfl.ch/?filter=unit&q=MIL
+  github_org: null
+  openalex_id: A5052329970
+  one_sentence_summary: ''
+  readme_paragraph: ''
+  last_updated: null
+  reviewed: false
+- slug: sabine-susstrunk
+  name: Sabine Süsstrunk
+  lab: Image and Visual Representation Laboratory (IVRL)
+  lab_url: https://ivrl.epfl.ch/
+  github_org: null
+  openalex_id: A5078201467
+  one_sentence_summary: ''
+  readme_paragraph: ''
+  last_updated: null
+  reviewed: false
+- slug: carmela-troncoso
+  name: Carmela Troncoso
+  lab: Security and Privacy Engineering Lab (SPRING)
+  lab_url: https://spring.epfl.ch/
+  github_org: null
+  openalex_id: A5072857797
+  one_sentence_summary: ''
+  readme_paragraph: ''
+  last_updated: null
+  reviewed: false
+- slug: serge-vaudenay
+  name: Serge Vaudenay
+  lab: Security and Cryptography Laboratory (LASEC)
+  lab_url: https://lasec.epfl.ch/
+  github_org: null
+  openalex_id: A5073902849
+  one_sentence_summary: ''
+  readme_paragraph: ''
+  last_updated: null
+  reviewed: false
+- slug: thomas-vidick
+  name: Thomas Vidick
+  lab: Quantum Complexity and Cryptography Laboratory (QCC)
+  lab_url: https://search.epfl.ch/?filter=unit&q=QCC
+  github_org: null
+  openalex_id: A5019616211
+  one_sentence_summary: ''
+  readme_paragraph: ''
+  last_updated: null
+  reviewed: false
+- slug: robert-west
+  name: Robert West
+  lab: Data Science Laboratory (DLAB)
+  lab_url: https://dlab.epfl.ch/
+  github_org: null
+  openalex_id: A5059645286
+  one_sentence_summary: ''
+  readme_paragraph: ''
+  last_updated: null
+  reviewed: false
