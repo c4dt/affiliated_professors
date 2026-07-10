@@ -1,11 +1,11 @@
 # Caglar Gulcehre
 
-**Lab:** Caglar Gulcehre Lab for AI Research (CLAIRE)
-**EPFL profile:** [people.epfl.ch](https://people.epfl.ch/caglar.gulcehre)
-**Web:** [epfl.ch](https://www.epfl.ch/labs/claire/)
-**ORCID:** [0009-0003-4124-1687](https://orcid.org/0009-0003-4124-1687)
-**OpenAlex:** [A5041145688](https://openalex.org/A5041145688)
-**Index:** [PROFESSORS.md](../PROFESSORS.md)
+**Lab:** Caglar Gulcehre Lab for AI Research (CLAIRE)  
+**EPFL profile:** [people.epfl.ch](https://people.epfl.ch/caglar.gulcehre)  
+**Web:** [epfl.ch](https://www.epfl.ch/labs/claire/)  
+**ORCID:** [0009-0003-4124-1687](https://orcid.org/0009-0003-4124-1687)  
+**OpenAlex:** [A5041145688](https://openalex.org/A5041145688)  
+**Index:** [PROFESSORS.md](../PROFESSORS.md)  
 
 Caglar Gulcehre leads CLAIRE at EPFL, researching efficient and safe deep learning algorithms spanning reinforcement learning, large language model training, sequence modeling architectures, alignment/safety, and system-2 level reasoning.
 

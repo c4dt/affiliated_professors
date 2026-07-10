@@ -1,12 +1,12 @@
 # George Candea
 
-**Lab:** Dependable Systems Laboratory (DSLAB)
-**EPFL profile:** [people.epfl.ch](https://people.epfl.ch/george.candea)
-**Web:** [dslab.epfl.ch](https://dslab.epfl.ch/)
-**Code:** [github.com/dslab-epfl](https://github.com/dslab-epfl)
-**ORCID:** [0009-0002-8107-6535](https://orcid.org/0009-0002-8107-6535)
-**OpenAlex:** [A5028907149](https://openalex.org/A5028907149)
-**Index:** [PROFESSORS.md](../PROFESSORS.md)
+**Lab:** Dependable Systems Laboratory (DSLAB)  
+**EPFL profile:** [people.epfl.ch](https://people.epfl.ch/george.candea)  
+**Web:** [dslab.epfl.ch](https://dslab.epfl.ch/)  
+**Code:** [github.com/dslab-epfl](https://github.com/dslab-epfl)  
+**ORCID:** [0009-0002-8107-6535](https://orcid.org/0009-0002-8107-6535)  
+**OpenAlex:** [A5028907149](https://openalex.org/A5028907149)  
+**Index:** [PROFESSORS.md](../PROFESSORS.md)  
 
 George Candea leads EPFL's Dependable Systems Lab (DSLAB), focusing on making performance and energy programmable in computer systems through formal verification, performance interfaces, and efficient OS/network-function design.
 

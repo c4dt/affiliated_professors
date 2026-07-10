@@ -1,11 +1,11 @@
 # Mario Paolone
 
-**Lab:** Distributed Electrical Systems Laboratory (DESL)
-**EPFL profile:** [people.epfl.ch](https://people.epfl.ch/mario.paolone)
-**Web:** [desl-pwrs.epfl.ch](https://desl-pwrs.epfl.ch/)
-**ORCID:** [0000-0001-7073-9036](https://orcid.org/0000-0001-7073-9036)
-**OpenAlex:** [A5050504092](https://openalex.org/A5050504092)
-**Index:** [PROFESSORS.md](../PROFESSORS.md)
+**Lab:** Distributed Electrical Systems Laboratory (DESL)  
+**EPFL profile:** [people.epfl.ch](https://people.epfl.ch/mario.paolone)  
+**Web:** [desl-pwrs.epfl.ch](https://desl-pwrs.epfl.ch/)  
+**ORCID:** [0000-0001-7073-9036](https://orcid.org/0000-0001-7073-9036)  
+**OpenAlex:** [A5050504092](https://openalex.org/A5050504092)  
+**Index:** [PROFESSORS.md](../PROFESSORS.md)  
 
 Mario Paolone leads EPFL's Distributed Electrical Systems Laboratory (DESL), focusing on smart grid technologies including real-time monitoring and control of active distribution networks, PMU-based situational awareness, optimal planning of distributed energy resources, and integration of renewables and storage in power systems.
 

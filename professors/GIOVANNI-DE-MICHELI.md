@@ -1,11 +1,11 @@
 # Giovanni de Micheli
 
-**Lab:** Integrated Systems Laboratory (LSI)
-**EPFL profile:** [people.epfl.ch](https://people.epfl.ch/giovanni.demicheli)
-**Web:** [lsi.epfl.ch](https://lsi.epfl.ch/)
-**ORCID:** [0000-0002-7827-3215](https://orcid.org/0000-0002-7827-3215)
-**OpenAlex:** [A5072927296](https://openalex.org/A5072927296)
-**Index:** [PROFESSORS.md](../PROFESSORS.md)
+**Lab:** Integrated Systems Laboratory (LSI)  
+**EPFL profile:** [people.epfl.ch](https://people.epfl.ch/giovanni.demicheli)  
+**Web:** [lsi.epfl.ch](https://lsi.epfl.ch/)  
+**ORCID:** [0000-0002-7827-3215](https://orcid.org/0000-0002-7827-3215)  
+**OpenAlex:** [A5072927296](https://openalex.org/A5072927296)  
+**Index:** [PROFESSORS.md](../PROFESSORS.md)  
 
 Giovanni De Micheli is a pioneering Professor Emeritus at EPFL's Integrated Systems Laboratory (LSI) and Scientific Director of EcoCloud, specializing in Electronic Design Automation (EDA), logic synthesis, and design technologies for emerging computing platforms including superconducting, quantum, and nanosystems.
 

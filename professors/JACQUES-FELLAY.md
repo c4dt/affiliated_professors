@@ -1,11 +1,11 @@
 # Jacques Fellay
 
-**Lab:** Fellay Lab – Human Genomics of Infection and Immunity (GR-FE)
-**EPFL profile:** [people.epfl.ch](https://people.epfl.ch/jacques.fellay)
-**Web:** [fellay-lab.epfl.ch](https://fellay-lab.epfl.ch/)
-**ORCID:** [0000-0002-8240-939X](https://orcid.org/0000-0002-8240-939X)
-**OpenAlex:** [A5089009771](https://openalex.org/A5089009771)
-**Index:** [PROFESSORS.md](../PROFESSORS.md)
+**Lab:** Fellay Lab – Human Genomics of Infection and Immunity (GR-FE)  
+**EPFL profile:** [people.epfl.ch](https://people.epfl.ch/jacques.fellay)  
+**Web:** [fellay-lab.epfl.ch](https://fellay-lab.epfl.ch/)  
+**ORCID:** [0000-0002-8240-939X](https://orcid.org/0000-0002-8240-939X)  
+**OpenAlex:** [A5089009771](https://openalex.org/A5089009771)  
+**Index:** [PROFESSORS.md](../PROFESSORS.md)  
 
 Jacques Fellay leads the Fellay Lab at EPFL, using large-scale genomics and bioinformatics to dissect how human genetic variation shapes immunity and individual outcomes in infectious diseases, with a translational focus on personalized medicine.
 

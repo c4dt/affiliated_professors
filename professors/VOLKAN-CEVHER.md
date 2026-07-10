@@ -1,11 +1,11 @@
 # Volkan Cevher
 
-**Lab:** Laboratory for Information and Inference Systems (LIONS)
-**EPFL profile:** [people.epfl.ch](https://people.epfl.ch/volkan.cevher)
-**Web:** [lions.epfl.ch](https://lions.epfl.ch/)
-**ORCID:** [0000-0002-5004-201X](https://orcid.org/0000-0002-5004-201X)
-**OpenAlex:** [A5027059837](https://openalex.org/A5027059837)
-**Index:** [PROFESSORS.md](../PROFESSORS.md)
+**Lab:** Laboratory for Information and Inference Systems (LIONS)  
+**EPFL profile:** [people.epfl.ch](https://people.epfl.ch/volkan.cevher)  
+**Web:** [lions.epfl.ch](https://lions.epfl.ch/)  
+**ORCID:** [0000-0002-5004-201X](https://orcid.org/0000-0002-5004-201X)  
+**OpenAlex:** [A5027059837](https://openalex.org/A5027059837)  
+**Index:** [PROFESSORS.md](../PROFESSORS.md)  
 
 Volkan Cevher leads EPFL's LIONS lab, conducting research at the intersection of machine learning, optimization theory, and reinforcement learning, with recent focus on LLM training, adversarial robustness, and online learning in games.
 

@@ -1,12 +1,12 @@
 # Robert West
 
-**Lab:** Data Science Laboratory (DLAB)
-**EPFL profile:** [people.epfl.ch](https://people.epfl.ch/robert.west)
-**Web:** [dlab.epfl.ch](https://dlab.epfl.ch/)
-**Code:** [github.com/epfl-dlab](https://github.com/epfl-dlab)
-**ORCID:** [0000-0001-6398-0921](https://orcid.org/0000-0001-6398-0921)
-**OpenAlex:** [A5059645286](https://openalex.org/A5059645286)
-**Index:** [PROFESSORS.md](../PROFESSORS.md)
+**Lab:** Data Science Laboratory (DLAB)  
+**EPFL profile:** [people.epfl.ch](https://people.epfl.ch/robert.west)  
+**Web:** [dlab.epfl.ch](https://dlab.epfl.ch/)  
+**Code:** [github.com/epfl-dlab](https://github.com/epfl-dlab)  
+**ORCID:** [0000-0001-6398-0921](https://orcid.org/0000-0001-6398-0921)  
+**OpenAlex:** [A5059645286](https://openalex.org/A5059645286)  
+**Index:** [PROFESSORS.md](../PROFESSORS.md)  
 
 Robert West leads EPFL's Data Science & AI Lab (dlab), conducting research at the intersection of AI, NLP, and computational social science with a focus on safe and beneficial AI systems.
 

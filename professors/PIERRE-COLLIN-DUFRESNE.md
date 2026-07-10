@@ -1,9 +1,9 @@
 # Pierre Collin-Dufresne
 
-**Lab:** Chair SFI-PCD
-**EPFL profile:** [people.epfl.ch](https://people.epfl.ch/pierre.collin-dufresne)
-**Web:** [epfl.ch](https://www.epfl.ch/labs/sfi-pcd/)
-**Index:** [PROFESSORS.md](../PROFESSORS.md)
+**Lab:** Chair SFI-PCD  
+**EPFL profile:** [people.epfl.ch](https://people.epfl.ch/pierre.collin-dufresne)  
+**Web:** [epfl.ch](https://www.epfl.ch/labs/sfi-pcd/)  
+**Index:** [PROFESSORS.md](../PROFESSORS.md)  
 
 Pierre Collin-Dufresne is a Full Professor at EPFL/Swiss Finance Institute whose research spans asset pricing, credit markets, market microstructure, and information economics, with publications in top journals including Econometrica, AER, and Journal of Finance.
 

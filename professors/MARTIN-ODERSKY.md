@@ -1,12 +1,12 @@
 # Martin Odersky
 
-**Lab:** Programming Methods Laboratory (LAMP)
-**EPFL profile:** [people.epfl.ch](https://people.epfl.ch/martin.odersky)
-**Web:** [lamp.epfl.ch](https://lamp.epfl.ch/)
-**Code:** [github.com/lampepfl](https://github.com/lampepfl)
-**ORCID:** [0009-0005-3923-8993](https://orcid.org/0009-0005-3923-8993)
-**OpenAlex:** [A5085410724](https://openalex.org/A5085410724)
-**Index:** [PROFESSORS.md](../PROFESSORS.md)
+**Lab:** Programming Methods Laboratory (LAMP)  
+**EPFL profile:** [people.epfl.ch](https://people.epfl.ch/martin.odersky)  
+**Web:** [lamp.epfl.ch](https://lamp.epfl.ch/)  
+**Code:** [github.com/lampepfl](https://github.com/lampepfl)  
+**ORCID:** [0009-0005-3923-8993](https://orcid.org/0009-0005-3923-8993)  
+**OpenAlex:** [A5085410724](https://openalex.org/A5085410724)  
+**Index:** [PROFESSORS.md](../PROFESSORS.md)  
 
 Martin Odersky leads EPFL's LAMP group, designing and implementing the Scala programming language with a focus on unifying functional and object-oriented programming through advanced type systems, including capture checking, substructural types, and safe concurrency.
 

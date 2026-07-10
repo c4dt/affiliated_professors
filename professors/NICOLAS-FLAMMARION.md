@@ -1,10 +1,10 @@
 # Nicolas Flammarion
 
-**Lab:** Theory of Machine Learning Laboratory (TML)
-**EPFL profile:** [people.epfl.ch](https://people.epfl.ch/nicolas.flammarion)
-**Web:** [epfl.ch](https://www.epfl.ch/labs/tml/)
-**OpenAlex:** [A5061093552](https://openalex.org/A5061093552)
-**Index:** [PROFESSORS.md](../PROFESSORS.md)
+**Lab:** Theory of Machine Learning Laboratory (TML)  
+**EPFL profile:** [people.epfl.ch](https://people.epfl.ch/nicolas.flammarion)  
+**Web:** [epfl.ch](https://www.epfl.ch/labs/tml/)  
+**OpenAlex:** [A5061093552](https://openalex.org/A5061093552)  
+**Index:** [PROFESSORS.md](../PROFESSORS.md)  
 
 Nicolas Flammarion leads the Theory of Machine Learning Laboratory at EPFL, developing algorithmic and theoretical foundations for machine learning with a strong current focus on the theory of large language models, in-context learning, implicit regularization in deep learning, adversarial robustness, and stochastic optimization.
 

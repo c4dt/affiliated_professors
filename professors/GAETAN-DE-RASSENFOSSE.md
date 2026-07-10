@@ -1,11 +1,11 @@
 # Gaétan de Rassenfosse
 
-**Lab:** Chair of Science Technology and Innovation Policy (STIP)
-**EPFL profile:** [people.epfl.ch](https://people.epfl.ch/gaetan.derassenfosse)
-**Web:** [epfl.ch](https://www.epfl.ch/labs/stip/)
-**ORCID:** [0000-0002-7862-0918](https://orcid.org/0000-0002-7862-0918)
-**OpenAlex:** [A5086533373](https://openalex.org/A5086533373)
-**Index:** [PROFESSORS.md](../PROFESSORS.md)
+**Lab:** Chair of Science Technology and Innovation Policy (STIP)  
+**EPFL profile:** [people.epfl.ch](https://people.epfl.ch/gaetan.derassenfosse)  
+**Web:** [epfl.ch](https://www.epfl.ch/labs/stip/)  
+**ORCID:** [0000-0002-7862-0918](https://orcid.org/0000-0002-7862-0918)  
+**OpenAlex:** [A5086533373](https://openalex.org/A5086533373)  
+**Index:** [PROFESSORS.md](../PROFESSORS.md)  
 
 Gaétan de Rassenfosse is an innovation economist at EPFL's STIP lab studying how legal and policy frameworks — especially patents and IP — shape technology creation and commercialization, using large-scale data, econometrics, and machine learning.
 

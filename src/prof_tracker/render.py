@@ -130,18 +130,18 @@ def build_profile(
     day: an existing entry for `today` is replaced)."""
     lines = [f"# {prof.name}", ""]
     if prof.lab:
-        lines.append(f"**Lab:** {prof.lab}")
+        lines.append(f"**Lab:** {prof.lab}  ")
     if prof.epfl_profile:
-        lines.append(f"**EPFL profile:** [{_host(prof.epfl_profile)}]({prof.epfl_profile})")
+        lines.append(f"**EPFL profile:** [{_host(prof.epfl_profile)}]({prof.epfl_profile})  ")
     for u in prof.lab_urls:
-        lines.append(f"**Web:** [{_host(u)}]({u})")
+        lines.append(f"**Web:** [{_host(u)}]({u})  ")
     for u in prof.code_urls:
-        lines.append(f"**Code:** [{_code_label(u)}]({u})")
+        lines.append(f"**Code:** [{_code_label(u)}]({u})  ")
     if prof.orcid:
-        lines.append(f"**ORCID:** [{prof.orcid}]({_orcid_url(prof.orcid)})")
+        lines.append(f"**ORCID:** [{prof.orcid}]({_orcid_url(prof.orcid)})  ")
     if prof.openalex_id:
-        lines.append(f"**OpenAlex:** [{prof.openalex_id}]({_openalex_url(prof.openalex_id)})")
-    lines.append(f"**Index:** [PROFESSORS.md](../PROFESSORS.md)")
+        lines.append(f"**OpenAlex:** [{prof.openalex_id}]({_openalex_url(prof.openalex_id)})  ")
+    lines.append(f"**Index:** [PROFESSORS.md](../PROFESSORS.md)  ")
     lines.append("")
 
     # preserve existing prose when the update doesn't supply new content

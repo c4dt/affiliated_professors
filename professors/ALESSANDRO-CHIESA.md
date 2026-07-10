@@ -1,12 +1,12 @@
 # Alessandro Chiesa
 
-**Lab:** Laboratory for Computation Security (COMPSEC)
-**EPFL profile:** [people.epfl.ch](https://people.epfl.ch/alessandro.chiesa)
-**Web:** [compsec.epfl.ch](https://compsec.epfl.ch)
-**Web:** [ic-people.epfl.ch](https://ic-people.epfl.ch/~achiesa/)
-**ORCID:** [0000-0002-3029-2353](https://orcid.org/0000-0002-3029-2353)
-**OpenAlex:** [A5101591310](https://openalex.org/A5101591310)
-**Index:** [PROFESSORS.md](../PROFESSORS.md)
+**Lab:** Laboratory for Computation Security (COMPSEC)  
+**EPFL profile:** [people.epfl.ch](https://people.epfl.ch/alessandro.chiesa)  
+**Web:** [compsec.epfl.ch](https://compsec.epfl.ch)  
+**Web:** [ic-people.epfl.ch](https://ic-people.epfl.ch/~achiesa/)  
+**ORCID:** [0000-0002-3029-2353](https://orcid.org/0000-0002-3029-2353)  
+**OpenAlex:** [A5101591310](https://openalex.org/A5101591310)  
+**Index:** [PROFESSORS.md](../PROFESSORS.md)  
 
 Alessandro Chiesa leads the COMPSEC lab at EPFL, focusing on the theoretical foundations and practical constructions of cryptographic proofs—including zkSNARKs, IOPs, and proof-carrying data—with emphasis on efficiency, zero knowledge, and post-quantum security.
 

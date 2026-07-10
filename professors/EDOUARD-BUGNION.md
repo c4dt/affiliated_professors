@@ -1,12 +1,12 @@
 # Edouard Bugnion
 
-**Lab:** Data Center Systems Laboratory (DCSL)
-**EPFL profile:** [people.epfl.ch](https://people.epfl.ch/edouard.bugnion)
-**Web:** [epfl.ch](https://www.epfl.ch/labs/dcsl/)
-**Code:** [github.com/epfl-dcsl](https://github.com/epfl-dcsl)
-**ORCID:** [0000-0001-7237-6929](https://orcid.org/0000-0001-7237-6929)
-**OpenAlex:** [A5049034675](https://openalex.org/A5049034675)
-**Index:** [PROFESSORS.md](../PROFESSORS.md)
+**Lab:** Data Center Systems Laboratory (DCSL)  
+**EPFL profile:** [people.epfl.ch](https://people.epfl.ch/edouard.bugnion)  
+**Web:** [epfl.ch](https://www.epfl.ch/labs/dcsl/)  
+**Code:** [github.com/epfl-dcsl](https://github.com/epfl-dcsl)  
+**ORCID:** [0000-0001-7237-6929](https://orcid.org/0000-0001-7237-6929)  
+**OpenAlex:** [A5049034675](https://openalex.org/A5049034675)  
+**Index:** [PROFESSORS.md](../PROFESSORS.md)  
 
 Edouard Bugnion leads EPFL's Data Center Systems Laboratory (DCSL), researching datacenter efficiency (low-latency networking, transport protocols) and system security (Trusted Execution Environments, virtual firmware monitors), while also serving as EPFL's Vice President for Innovation and Impact since January 2025.
 

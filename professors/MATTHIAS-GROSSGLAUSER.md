@@ -1,11 +1,11 @@
 # Matthias Grossglauser
 
-**Lab:** Information and Network Dynamics Laboratory (INDY)
-**EPFL profile:** [people.epfl.ch](https://people.epfl.ch/matthias.grossglauser)
-**Web:** [indy.epfl.ch](https://indy.epfl.ch/)
-**ORCID:** [0000-0002-3031-1438](https://orcid.org/0000-0002-3031-1438)
-**OpenAlex:** [A5014508720](https://openalex.org/A5014508720)
-**Index:** [PROFESSORS.md](../PROFESSORS.md)
+**Lab:** Information and Network Dynamics Laboratory (INDY)  
+**EPFL profile:** [people.epfl.ch](https://people.epfl.ch/matthias.grossglauser)  
+**Web:** [indy.epfl.ch](https://indy.epfl.ch/)  
+**ORCID:** [0000-0002-3031-1438](https://orcid.org/0000-0002-3031-1438)  
+**OpenAlex:** [A5014508720](https://openalex.org/A5014508720)  
+**Index:** [PROFESSORS.md](../PROFESSORS.md)  
 
 Matthias Grossglauser leads EPFL's INDY Lab, researching machine learning, stochastic networks, and discrete choice models with applications in reinforcement learning, network science, graph mining, and recommender systems.
 

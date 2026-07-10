@@ -1,12 +1,12 @@
 # Carmela Troncoso
 
-**Lab:** Security and Privacy Engineering Lab (SPRING)
-**EPFL profile:** [people.epfl.ch](https://people.epfl.ch/carmela.troncoso)
-**Web:** [spring.epfl.ch](https://spring.epfl.ch/)
-**Code:** [github.com/spring-epfl](https://github.com/spring-epfl)
-**ORCID:** [0000-0002-2374-2248](https://orcid.org/0000-0002-2374-2248)
-**OpenAlex:** [A5072857797](https://openalex.org/A5072857797)
-**Index:** [PROFESSORS.md](../PROFESSORS.md)
+**Lab:** Security and Privacy Engineering Lab (SPRING)  
+**EPFL profile:** [people.epfl.ch](https://people.epfl.ch/carmela.troncoso)  
+**Web:** [spring.epfl.ch](https://spring.epfl.ch/)  
+**Code:** [github.com/spring-epfl](https://github.com/spring-epfl)  
+**ORCID:** [0000-0002-2374-2248](https://orcid.org/0000-0002-2374-2248)  
+**OpenAlex:** [A5072857797](https://openalex.org/A5072857797)  
+**Index:** [PROFESSORS.md](../PROFESSORS.md)  
 
 Carmela Troncoso leads the SPRING Lab (now spanning EPFL and MPI-SP) researching security and privacy engineering, with a focus on privacy-preserving systems, ML fairness/security, and privacy evaluation frameworks.
 

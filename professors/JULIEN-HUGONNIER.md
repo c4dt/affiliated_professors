@@ -1,11 +1,11 @@
 # Julien Hugonnier
 
-**Lab:** Chair SFI-JH
-**EPFL profile:** [people.epfl.ch](https://people.epfl.ch/julien.hugonnier)
-**Web:** [epfl.ch](https://www.epfl.ch/labs/sfi-jh/)
-**ORCID:** [0000-0003-1356-5070](https://orcid.org/0000-0003-1356-5070)
-**OpenAlex:** [A5002167713](https://openalex.org/A5002167713)
-**Index:** [PROFESSORS.md](../PROFESSORS.md)
+**Lab:** Chair SFI-JH  
+**EPFL profile:** [people.epfl.ch](https://people.epfl.ch/julien.hugonnier)  
+**Web:** [epfl.ch](https://www.epfl.ch/labs/sfi-jh/)  
+**ORCID:** [0000-0003-1356-5070](https://orcid.org/0000-0003-1356-5070)  
+**OpenAlex:** [A5002167713](https://openalex.org/A5002167713)  
+**Index:** [PROFESSORS.md](../PROFESSORS.md)  
 
 Julien Hugonnier is a Full Professor of Finance at EPFL/Swiss Finance Institute whose research spans asset pricing theory, OTC market microstructure, incomplete markets, and financial frictions, with recent work on perpetual futures, heterogeneous beliefs, and government debt dynamics.
 

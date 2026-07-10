@@ -1,12 +1,12 @@
 # Viktor Kunčak
 
-**Lab:** Lab for Automated Reasoning and Analysis (LARA)
-**EPFL profile:** [people.epfl.ch](https://people.epfl.ch/viktor.kuncak)
-**Web:** [lara.epfl.ch](https://lara.epfl.ch/w/)
-**Code:** [github.com/epfl-lara](https://github.com/epfl-lara)
-**ORCID:** [0000-0001-7044-9522](https://orcid.org/0000-0001-7044-9522)
-**OpenAlex:** [A5008699657](https://openalex.org/A5008699657)
-**Index:** [PROFESSORS.md](../PROFESSORS.md)
+**Lab:** Lab for Automated Reasoning and Analysis (LARA)  
+**EPFL profile:** [people.epfl.ch](https://people.epfl.ch/viktor.kuncak)  
+**Web:** [lara.epfl.ch](https://lara.epfl.ch/w/)  
+**Code:** [github.com/epfl-lara](https://github.com/epfl-lara)  
+**ORCID:** [0000-0001-7044-9522](https://orcid.org/0000-0001-7044-9522)  
+**OpenAlex:** [A5008699657](https://openalex.org/A5008699657)  
+**Index:** [PROFESSORS.md](../PROFESSORS.md)  
 
 Viktor Kunčak leads EPFL's LARA lab, developing automated reasoning, formal verification, and program synthesis tools — most notably the Stainless verifier for Scala — and is now pushing into AI-assisted Lean 4 formalization with the new LeanFlow agent framework.
 
