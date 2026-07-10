@@ -225,7 +225,7 @@
   lab: Theory of Machine Learning Laboratory (TML)
   urls:
     - https://people.epfl.ch/nicolas.flammarion
-    - https://search.epfl.ch/?filter=unit&q=TML
+    - https://www.epfl.ch/labs/tml/
   code_urls: []
   orcid: null
   openalex_id: A5061093552
@@ -233,10 +233,10 @@
   reviewed: false
 - slug: nate-foster
   name: Nate Foster
-  lab: Prof. Foster Group (UPFOSTER)
+  lab: Networked Systems Abstractions Lab (LASER)
   urls:
     - https://people.epfl.ch/nate.foster
-    - https://search.epfl.ch/?filter=unit&q=UPFOSTER
+    - https://laser.epfl.ch/
   code_urls: []
   orcid: 0000-0002-6557-684X
   openalex_id: A5013378091
@@ -409,7 +409,7 @@
   reviewed: false
 - slug: mathias-payer
   name: Mathias Payer
-  lab: HexHive Laboratory
+  lab: HexHive Laboratory (HEXHIVE)
   urls:
     - https://people.epfl.ch/mathias.payer
     - https://hexhive.epfl.ch/
@@ -445,7 +445,6 @@
   lab: Mathematics of Information Laboratory (MIL)
   urls:
     - https://people.epfl.ch/yanina.shkel
-    - https://search.epfl.ch/?filter=unit&q=MIL
   code_urls: []
   orcid: 0000-0002-2575-1762
   openalex_id: A5052329970
@@ -489,7 +488,7 @@
   lab: Quantum Complexity and Cryptography Laboratory (QCC)
   urls:
     - https://people.epfl.ch/thomas.vidick
-    - https://search.epfl.ch/?filter=unit&q=QCC
+    - https://www.epfl.ch/labs/qcc/
   code_urls: []
   orcid: 0000-0002-6405-365X
   openalex_id: A5019616211

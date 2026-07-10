@@ -137,7 +137,7 @@ Bryan Ford leads DEDIS at EPFL, researching decentralized trust, scalable consen
 [people.epfl.ch](https://people.epfl.ch/martin.odersky) · [lamp.epfl.ch](https://lamp.epfl.ch/) · [ORCID 0009-0005-3923-8993](https://orcid.org/0009-0005-3923-8993) · [OpenAlex A5085410724](https://openalex.org/A5085410724)
 
 ### [Mathias Payer](professors/MATHIAS-PAYER.md)
-*HexHive Laboratory* · last updated — · ⬜ unreviewed
+*HexHive Laboratory (HEXHIVE)* · last updated — · ⬜ unreviewed
 
 [people.epfl.ch](https://people.epfl.ch/mathias.payer) · [hexhive.epfl.ch](https://hexhive.epfl.ch/) · [ORCID 0000-0001-5054-7547](https://orcid.org/0000-0001-5054-7547) · [OpenAlex A5065116578](https://openalex.org/A5065116578)
 
@@ -147,14 +147,14 @@ Bryan Ford leads DEDIS at EPFL, researching decentralized trust, scalable consen
 [people.epfl.ch](https://people.epfl.ch/matthias.grossglauser) · [indy.epfl.ch](https://indy.epfl.ch/) · [OpenAlex A5014508720](https://openalex.org/A5014508720)
 
 ### [Nate Foster](professors/NATE-FOSTER.md)
-*Prof. Foster Group (UPFOSTER)* · last updated — · ⬜ unreviewed
+*Networked Systems Abstractions Lab (LASER)* · last updated — · ⬜ unreviewed
 
-[people.epfl.ch](https://people.epfl.ch/nate.foster) · [search.epfl.ch](https://search.epfl.ch/?filter=unit&q=UPFOSTER) · [ORCID 0000-0002-6557-684X](https://orcid.org/0000-0002-6557-684X) · [OpenAlex A5013378091](https://openalex.org/A5013378091)
+[people.epfl.ch](https://people.epfl.ch/nate.foster) · [laser.epfl.ch](https://laser.epfl.ch/) · [ORCID 0000-0002-6557-684X](https://orcid.org/0000-0002-6557-684X) · [OpenAlex A5013378091](https://openalex.org/A5013378091)
 
 ### [Nicolas Flammarion](professors/NICOLAS-FLAMMARION.md)
 *Theory of Machine Learning Laboratory (TML)* · last updated — · ⬜ unreviewed
 
-[people.epfl.ch](https://people.epfl.ch/nicolas.flammarion) · [search.epfl.ch](https://search.epfl.ch/?filter=unit&q=TML) · [OpenAlex A5061093552](https://openalex.org/A5061093552)
+[people.epfl.ch](https://people.epfl.ch/nicolas.flammarion) · [epfl.ch](https://www.epfl.ch/labs/tml/) · [OpenAlex A5061093552](https://openalex.org/A5061093552)
 
 ### [Paolo Ienne](professors/PAOLO-IENNE.md)
 *Processor Architecture Laboratory (LAP)* · last updated — · ⬜ unreviewed
@@ -214,7 +214,7 @@ Bryan Ford leads DEDIS at EPFL, researching decentralized trust, scalable consen
 ### [Thomas Vidick](professors/THOMAS-VIDICK.md)
 *Quantum Complexity and Cryptography Laboratory (QCC)* · last updated — · ⬜ unreviewed
 
-[people.epfl.ch](https://people.epfl.ch/thomas.vidick) · [search.epfl.ch](https://search.epfl.ch/?filter=unit&q=QCC) · [ORCID 0000-0002-6405-365X](https://orcid.org/0000-0002-6405-365X) · [OpenAlex A5019616211](https://openalex.org/A5019616211)
+[people.epfl.ch](https://people.epfl.ch/thomas.vidick) · [epfl.ch](https://www.epfl.ch/labs/qcc/) · [ORCID 0000-0002-6405-365X](https://orcid.org/0000-0002-6405-365X) · [OpenAlex A5019616211](https://openalex.org/A5019616211)
 
 ### [Touradj Ebrahimi](professors/TOURADJ-EBRAHIMI.md)
 *Multimedia Signal Processing Group (MMSPG)* · last updated — · ⬜ unreviewed
@@ -234,4 +234,4 @@ Bryan Ford leads DEDIS at EPFL, researching decentralized trust, scalable consen
 ### [Yanina Shkel](professors/YANINA-SHKEL.md)
 *Mathematics of Information Laboratory (MIL)* · last updated — · ⬜ unreviewed
 
-[people.epfl.ch](https://people.epfl.ch/yanina.shkel) · [search.epfl.ch](https://search.epfl.ch/?filter=unit&q=MIL) · [ORCID 0000-0002-2575-1762](https://orcid.org/0000-0002-2575-1762) · [OpenAlex A5052329970](https://openalex.org/A5052329970)
+[people.epfl.ch](https://people.epfl.ch/yanina.shkel) · [ORCID 0000-0002-2575-1762](https://orcid.org/0000-0002-2575-1762) · [OpenAlex A5052329970](https://openalex.org/A5052329970)
