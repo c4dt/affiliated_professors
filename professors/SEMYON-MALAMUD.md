@@ -1,3 +1,5 @@
+[../PROFESSORS.md](../PROFESSORS.md)  
+
 # Semyon Malamud
 
 **Lab:** Chair SFI-SM  
@@ -5,7 +7,6 @@
 **Web:** [epfl.ch](https://www.epfl.ch/labs/sfi-sm/)  
 **ORCID:** [0000-0001-6574-7322](https://orcid.org/0000-0001-6574-7322)  
 **OpenAlex:** [A5067616912](https://openalex.org/A5067616912)  
-**Index:** [PROFESSORS.md](../PROFESSORS.md)  
 
 Semyon Malamud is an EPFL Associate Professor and Swiss Finance Institute chair whose research sits at the intersection of machine learning, high-dimensional statistics, and financial economics, with a focus on asset pricing, portfolio theory, and market microstructure.
 

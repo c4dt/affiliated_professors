@@ -1,3 +1,5 @@
+[../PROFESSORS.md](../PROFESSORS.md)  
+
 # Sanidhya Kashyap
 
 **Lab:** Robust Scalable Systems Software Lab (RS3Lab)  
@@ -7,7 +9,6 @@
 **Code:** [github.com/rs3lab](https://github.com/rs3lab)  
 **ORCID:** [0000-0002-9534-8565](https://orcid.org/0000-0002-9534-8565)  
 **OpenAlex:** [A5030479442](https://openalex.org/A5030479442)  
-**Index:** [PROFESSORS.md](../PROFESSORS.md)  
 
 Sanidhya Kashyap leads the RS3Lab at EPFL, designing performant, scalable, and robust systems software — spanning operating systems, concurrency, memory management, file systems, fuzzing, and networks — for modern heterogeneous hardware.
 

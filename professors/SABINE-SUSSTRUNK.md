@@ -1,3 +1,5 @@
+[../PROFESSORS.md](../PROFESSORS.md)  
+
 # Sabine Süsstrunk
 
 **Lab:** Image and Visual Representation Laboratory (IVRL)  
@@ -6,7 +8,6 @@
 **Code:** [github.com/IVRL](https://github.com/IVRL)  
 **ORCID:** [0000-0002-0441-6068](https://orcid.org/0000-0002-0441-6068)  
 **OpenAlex:** [A5078201467](https://openalex.org/A5078201467)  
-**Index:** [PROFESSORS.md](../PROFESSORS.md)  
 
 Sabine Süsstrunk leads the IVRL at EPFL, researching computational photography, color image processing, computer vision, and image quality, with recent work spanning low-light denoising, diffusion-based image editing, neural cellular automata, and deepfake detection.
 

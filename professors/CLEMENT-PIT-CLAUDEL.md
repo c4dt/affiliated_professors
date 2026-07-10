@@ -1,3 +1,5 @@
+[../PROFESSORS.md](../PROFESSORS.md)  
+
 # Clément Pit-Claudel
 
 **Lab:** Systems and Formalisms Lab (SYSTEMF)  
@@ -6,7 +8,6 @@
 **Code:** [github.com/epfl-systemf](https://github.com/epfl-systemf)  
 **ORCID:** [0000-0002-1900-3901](https://orcid.org/0000-0002-1900-3901)  
 **OpenAlex:** [A5018186543](https://openalex.org/A5018186543)  
-**Index:** [PROFESSORS.md](../PROFESSORS.md)  
 
 Clément Pit-Claudel leads EPFL's SYSTEMF lab, researching programming languages, formal verification, and extensible compilers to build small, fast, and completely verified critical-system components.
 

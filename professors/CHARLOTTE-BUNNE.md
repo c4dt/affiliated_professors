@@ -1,3 +1,5 @@
+[../PROFESSORS.md](../PROFESSORS.md)  
+
 # Charlotte Bunne
 
 **Lab:** Artificial Intelligence in Molecular Medicine Lab (AIMM)  
@@ -6,7 +8,6 @@
 **Code:** [github.com/bunnelab](https://github.com/bunnelab)  
 **ORCID:** [0000-0003-1431-103X](https://orcid.org/0000-0003-1431-103X)  
 **OpenAlex:** [A5033283546](https://openalex.org/A5033283546)  
-**Index:** [PROFESSORS.md](../PROFESSORS.md)  
 
 Charlotte Bunne leads the AIMM Lab at EPFL, developing AI foundation models and generative methods to build "virtual patients" — multi-scale computational models of human biology for precision oncology and drug discovery.
 

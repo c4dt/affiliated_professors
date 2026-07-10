@@ -1,3 +1,5 @@
+[../PROFESSORS.md](../PROFESSORS.md)  
+
 # Serge Vaudenay
 
 **Lab:** Security and Cryptography Laboratory (LASEC)  
@@ -5,7 +7,6 @@
 **Web:** [lasec.epfl.ch](https://lasec.epfl.ch/)  
 **ORCID:** [0000-0001-9185-1449](https://orcid.org/0000-0001-9185-1449)  
 **OpenAlex:** [A5073902849](https://openalex.org/A5073902849)  
-**Index:** [PROFESSORS.md](../PROFESSORS.md)  
 
 Serge Vaudenay leads EPFL's Security and Cryptography Laboratory (LASEC), focusing on cryptographic analysis, post-quantum cryptography, lightweight cryptography, and secure communication channels.
 

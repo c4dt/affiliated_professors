@@ -1,3 +1,5 @@
+[../PROFESSORS.md](../PROFESSORS.md)  
+
 # Marcel Salathé
 
 **Lab:** Digital Epidemiology Lab (SALATHELAB)  
@@ -6,7 +8,6 @@
 **Code:** [github.com/digitalepidemiologylab](https://github.com/digitalepidemiologylab)  
 **ORCID:** [0000-0002-5079-7797](https://orcid.org/0000-0002-5079-7797)  
 **OpenAlex:** [A5010649096](https://openalex.org/A5010649096)  
-**Index:** [PROFESSORS.md](../PROFESSORS.md)  
 
 Marcel Salathé leads the Digital Epidemiology Lab at EPFL, applying AI and mobile technologies to public health challenges including digital nutrition cohorts, gut microbiome research, personalized glucose prediction, and LLM-based analysis of health discourse.
 

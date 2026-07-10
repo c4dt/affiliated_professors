@@ -1,3 +1,5 @@
+[../PROFESSORS.md](../PROFESSORS.md)  
+
 # Katerina Argyraki
 
 **Lab:** Network Architecture Laboratory (NAL)  
@@ -6,7 +8,6 @@
 **Code:** [github.com/nal-epfl](https://github.com/nal-epfl)  
 **ORCID:** [0009-0004-9470-2819](https://orcid.org/0009-0004-9470-2819)  
 **OpenAlex:** [A5011668097](https://openalex.org/A5011668097)  
-**Index:** [PROFESSORS.md](../PROFESSORS.md)  
 
 Katerina Argyraki leads EPFL's Network Architecture Lab (NAL), focusing on network transparency, neutrality inference, and predictable software network functions, with current work spanning Internet latency mapping from gaming footage, edge caching as differentiation, and traffic localization.
 

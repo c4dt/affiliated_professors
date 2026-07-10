@@ -1,3 +1,5 @@
+[../PROFESSORS.md](../PROFESSORS.md)  
+
 # Yanina Shkel
 
 **Lab:** Mathematics of Information Laboratory (MIL)  
@@ -5,7 +7,6 @@
 **Web:** [theory.epfl.ch](https://theory.epfl.ch/yanina/)  
 **ORCID:** [0000-0002-2575-1762](https://orcid.org/0000-0002-2575-1762)  
 **OpenAlex:** [A5052329970](https://openalex.org/A5052329970)  
-**Index:** [PROFESSORS.md](../PROFESSORS.md)  
 
 Yanina Shkel is an Assistant Professor at EPFL's Mathematics of Information Laboratory, working on the theoretical foundations of data privacy (differential privacy, maximal leakage), information-theoretic secrecy, minimum entropy couplings, and functional representations.
 

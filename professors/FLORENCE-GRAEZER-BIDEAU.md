@@ -1,3 +1,5 @@
+[../PROFESSORS.md](../PROFESSORS.md)  
+
 # Florence Graezer Bideau
 
 **Lab:** Heritage, Anthropology and Technologies Research Group (HAT)  
@@ -5,7 +7,6 @@
 **Web:** [epfl.ch](https://www.epfl.ch/labs/hat/fr/)  
 **ORCID:** [0000-0002-9499-1479](https://orcid.org/0000-0002-9499-1479)  
 **OpenAlex:** [A5010772457](https://openalex.org/A5010772457)  
-**Index:** [PROFESSORS.md](../PROFESSORS.md)  
 
 Florence Graezer Bideau is an anthropologist and sinologist leading EPFL's HAT lab, researching heritage governance, cultural policy, memory, and technology transmission through comparative fieldwork across Asia, Europe, and Latin America.
 

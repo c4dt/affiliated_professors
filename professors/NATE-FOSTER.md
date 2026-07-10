@@ -1,3 +1,5 @@
+[../PROFESSORS.md](../PROFESSORS.md)  
+
 # Nate Foster
 
 **Lab:** Networked Systems Abstractions Lab (LASER)  
@@ -5,7 +7,6 @@
 **Web:** [laser.epfl.ch](https://laser.epfl.ch/)  
 **ORCID:** [0000-0002-6557-684X](https://orcid.org/0000-0002-6557-684X)  
 **OpenAlex:** [A5013378091](https://openalex.org/A5013378091)  
-**Index:** [PROFESSORS.md](../PROFESSORS.md)  
 
 Nate Foster leads the Networked Systems Abstractions Lab (LASeR) at EPFL, developing programming languages and formal verification tools for networked systems, with flagship contributions to NetKAT, P4, and consistent network updates.
 

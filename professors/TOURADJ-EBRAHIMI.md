@@ -1,3 +1,5 @@
+[../PROFESSORS.md](../PROFESSORS.md)  
+
 # Touradj Ebrahimi
 
 **Lab:** Multimedia Signal Processing Group (MMSPG)  
@@ -5,7 +7,6 @@
 **Web:** [mmspg.epfl.ch](https://mmspg.epfl.ch/)  
 **ORCID:** [0000-0002-9900-3687](https://orcid.org/0000-0002-9900-3687)  
 **OpenAlex:** [A5082188773](https://openalex.org/A5082188773)  
-**Index:** [PROFESSORS.md](../PROFESSORS.md)  
 
 Touradj Ebrahimi leads EPFL's Multimedia Signal Processing Group (MMSPG), focusing on AI-powered image/video coding, JPEG standardization (including JPEG AI and JPEG DNA), media security, and quality assessment.
 

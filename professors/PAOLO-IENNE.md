@@ -1,3 +1,5 @@
+[../PROFESSORS.md](../PROFESSORS.md)  
+
 # Paolo Ienne
 
 **Lab:** Processor Architecture Laboratory (LAP)  
@@ -6,7 +8,6 @@
 **Code:** [github.com/EPFL-LAP](https://github.com/EPFL-LAP)  
 **ORCID:** [0000-0002-6142-7345](https://orcid.org/0000-0002-6142-7345)  
 **OpenAlex:** [A5020575991](https://openalex.org/A5020575991)  
-**Index:** [PROFESSORS.md](../PROFESSORS.md)  
 
 Paolo Ienne leads EPFL's Processor Architecture Laboratory (LAP), specializing in computer architecture, FPGAs, reconfigurable computing, dynamic high-level synthesis (DHLS), and electronic design automation.
 

@@ -1,3 +1,5 @@
+[../PROFESSORS.md](../PROFESSORS.md)  
+
 # Ruediger Fahlenbrach
 
 **Lab:** Chair SFI-RF  
@@ -5,7 +7,6 @@
 **Web:** [epfl.ch](https://www.epfl.ch/labs/sfi-rf/)  
 **ORCID:** [0000-0003-0102-3717](https://orcid.org/0000-0003-0102-3717)  
 **OpenAlex:** [A5022485788](https://openalex.org/A5022485788)  
-**Index:** [PROFESSORS.md](../PROFESSORS.md)  
 
 Rüdiger Fahlenbrach is a Full Professor of Finance at EPFL and Director of the College of Management, specializing in empirical corporate finance with a focus on corporate governance, entrepreneurship, and the economics of startups and venture capital.
 

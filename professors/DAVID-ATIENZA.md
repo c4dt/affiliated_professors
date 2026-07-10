@@ -1,3 +1,5 @@
+[../PROFESSORS.md](../PROFESSORS.md)  
+
 # David Atienza
 
 **Lab:** Embedded Systems Laboratory (ESL)  
@@ -6,7 +8,6 @@
 **Code:** [github.com/esl-epfl](https://github.com/esl-epfl)  
 **ORCID:** [0000-0001-9536-4947](https://orcid.org/0000-0001-9536-4947)  
 **OpenAlex:** [A5074236306](https://openalex.org/A5074236306)  
-**Index:** [PROFESSORS.md](../PROFESSORS.md)  
 
 David Atienza leads EPFL's Embedded Systems Laboratory (ESL), pioneering system-level design methods for high-performance edge AI, ultra-low-power IoT/MPSoC architectures, smart wearables, and thermal-aware computing.
 

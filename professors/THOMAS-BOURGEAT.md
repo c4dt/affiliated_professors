@@ -1,3 +1,5 @@
+[../PROFESSORS.md](../PROFESSORS.md)  
+
 # Thomas Bourgeat
 
 **Lab:** Verification and Computer Architecture Lab (VCA)  
@@ -5,7 +7,6 @@
 **Web:** [vca.epfl.ch](https://vca.epfl.ch/)  
 **ORCID:** [0000-0002-8468-8409](https://orcid.org/0000-0002-8468-8409)  
 **OpenAlex:** [A5031573662](https://openalex.org/A5031573662)  
-**Index:** [PROFESSORS.md](../PROFESSORS.md)  
 
 Thomas Bourgeat leads the VCA lab at EPFL, focusing on formal verification of hardware (processors, dataflow circuits, cache coherence protocols), hardware–software interface specifications, and security verification at the RTL level.
 

@@ -1,3 +1,5 @@
+[../PROFESSORS.md](../PROFESSORS.md)  
+
 # Rachid Guerraoui
 
 **Lab:** Distributed Computing Laboratory (DCL)  
@@ -7,7 +9,6 @@
 **Code:** [github.com/LPD-EPFL](https://github.com/LPD-EPFL)  
 **ORCID:** [0000-0002-4794-8902](https://orcid.org/0000-0002-4794-8902)  
 **OpenAlex:** [A5049321288](https://openalex.org/A5049321288)  
-**Index:** [PROFESSORS.md](../PROFESSORS.md)  
 
 Rachid Guerraoui leads EPFL's Distributed Computing Laboratory (DCL), pioneering research in robust (Byzantine-resilient) machine learning, distributed algorithms, secure distributed storage, and concurrent computing.
 

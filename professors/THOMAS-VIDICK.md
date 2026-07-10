@@ -1,3 +1,5 @@
+[../PROFESSORS.md](../PROFESSORS.md)  
+
 # Thomas Vidick
 
 **Lab:** Quantum Complexity and Cryptography Laboratory (QCC)  
@@ -5,7 +7,6 @@
 **Web:** [epfl.ch](https://www.epfl.ch/labs/qcc/)  
 **ORCID:** [0000-0002-6405-365X](https://orcid.org/0000-0002-6405-365X)  
 **OpenAlex:** [A5019616211](https://openalex.org/A5019616211)  
-**Index:** [PROFESSORS.md](../PROFESSORS.md)  
 
 Thomas Vidick leads the Quantum Complexity and Cryptography Laboratory (QCC) at EPFL, working at the intersection of quantum computing theory, interactive proof systems, quantum error correction, and device-independent cryptography.
 

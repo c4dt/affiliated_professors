@@ -68,7 +68,7 @@ def _extract_summary(text: str) -> str:
             if not s:
                 break
             summary.append(s)
-        elif s and not s.startswith("#") and not s.startswith("**"):
+        elif s and not s.startswith("#") and not s.startswith("**") and not s.startswith("[../"):
             summary.append(s)
     return " ".join(summary).strip()
 
@@ -128,7 +128,7 @@ def build_profile(
     """Rebuild the header + summary + links from current data, then prepend
     today's changelog entry above the preserved old entries (idempotent per
     day: an existing entry for `today` is replaced)."""
-    lines = [f"# {prof.name}", ""]
+    lines = ["[../PROFESSORS.md](../PROFESSORS.md)  ", "", f"# {prof.name}", ""]
     if prof.lab:
         lines.append(f"**Lab:** {prof.lab}  ")
     if prof.epfl_profile:
@@ -141,7 +141,6 @@ def build_profile(
         lines.append(f"**ORCID:** [{prof.orcid}]({_orcid_url(prof.orcid)})  ")
     if prof.openalex_id:
         lines.append(f"**OpenAlex:** [{prof.openalex_id}]({_openalex_url(prof.openalex_id)})  ")
-    lines.append(f"**Index:** [PROFESSORS.md](../PROFESSORS.md)  ")
     lines.append("")
 
     # preserve existing prose when the update doesn't supply new content

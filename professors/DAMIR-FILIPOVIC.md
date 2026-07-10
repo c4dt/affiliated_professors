@@ -1,3 +1,5 @@
+[../PROFESSORS.md](../PROFESSORS.md)  
+
 # Damir Filipovic
 
 **Lab:** Swissquote Chair in Quantitative Finance  
@@ -5,7 +7,6 @@
 **Web:** [epfl.ch](https://www.epfl.ch/labs/csf/)  
 **ORCID:** [0000-0002-2443-5741](https://orcid.org/0000-0002-2443-5741)  
 **OpenAlex:** [A5059712147](https://openalex.org/A5059712147)  
-**Index:** [PROFESSORS.md](../PROFESSORS.md)  
 
 Damir Filipovic holds the Swissquote Chair in Quantitative Finance at EPFL, conducting research on term structure models, machine learning methods for fixed-income pricing, risk management, and stochastic processes.
 

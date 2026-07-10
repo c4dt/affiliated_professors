@@ -1,3 +1,5 @@
+[../PROFESSORS.md](../PROFESSORS.md)  
+
 # Bryan Ford
 
 **Lab:** Decentralized and Distributed Systems Lab (DEDIS)  
@@ -6,7 +8,6 @@
 **Code:** [github.com/dedis](https://github.com/dedis)  
 **ORCID:** [0000-0002-0528-3033](https://orcid.org/0000-0002-0528-3033)  
 **OpenAlex:** [A5045962151](https://openalex.org/A5045962151)  
-**Index:** [PROFESSORS.md](../PROFESSORS.md)  
 
 Bryan Ford leads DEDIS at EPFL, researching decentralized trust, scalable consensus, coercion-resistant e-voting, and privacy-preserving distributed systems.
 

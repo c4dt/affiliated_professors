@@ -1,3 +1,5 @@
+[../PROFESSORS.md](../PROFESSORS.md)  
+
 # Mathias Payer
 
 **Lab:** HexHive Laboratory (HEXHIVE)  
@@ -6,7 +8,6 @@
 **Code:** [github.com/HexHive](https://github.com/HexHive)  
 **ORCID:** [0000-0001-5054-7547](https://orcid.org/0000-0001-5054-7547)  
 **OpenAlex:** [A5065116578](https://openalex.org/A5065116578)  
-**Index:** [PROFESSORS.md](../PROFESSORS.md)  
 
 Mathias Payer leads the HexHive Laboratory at EPFL, focusing on systems and software security through fuzzing, sanitization, exploit mitigations, and compartmentalization, with a strong record of top-venue publications and open-source tooling.
 

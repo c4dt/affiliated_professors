@@ -1,3 +1,5 @@
+[../PROFESSORS.md](../PROFESSORS.md)  
+
 # Annie Hartley
 
 **Lab:** Laboratory for Intelligent Global Health and Humanitarian Response Technologies (LiGHT)  
@@ -5,7 +7,6 @@
 **Web:** [light-laboratory.org](https://www.light-laboratory.org/)  
 **ORCID:** [0000-0002-8826-3870](https://orcid.org/0000-0002-8826-3870)  
 **OpenAlex:** [a5063796208](https://openalex.org/a5063796208)  
-**Index:** [PROFESSORS.md](../PROFESSORS.md)  
 
 Annie Hartley leads EPFL's LiGHT lab, developing open, auditable AI systems—most notably the Meditron clinical LLM family—for global health equity and humanitarian response in low-resource settings.
 
