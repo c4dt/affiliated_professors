@@ -5,6 +5,7 @@ from __future__ import annotations
 import shutil
 import subprocess
 from pathlib import Path
+from urllib.parse import urlparse
 
 import yaml
 
@@ -27,13 +28,22 @@ def _normalize(entry: dict) -> dict:
     if lu is not None and not isinstance(lu, str):
         entry["last_updated"] = lu.isoformat()
 
-    # legacy: lab_url (str) -> urls (list); github_org (slug) -> code_urls (list)
-    if "lab_url" in entry and "urls" not in entry:
+    # legacy: lab_url (str) -> lab_urls (list); github_org (slug) -> code_urls (list)
+    if "lab_url" in entry and "lab_urls" not in entry:
         lab_url = entry.pop("lab_url")
-        entry["urls"] = [lab_url] if lab_url else []
+        entry["lab_urls"] = [lab_url] if lab_url else []
     if "github_org" in entry and "code_urls" not in entry:
         org = entry.pop("github_org")
         entry["code_urls"] = [f"https://github.com/{org}"] if org else []
+
+    # legacy: flat urls (list) -> epfl_profile (people.epfl.ch) + lab_urls (rest)
+    if "urls" in entry and "epfl_profile" not in entry:
+        urls = entry.pop("urls") or []
+        epfl = next(
+            (u for u in urls if urlparse(u).netloc == "people.epfl.ch"), ""
+        )
+        entry["epfl_profile"] = epfl
+        entry.setdefault("lab_urls", [u for u in urls if u != epfl])
     return entry
 
 

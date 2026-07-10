@@ -3,7 +3,9 @@ can use them without pulling in pydantic-ai."""
 
 from __future__ import annotations
 
-from pydantic import BaseModel, Field
+from urllib.parse import urlparse
+
+from pydantic import BaseModel, Field, model_validator
 
 
 class Link(BaseModel):
@@ -15,7 +17,8 @@ class Professor(BaseModel):
     slug: str
     name: str
     lab: str = ""
-    urls: list[str] = Field(default_factory=list)  # lab site, personal page, etc.
+    epfl_profile: str = ""  # canonical people.epfl.ch directory entry (identity anchor)
+    lab_urls: list[str] = Field(default_factory=list)  # lab site(s), personal page(s)
     code_urls: list[str] = Field(default_factory=list)  # GitHub/GitLab orgs or users
     orcid: str | None = None  # authoritative identity anchor (human-verified)
     openalex_id: str | None = None  # optional fallback when no ORCID
@@ -23,6 +26,29 @@ class Professor(BaseModel):
     reviewed: bool = False
     # Note: agent-generated prose (summary, links, changelog) lives in the
     # professors/<SLUG>.md profile, not here — the registry is config only.
+
+    @model_validator(mode="after")
+    def _check_urls(self) -> Professor:
+        """Every professor has exactly one people.epfl.ch profile and at least
+        one lab/personal page. Enforced only for reviewed entries — bootstrap
+        can't know the people.epfl.ch URL, so unreviewed entries may be
+        incomplete until a human fills them in."""
+        if not self.reviewed:
+            return self
+        host = urlparse(self.epfl_profile).netloc
+        if host != "people.epfl.ch":
+            raise ValueError(
+                f"{self.slug}: reviewed entry needs a people.epfl.ch "
+                f"epfl_profile (got {self.epfl_profile!r})"
+            )
+        if not self.lab_urls:
+            raise ValueError(f"{self.slug}: reviewed entry needs at least one lab_url")
+        return self
+
+    def all_urls(self) -> list[str]:
+        """EPFL profile first, then lab/personal pages — the order sources are
+        fetched and links are rendered."""
+        return ([self.epfl_profile] if self.epfl_profile else []) + self.lab_urls
 
 
 class ProfileUpdate(BaseModel):

@@ -47,8 +47,22 @@ def test_legacy_fields_migrate_to_lists(tmp_path):
         "  github_org: dedis\n"
     )
     p = load_registry(path)[0]
-    assert p.urls == ["https://dedis.epfl.ch/"]
+    assert p.lab_urls == ["https://dedis.epfl.ch/"]
     assert p.code_urls == ["https://github.com/dedis"]
+
+
+def test_legacy_flat_urls_split_into_profile_and_lab(tmp_path):
+    path = tmp_path / "professors.yaml"
+    path.write_text(
+        "- slug: bryan-ford\n"
+        "  name: Bryan Ford\n"
+        "  urls:\n"
+        "    - https://people.epfl.ch/bryan.ford\n"
+        "    - https://dedis.epfl.ch/\n"
+    )
+    p = load_registry(path)[0]
+    assert p.epfl_profile == "https://people.epfl.ch/bryan.ford"
+    assert p.lab_urls == ["https://dedis.epfl.ch/"]
 
 
 def test_save_sorts_by_name(tmp_path):

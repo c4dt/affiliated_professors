@@ -36,7 +36,9 @@ def _link_line(prof: Professor) -> str | None:
     """One clickable markdown line: sites, code, ORCID, OpenAlex — for quick
     verification (rendered even for reviewed:false entries)."""
     parts: list[str] = []
-    for u in prof.urls:
+    if prof.epfl_profile:
+        parts.append(f"[EPFL profile]({prof.epfl_profile})")
+    for u in prof.lab_urls:
         parts.append(f"[{_host(u)}]({u})")
     for u in prof.code_urls:
         parts.append(f"[{_code_label(u)}]({u})")
@@ -129,7 +131,9 @@ def build_profile(
     lines = [f"# {prof.name}", ""]
     if prof.lab:
         lines.append(f"**Lab:** {prof.lab}")
-    for u in prof.urls:
+    if prof.epfl_profile:
+        lines.append(f"**EPFL profile:** [{_host(prof.epfl_profile)}]({prof.epfl_profile})")
+    for u in prof.lab_urls:
         lines.append(f"**Web:** [{_host(u)}]({u})")
     for u in prof.code_urls:
         lines.append(f"**Code:** [{_code_label(u)}]({u})")

@@ -37,8 +37,9 @@ def _fetch_sources(prof: Professor) -> tuple[str, bool]:
     blocks: list[str] = []
     ok = False
 
-    if prof.urls:
-        for url in prof.urls[:3]:  # cap Firecrawl usage on the prefetch
+    web_urls = prof.all_urls()
+    if web_urls:
+        for url in web_urls[:3]:  # cap Firecrawl usage on the prefetch
             try:
                 md = sources.firecrawl_scrape(url)
                 blocks.append(f"## Website ({url})\n\n{md[:15000]}")
@@ -88,7 +89,7 @@ def _fetch_sources(prof: Professor) -> tuple[str, bool]:
 
 def _build_prompt(prof: Professor, sources_text: str, existing: str) -> str:
     existing_block = existing if existing.strip() else "[no existing profile — this is the first update]"
-    urls = ", ".join(prof.urls) if prof.urls else "n/a"
+    urls = ", ".join(prof.all_urls()) or "n/a"
     return (
         f"Professor: {prof.name}\n"
         f"Lab: {prof.lab}\n"

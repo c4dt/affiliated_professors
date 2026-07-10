@@ -129,7 +129,7 @@ def resolve_orcids() -> int:
     print(
         f"\n{len(rows)} entries resolved, {flagged} flagged for closer review.\n"
         "Verify each ORCID against the professor's real profile, correct any wrong\n"
-        "ones by hand, fill code_urls, then set reviewed: true.",
+        "ones by hand, fill epfl_profile + code_urls, then set reviewed: true.",
         file=sys.stderr,
     )
     return 0
@@ -157,7 +157,8 @@ def run_bootstrap(start_url: str = "https://c4dt.epfl.ch/laboratory/") -> int:
             slug=slug,
             name=e.name,
             lab=e.lab,
-            urls=[e.lab_url] if e.lab_url else [],
+            epfl_profile="",  # filled in by hand during review
+            lab_urls=[e.lab_url] if e.lab_url else [],
             code_urls=[],
             orcid=author.get("orcid") if author else None,
             openalex_id=_bare_openalex_id(author),
@@ -174,6 +175,7 @@ def run_bootstrap(start_url: str = "https://c4dt.epfl.ch/laboratory/") -> int:
         f"\nAdded {added} new professors ({len(profs)} total).\n"
         "HUMAN REVIEW REQUIRED before go-live:\n"
         "  - verify each openalex_id (wrong id => confidently wrong summaries)\n"
+        "  - add the people.epfl.ch profile as epfl_profile\n"
         "  - fill in code_urls (GitHub/GitLab) where applicable\n"
         "  - flip reviewed: true once checked",
         file=sys.stderr,

@@ -1,86 +1,87 @@
 - slug: alessandro-chiesa
   name: Alessandro Chiesa
   lab: Laboratory for Computation Security (COMPSEC)
-  urls:
-    - https://people.epfl.ch/alessandro.chiesa
+  epfl_profile: https://people.epfl.ch/alessandro.chiesa
+  lab_urls:
     - https://compsec.epfl.ch
     - https://ic-people.epfl.ch/~achiesa/
   code_urls: []
   orcid: 0000-0002-3029-2353
   openalex_id: A5101591310
   last_updated: null
-  reviewed: false
+  reviewed: true
 - slug: andrea-cavallaro
   name: Andrea Cavallaro
   lab: Laboratory of Multimodal Intelligent Systems (MINTS)
-  urls:
-    - https://people.epfl.ch/andrea.cavallaro
+  epfl_profile: https://people.epfl.ch/andrea.cavallaro
+  lab_urls:
     - https://www.epfl.ch/labs/mints/
   code_urls: []
   orcid: 0000-0001-5086-7858
   openalex_id: A5004087827
   last_updated: null
-  reviewed: false
+  reviewed: true
 - slug: anne-marie-kermarrec
   name: Anne-Marie Kermarrec
   lab: Scalable Computing Systems Laboratory (SaCS)
-  urls:
-    - https://people.epfl.ch/anne-marie.kermarrec
+  epfl_profile: https://people.epfl.ch/anne-marie.kermarrec
+  lab_urls:
     - https://www.epfl.ch/labs/sacs/
-  code_urls: []
+  code_urls:
+    - https://github.com/sacs-epfl
   orcid: 0000-0001-8187-724X
   openalex_id: A5031849486
   last_updated: null
-  reviewed: false
+  reviewed: true
 - slug: annie-hartley
   name: Annie Hartley
   lab: Laboratory for Intelligent Global Health and Humanitarian Response Technologies (LiGHT)
-  urls:
-    - https://people.epfl.ch/mary-anne.hartley
+  epfl_profile: https://people.epfl.ch/mary-anne.hartley
+  lab_urls:
     - https://www.light-laboratory.org/
   code_urls: []
-  orcid: null
-  openalex_id: A5119699799
+  orcid: 0000-0002-8826-3870
+  openalex_id: a5063796208
   last_updated: null
-  reviewed: false
+  reviewed: true
 - slug: antoine-bosselut
   name: Antoine Bosselut
   lab: Natural Language Processing Lab (NLP Lab)
-  urls:
-    - https://people.epfl.ch/antoine.bosselut
+  epfl_profile: https://people.epfl.ch/antoine.bosselut
+  lab_urls:
     - https://nlp.epfl.ch/
   code_urls: []
   orcid: 0000-0001-8968-9649
   openalex_id: A5088410008
   last_updated: null
-  reviewed: false
+  reviewed: true
 - slug: babak-falsafi
   name: Babak Falsafi
   lab: Parallel Systems Architecture Laboratory (PARSA)
-  urls:
-    - https://people.epfl.ch/babak.falsafi
+  epfl_profile: https://people.epfl.ch/babak.falsafi
+  lab_urls:
     - https://parsa.epfl.ch/
   code_urls: []
   orcid: 0000-0001-5916-8068
   openalex_id: A5057697787
   last_updated: null
-  reviewed: false
+  reviewed: true
 - slug: boi-faltings
   name: Boi Faltings
   lab: Artificial Intelligence Laboratory (LIA)
-  urls:
-    - https://people.epfl.ch/boi.faltings
+  epfl_profile: https://people.epfl.ch/boi.faltings
+  lab_urls:
     - https://lia.epfl.ch/
   code_urls: []
   orcid: 0000-0002-7188-7230
   openalex_id: A5060427576
   last_updated: null
-  reviewed: false
+  reviewed: true
 - slug: bryan-ford
   name: Bryan Ford
   lab: Decentralized and Distributed Systems Lab (DEDIS)
-  urls:
-    - https://people.epfl.ch/bryan.ford
+  epfl_profile: https://people.epfl.ch/bryan.ford
+  lab_urls:
     - https://dedis.epfl.ch/
   code_urls:
     - https://github.com/dedis
@@ -91,65 +92,69 @@
 - slug: caglar-gulcehre
   name: Caglar Gulcehre
   lab: Caglar Gulcehre Lab for AI Research (CLAIRE)
-  urls:
-    - https://people.epfl.ch/caglar.gulcehre
+  epfl_profile: https://people.epfl.ch/caglar.gulcehre
+  lab_urls:
     - https://www.epfl.ch/labs/claire/
   code_urls: []
   orcid: 0009-0003-4124-1687
   openalex_id: A5041145688
   last_updated: null
-  reviewed: false
+  reviewed: true
 - slug: carmela-troncoso
   name: Carmela Troncoso
   lab: Security and Privacy Engineering Lab (SPRING)
-  urls:
-    - https://people.epfl.ch/carmela.troncoso
+  epfl_profile: https://people.epfl.ch/carmela.troncoso
+  lab_urls:
     - https://spring.epfl.ch/
-  code_urls: []
+  code_urls:
+    - https://github.com/spring-epfl
   orcid: 0000-0002-2374-2248
   openalex_id: A5072857797
   last_updated: null
-  reviewed: false
+  reviewed: true
 - slug: charlotte-bunne
   name: Charlotte Bunne
   lab: Artificial Intelligence in Molecular Medicine Lab (AIMM)
-  urls:
-    - https://people.epfl.ch/charlotte.bunne
+  epfl_profile: https://people.epfl.ch/charlotte.bunne
+  lab_urls:
     - https://aimm.epfl.ch/
-  code_urls: []
+  code_urls:
+    - https://github.com/bunnelab
   orcid: 0000-0003-1431-103X
   openalex_id: A5033283546
   last_updated: null
-  reviewed: false
+  reviewed: true
 - slug: clement-pit-claudel
   name: Clément Pit-Claudel
   lab: Systems and Formalisms Lab (SYSTEMF)
-  urls:
-    - https://people.epfl.ch/clement.pit-claudel
+  epfl_profile: https://people.epfl.ch/clement.pit-claudel
+  lab_urls:
     - https://pit-claudel.fr/clement/
-  code_urls: []
+  code_urls:
+    - https://github.com/epfl-systemf
   orcid: 0000-0002-1900-3901
   openalex_id: A5018186543
   last_updated: null
-  reviewed: false
+  reviewed: true
 - slug: damir-filipovic
   name: Damir Filipovic
   lab: Swissquote Chair in Quantitative Finance
-  urls:
-    - https://people.epfl.ch/damir.filipovic
-    - https://sfi.epfl.ch/
+  epfl_profile: https://people.epfl.ch/damir.filipovic
+  lab_urls:
+    - https://www.epfl.ch/labs/csf/
   code_urls: []
   orcid: 0000-0002-2443-5741
   openalex_id: A5059712147
   last_updated: null
-  reviewed: false
+  reviewed: true
 - slug: david-atienza
   name: David Atienza
   lab: Embedded Systems Laboratory (ESL)
-  urls:
-    - https://people.epfl.ch/david.atienza
+  epfl_profile: https://people.epfl.ch/david.atienza
+  lab_urls:
     - https://esl.epfl.ch/
-  code_urls: []
+  code_urls:
+    - https://github.com/esl-epfl
   orcid: 0000-0001-9536-4947
   openalex_id: A5074236306
   last_updated: null
@@ -157,87 +162,90 @@
 - slug: edouard-bugnion
   name: Edouard Bugnion
   lab: Data Center Systems Laboratory (DCSL)
-  urls:
-    - https://people.epfl.ch/edouard.bugnion
+  epfl_profile: https://people.epfl.ch/edouard.bugnion
+  lab_urls:
     - https://www.epfl.ch/labs/dcsl/
-  code_urls: []
+  code_urls:
+    - https://github.com/epfl-dcsl
   orcid: 0000-0001-7237-6929
   openalex_id: A5049034675
   last_updated: null
-  reviewed: false
+  reviewed: true
 - slug: florence-graezer-bideau
   name: Florence Graezer Bideau
   lab: Heritage, Anthropology and Technologies Research Group (HAT)
-  urls:
-    - https://people.epfl.ch/florence.graezerbideau
+  epfl_profile: https://people.epfl.ch/florence.graezerbideau
+  lab_urls:
     - https://www.epfl.ch/labs/hat/fr/
   code_urls: []
   orcid: 0000-0002-9499-1479
   openalex_id: A5010772457
   last_updated: null
-  reviewed: false
+  reviewed: true
 - slug: gaetan-de-rassenfosse
   name: Gaétan de Rassenfosse
   lab: Chair of Science Technology and Innovation Policy (STIP)
-  urls:
-    - https://people.epfl.ch/gaetan.derassenfosse
+  epfl_profile: https://people.epfl.ch/gaetan.derassenfosse
+  lab_urls:
     - https://www.epfl.ch/labs/stip/
   code_urls: []
   orcid: 0000-0002-7862-0918
   openalex_id: A5086533373
   last_updated: null
-  reviewed: false
+  reviewed: true
 - slug: george-candea
   name: George Candea
   lab: Dependable Systems Laboratory (DSLAB)
-  urls:
-    - https://people.epfl.ch/george.candea
+  epfl_profile: https://people.epfl.ch/george.candea
+  lab_urls:
     - https://dslab.epfl.ch/
-  code_urls: []
+  code_urls:
+    - https://github.com/dslab-epfl
   orcid: 0009-0002-8107-6535
   openalex_id: A5028907149
   last_updated: null
-  reviewed: false
+  reviewed: true
 - slug: giovanni-de-micheli
   name: Giovanni de Micheli
   lab: Integrated Systems Laboratory (LSI)
-  urls:
-    - https://people.epfl.ch/giovanni.demicheli
+  epfl_profile: https://people.epfl.ch/giovanni.demicheli
+  lab_urls:
     - https://lsi.epfl.ch/
   code_urls: []
   orcid: 0000-0002-7827-3215
   openalex_id: A5072927296
   last_updated: null
-  reviewed: false
+  reviewed: true
 - slug: jacques-fellay
   name: Jacques Fellay
   lab: Fellay Lab – Human Genomics of Infection and Immunity (GR-FE)
-  urls:
-    - https://people.epfl.ch/jacques.fellay
+  epfl_profile: https://people.epfl.ch/jacques.fellay
+  lab_urls:
     - https://fellay-lab.epfl.ch/
   code_urls: []
   orcid: 0000-0002-8240-939X
   openalex_id: A5089009771
   last_updated: null
-  reviewed: false
+  reviewed: true
 - slug: julien-hugonnier
   name: Julien Hugonnier
   lab: Chair SFI-JH
-  urls:
-    - https://people.epfl.ch/julien.hugonnier
-    - https://sfi.epfl.ch/
+  epfl_profile: https://people.epfl.ch/julien.hugonnier
+  lab_urls:
+    - https://www.epfl.ch/labs/sfi-jh/
   code_urls: []
   orcid: 0000-0003-1356-5070
   openalex_id: A5002167713
   last_updated: null
-  reviewed: false
+  reviewed: true
 - slug: katerina-argyraki
   name: Katerina Argyraki
   lab: Network Architecture Laboratory (NAL)
-  urls:
-    - https://people.epfl.ch/katerina.argyraki
+  epfl_profile: https://people.epfl.ch/katerina.argyraki
+  lab_urls:
     - https://www.epfl.ch/labs/nal/
-  code_urls: []
+  code_urls:
+    - https://github.com/nal-epfl
   orcid: 0009-0004-9470-2819
   openalex_id: A5011668097
   last_updated: null
@@ -245,263 +253,276 @@
 - slug: marcel-salathe
   name: Marcel Salathé
   lab: Digital Epidemiology Lab (SALATHELAB)
-  urls:
-    - https://people.epfl.ch/marcel.salathe
+  epfl_profile: https://people.epfl.ch/marcel.salathe
+  lab_urls:
     - https://www.digitalepidemiologylab.org/
-  code_urls: []
+  code_urls:
+    - https://github.com/digitalepidemiologylab
   orcid: 0000-0002-5079-7797
   openalex_id: A5010649096
   last_updated: null
-  reviewed: false
+  reviewed: true
 - slug: mario-paolone
   name: Mario Paolone
   lab: Distributed Electrical Systems Laboratory (DESL)
-  urls:
-    - https://people.epfl.ch/mario.paolone
+  epfl_profile: https://people.epfl.ch/mario.paolone
+  lab_urls:
     - https://desl-pwrs.epfl.ch/
   code_urls: []
   orcid: 0000-0001-7073-9036
   openalex_id: A5050504092
   last_updated: null
-  reviewed: false
+  reviewed: true
 - slug: martin-jaggi
   name: Martin Jaggi
   lab: Machine Learning and Optimization Laboratory (MLO)
-  urls:
-    - https://people.epfl.ch/martin.jaggi
+  epfl_profile: https://people.epfl.ch/martin.jaggi
+  lab_urls:
     - https://mlo.epfl.ch/
-  code_urls: []
+  code_urls:
+    - https://github.com/epfml
   orcid: 0000-0003-1579-5558
   openalex_id: A5073756389
   last_updated: null
-  reviewed: false
+  reviewed: true
 - slug: martin-odersky
   name: Martin Odersky
   lab: Programming Methods Laboratory (LAMP)
-  urls:
-    - https://people.epfl.ch/martin.odersky
+  epfl_profile: https://people.epfl.ch/martin.odersky
+  lab_urls:
     - https://lamp.epfl.ch/
-  code_urls: []
+  code_urls:
+    - https://github.com/lampepfl
   orcid: 0009-0005-3923-8993
   openalex_id: A5085410724
   last_updated: null
-  reviewed: false
+  reviewed: true
 - slug: mathias-payer
   name: Mathias Payer
   lab: HexHive Laboratory (HEXHIVE)
-  urls:
-    - https://people.epfl.ch/mathias.payer
+  epfl_profile: https://people.epfl.ch/mathias.payer
+  lab_urls:
     - https://hexhive.epfl.ch/
-  code_urls: []
+  code_urls:
+    - https://github.com/HexHive
   orcid: 0000-0001-5054-7547
   openalex_id: A5065116578
   last_updated: null
-  reviewed: false
+  reviewed: true
 - slug: matthias-grossglauser
   name: Matthias Grossglauser
   lab: Information and Network Dynamics Laboratory (INDY)
-  urls:
-    - https://people.epfl.ch/matthias.grossglauser
+  epfl_profile: https://people.epfl.ch/matthias.grossglauser
+  lab_urls:
     - https://indy.epfl.ch/
   code_urls: []
-  orcid: null
+  orcid: 0000-0002-3031-1438
   openalex_id: A5014508720
   last_updated: null
-  reviewed: false
+  reviewed: true
 - slug: nate-foster
   name: Nate Foster
   lab: Networked Systems Abstractions Lab (LASER)
-  urls:
-    - https://people.epfl.ch/nate.foster
+  epfl_profile: https://people.epfl.ch/nate.foster
+  lab_urls:
     - https://laser.epfl.ch/
   code_urls: []
   orcid: 0000-0002-6557-684X
   openalex_id: A5013378091
   last_updated: null
-  reviewed: false
+  reviewed: true
 - slug: nicolas-flammarion
   name: Nicolas Flammarion
   lab: Theory of Machine Learning Laboratory (TML)
-  urls:
-    - https://people.epfl.ch/nicolas.flammarion
+  epfl_profile: https://people.epfl.ch/nicolas.flammarion
+  lab_urls:
     - https://www.epfl.ch/labs/tml/
   code_urls: []
   orcid: null
   openalex_id: A5061093552
   last_updated: null
-  reviewed: false
+  reviewed: true
 - slug: paolo-ienne
   name: Paolo Ienne
   lab: Processor Architecture Laboratory (LAP)
-  urls:
-    - https://people.epfl.ch/paolo.ienne
+  epfl_profile: https://people.epfl.ch/paolo.ienne
+  lab_urls:
     - https://lap.epfl.ch/
-  code_urls: []
+  code_urls:
+    - https://github.com/EPFL-LAP
   orcid: 0000-0002-6142-7345
   openalex_id: A5020575991
   last_updated: null
-  reviewed: false
+  reviewed: true
 - slug: pascal-frossard
   name: Pascal Frossard
   lab: Signal Processing Laboratory (LTS4)
-  urls:
-    - https://people.epfl.ch/pascal.frossard
+  epfl_profile: https://people.epfl.ch/pascal.frossard
+  lab_urls:
     - https://lts4.epfl.ch/
   code_urls: []
   orcid: 0000-0002-4010-714X
   openalex_id: A5000947076
   last_updated: null
-  reviewed: false
+  reviewed: true
 - slug: pierre-collin-dufresne
   name: Pierre Collin-Dufresne
   lab: Chair SFI-PCD
-  urls:
-    - https://people.epfl.ch/pierre.collin-dufresne
-    - https://sfi.epfl.ch/
+  epfl_profile: https://people.epfl.ch/pierre.collin-dufresne
+  lab_urls:
+    - https://www.epfl.ch/labs/sfi-pcd/
   code_urls: []
   orcid: null
-  openalex_id: A5078759107
+  openalex_id: null
   last_updated: null
-  reviewed: false
+  reviewed: true
 - slug: rachid-guerraoui
   name: Rachid Guerraoui
   lab: Distributed Computing Laboratory (DCL)
-  urls:
-    - https://people.epfl.ch/rachid.guerraoui
+  epfl_profile: https://people.epfl.ch/rachid.guerraoui
+  lab_urls:
     - https://dcl.epfl.ch/
-  code_urls: []
+  code_urls:
+    - https://github.com/Distributed-EPFL
+    - https://github.com/LPD-EPFL
   orcid: 0000-0002-4794-8902
   openalex_id: A5049321288
   last_updated: null
-  reviewed: false
+  reviewed: true
 - slug: robert-west
   name: Robert West
   lab: Data Science Laboratory (DLAB)
-  urls:
-    - https://people.epfl.ch/robert.west
+  epfl_profile: https://people.epfl.ch/robert.west
+  lab_urls:
     - https://dlab.epfl.ch/
-  code_urls: []
+  code_urls:
+    - https://github.com/epfl-dlab
   orcid: 0000-0001-6398-0921
   openalex_id: A5059645286
   last_updated: null
-  reviewed: false
+  reviewed: true
 - slug: ruediger-fahlenbrach
   name: Ruediger Fahlenbrach
   lab: Chair SFI-RF
-  urls:
-    - https://people.epfl.ch/ruediger.fahlenbrach
-    - https://sfi.epfl.ch/
+  epfl_profile: https://people.epfl.ch/ruediger.fahlenbrach
+  lab_urls:
+    - https://www.epfl.ch/labs/sfi-rf/
   code_urls: []
   orcid: 0000-0003-0102-3717
   openalex_id: A5022485788
   last_updated: null
-  reviewed: false
+  reviewed: true
 - slug: sabine-susstrunk
   name: Sabine Süsstrunk
   lab: Image and Visual Representation Laboratory (IVRL)
-  urls:
-    - https://people.epfl.ch/sabine.susstrunk
+  epfl_profile: https://people.epfl.ch/sabine.susstrunk
+  lab_urls:
     - https://ivrl.epfl.ch/
-  code_urls: []
+  code_urls:
+    - https://github.com/IVRL
   orcid: 0000-0002-0441-6068
   openalex_id: A5078201467
   last_updated: null
-  reviewed: false
+  reviewed: true
 - slug: sanidhya-kashyap
   name: Sanidhya Kashyap
   lab: Robust Scalable Systems Software Lab (RS3Lab)
-  urls:
-    - https://people.epfl.ch/sanidhya.kashyap
+  epfl_profile: https://people.epfl.ch/sanidhya.kashyap
+  lab_urls:
     - https://sanidhya.github.io/
-  code_urls: []
+    - https://rs3lab.github.io
+  code_urls:
+    - https://github.com/rs3lab
   orcid: 0000-0002-9534-8565
   openalex_id: A5030479442
   last_updated: null
-  reviewed: false
+  reviewed: true
 - slug: semyon-malamud
   name: Semyon Malamud
   lab: Chair SFI-SM
-  urls:
-    - https://people.epfl.ch/semyon.malamud
-    - https://sfi.epfl.ch/
+  epfl_profile: https://people.epfl.ch/semyon.malamud
+  lab_urls:
+    - https://www.epfl.ch/labs/sfi-sm/
   code_urls: []
   orcid: 0000-0001-6574-7322
   openalex_id: A5067616912
   last_updated: null
-  reviewed: false
+  reviewed: true
 - slug: serge-vaudenay
   name: Serge Vaudenay
   lab: Security and Cryptography Laboratory (LASEC)
-  urls:
-    - https://people.epfl.ch/serge.vaudenay
+  epfl_profile: https://people.epfl.ch/serge.vaudenay
+  lab_urls:
     - https://lasec.epfl.ch/
   code_urls: []
   orcid: 0000-0001-9185-1449
   openalex_id: A5073902849
   last_updated: null
-  reviewed: false
+  reviewed: true
 - slug: thomas-bourgeat
   name: Thomas Bourgeat
   lab: Verification and Computer Architecture Lab (VCA)
-  urls:
-    - https://people.epfl.ch/thomas.bourgeat
+  epfl_profile: https://people.epfl.ch/thomas.bourgeat
+  lab_urls:
     - https://vca.epfl.ch/
   code_urls: []
   orcid: 0000-0002-8468-8409
   openalex_id: A5031573662
   last_updated: null
-  reviewed: false
+  reviewed: true
 - slug: thomas-vidick
   name: Thomas Vidick
   lab: Quantum Complexity and Cryptography Laboratory (QCC)
-  urls:
-    - https://people.epfl.ch/thomas.vidick
+  epfl_profile: https://people.epfl.ch/thomas.vidick
+  lab_urls:
     - https://www.epfl.ch/labs/qcc/
   code_urls: []
   orcid: 0000-0002-6405-365X
   openalex_id: A5019616211
   last_updated: null
-  reviewed: false
+  reviewed: true
 - slug: touradj-ebrahimi
   name: Touradj Ebrahimi
   lab: Multimedia Signal Processing Group (MMSPG)
-  urls:
-    - https://people.epfl.ch/touradj.ebrahimi
+  epfl_profile: https://people.epfl.ch/touradj.ebrahimi
+  lab_urls:
     - https://mmspg.epfl.ch/
   code_urls: []
   orcid: 0000-0002-9900-3687
   openalex_id: A5082188773
   last_updated: null
-  reviewed: false
+  reviewed: true
 - slug: viktor-kuncak
   name: Viktor Kunčak
   lab: Lab for Automated Reasoning and Analysis (LARA)
-  urls:
-    - https://people.epfl.ch/viktor.kuncak
+  epfl_profile: https://people.epfl.ch/viktor.kuncak
+  lab_urls:
     - https://lara.epfl.ch/w/
-  code_urls: []
+  code_urls:
+    - https://github.com/epfl-lara
   orcid: 0000-0001-7044-9522
   openalex_id: A5008699657
   last_updated: null
-  reviewed: false
+  reviewed: true
 - slug: volkan-cevher
   name: Volkan Cevher
   lab: Laboratory for Information and Inference Systems (LIONS)
-  urls:
-    - https://people.epfl.ch/volkan.cevher
+  epfl_profile: https://people.epfl.ch/volkan.cevher
+  lab_urls:
     - https://lions.epfl.ch/
   code_urls: []
   orcid: 0000-0002-5004-201X
   openalex_id: A5027059837
   last_updated: null
-  reviewed: false
+  reviewed: true
 - slug: yanina-shkel
   name: Yanina Shkel
   lab: Mathematics of Information Laboratory (MIL)
-  urls:
-    - https://people.epfl.ch/yanina.shkel
+  epfl_profile: https://people.epfl.ch/yanina.shkel
+  lab_urls:
+    - https://theory.epfl.ch/yanina/
   code_urls: []
   orcid: 0000-0002-2575-1762
   openalex_id: A5052329970
   last_updated: null
-  reviewed: false
+  reviewed: true
