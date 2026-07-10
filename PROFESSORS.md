@@ -9,12 +9,14 @@ Research tracker for C4DT's affiliated professors. Each weekday an automated age
 
 [EPFL profile](https://people.epfl.ch/alessandro.chiesa) · [compsec.epfl.ch](https://compsec.epfl.ch) · [ic-people.epfl.ch](https://ic-people.epfl.ch/~achiesa/) · [ORCID 0000-0002-3029-2353](https://orcid.org/0000-0002-3029-2353) · [OpenAlex A5101591310](https://openalex.org/A5101591310)
 
-[../PROFESSORS.md](../PROFESSORS.md) # Alessandro Chiesa
+Alessandro Chiesa leads the COMPSEC lab at EPFL, focusing on the theoretical foundations and practical constructions of cryptographic proofs—including zkSNARKs, IOPs, and proof-carrying data—with emphasis on efficiency, zero knowledge, and post-quantum security.
 
 ### [Andrea Cavallaro](professors/ANDREA-CAVALLARO.md)
 *Laboratory of Multimodal Intelligent Systems (MINTS)* · last updated 2026-07-10 · ✅ reviewed
 
 [EPFL profile](https://people.epfl.ch/andrea.cavallaro) · [epfl.ch](https://www.epfl.ch/labs/mints/) · [ORCID 0000-0001-5086-7858](https://orcid.org/0000-0001-5086-7858) · [OpenAlex A5004087827](https://openalex.org/A5004087827)
+
+Andrea Cavallaro leads the MINTS lab at EPFL, researching multimodal intelligent systems spanning privacy-preserving machine learning, AI safety and alignment, robustness/interpretability, and multi-modal perception for autonomous systems.
 
 ### [Anne-Marie Kermarrec](professors/ANNE-MARIE-KERMARREC.md)
 *Scalable Computing Systems Laboratory (SaCS)* · last updated 2026-07-10 · ✅ reviewed
@@ -200,86 +202,120 @@ Matthias Grossglauser leads EPFL's INDY Lab, researching machine learning, stoch
 Nate Foster leads the Networked Systems Abstractions Lab (LASeR) at EPFL, developing programming languages and formal verification tools for networked systems, with flagship contributions to NetKAT, P4, and consistent network updates.
 
 ### [Nicolas Flammarion](professors/NICOLAS-FLAMMARION.md)
-*Theory of Machine Learning Laboratory (TML)* · last updated — · ✅ reviewed
+*Theory of Machine Learning Laboratory (TML)* · last updated 2026-07-10 · ✅ reviewed
 
 [EPFL profile](https://people.epfl.ch/nicolas.flammarion) · [epfl.ch](https://www.epfl.ch/labs/tml/) · [OpenAlex A5061093552](https://openalex.org/A5061093552)
 
+Nicolas Flammarion leads the Theory of Machine Learning Laboratory at EPFL, developing algorithmic and theoretical foundations for machine learning with a strong current focus on the theory of large language models, in-context learning, implicit regularization in deep learning, adversarial robustness, and stochastic optimization.
+
 ### [Paolo Ienne](professors/PAOLO-IENNE.md)
-*Processor Architecture Laboratory (LAP)* · last updated — · ✅ reviewed
+*Processor Architecture Laboratory (LAP)* · last updated 2026-07-10 · ✅ reviewed
 
 [EPFL profile](https://people.epfl.ch/paolo.ienne) · [lap.epfl.ch](https://lap.epfl.ch/) · [github.com/EPFL-LAP](https://github.com/EPFL-LAP) · [ORCID 0000-0002-6142-7345](https://orcid.org/0000-0002-6142-7345) · [OpenAlex A5020575991](https://openalex.org/A5020575991)
 
+Paolo Ienne leads EPFL's Processor Architecture Laboratory (LAP), specializing in computer architecture, FPGAs, reconfigurable computing, dynamic high-level synthesis (DHLS), and electronic design automation.
+
 ### [Pascal Frossard](professors/PASCAL-FROSSARD.md)
-*Signal Processing Laboratory (LTS4)* · last updated — · ✅ reviewed
+*Signal Processing Laboratory (LTS4)* · last updated 2026-07-10 · ✅ reviewed
 
 [EPFL profile](https://people.epfl.ch/pascal.frossard) · [lts4.epfl.ch](https://lts4.epfl.ch/) · [ORCID 0000-0002-4010-714X](https://orcid.org/0000-0002-4010-714X) · [OpenAlex A5000947076](https://openalex.org/A5000947076)
 
+Pascal Frossard leads EPFL's LTS4 lab, researching machine learning, graph signal processing, image analysis, and AI applications in health and science discovery, while also co-directing the EPFL AI Center and the Swiss Data Science Center.
+
 ### [Pierre Collin-Dufresne](professors/PIERRE-COLLIN-DUFRESNE.md)
-*Chair SFI-PCD* · last updated — · ✅ reviewed
+*Chair SFI-PCD* · last updated 2026-07-10 · ✅ reviewed
 
 [EPFL profile](https://people.epfl.ch/pierre.collin-dufresne) · [epfl.ch](https://www.epfl.ch/labs/sfi-pcd/)
 
+Pierre Collin-Dufresne is a Full Professor at EPFL/Swiss Finance Institute whose research spans asset pricing, credit markets, market microstructure, and information economics, with publications in top journals including Econometrica, AER, and Journal of Finance.
+
 ### [Rachid Guerraoui](professors/RACHID-GUERRAOUI.md)
-*Distributed Computing Laboratory (DCL)* · last updated — · ✅ reviewed
+*Distributed Computing Laboratory (DCL)* · last updated 2026-07-10 · ✅ reviewed
 
 [EPFL profile](https://people.epfl.ch/rachid.guerraoui) · [dcl.epfl.ch](https://dcl.epfl.ch/) · [github.com/Distributed-EPFL](https://github.com/Distributed-EPFL) · [github.com/LPD-EPFL](https://github.com/LPD-EPFL) · [ORCID 0000-0002-4794-8902](https://orcid.org/0000-0002-4794-8902) · [OpenAlex A5049321288](https://openalex.org/A5049321288)
 
+Rachid Guerraoui leads EPFL's Distributed Computing Laboratory (DCL), pioneering research in robust (Byzantine-resilient) machine learning, distributed algorithms, secure distributed storage, and concurrent computing.
+
 ### [Robert West](professors/ROBERT-WEST.md)
-*Data Science Laboratory (DLAB)* · last updated — · ✅ reviewed
+*Data Science Laboratory (DLAB)* · last updated 2026-07-10 · ✅ reviewed
 
 [EPFL profile](https://people.epfl.ch/robert.west) · [dlab.epfl.ch](https://dlab.epfl.ch/) · [github.com/epfl-dlab](https://github.com/epfl-dlab) · [ORCID 0000-0001-6398-0921](https://orcid.org/0000-0001-6398-0921) · [OpenAlex A5059645286](https://openalex.org/A5059645286)
 
+Robert West leads EPFL's Data Science & AI Lab (dlab), conducting research at the intersection of AI, NLP, and computational social science with a focus on safe and beneficial AI systems.
+
 ### [Ruediger Fahlenbrach](professors/RUEDIGER-FAHLENBRACH.md)
-*Chair SFI-RF* · last updated — · ✅ reviewed
+*Chair SFI-RF* · last updated 2026-07-10 · ✅ reviewed
 
 [EPFL profile](https://people.epfl.ch/ruediger.fahlenbrach) · [epfl.ch](https://www.epfl.ch/labs/sfi-rf/) · [ORCID 0000-0003-0102-3717](https://orcid.org/0000-0003-0102-3717) · [OpenAlex A5022485788](https://openalex.org/A5022485788)
 
+Rüdiger Fahlenbrach is a Full Professor of Finance at EPFL and Director of the College of Management, specializing in empirical corporate finance with a focus on corporate governance, entrepreneurship, and the economics of startups and venture capital.
+
 ### [Sabine Süsstrunk](professors/SABINE-SUSSTRUNK.md)
-*Image and Visual Representation Laboratory (IVRL)* · last updated — · ✅ reviewed
+*Image and Visual Representation Laboratory (IVRL)* · last updated 2026-07-10 · ✅ reviewed
 
 [EPFL profile](https://people.epfl.ch/sabine.susstrunk) · [ivrl.epfl.ch](https://ivrl.epfl.ch/) · [github.com/IVRL](https://github.com/IVRL) · [ORCID 0000-0002-0441-6068](https://orcid.org/0000-0002-0441-6068) · [OpenAlex A5078201467](https://openalex.org/A5078201467)
 
+Sabine Süsstrunk leads the IVRL at EPFL, researching computational photography, color image processing, computer vision, and image quality, with recent work spanning low-light denoising, diffusion-based image editing, neural cellular automata, and deepfake detection.
+
 ### [Sanidhya Kashyap](professors/SANIDHYA-KASHYAP.md)
-*Robust Scalable Systems Software Lab (RS3Lab)* · last updated — · ✅ reviewed
+*Robust Scalable Systems Software Lab (RS3Lab)* · last updated 2026-07-10 · ✅ reviewed
 
 [EPFL profile](https://people.epfl.ch/sanidhya.kashyap) · [sanidhya.github.io](https://sanidhya.github.io/) · [rs3lab.github.io](https://rs3lab.github.io) · [github.com/rs3lab](https://github.com/rs3lab) · [ORCID 0000-0002-9534-8565](https://orcid.org/0000-0002-9534-8565) · [OpenAlex A5030479442](https://openalex.org/A5030479442)
 
+Sanidhya Kashyap leads the RS3Lab at EPFL, designing performant, scalable, and robust systems software — spanning operating systems, concurrency, memory management, file systems, fuzzing, and networks — for modern heterogeneous hardware.
+
 ### [Semyon Malamud](professors/SEMYON-MALAMUD.md)
-*Chair SFI-SM* · last updated — · ✅ reviewed
+*Chair SFI-SM* · last updated 2026-07-10 · ✅ reviewed
 
 [EPFL profile](https://people.epfl.ch/semyon.malamud) · [epfl.ch](https://www.epfl.ch/labs/sfi-sm/) · [ORCID 0000-0001-6574-7322](https://orcid.org/0000-0001-6574-7322) · [OpenAlex A5067616912](https://openalex.org/A5067616912)
 
+Semyon Malamud is an EPFL Associate Professor and Swiss Finance Institute chair whose research sits at the intersection of machine learning, high-dimensional statistics, and financial economics, with a focus on asset pricing, portfolio theory, and market microstructure.
+
 ### [Serge Vaudenay](professors/SERGE-VAUDENAY.md)
-*Security and Cryptography Laboratory (LASEC)* · last updated — · ✅ reviewed
+*Security and Cryptography Laboratory (LASEC)* · last updated 2026-07-10 · ✅ reviewed
 
 [EPFL profile](https://people.epfl.ch/serge.vaudenay) · [lasec.epfl.ch](https://lasec.epfl.ch/) · [ORCID 0000-0001-9185-1449](https://orcid.org/0000-0001-9185-1449) · [OpenAlex A5073902849](https://openalex.org/A5073902849)
 
+Serge Vaudenay leads EPFL's Security and Cryptography Laboratory (LASEC), focusing on cryptographic analysis, post-quantum cryptography, lightweight cryptography, and secure communication channels.
+
 ### [Thomas Bourgeat](professors/THOMAS-BOURGEAT.md)
-*Verification and Computer Architecture Lab (VCA)* · last updated — · ✅ reviewed
+*Verification and Computer Architecture Lab (VCA)* · last updated 2026-07-10 · ✅ reviewed
 
 [EPFL profile](https://people.epfl.ch/thomas.bourgeat) · [vca.epfl.ch](https://vca.epfl.ch/) · [ORCID 0000-0002-8468-8409](https://orcid.org/0000-0002-8468-8409) · [OpenAlex A5031573662](https://openalex.org/A5031573662)
 
+Thomas Bourgeat leads the VCA lab at EPFL, focusing on formal verification of hardware (processors, dataflow circuits, cache coherence protocols), hardware–software interface specifications, and security verification at the RTL level.
+
 ### [Thomas Vidick](professors/THOMAS-VIDICK.md)
-*Quantum Complexity and Cryptography Laboratory (QCC)* · last updated — · ✅ reviewed
+*Quantum Complexity and Cryptography Laboratory (QCC)* · last updated 2026-07-10 · ✅ reviewed
 
 [EPFL profile](https://people.epfl.ch/thomas.vidick) · [epfl.ch](https://www.epfl.ch/labs/qcc/) · [ORCID 0000-0002-6405-365X](https://orcid.org/0000-0002-6405-365X) · [OpenAlex A5019616211](https://openalex.org/A5019616211)
 
+Thomas Vidick leads the Quantum Complexity and Cryptography Laboratory (QCC) at EPFL, working at the intersection of quantum computing theory, interactive proof systems, quantum error correction, and device-independent cryptography.
+
 ### [Touradj Ebrahimi](professors/TOURADJ-EBRAHIMI.md)
-*Multimedia Signal Processing Group (MMSPG)* · last updated — · ✅ reviewed
+*Multimedia Signal Processing Group (MMSPG)* · last updated 2026-07-10 · ✅ reviewed
 
 [EPFL profile](https://people.epfl.ch/touradj.ebrahimi) · [mmspg.epfl.ch](https://mmspg.epfl.ch/) · [ORCID 0000-0002-9900-3687](https://orcid.org/0000-0002-9900-3687) · [OpenAlex A5082188773](https://openalex.org/A5082188773)
 
+Touradj Ebrahimi leads EPFL's Multimedia Signal Processing Group (MMSPG), focusing on AI-powered image/video coding, JPEG standardization (including JPEG AI and JPEG DNA), media security, and quality assessment.
+
 ### [Viktor Kunčak](professors/VIKTOR-KUNCAK.md)
-*Lab for Automated Reasoning and Analysis (LARA)* · last updated — · ✅ reviewed
+*Lab for Automated Reasoning and Analysis (LARA)* · last updated 2026-07-10 · ✅ reviewed
 
 [EPFL profile](https://people.epfl.ch/viktor.kuncak) · [lara.epfl.ch](https://lara.epfl.ch/w/) · [github.com/epfl-lara](https://github.com/epfl-lara) · [ORCID 0000-0001-7044-9522](https://orcid.org/0000-0001-7044-9522) · [OpenAlex A5008699657](https://openalex.org/A5008699657)
 
+Viktor Kunčak leads EPFL's LARA lab, developing automated reasoning, formal verification, and program synthesis tools — most notably the Stainless verifier for Scala — and is now pushing into AI-assisted Lean 4 formalization with the new LeanFlow agent framework.
+
 ### [Volkan Cevher](professors/VOLKAN-CEVHER.md)
-*Laboratory for Information and Inference Systems (LIONS)* · last updated — · ✅ reviewed
+*Laboratory for Information and Inference Systems (LIONS)* · last updated 2026-07-10 · ✅ reviewed
 
 [EPFL profile](https://people.epfl.ch/volkan.cevher) · [lions.epfl.ch](https://lions.epfl.ch/) · [ORCID 0000-0002-5004-201X](https://orcid.org/0000-0002-5004-201X) · [OpenAlex A5027059837](https://openalex.org/A5027059837)
 
+Volkan Cevher leads EPFL's LIONS lab, conducting research at the intersection of machine learning, optimization theory, and reinforcement learning, with recent focus on LLM training, adversarial robustness, and online learning in games.
+
 ### [Yanina Shkel](professors/YANINA-SHKEL.md)
-*Mathematics of Information Laboratory (MIL)* · last updated — · ✅ reviewed
+*Mathematics of Information Laboratory (MIL)* · last updated 2026-07-10 · ✅ reviewed
 
 [EPFL profile](https://people.epfl.ch/yanina.shkel) · [theory.epfl.ch](https://theory.epfl.ch/yanina/) · [ORCID 0000-0002-2575-1762](https://orcid.org/0000-0002-2575-1762) · [OpenAlex A5052329970](https://openalex.org/A5052329970)
+
+Yanina Shkel is an Assistant Professor at EPFL's Mathematics of Information Laboratory, working on the theoretical foundations of data privacy (differential privacy, maximal leakage), information-theoretic secrecy, minimum entropy couplings, and functional representations.

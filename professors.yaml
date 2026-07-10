@@ -340,7 +340,7 @@
   code_urls: []
   orcid: null
   openalex_id: A5061093552
-  last_updated: null
+  last_updated: "2026-07-10"
   reviewed: true
 - slug: paolo-ienne
   name: Paolo Ienne
@@ -352,7 +352,7 @@
     - https://github.com/EPFL-LAP
   orcid: 0000-0002-6142-7345
   openalex_id: A5020575991
-  last_updated: null
+  last_updated: "2026-07-10"
   reviewed: true
 - slug: pascal-frossard
   name: Pascal Frossard
@@ -363,7 +363,7 @@
   code_urls: []
   orcid: 0000-0002-4010-714X
   openalex_id: A5000947076
-  last_updated: null
+  last_updated: "2026-07-10"
   reviewed: true
 - slug: pierre-collin-dufresne
   name: Pierre Collin-Dufresne
@@ -374,7 +374,7 @@
   code_urls: []
   orcid: null
   openalex_id: null
-  last_updated: null
+  last_updated: "2026-07-10"
   reviewed: true
 - slug: rachid-guerraoui
   name: Rachid Guerraoui
@@ -387,7 +387,7 @@
     - https://github.com/LPD-EPFL
   orcid: 0000-0002-4794-8902
   openalex_id: A5049321288
-  last_updated: null
+  last_updated: "2026-07-10"
   reviewed: true
 - slug: robert-west
   name: Robert West
@@ -399,7 +399,7 @@
     - https://github.com/epfl-dlab
   orcid: 0000-0001-6398-0921
   openalex_id: A5059645286
-  last_updated: null
+  last_updated: "2026-07-10"
   reviewed: true
 - slug: ruediger-fahlenbrach
   name: Ruediger Fahlenbrach
@@ -410,7 +410,7 @@
   code_urls: []
   orcid: 0000-0003-0102-3717
   openalex_id: A5022485788
-  last_updated: null
+  last_updated: "2026-07-10"
   reviewed: true
 - slug: sabine-susstrunk
   name: Sabine Süsstrunk
@@ -422,7 +422,7 @@
     - https://github.com/IVRL
   orcid: 0000-0002-0441-6068
   openalex_id: A5078201467
-  last_updated: null
+  last_updated: "2026-07-10"
   reviewed: true
 - slug: sanidhya-kashyap
   name: Sanidhya Kashyap
@@ -435,7 +435,7 @@
     - https://github.com/rs3lab
   orcid: 0000-0002-9534-8565
   openalex_id: A5030479442
-  last_updated: null
+  last_updated: "2026-07-10"
   reviewed: true
 - slug: semyon-malamud
   name: Semyon Malamud
@@ -446,7 +446,7 @@
   code_urls: []
   orcid: 0000-0001-6574-7322
   openalex_id: A5067616912
-  last_updated: null
+  last_updated: "2026-07-10"
   reviewed: true
 - slug: serge-vaudenay
   name: Serge Vaudenay
@@ -457,7 +457,7 @@
   code_urls: []
   orcid: 0000-0001-9185-1449
   openalex_id: A5073902849
-  last_updated: null
+  last_updated: "2026-07-10"
   reviewed: true
 - slug: thomas-bourgeat
   name: Thomas Bourgeat
@@ -468,7 +468,7 @@
   code_urls: []
   orcid: 0000-0002-8468-8409
   openalex_id: A5031573662
-  last_updated: null
+  last_updated: "2026-07-10"
   reviewed: true
 - slug: thomas-vidick
   name: Thomas Vidick
@@ -479,7 +479,7 @@
   code_urls: []
   orcid: 0000-0002-6405-365X
   openalex_id: A5019616211
-  last_updated: null
+  last_updated: "2026-07-10"
   reviewed: true
 - slug: touradj-ebrahimi
   name: Touradj Ebrahimi
@@ -490,7 +490,7 @@
   code_urls: []
   orcid: 0000-0002-9900-3687
   openalex_id: A5082188773
-  last_updated: null
+  last_updated: "2026-07-10"
   reviewed: true
 - slug: viktor-kuncak
   name: Viktor Kunčak
@@ -502,7 +502,7 @@
     - https://github.com/epfl-lara
   orcid: 0000-0001-7044-9522
   openalex_id: A5008699657
-  last_updated: null
+  last_updated: "2026-07-10"
   reviewed: true
 - slug: volkan-cevher
   name: Volkan Cevher
@@ -513,7 +513,7 @@
   code_urls: []
   orcid: 0000-0002-5004-201X
   openalex_id: A5027059837
-  last_updated: null
+  last_updated: "2026-07-10"
   reviewed: true
 - slug: yanina-shkel
   name: Yanina Shkel
@@ -524,5 +524,5 @@
   code_urls: []
   orcid: 0000-0002-2575-1762
   openalex_id: A5052329970
-  last_updated: null
+  last_updated: "2026-07-10"
   reviewed: true
