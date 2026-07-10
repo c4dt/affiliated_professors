@@ -8,8 +8,43 @@ from __future__ import annotations
 
 import re
 from pathlib import Path
+from urllib.parse import urlparse
 
 from .models import Professor, ProfileUpdate, profile_filename
+
+
+def _host(url: str) -> str:
+    net = urlparse(url).netloc
+    return net[4:] if net.startswith("www.") else (net or url)
+
+
+def _code_label(url: str) -> str:
+    """Host + path so the org/user is visible, e.g. github.com/dedis."""
+    p = urlparse(url)
+    return (_host(url) + p.path.rstrip("/")) or url
+
+
+def _orcid_url(orcid: str) -> str:
+    return orcid if orcid.startswith("http") else f"https://orcid.org/{orcid}"
+
+
+def _openalex_url(openalex_id: str) -> str:
+    return f"https://openalex.org/{openalex_id}"
+
+
+def _link_line(prof: Professor) -> str | None:
+    """One clickable markdown line: sites, code, ORCID, OpenAlex — for quick
+    verification (rendered even for reviewed:false entries)."""
+    parts: list[str] = []
+    for u in prof.urls:
+        parts.append(f"[{_host(u)}]({u})")
+    for u in prof.code_urls:
+        parts.append(f"[{_code_label(u)}]({u})")
+    if prof.orcid:
+        parts.append(f"[ORCID {prof.orcid}]({_orcid_url(prof.orcid)})")
+    if prof.openalex_id:
+        parts.append(f"[OpenAlex {prof.openalex_id}]({_openalex_url(prof.openalex_id)})")
+    return " · ".join(parts) if parts else None
 
 PROFESSORS_DIR = Path("professors")
 README = Path("README.md")
@@ -37,12 +72,17 @@ def _split_changelog(existing: str) -> list[tuple[str, str]]:
 
 def _render_changelog(entries: list[tuple[str, str]]) -> str:
     parts = [_CHANGELOG_HEADER, ""]
+    seen: set[str] = set()
     for date, body in entries:
+        # drop empty-body and duplicate-date entries so a stray/edited header
+        # can't accumulate across runs
+        if not body.strip() or date in seen:
+            continue
+        seen.add(date)
         parts.append(f"### {date}")
         parts.append("")
-        if body.strip():
-            parts.append(body.strip())
-            parts.append("")
+        parts.append(body.strip())
+        parts.append("")
     return "\n".join(parts).rstrip() + "\n"
 
 
@@ -54,12 +94,15 @@ def build_profile(
     day: an existing entry for `today` is replaced)."""
     lines = [f"# {prof.name}", ""]
     if prof.lab:
-        lab = f"[{prof.lab}]({prof.lab_url})" if prof.lab_url else prof.lab
-        lines.append(f"**Lab:** {lab}")
-    if prof.github_org:
-        lines.append(f"**GitHub:** [{prof.github_org}](https://github.com/{prof.github_org})")
+        lines.append(f"**Lab:** {prof.lab}")
+    for u in prof.urls:
+        lines.append(f"**Web:** [{_host(u)}]({u})")
+    for u in prof.code_urls:
+        lines.append(f"**Code:** [{_code_label(u)}]({u})")
+    if prof.orcid:
+        lines.append(f"**ORCID:** [{prof.orcid}]({_orcid_url(prof.orcid)})")
     if prof.openalex_id:
-        lines.append(f"**OpenAlex:** [{prof.openalex_id}](https://openalex.org/{prof.openalex_id})")
+        lines.append(f"**OpenAlex:** [{prof.openalex_id}]({_openalex_url(prof.openalex_id)})")
     lines.append("")
 
     if update.one_sentence_summary:
@@ -98,7 +141,7 @@ def build_readme(profs: list[Professor]) -> str:
         "",
         "Research tracker for C4DT's affiliated professors. Each weekday an "
         "automated agent refreshes the least-recently-updated professor from "
-        "their lab site, GitHub org, and publication feed.",
+        "their websites, code repositories, and publication feed.",
         "",
         "## Professors",
         "",
@@ -108,8 +151,14 @@ def build_readme(profs: list[Professor]) -> str:
         lines.append(f"### [{prof.name}](professors/{fname})")
         meta = prof.lab or ""
         updated = prof.last_updated or "—"
-        lines.append(f"*{meta}* · last updated {updated}" if meta else f"last updated {updated}")
+        review = "✅ reviewed" if prof.reviewed else "⬜ unreviewed"
+        head = f"*{meta}* · " if meta else ""
+        lines.append(f"{head}last updated {updated} · {review}")
         lines.append("")
+        links = _link_line(prof)
+        if links:
+            lines.append(links)
+            lines.append("")
         body = prof.readme_paragraph or prof.one_sentence_summary
         if body:
             lines.append(body)

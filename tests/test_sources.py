@@ -1,7 +1,14 @@
 import pytest
 
 from prof_tracker.models import Professor
-from prof_tracker.sources import _norm, works_filter
+from prof_tracker.sources import _norm, github_org_from_url, works_filter
+
+
+def test_github_org_from_url():
+    assert github_org_from_url("https://github.com/dedis") == "dedis"
+    assert github_org_from_url("https://github.com/dedis/kyber") == "dedis"
+    assert github_org_from_url("https://gitlab.com/foo") is None
+    assert github_org_from_url("https://example.com/") is None
 
 
 def test_works_filter_prefers_orcid():

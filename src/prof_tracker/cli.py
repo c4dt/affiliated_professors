@@ -37,28 +37,35 @@ def _fetch_sources(prof: Professor) -> tuple[str, bool]:
     blocks: list[str] = []
     ok = False
 
-    if prof.lab_url:
-        try:
-            md = sources.firecrawl_scrape(prof.lab_url)
-            blocks.append(f"## Lab website ({prof.lab_url})\n\n{md[:15000]}")
-            ok = True
-        except Exception as e:  # noqa: BLE001
-            blocks.append(f"## Lab website ({prof.lab_url})\n\n[unavailable: {e}]")
+    if prof.urls:
+        for url in prof.urls[:3]:  # cap Firecrawl usage on the prefetch
+            try:
+                md = sources.firecrawl_scrape(url)
+                blocks.append(f"## Website ({url})\n\n{md[:15000]}")
+                ok = True
+            except Exception as e:  # noqa: BLE001
+                blocks.append(f"## Website ({url})\n\n[unavailable: {e}]")
     else:
-        blocks.append("## Lab website\n\n[no lab_url configured]")
+        blocks.append("## Website\n\n[no urls configured]")
 
-    if prof.github_org:
-        try:
-            repos = sources.github_org_repos(prof.github_org)
-            blocks.append(
-                f"## GitHub org ({prof.github_org})\n\n"
-                + json.dumps(repos, indent=2, default=str)
-            )
-            ok = True
-        except Exception as e:  # noqa: BLE001
-            blocks.append(f"## GitHub org ({prof.github_org})\n\n[unavailable: {e}]")
+    if prof.code_urls:
+        for url in prof.code_urls[:3]:
+            org = sources.github_org_from_url(url)
+            try:
+                if org:
+                    repos = sources.github_org_repos(org)
+                    blocks.append(
+                        f"## Code — GitHub ({url})\n\n"
+                        + json.dumps(repos, indent=2, default=str)
+                    )
+                else:
+                    md = sources.firecrawl_scrape(url)
+                    blocks.append(f"## Code ({url})\n\n{md[:10000]}")
+                ok = True
+            except Exception as e:  # noqa: BLE001
+                blocks.append(f"## Code ({url})\n\n[unavailable: {e}]")
     else:
-        blocks.append("## GitHub org\n\n[no github_org configured]")
+        blocks.append("## Code\n\n[no code_urls configured]")
 
     if prof.orcid or prof.openalex_id:
         anchor = f"ORCID {prof.orcid}" if prof.orcid else f"OpenAlex {prof.openalex_id}"
@@ -81,9 +88,11 @@ def _fetch_sources(prof: Professor) -> tuple[str, bool]:
 
 def _build_prompt(prof: Professor, sources_text: str, existing: str) -> str:
     existing_block = existing if existing.strip() else "[no existing profile — this is the first update]"
+    urls = ", ".join(prof.urls) if prof.urls else "n/a"
     return (
         f"Professor: {prof.name}\n"
-        f"Lab: {prof.lab} ({prof.lab_url})\n\n"
+        f"Lab: {prof.lab}\n"
+        f"URLs: {urls}\n\n"
         f"=== EXISTING PROFILE ===\n{existing_block}\n\n"
         f"=== FRESHLY FETCHED SOURCES ===\n{sources_text}\n"
     )

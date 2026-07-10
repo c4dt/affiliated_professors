@@ -19,11 +19,19 @@ def load_registry(path: Path = DEFAULT_REGISTRY) -> list[Professor]:
 
 
 def _normalize(entry: dict) -> dict:
-    """YAML may parse dates as datetime.date — coerce last_updated to ISO string."""
+    """Coerce dates to ISO strings and migrate legacy single-URL fields to lists."""
     entry = dict(entry)
     lu = entry.get("last_updated")
     if lu is not None and not isinstance(lu, str):
         entry["last_updated"] = lu.isoformat()
+
+    # legacy: lab_url (str) -> urls (list); github_org (slug) -> code_urls (list)
+    if "lab_url" in entry and "urls" not in entry:
+        lab_url = entry.pop("lab_url")
+        entry["urls"] = [lab_url] if lab_url else []
+    if "github_org" in entry and "code_urls" not in entry:
+        org = entry.pop("github_org")
+        entry["code_urls"] = [f"https://github.com/{org}"] if org else []
     return entry
 
 

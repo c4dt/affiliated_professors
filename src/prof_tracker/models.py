@@ -15,8 +15,8 @@ class Professor(BaseModel):
     slug: str
     name: str
     lab: str = ""
-    lab_url: str = ""
-    github_org: str | None = None
+    urls: list[str] = Field(default_factory=list)  # lab site, personal page, etc.
+    code_urls: list[str] = Field(default_factory=list)  # GitHub/GitLab orgs or users
     orcid: str | None = None  # authoritative identity anchor (human-verified)
     openalex_id: str | None = None  # optional fallback when no ORCID
     one_sentence_summary: str = ""

@@ -38,6 +38,19 @@ def test_empty_registry():
     assert pick_least_recently_updated([]) is None
 
 
+def test_legacy_fields_migrate_to_lists(tmp_path):
+    path = tmp_path / "professors.yaml"
+    path.write_text(
+        "- slug: bryan-ford\n"
+        "  name: Bryan Ford\n"
+        "  lab_url: https://dedis.epfl.ch/\n"
+        "  github_org: dedis\n"
+    )
+    p = load_registry(path)[0]
+    assert p.urls == ["https://dedis.epfl.ch/"]
+    assert p.code_urls == ["https://github.com/dedis"]
+
+
 def test_roundtrip_and_date_coercion(tmp_path):
     path = tmp_path / "professors.yaml"
     save_registry(_profs(), path)

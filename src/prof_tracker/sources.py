@@ -60,6 +60,17 @@ def firecrawl_scrape(url: str, api_key: str | None = None) -> str:
     return markdown
 
 
+def github_org_from_url(url: str) -> str | None:
+    """Return the org/user slug for a github.com URL, else None."""
+    from urllib.parse import urlparse
+
+    parsed = urlparse(url)
+    if "github.com" not in parsed.netloc:
+        return None
+    parts = [p for p in parsed.path.split("/") if p]
+    return parts[0] if parts else None
+
+
 def github_org_repos(org: str, token: str | None = None, per_page: int = 15) -> list[dict]:
     """Recently-pushed repos for a GitHub org (name, description, url,
     pushed_at, stars, language)."""
