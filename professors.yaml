@@ -2,6 +2,7 @@
   name: Bryan Ford
   lab: Decentralized and Distributed Systems Lab (DEDIS)
   urls:
+    - https://people.epfl.ch/bryan.ford
     - https://dedis.epfl.ch/
   code_urls:
     - https://github.com/dedis
@@ -13,6 +14,7 @@
   name: Katerina Argyraki
   lab: Network Architecture Laboratory (NAL)
   urls:
+    - https://people.epfl.ch/katerina.argyraki
     - https://www.epfl.ch/labs/nal/
   code_urls: []
   orcid: 0009-0004-9470-2819
@@ -23,6 +25,7 @@
   name: David Atienza
   lab: Embedded Systems Laboratory (ESL)
   urls:
+    - https://people.epfl.ch/david.atienza
     - https://esl.epfl.ch/
   code_urls: []
   orcid: 0000-0001-9536-4947
@@ -33,6 +36,7 @@
   name: Antoine Bosselut
   lab: Natural Language Processing Lab (NLP Lab)
   urls:
+    - https://people.epfl.ch/antoine.bosselut
     - https://nlp.epfl.ch/
   code_urls: []
   orcid: 0000-0001-8968-9649
@@ -43,6 +47,7 @@
   name: Thomas Bourgeat
   lab: Verification and Computer Architecture Lab (VCA)
   urls:
+    - https://people.epfl.ch/thomas.bourgeat
     - https://vca.epfl.ch/
   code_urls: []
   orcid: 0000-0002-8468-8409
@@ -53,6 +58,7 @@
   name: Edouard Bugnion
   lab: Data Center Systems Laboratory (DCSL)
   urls:
+    - https://people.epfl.ch/edouard.bugnion
     - https://www.epfl.ch/labs/dcsl/
   code_urls: []
   orcid: 0000-0001-7237-6929
@@ -63,6 +69,7 @@
   name: Charlotte Bunne
   lab: Artificial Intelligence in Molecular Medicine Lab (AIMM)
   urls:
+    - https://people.epfl.ch/charlotte.bunne
     - https://aimm.epfl.ch/
   code_urls: []
   orcid: 0000-0003-1431-103X
@@ -73,6 +80,7 @@
   name: George Candea
   lab: Dependable Systems Laboratory (DSLAB)
   urls:
+    - https://people.epfl.ch/george.candea
     - https://dslab.epfl.ch/
   code_urls: []
   orcid: 0009-0002-8107-6535
@@ -83,6 +91,7 @@
   name: Andrea Cavallaro
   lab: Laboratory of Multimodal Intelligent Systems (MINTS)
   urls:
+    - https://people.epfl.ch/andrea.cavallaro
     - https://www.epfl.ch/labs/mints/
   code_urls: []
   orcid: 0000-0001-5086-7858
@@ -93,6 +102,7 @@
   name: Volkan Cevher
   lab: Laboratory for Information and Inference Systems (LIONS)
   urls:
+    - https://people.epfl.ch/volkan.cevher
     - https://lions.epfl.ch/
   code_urls: []
   orcid: 0000-0002-5004-201X
@@ -103,6 +113,7 @@
   name: Alessandro Chiesa
   lab: Laboratory for Computation Security (COMPSEC)
   urls:
+    - https://people.epfl.ch/alessandro.chiesa
     - https://compsec.epfl.ch
     - https://ic-people.epfl.ch/~achiesa/
   code_urls: []
@@ -114,6 +125,7 @@
   name: Pierre Collin-Dufresne
   lab: Chair SFI-PCD
   urls:
+    - https://people.epfl.ch/pierre.collin-dufresne
     - https://sfi.epfl.ch/
   code_urls: []
   orcid: null
@@ -124,6 +136,7 @@
   name: Giovanni de Micheli
   lab: Integrated Systems Laboratory (LSI)
   urls:
+    - https://people.epfl.ch/giovanni.demicheli
     - https://lsi.epfl.ch/
   code_urls: []
   orcid: 0000-0002-7827-3215
@@ -134,6 +147,7 @@
   name: Gaétan de Rassenfosse
   lab: Chair of Science Technology and Innovation Policy (STIP)
   urls:
+    - https://people.epfl.ch/gaetan.derassenfosse
     - https://www.epfl.ch/labs/stip/
   code_urls: []
   orcid: 0000-0002-7862-0918
@@ -144,6 +158,7 @@
   name: Touradj Ebrahimi
   lab: Multimedia Signal Processing Group (MMSPG)
   urls:
+    - https://people.epfl.ch/touradj.ebrahimi
     - https://mmspg.epfl.ch/
   code_urls: []
   orcid: 0000-0002-9900-3687
@@ -154,6 +169,7 @@
   name: Ruediger Fahlenbrach
   lab: Chair SFI-RF
   urls:
+    - https://people.epfl.ch/ruediger.fahlenbrach
     - https://sfi.epfl.ch/
   code_urls: []
   orcid: 0000-0003-0102-3717
@@ -164,6 +180,7 @@
   name: Babak Falsafi
   lab: Parallel Systems Architecture Laboratory (PARSA)
   urls:
+    - https://people.epfl.ch/babak.falsafi
     - https://parsa.epfl.ch/
   code_urls: []
   orcid: 0000-0001-5916-8068
@@ -174,6 +191,7 @@
   name: Boi Faltings
   lab: Artificial Intelligence Laboratory (LIA)
   urls:
+    - https://people.epfl.ch/boi.faltings
     - https://lia.epfl.ch/
   code_urls: []
   orcid: 0000-0002-7188-7230
@@ -184,6 +202,7 @@
   name: Jacques Fellay
   lab: Fellay Lab – Human Genomics of Infection and Immunity (GR-FE)
   urls:
+    - https://people.epfl.ch/jacques.fellay
     - https://fellay-lab.epfl.ch/
   code_urls: []
   orcid: 0000-0002-8240-939X
@@ -194,6 +213,7 @@
   name: Damir Filipovic
   lab: Swissquote Chair in Quantitative Finance
   urls:
+    - https://people.epfl.ch/damir.filipovic
     - https://sfi.epfl.ch/
   code_urls: []
   orcid: 0000-0002-2443-5741
@@ -204,6 +224,7 @@
   name: Nicolas Flammarion
   lab: Theory of Machine Learning Laboratory (TML)
   urls:
+    - https://people.epfl.ch/nicolas.flammarion
     - https://search.epfl.ch/?filter=unit&q=TML
   code_urls: []
   orcid: null
@@ -214,6 +235,7 @@
   name: Nate Foster
   lab: Prof. Foster Group (UPFOSTER)
   urls:
+    - https://people.epfl.ch/nate.foster
     - https://search.epfl.ch/?filter=unit&q=UPFOSTER
   code_urls: []
   orcid: 0000-0002-6557-684X
@@ -224,6 +246,7 @@
   name: Pascal Frossard
   lab: Signal Processing Laboratory (LTS4)
   urls:
+    - https://people.epfl.ch/pascal.frossard
     - https://lts4.epfl.ch/
   code_urls: []
   orcid: 0000-0002-4010-714X
@@ -234,6 +257,7 @@
   name: Florence Graezer Bideau
   lab: Heritage, Anthropology and Technologies Research Group (HAT)
   urls:
+    - https://people.epfl.ch/florence.graezerbideau
     - https://www.epfl.ch/labs/hat/fr/
   code_urls: []
   orcid: 0000-0002-9499-1479
@@ -244,6 +268,7 @@
   name: Matthias Grossglauser
   lab: Information and Network Dynamics Laboratory (INDY)
   urls:
+    - https://people.epfl.ch/matthias.grossglauser
     - https://indy.epfl.ch/
   code_urls: []
   orcid: null
@@ -254,6 +279,7 @@
   name: Rachid Guerraoui
   lab: Distributed Computing Laboratory (DCL)
   urls:
+    - https://people.epfl.ch/rachid.guerraoui
     - https://dcl.epfl.ch/
   code_urls: []
   orcid: 0000-0002-4794-8902
@@ -264,6 +290,7 @@
   name: Caglar Gulcehre
   lab: Caglar Gulcehre Lab for AI Research (CLAIRE)
   urls:
+    - https://people.epfl.ch/caglar.gulcehre
     - https://www.epfl.ch/labs/claire/
   code_urls: []
   orcid: 0009-0003-4124-1687
@@ -274,6 +301,7 @@
   name: Annie Hartley
   lab: Laboratory for Intelligent Global Health and Humanitarian Response Technologies (LiGHT)
   urls:
+    - https://people.epfl.ch/mary-anne.hartley
     - https://www.light-laboratory.org/
   code_urls: []
   orcid: null
@@ -284,6 +312,7 @@
   name: Julien Hugonnier
   lab: Chair SFI-JH
   urls:
+    - https://people.epfl.ch/julien.hugonnier
     - https://sfi.epfl.ch/
   code_urls: []
   orcid: 0000-0003-1356-5070
@@ -294,6 +323,7 @@
   name: Paolo Ienne
   lab: Processor Architecture Laboratory (LAP)
   urls:
+    - https://people.epfl.ch/paolo.ienne
     - https://lap.epfl.ch/
   code_urls: []
   orcid: 0000-0002-6142-7345
@@ -304,6 +334,7 @@
   name: Martin Jaggi
   lab: Machine Learning and Optimization Laboratory (MLO)
   urls:
+    - https://people.epfl.ch/martin.jaggi
     - https://mlo.epfl.ch/
   code_urls: []
   orcid: 0000-0003-1579-5558
@@ -314,6 +345,7 @@
   name: Sanidhya Kashyap
   lab: Robust Scalable Systems Software Lab (RS3Lab)
   urls:
+    - https://people.epfl.ch/sanidhya.kashyap
     - https://sanidhya.github.io/
   code_urls: []
   orcid: 0000-0002-9534-8565
@@ -324,6 +356,7 @@
   name: Anne-Marie Kermarrec
   lab: Scalable Computing Systems Laboratory (SaCS)
   urls:
+    - https://people.epfl.ch/anne-marie.kermarrec
     - https://www.epfl.ch/labs/sacs/
   code_urls: []
   orcid: 0000-0001-8187-724X
@@ -334,6 +367,7 @@
   name: Viktor Kunčak
   lab: Lab for Automated Reasoning and Analysis (LARA)
   urls:
+    - https://people.epfl.ch/viktor.kuncak
     - https://lara.epfl.ch/w/
   code_urls: []
   orcid: 0000-0001-7044-9522
@@ -344,6 +378,7 @@
   name: Semyon Malamud
   lab: Chair SFI-SM
   urls:
+    - https://people.epfl.ch/semyon.malamud
     - https://sfi.epfl.ch/
   code_urls: []
   orcid: 0000-0001-6574-7322
@@ -354,6 +389,7 @@
   name: Martin Odersky
   lab: Programming Methods Laboratory (LAMP)
   urls:
+    - https://people.epfl.ch/martin.odersky
     - https://lamp.epfl.ch/
   code_urls: []
   orcid: 0009-0005-3923-8993
@@ -364,6 +400,7 @@
   name: Mario Paolone
   lab: Distributed Electrical Systems Laboratory (DESL)
   urls:
+    - https://people.epfl.ch/mario.paolone
     - https://desl-pwrs.epfl.ch/
   code_urls: []
   orcid: 0000-0001-7073-9036
@@ -374,6 +411,7 @@
   name: Mathias Payer
   lab: HexHive Laboratory
   urls:
+    - https://people.epfl.ch/mathias.payer
     - https://hexhive.epfl.ch/
   code_urls: []
   orcid: 0000-0001-5054-7547
@@ -384,6 +422,7 @@
   name: Clément Pit-Claudel
   lab: Systems and Formalisms Lab (SYSTEMF)
   urls:
+    - https://people.epfl.ch/clement.pit-claudel
     - https://pit-claudel.fr/clement/
   code_urls: []
   orcid: 0000-0002-1900-3901
@@ -394,6 +433,7 @@
   name: Marcel Salathé
   lab: Digital Epidemiology Lab (SALATHELAB)
   urls:
+    - https://people.epfl.ch/marcel.salathe
     - https://www.digitalepidemiologylab.org/
   code_urls: []
   orcid: 0000-0002-5079-7797
@@ -404,6 +444,7 @@
   name: Yanina Shkel
   lab: Mathematics of Information Laboratory (MIL)
   urls:
+    - https://people.epfl.ch/yanina.shkel
     - https://search.epfl.ch/?filter=unit&q=MIL
   code_urls: []
   orcid: 0000-0002-2575-1762
@@ -414,6 +455,7 @@
   name: Sabine Süsstrunk
   lab: Image and Visual Representation Laboratory (IVRL)
   urls:
+    - https://people.epfl.ch/sabine.susstrunk
     - https://ivrl.epfl.ch/
   code_urls: []
   orcid: 0000-0002-0441-6068
@@ -424,6 +466,7 @@
   name: Carmela Troncoso
   lab: Security and Privacy Engineering Lab (SPRING)
   urls:
+    - https://people.epfl.ch/carmela.troncoso
     - https://spring.epfl.ch/
   code_urls: []
   orcid: 0000-0002-2374-2248
@@ -434,6 +477,7 @@
   name: Serge Vaudenay
   lab: Security and Cryptography Laboratory (LASEC)
   urls:
+    - https://people.epfl.ch/serge.vaudenay
     - https://lasec.epfl.ch/
   code_urls: []
   orcid: 0000-0001-9185-1449
@@ -444,6 +488,7 @@
   name: Thomas Vidick
   lab: Quantum Complexity and Cryptography Laboratory (QCC)
   urls:
+    - https://people.epfl.ch/thomas.vidick
     - https://search.epfl.ch/?filter=unit&q=QCC
   code_urls: []
   orcid: 0000-0002-6405-365X
@@ -454,6 +499,7 @@
   name: Robert West
   lab: Data Science Laboratory (DLAB)
   urls:
+    - https://people.epfl.ch/robert.west
     - https://dlab.epfl.ch/
   code_urls: []
   orcid: 0000-0001-6398-0921
