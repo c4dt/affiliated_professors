@@ -9,6 +9,8 @@ Research tracker for C4DT's affiliated professors. Each weekday an automated age
 
 [EPFL profile](https://people.epfl.ch/alessandro.chiesa) · [compsec.epfl.ch](https://compsec.epfl.ch) · [ic-people.epfl.ch](https://ic-people.epfl.ch/~achiesa/) · [ORCID 0000-0002-3029-2353](https://orcid.org/0000-0002-3029-2353) · [OpenAlex A5101591310](https://openalex.org/A5101591310)
 
+[../PROFESSORS.md](../PROFESSORS.md) # Alessandro Chiesa
+
 ### [Andrea Cavallaro](professors/ANDREA-CAVALLARO.md)
 *Laboratory of Multimodal Intelligent Systems (MINTS)* · last updated 2026-07-10 · ✅ reviewed
 
@@ -65,99 +67,137 @@ Caglar Gulcehre leads CLAIRE at EPFL, researching efficient and safe deep learni
 Carmela Troncoso leads the SPRING Lab (now spanning EPFL and MPI-SP) researching security and privacy engineering, with a focus on privacy-preserving systems, ML fairness/security, and privacy evaluation frameworks.
 
 ### [Charlotte Bunne](professors/CHARLOTTE-BUNNE.md)
-*Artificial Intelligence in Molecular Medicine Lab (AIMM)* · last updated — · ✅ reviewed
+*Artificial Intelligence in Molecular Medicine Lab (AIMM)* · last updated 2026-07-10 · ✅ reviewed
 
 [EPFL profile](https://people.epfl.ch/charlotte.bunne) · [aimm.epfl.ch](https://aimm.epfl.ch/) · [github.com/bunnelab](https://github.com/bunnelab) · [ORCID 0000-0003-1431-103X](https://orcid.org/0000-0003-1431-103X) · [OpenAlex A5033283546](https://openalex.org/A5033283546)
 
+Charlotte Bunne leads the AIMM Lab at EPFL, developing AI foundation models and generative methods to build "virtual patients" — multi-scale computational models of human biology for precision oncology and drug discovery.
+
 ### [Clément Pit-Claudel](professors/CLEMENT-PIT-CLAUDEL.md)
-*Systems and Formalisms Lab (SYSTEMF)* · last updated — · ✅ reviewed
+*Systems and Formalisms Lab (SYSTEMF)* · last updated 2026-07-10 · ✅ reviewed
 
 [EPFL profile](https://people.epfl.ch/clement.pit-claudel) · [pit-claudel.fr](https://pit-claudel.fr/clement/) · [github.com/epfl-systemf](https://github.com/epfl-systemf) · [ORCID 0000-0002-1900-3901](https://orcid.org/0000-0002-1900-3901) · [OpenAlex A5018186543](https://openalex.org/A5018186543)
 
+Clément Pit-Claudel leads EPFL's SYSTEMF lab, researching programming languages, formal verification, and extensible compilers to build small, fast, and completely verified critical-system components.
+
 ### [Damir Filipovic](professors/DAMIR-FILIPOVIC.md)
-*Swissquote Chair in Quantitative Finance* · last updated — · ✅ reviewed
+*Swissquote Chair in Quantitative Finance* · last updated 2026-07-10 · ✅ reviewed
 
 [EPFL profile](https://people.epfl.ch/damir.filipovic) · [epfl.ch](https://www.epfl.ch/labs/csf/) · [ORCID 0000-0002-2443-5741](https://orcid.org/0000-0002-2443-5741) · [OpenAlex A5059712147](https://openalex.org/A5059712147)
 
+Damir Filipovic holds the Swissquote Chair in Quantitative Finance at EPFL, conducting research on term structure models, machine learning methods for fixed-income pricing, risk management, and stochastic processes.
+
 ### [David Atienza](professors/DAVID-ATIENZA.md)
-*Embedded Systems Laboratory (ESL)* · last updated — · ✅ reviewed
+*Embedded Systems Laboratory (ESL)* · last updated 2026-07-10 · ✅ reviewed
 
 [EPFL profile](https://people.epfl.ch/david.atienza) · [esl.epfl.ch](https://esl.epfl.ch/) · [github.com/esl-epfl](https://github.com/esl-epfl) · [ORCID 0000-0001-9536-4947](https://orcid.org/0000-0001-9536-4947) · [OpenAlex A5074236306](https://openalex.org/A5074236306)
 
+David Atienza leads EPFL's Embedded Systems Laboratory (ESL), pioneering system-level design methods for high-performance edge AI, ultra-low-power IoT/MPSoC architectures, smart wearables, and thermal-aware computing.
+
 ### [Edouard Bugnion](professors/EDOUARD-BUGNION.md)
-*Data Center Systems Laboratory (DCSL)* · last updated — · ✅ reviewed
+*Data Center Systems Laboratory (DCSL)* · last updated 2026-07-10 · ✅ reviewed
 
 [EPFL profile](https://people.epfl.ch/edouard.bugnion) · [epfl.ch](https://www.epfl.ch/labs/dcsl/) · [github.com/epfl-dcsl](https://github.com/epfl-dcsl) · [ORCID 0000-0001-7237-6929](https://orcid.org/0000-0001-7237-6929) · [OpenAlex A5049034675](https://openalex.org/A5049034675)
 
+Edouard Bugnion leads EPFL's Data Center Systems Laboratory (DCSL), researching datacenter efficiency (low-latency networking, transport protocols) and system security (Trusted Execution Environments, virtual firmware monitors), while also serving as EPFL's Vice President for Innovation and Impact since January 2025.
+
 ### [Florence Graezer Bideau](professors/FLORENCE-GRAEZER-BIDEAU.md)
-*Heritage, Anthropology and Technologies Research Group (HAT)* · last updated — · ✅ reviewed
+*Heritage, Anthropology and Technologies Research Group (HAT)* · last updated 2026-07-10 · ✅ reviewed
 
 [EPFL profile](https://people.epfl.ch/florence.graezerbideau) · [epfl.ch](https://www.epfl.ch/labs/hat/fr/) · [ORCID 0000-0002-9499-1479](https://orcid.org/0000-0002-9499-1479) · [OpenAlex A5010772457](https://openalex.org/A5010772457)
 
+Florence Graezer Bideau is an anthropologist and sinologist leading EPFL's HAT lab, researching heritage governance, cultural policy, memory, and technology transmission through comparative fieldwork across Asia, Europe, and Latin America.
+
 ### [Gaétan de Rassenfosse](professors/GAETAN-DE-RASSENFOSSE.md)
-*Chair of Science Technology and Innovation Policy (STIP)* · last updated — · ✅ reviewed
+*Chair of Science Technology and Innovation Policy (STIP)* · last updated 2026-07-10 · ✅ reviewed
 
 [EPFL profile](https://people.epfl.ch/gaetan.derassenfosse) · [epfl.ch](https://www.epfl.ch/labs/stip/) · [ORCID 0000-0002-7862-0918](https://orcid.org/0000-0002-7862-0918) · [OpenAlex A5086533373](https://openalex.org/A5086533373)
 
+Gaétan de Rassenfosse is an innovation economist at EPFL's STIP lab studying how legal and policy frameworks — especially patents and IP — shape technology creation and commercialization, using large-scale data, econometrics, and machine learning.
+
 ### [George Candea](professors/GEORGE-CANDEA.md)
-*Dependable Systems Laboratory (DSLAB)* · last updated — · ✅ reviewed
+*Dependable Systems Laboratory (DSLAB)* · last updated 2026-07-10 · ✅ reviewed
 
 [EPFL profile](https://people.epfl.ch/george.candea) · [dslab.epfl.ch](https://dslab.epfl.ch/) · [github.com/dslab-epfl](https://github.com/dslab-epfl) · [ORCID 0009-0002-8107-6535](https://orcid.org/0009-0002-8107-6535) · [OpenAlex A5028907149](https://openalex.org/A5028907149)
 
+George Candea leads EPFL's Dependable Systems Lab (DSLAB), focusing on making performance and energy programmable in computer systems through formal verification, performance interfaces, and efficient OS/network-function design.
+
 ### [Giovanni de Micheli](professors/GIOVANNI-DE-MICHELI.md)
-*Integrated Systems Laboratory (LSI)* · last updated — · ✅ reviewed
+*Integrated Systems Laboratory (LSI)* · last updated 2026-07-10 · ✅ reviewed
 
 [EPFL profile](https://people.epfl.ch/giovanni.demicheli) · [lsi.epfl.ch](https://lsi.epfl.ch/) · [ORCID 0000-0002-7827-3215](https://orcid.org/0000-0002-7827-3215) · [OpenAlex A5072927296](https://openalex.org/A5072927296)
 
+Giovanni De Micheli is a pioneering Professor Emeritus at EPFL's Integrated Systems Laboratory (LSI) and Scientific Director of EcoCloud, specializing in Electronic Design Automation (EDA), logic synthesis, and design technologies for emerging computing platforms including superconducting, quantum, and nanosystems.
+
 ### [Jacques Fellay](professors/JACQUES-FELLAY.md)
-*Fellay Lab – Human Genomics of Infection and Immunity (GR-FE)* · last updated — · ✅ reviewed
+*Fellay Lab – Human Genomics of Infection and Immunity (GR-FE)* · last updated 2026-07-10 · ✅ reviewed
 
 [EPFL profile](https://people.epfl.ch/jacques.fellay) · [fellay-lab.epfl.ch](https://fellay-lab.epfl.ch/) · [ORCID 0000-0002-8240-939X](https://orcid.org/0000-0002-8240-939X) · [OpenAlex A5089009771](https://openalex.org/A5089009771)
 
+Jacques Fellay leads the Fellay Lab at EPFL, using large-scale genomics and bioinformatics to dissect how human genetic variation shapes immunity and individual outcomes in infectious diseases, with a translational focus on personalized medicine.
+
 ### [Julien Hugonnier](professors/JULIEN-HUGONNIER.md)
-*Chair SFI-JH* · last updated — · ✅ reviewed
+*Chair SFI-JH* · last updated 2026-07-10 · ✅ reviewed
 
 [EPFL profile](https://people.epfl.ch/julien.hugonnier) · [epfl.ch](https://www.epfl.ch/labs/sfi-jh/) · [ORCID 0000-0003-1356-5070](https://orcid.org/0000-0003-1356-5070) · [OpenAlex A5002167713](https://openalex.org/A5002167713)
 
+Julien Hugonnier is a Full Professor of Finance at EPFL/Swiss Finance Institute whose research spans asset pricing theory, OTC market microstructure, incomplete markets, and financial frictions, with recent work on perpetual futures, heterogeneous beliefs, and government debt dynamics.
+
 ### [Katerina Argyraki](professors/KATERINA-ARGYRAKI.md)
-*Network Architecture Laboratory (NAL)* · last updated — · ✅ reviewed
+*Network Architecture Laboratory (NAL)* · last updated 2026-07-10 · ✅ reviewed
 
 [EPFL profile](https://people.epfl.ch/katerina.argyraki) · [epfl.ch](https://www.epfl.ch/labs/nal/) · [github.com/nal-epfl](https://github.com/nal-epfl) · [ORCID 0009-0004-9470-2819](https://orcid.org/0009-0004-9470-2819) · [OpenAlex A5011668097](https://openalex.org/A5011668097)
 
+Katerina Argyraki leads EPFL's Network Architecture Lab (NAL), focusing on network transparency, neutrality inference, and predictable software network functions, with current work spanning Internet latency mapping from gaming footage, edge caching as differentiation, and traffic localization.
+
 ### [Marcel Salathé](professors/MARCEL-SALATHE.md)
-*Digital Epidemiology Lab (SALATHELAB)* · last updated — · ✅ reviewed
+*Digital Epidemiology Lab (SALATHELAB)* · last updated 2026-07-10 · ✅ reviewed
 
 [EPFL profile](https://people.epfl.ch/marcel.salathe) · [digitalepidemiologylab.org](https://www.digitalepidemiologylab.org/) · [github.com/digitalepidemiologylab](https://github.com/digitalepidemiologylab) · [ORCID 0000-0002-5079-7797](https://orcid.org/0000-0002-5079-7797) · [OpenAlex A5010649096](https://openalex.org/A5010649096)
 
+Marcel Salathé leads the Digital Epidemiology Lab at EPFL, applying AI and mobile technologies to public health challenges including digital nutrition cohorts, gut microbiome research, personalized glucose prediction, and LLM-based analysis of health discourse.
+
 ### [Mario Paolone](professors/MARIO-PAOLONE.md)
-*Distributed Electrical Systems Laboratory (DESL)* · last updated — · ✅ reviewed
+*Distributed Electrical Systems Laboratory (DESL)* · last updated 2026-07-10 · ✅ reviewed
 
 [EPFL profile](https://people.epfl.ch/mario.paolone) · [desl-pwrs.epfl.ch](https://desl-pwrs.epfl.ch/) · [ORCID 0000-0001-7073-9036](https://orcid.org/0000-0001-7073-9036) · [OpenAlex A5050504092](https://openalex.org/A5050504092)
 
+Mario Paolone leads EPFL's Distributed Electrical Systems Laboratory (DESL), focusing on smart grid technologies including real-time monitoring and control of active distribution networks, PMU-based situational awareness, optimal planning of distributed energy resources, and integration of renewables and storage in power systems.
+
 ### [Martin Jaggi](professors/MARTIN-JAGGI.md)
-*Machine Learning and Optimization Laboratory (MLO)* · last updated — · ✅ reviewed
+*Machine Learning and Optimization Laboratory (MLO)* · last updated 2026-07-10 · ✅ reviewed
 
 [EPFL profile](https://people.epfl.ch/martin.jaggi) · [mlo.epfl.ch](https://mlo.epfl.ch/) · [github.com/epfml](https://github.com/epfml) · [ORCID 0000-0003-1579-5558](https://orcid.org/0000-0003-1579-5558) · [OpenAlex A5073756389](https://openalex.org/A5073756389)
 
+Martin Jaggi leads the MLO lab at EPFL, researching scalable machine learning optimization, distributed/federated learning, and large language model training — including the Apertus open LLM and the DISCO browser-based collaborative learning platform.
+
 ### [Martin Odersky](professors/MARTIN-ODERSKY.md)
-*Programming Methods Laboratory (LAMP)* · last updated — · ✅ reviewed
+*Programming Methods Laboratory (LAMP)* · last updated 2026-07-10 · ✅ reviewed
 
 [EPFL profile](https://people.epfl.ch/martin.odersky) · [lamp.epfl.ch](https://lamp.epfl.ch/) · [github.com/lampepfl](https://github.com/lampepfl) · [ORCID 0009-0005-3923-8993](https://orcid.org/0009-0005-3923-8993) · [OpenAlex A5085410724](https://openalex.org/A5085410724)
 
+Martin Odersky leads EPFL's LAMP group, designing and implementing the Scala programming language with a focus on unifying functional and object-oriented programming through advanced type systems, including capture checking, substructural types, and safe concurrency.
+
 ### [Mathias Payer](professors/MATHIAS-PAYER.md)
-*HexHive Laboratory (HEXHIVE)* · last updated — · ✅ reviewed
+*HexHive Laboratory (HEXHIVE)* · last updated 2026-07-10 · ✅ reviewed
 
 [EPFL profile](https://people.epfl.ch/mathias.payer) · [hexhive.epfl.ch](https://hexhive.epfl.ch/) · [github.com/HexHive](https://github.com/HexHive) · [ORCID 0000-0001-5054-7547](https://orcid.org/0000-0001-5054-7547) · [OpenAlex A5065116578](https://openalex.org/A5065116578)
 
+Mathias Payer leads the HexHive Laboratory at EPFL, focusing on systems and software security through fuzzing, sanitization, exploit mitigations, and compartmentalization, with a strong record of top-venue publications and open-source tooling.
+
 ### [Matthias Grossglauser](professors/MATTHIAS-GROSSGLAUSER.md)
-*Information and Network Dynamics Laboratory (INDY)* · last updated — · ✅ reviewed
+*Information and Network Dynamics Laboratory (INDY)* · last updated 2026-07-10 · ✅ reviewed
 
 [EPFL profile](https://people.epfl.ch/matthias.grossglauser) · [indy.epfl.ch](https://indy.epfl.ch/) · [ORCID 0000-0002-3031-1438](https://orcid.org/0000-0002-3031-1438) · [OpenAlex A5014508720](https://openalex.org/A5014508720)
 
+Matthias Grossglauser leads EPFL's INDY Lab, researching machine learning, stochastic networks, and discrete choice models with applications in reinforcement learning, network science, graph mining, and recommender systems.
+
 ### [Nate Foster](professors/NATE-FOSTER.md)
-*Networked Systems Abstractions Lab (LASER)* · last updated — · ✅ reviewed
+*Networked Systems Abstractions Lab (LASER)* · last updated 2026-07-10 · ✅ reviewed
 
 [EPFL profile](https://people.epfl.ch/nate.foster) · [laser.epfl.ch](https://laser.epfl.ch/) · [ORCID 0000-0002-6557-684X](https://orcid.org/0000-0002-6557-684X) · [OpenAlex A5013378091](https://openalex.org/A5013378091)
+
+Nate Foster leads the Networked Systems Abstractions Lab (LASeR) at EPFL, developing programming languages and formal verification tools for networked systems, with flagship contributions to NetKAT, P4, and consistent network updates.
 
 ### [Nicolas Flammarion](professors/NICOLAS-FLAMMARION.md)
 *Theory of Machine Learning Laboratory (TML)* · last updated — · ✅ reviewed

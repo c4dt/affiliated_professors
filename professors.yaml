@@ -122,7 +122,7 @@
     - https://github.com/bunnelab
   orcid: 0000-0003-1431-103X
   openalex_id: A5033283546
-  last_updated: null
+  last_updated: "2026-07-10"
   reviewed: true
 - slug: clement-pit-claudel
   name: Clément Pit-Claudel
@@ -134,7 +134,7 @@
     - https://github.com/epfl-systemf
   orcid: 0000-0002-1900-3901
   openalex_id: A5018186543
-  last_updated: null
+  last_updated: "2026-07-10"
   reviewed: true
 - slug: damir-filipovic
   name: Damir Filipovic
@@ -145,7 +145,7 @@
   code_urls: []
   orcid: 0000-0002-2443-5741
   openalex_id: A5059712147
-  last_updated: null
+  last_updated: "2026-07-10"
   reviewed: true
 - slug: david-atienza
   name: David Atienza
@@ -157,7 +157,7 @@
     - https://github.com/esl-epfl
   orcid: 0000-0001-9536-4947
   openalex_id: A5074236306
-  last_updated: null
+  last_updated: "2026-07-10"
   reviewed: true
 - slug: edouard-bugnion
   name: Edouard Bugnion
@@ -169,7 +169,7 @@
     - https://github.com/epfl-dcsl
   orcid: 0000-0001-7237-6929
   openalex_id: A5049034675
-  last_updated: null
+  last_updated: "2026-07-10"
   reviewed: true
 - slug: florence-graezer-bideau
   name: Florence Graezer Bideau
@@ -180,7 +180,7 @@
   code_urls: []
   orcid: 0000-0002-9499-1479
   openalex_id: A5010772457
-  last_updated: null
+  last_updated: "2026-07-10"
   reviewed: true
 - slug: gaetan-de-rassenfosse
   name: Gaétan de Rassenfosse
@@ -191,7 +191,7 @@
   code_urls: []
   orcid: 0000-0002-7862-0918
   openalex_id: A5086533373
-  last_updated: null
+  last_updated: "2026-07-10"
   reviewed: true
 - slug: george-candea
   name: George Candea
@@ -203,7 +203,7 @@
     - https://github.com/dslab-epfl
   orcid: 0009-0002-8107-6535
   openalex_id: A5028907149
-  last_updated: null
+  last_updated: "2026-07-10"
   reviewed: true
 - slug: giovanni-de-micheli
   name: Giovanni de Micheli
@@ -214,7 +214,7 @@
   code_urls: []
   orcid: 0000-0002-7827-3215
   openalex_id: A5072927296
-  last_updated: null
+  last_updated: "2026-07-10"
   reviewed: true
 - slug: jacques-fellay
   name: Jacques Fellay
@@ -225,7 +225,7 @@
   code_urls: []
   orcid: 0000-0002-8240-939X
   openalex_id: A5089009771
-  last_updated: null
+  last_updated: "2026-07-10"
   reviewed: true
 - slug: julien-hugonnier
   name: Julien Hugonnier
@@ -236,7 +236,7 @@
   code_urls: []
   orcid: 0000-0003-1356-5070
   openalex_id: A5002167713
-  last_updated: null
+  last_updated: "2026-07-10"
   reviewed: true
 - slug: katerina-argyraki
   name: Katerina Argyraki
@@ -248,7 +248,7 @@
     - https://github.com/nal-epfl
   orcid: 0009-0004-9470-2819
   openalex_id: A5011668097
-  last_updated: null
+  last_updated: "2026-07-10"
   reviewed: true
 - slug: marcel-salathe
   name: Marcel Salathé
@@ -260,7 +260,7 @@
     - https://github.com/digitalepidemiologylab
   orcid: 0000-0002-5079-7797
   openalex_id: A5010649096
-  last_updated: null
+  last_updated: "2026-07-10"
   reviewed: true
 - slug: mario-paolone
   name: Mario Paolone
@@ -271,7 +271,7 @@
   code_urls: []
   orcid: 0000-0001-7073-9036
   openalex_id: A5050504092
-  last_updated: null
+  last_updated: "2026-07-10"
   reviewed: true
 - slug: martin-jaggi
   name: Martin Jaggi
@@ -283,7 +283,7 @@
     - https://github.com/epfml
   orcid: 0000-0003-1579-5558
   openalex_id: A5073756389
-  last_updated: null
+  last_updated: "2026-07-10"
   reviewed: true
 - slug: martin-odersky
   name: Martin Odersky
@@ -295,7 +295,7 @@
     - https://github.com/lampepfl
   orcid: 0009-0005-3923-8993
   openalex_id: A5085410724
-  last_updated: null
+  last_updated: "2026-07-10"
   reviewed: true
 - slug: mathias-payer
   name: Mathias Payer
@@ -307,7 +307,7 @@
     - https://github.com/HexHive
   orcid: 0000-0001-5054-7547
   openalex_id: A5065116578
-  last_updated: null
+  last_updated: "2026-07-10"
   reviewed: true
 - slug: matthias-grossglauser
   name: Matthias Grossglauser
@@ -318,7 +318,7 @@
   code_urls: []
   orcid: 0000-0002-3031-1438
   openalex_id: A5014508720
-  last_updated: null
+  last_updated: "2026-07-10"
   reviewed: true
 - slug: nate-foster
   name: Nate Foster
@@ -329,7 +329,7 @@
   code_urls: []
   orcid: 0000-0002-6557-684X
   openalex_id: A5013378091
-  last_updated: null
+  last_updated: "2026-07-10"
   reviewed: true
 - slug: nicolas-flammarion
   name: Nicolas Flammarion
