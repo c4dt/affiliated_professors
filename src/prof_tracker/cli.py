@@ -241,9 +241,31 @@ def _profile_url(profile_path: str) -> str:
     base = os.environ.get("PROFILE_BASE_URL")
     if base:
         return f"{base.rstrip('/')}/{profile_path}"
+    if not repo:
+        repo = _github_repo_from_git_remote()
     if repo:
         return f"{server}/{repo}/blob/{branch}/{profile_path}"
     return profile_path
+
+
+def _github_repo_from_git_remote() -> str | None:
+    """Derive 'owner/repo' from the git remote when not running in GitHub Actions."""
+    import re
+    import subprocess
+
+    try:
+        remote_url = subprocess.check_output(
+            ["git", "remote", "get-url", "origin"],
+            text=True,
+            stderr=subprocess.DEVNULL,
+        ).strip()
+    except Exception:
+        return None
+    m = re.match(
+        r"(?:git@github\.com:|https://github\.com/)([^/]+/[^/]+?)(?:\.git)?$",
+        remote_url,
+    )
+    return m.group(1) if m else None
 
 
 def cmd_announce(args: argparse.Namespace) -> int:

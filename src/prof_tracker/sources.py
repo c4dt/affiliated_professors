@@ -28,6 +28,9 @@ _OPENALEX_UA = f"prof-tracker/0.1 (mailto:{MAILTO})"
 
 def _openalex_get(path: str, params: dict, retries: int = 7) -> dict:
     """GET an OpenAlex endpoint with backoff on 429 (respects Retry-After)."""
+    api_key = os.environ.get("OPENALEX_API_KEY")
+    if api_key:
+        params = {**params, "api_key": api_key}
     for attempt in range(retries):
         logger.debug("OpenAlex GET %s params=%s", path, params)
         resp = httpx.get(
