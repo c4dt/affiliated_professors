@@ -6,6 +6,7 @@
 **Code:** [github.com/sacs-epfl](https://github.com/sacs-epfl)
 **ORCID:** [0000-0001-8187-724X](https://orcid.org/0000-0001-8187-724X)
 **OpenAlex:** [A5031849486](https://openalex.org/A5031849486)
+**Index:** [PROFESSORS.md](../PROFESSORS.md)
 
 Anne-Marie Kermarrec leads the SACS lab at EPFL, researching large-scale distributed systems with a strong current focus on federated and decentralized machine learning, scalable inference, and retrieval-augmented generation.
 

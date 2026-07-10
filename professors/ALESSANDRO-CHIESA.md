@@ -6,6 +6,7 @@
 **Web:** [ic-people.epfl.ch](https://ic-people.epfl.ch/~achiesa/)
 **ORCID:** [0000-0002-3029-2353](https://orcid.org/0000-0002-3029-2353)
 **OpenAlex:** [A5101591310](https://openalex.org/A5101591310)
+**Index:** [PROFESSORS.md](../PROFESSORS.md)
 
 ## Changelog
 

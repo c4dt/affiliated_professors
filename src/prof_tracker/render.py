@@ -141,6 +141,7 @@ def build_profile(
         lines.append(f"**ORCID:** [{prof.orcid}]({_orcid_url(prof.orcid)})")
     if prof.openalex_id:
         lines.append(f"**OpenAlex:** [{prof.openalex_id}]({_openalex_url(prof.openalex_id)})")
+    lines.append(f"**Index:** [PROFESSORS.md](../PROFESSORS.md)")
     lines.append("")
 
     # preserve existing prose when the update doesn't supply new content
