@@ -1,0 +1,60 @@
+name: update-professor
+
+on:
+  schedule:
+    - cron: '37 5 * * 1-5'      # weekdays, off-peak minute (UTC; may drift ~15 min)
+  workflow_dispatch:
+    inputs:
+      slug:
+        description: Professor slug to update (blank = least-recently-updated)
+        required: false
+
+permissions:
+  contents: write
+
+concurrency: update-professor
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v5
+
+      - uses: jetify-com/devbox-install-action@v0.13.0
+        with:
+          enable-cache: true
+
+      - name: Update one professor
+        id: update
+        env:
+          LLM_MODEL: ${{ vars.LLM_MODEL }}
+          LLM_BASE_URL: ${{ vars.LLM_BASE_URL }}
+          LLM_API_KEY: ${{ secrets.LLM_API_KEY }}
+          FIRECRAWL_API_KEY: ${{ secrets.FIRECRAWL_API_KEY }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: devbox run update ${{ inputs.slug && format('-- --slug {0}', inputs.slug) || '' }}
+
+      - name: Commit and push
+        if: always()
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A
+          if git diff --cached --quiet; then
+            echo "No changes to commit."
+          else
+            git commit -F .run/commit-msg.txt
+            git pull --rebase --autostash
+            git push
+          fi
+
+      - name: Announce on Matrix
+        if: always()
+        env:
+          MATRIX_HOMESERVER_URL: ${{ vars.MATRIX_HOMESERVER_URL }}
+          MATRIX_ROOM_ID: ${{ vars.MATRIX_ROOM_ID }}
+          MATRIX_ACCESS_TOKEN: ${{ secrets.MATRIX_ACCESS_TOKEN }}
+          MATRIX_LOGIN: ${{ secrets.MATRIX_LOGIN }}
+          MATRIX_PASS: ${{ secrets.MATRIX_PASS }}
+          MATRIX_POST_MINOR: ${{ vars.MATRIX_POST_MINOR }}
+        run: devbox run announce
