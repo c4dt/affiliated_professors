@@ -51,6 +51,19 @@ def test_legacy_fields_migrate_to_lists(tmp_path):
     assert p.code_urls == ["https://github.com/dedis"]
 
 
+def test_save_sorts_by_name(tmp_path):
+    path = tmp_path / "professors.yaml"
+    save_registry(
+        [
+            Professor(slug="zoe", name="Zoe Z"),
+            Professor(slug="amy", name="amy a"),  # lowercase -> case-insensitive
+            Professor(slug="bob", name="Bob B"),
+        ],
+        path,
+    )
+    assert [p.name for p in load_registry(path)] == ["amy a", "Bob B", "Zoe Z"]
+
+
 def test_roundtrip_and_date_coercion(tmp_path):
     path = tmp_path / "professors.yaml"
     save_registry(_profs(), path)

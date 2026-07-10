@@ -38,7 +38,9 @@ def _normalize(entry: dict) -> dict:
 
 
 def save_registry(profs: list[Professor], path: Path = DEFAULT_REGISTRY) -> None:
-    data = [p.model_dump() for p in profs]
+    # sort by name (same key as the PROFESSORS.md index) so the two stay in sync
+    ordered = sorted(profs, key=lambda p: p.name.lower())
+    data = [p.model_dump() for p in ordered]
     path.write_text(
         yaml.safe_dump(data, sort_keys=False, allow_unicode=True, width=100)
     )
