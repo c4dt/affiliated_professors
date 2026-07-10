@@ -39,7 +39,7 @@ Annie Hartley leads EPFL's LiGHT lab, developing open, auditable AI systems—mo
 [EPFL profile](https://people.epfl.ch/babak.falsafi) · [parsa.epfl.ch](https://parsa.epfl.ch/) · [ORCID 0000-0001-5916-8068](https://orcid.org/0000-0001-5916-8068) · [OpenAlex A5057697787](https://openalex.org/A5057697787)
 
 ### [Boi Faltings](professors/BOI-FALTINGS.md)
-*Artificial Intelligence Laboratory (LIA)* · last updated — · ✅ reviewed
+*Artificial Intelligence Laboratory (LIA)* · last updated 2026-07-10 · ✅ reviewed
 
 [EPFL profile](https://people.epfl.ch/boi.faltings) · [lia.epfl.ch](https://lia.epfl.ch/) · [ORCID 0000-0002-7188-7230](https://orcid.org/0000-0002-7188-7230) · [OpenAlex A5060427576](https://openalex.org/A5060427576)
 
