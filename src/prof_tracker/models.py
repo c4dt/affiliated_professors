@@ -17,7 +17,8 @@ class Professor(BaseModel):
     lab: str = ""
     lab_url: str = ""
     github_org: str | None = None
-    openalex_id: str | None = None
+    orcid: str | None = None  # authoritative identity anchor (human-verified)
+    openalex_id: str | None = None  # optional fallback when no ORCID
     one_sentence_summary: str = ""
     readme_paragraph: str = ""
     last_updated: str | None = None  # ISO date (YYYY-MM-DD), null until first run

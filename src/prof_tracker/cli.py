@@ -60,18 +60,21 @@ def _fetch_sources(prof: Professor) -> tuple[str, bool]:
     else:
         blocks.append("## GitHub org\n\n[no github_org configured]")
 
-    if prof.openalex_id:
+    if prof.orcid or prof.openalex_id:
+        anchor = f"ORCID {prof.orcid}" if prof.orcid else f"OpenAlex {prof.openalex_id}"
         try:
-            works = sources.openalex_recent_works(prof.openalex_id)
+            works = sources.openalex_recent_works(
+                openalex_id=prof.openalex_id, orcid=prof.orcid
+            )
             blocks.append(
-                f"## Recent publications (OpenAlex {prof.openalex_id})\n\n"
+                f"## Recent publications ({anchor})\n\n"
                 + json.dumps(works, indent=2, default=str)
             )
             ok = True
         except Exception as e:  # noqa: BLE001
             blocks.append(f"## Recent publications\n\n[unavailable: {e}]")
     else:
-        blocks.append("## Recent publications\n\n[no openalex_id configured]")
+        blocks.append("## Recent publications\n\n[no orcid/openalex_id configured]")
 
     return "\n\n".join(blocks), ok
 
@@ -234,6 +237,12 @@ def cmd_bootstrap(args: argparse.Namespace) -> int:
     return run_bootstrap(start_url=args.url)
 
 
+def cmd_resolve_orcids(args: argparse.Namespace) -> int:
+    from .bootstrap import resolve_orcids
+
+    return resolve_orcids()
+
+
 # --------------------------------------------------------------------------- #
 def main(argv: list[str] | None = None) -> int:
     parser = argparse.ArgumentParser(prog="prof-tracker")
@@ -252,6 +261,11 @@ def main(argv: list[str] | None = None) -> int:
 
     p_regen = sub.add_parser("regen-readme", help="regenerate README.md")
     p_regen.set_defaults(func=cmd_regen_readme)
+
+    p_orcid = sub.add_parser(
+        "resolve-orcids", help="fill candidate ORCIDs for human verification"
+    )
+    p_orcid.set_defaults(func=cmd_resolve_orcids)
 
     args = parser.parse_args(argv)
     return args.func(args)

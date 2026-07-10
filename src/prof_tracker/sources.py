@@ -5,6 +5,8 @@ callers wrap in try/except so one dead source doesn't wedge the run.
 from __future__ import annotations
 
 import os
+import time
+import unicodedata
 
 import httpx
 
@@ -14,6 +16,29 @@ OPENALEX_API = "https://api.openalex.org"
 MAILTO = "linus.gasser@epfl.ch"
 
 _TIMEOUT = httpx.Timeout(60.0, connect=15.0)
+
+
+# OpenAlex puts you in the fast "polite pool" when it sees mailto + a
+# User-Agent carrying a contact address.
+_OPENALEX_UA = f"prof-tracker/0.1 (mailto:{MAILTO})"
+
+
+def _openalex_get(path: str, params: dict, retries: int = 7) -> dict:
+    """GET an OpenAlex endpoint with backoff on 429 (respects Retry-After)."""
+    for attempt in range(retries):
+        resp = httpx.get(
+            f"{OPENALEX_API}/{path}",
+            params=params,
+            headers={"User-Agent": _OPENALEX_UA},
+            timeout=_TIMEOUT,
+        )
+        if resp.status_code == 429 and attempt < retries - 1:
+            wait = float(resp.headers.get("Retry-After", 2**attempt))
+            time.sleep(min(wait, 30.0))
+            continue
+        resp.raise_for_status()
+        return resp.json()
+    raise RuntimeError("unreachable")
 
 
 def firecrawl_scrape(url: str, api_key: str | None = None) -> str:
@@ -62,20 +87,40 @@ def github_org_repos(org: str, token: str | None = None, per_page: int = 15) -> 
     ]
 
 
-def openalex_recent_works(openalex_id: str, per_page: int = 25) -> list[dict]:
-    """Recent works for an OpenAlex author id (title, date, venue, doi, url)."""
-    resp = httpx.get(
-        f"{OPENALEX_API}/works",
-        params={
-            "filter": f"authorships.author.id:{openalex_id}",
+def _orcid_url(orcid: str) -> str:
+    return orcid if orcid.startswith("http") else f"https://orcid.org/{orcid}"
+
+
+def works_filter(openalex_id: str | None = None, orcid: str | None = None) -> str:
+    """Build the OpenAlex works filter, preferring ORCID.
+
+    Filtering works by ORCID aggregates across OpenAlex's duplicate author
+    records — more robust than the name-clustered author id, which is prone to
+    collisions and sparse-duplicate records.
+    """
+    if orcid:
+        return f"authorships.author.orcid:{_orcid_url(orcid)}"
+    if openalex_id:
+        return f"authorships.author.id:{openalex_id}"
+    raise ValueError("need orcid or openalex_id")
+
+
+def openalex_recent_works(
+    openalex_id: str | None = None,
+    orcid: str | None = None,
+    per_page: int = 25,
+) -> list[dict]:
+    """Recent works for an author (title, date, venue, doi, url). Prefers ORCID."""
+    payload = _openalex_get(
+        "works",
+        {
+            "filter": works_filter(openalex_id, orcid),
             "sort": "publication_date:desc",
             "per-page": per_page,
             "mailto": MAILTO,
         },
-        timeout=_TIMEOUT,
     )
-    resp.raise_for_status()
-    works = resp.json().get("results", [])
+    works = payload.get("results", [])
     out = []
     for w in works:
         loc = (w.get("primary_location") or {}).get("source") or {}
@@ -92,35 +137,58 @@ def openalex_recent_works(openalex_id: str, per_page: int = 25) -> list[dict]:
     return out
 
 
+def _norm(s: str) -> list[str]:
+    ascii_ = unicodedata.normalize("NFKD", s).encode("ascii", "ignore").decode()
+    return [t for t in "".join(c if c.isalnum() else " " for c in ascii_).lower().split()]
+
+
+def _bare_orcid(author: dict) -> str | None:
+    o = author.get("orcid")
+    return o.rstrip("/").split("/")[-1] if o else None
+
+
+def _affiliation(author: dict) -> str | None:
+    inst = author.get("last_known_institutions")
+    if inst:
+        return inst[0].get("display_name")
+    return (author.get("last_known_institution") or {}).get("display_name")
+
+
 def openalex_find_author(name: str) -> dict | None:
-    """Top author hit for a name search, preferring EPFL affiliation."""
-    resp = httpx.get(
-        f"{OPENALEX_API}/authors",
-        params={"search": name, "per-page": 10, "mailto": MAILTO},
-        timeout=_TIMEOUT,
+    """Best candidate author for a name.
+
+    Only considers records whose display name shares the query's last name
+    (avoids the EPFL-affiliated-but-wrong-person trap), then prefers records
+    that carry an ORCID and have the most works (the primary author cluster,
+    not a sparse duplicate).
+    """
+    payload = _openalex_get(
+        "authors", {"search": name, "per-page": 10, "mailto": MAILTO}
     )
-    resp.raise_for_status()
-    results = resp.json().get("results", [])
+    results = payload.get("results", [])
     if not results:
         return None
 
-    def is_epfl(a: dict) -> bool:
-        inst = (a.get("last_known_institutions") or []) + (
-            [a["last_known_institution"]] if a.get("last_known_institution") else []
-        )
-        return any("EPFL" in (i.get("display_name") or "").upper()
-                   or "FÉDÉRALE DE LAUSANNE" in (i.get("display_name") or "").upper()
-                   for i in inst)
+    q = _norm(name)
+    q_last = q[-1] if q else ""
+    matched = [a for a in results if q_last in _norm(a.get("display_name") or "")]
+    pool = matched or results
 
-    epfl_hits = [a for a in results if is_epfl(a)]
-    chosen = epfl_hits[0] if epfl_hits else results[0]
+    def _is_epfl(a: dict) -> bool:
+        aff = (_affiliation(a) or "").upper()
+        return "LAUSANNE" in aff or "EPFL" in aff
+
+    # among same-last-name records: prefer EPFL, then having an ORCID, then the
+    # primary (most-published) cluster over sparse duplicates
+    pool.sort(
+        key=lambda a: (_is_epfl(a), a.get("orcid") is not None, a.get("works_count") or 0),
+        reverse=True,
+    )
+    chosen = pool[0]
     return {
         "id": chosen.get("id"),
+        "orcid": _bare_orcid(chosen),
         "display_name": chosen.get("display_name"),
         "works_count": chosen.get("works_count"),
-        "affiliation": (
-            (chosen.get("last_known_institutions") or [{}])[0].get("display_name")
-            if chosen.get("last_known_institutions")
-            else (chosen.get("last_known_institution") or {}).get("display_name")
-        ),
+        "affiliation": _affiliation(chosen),
     }

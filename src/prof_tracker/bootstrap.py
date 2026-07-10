@@ -10,6 +10,7 @@ from __future__ import annotations
 
 import re
 import sys
+import time
 import unicodedata
 
 from .models import Professor, RegistryEntry
@@ -68,6 +69,70 @@ def _extract(markdown: str) -> list[RegistryEntry]:
         defer_model_check=True,
     )
     return agent.run_sync(markdown).output
+
+
+def resolve_orcids() -> int:
+    """Fill candidate ORCIDs (and OpenAlex ids) via name search for human
+    verification. For reviewed=false entries, candidates overwrite untrusted
+    ids; for reviewed=true entries, only a missing ORCID is filled and the
+    human-set openalex_id is left untouched. Prints a table to verify.
+    """
+    profs = load_registry()
+    rows: list[tuple] = []
+    seen_orcid: dict[str, str] = {}
+
+    for p in profs:
+        if p.reviewed and p.orcid:
+            continue  # already anchored + trusted
+        try:
+            author = openalex_find_author(p.name)
+        except Exception as e:  # noqa: BLE001 - throttle/network: keep existing, flag, go on
+            print(f"  ! lookup failed for {p.name}: {e}", file=sys.stderr)
+            rows.append((p.name, p.orcid, None, "LOOKUP-FAILED (kept existing)"))
+            continue
+        time.sleep(0.2)  # stay under OpenAlex's polite-pool rate limit
+        orcid = author.get("orcid") if author else None
+        oa_id = _bare_openalex_id(author)
+        disp = author.get("display_name") if author else None
+        works = author.get("works_count") if author else None
+        aff = author.get("affiliation") if author else None
+
+        if p.reviewed:
+            p.orcid = p.orcid or orcid  # don't touch trusted openalex_id
+        else:
+            p.orcid = orcid
+            p.openalex_id = oa_id
+
+        # verification hints
+        name_ok = _slugify(p.name).split("-")[-1] in _slugify(disp or "").split("-")
+        dup = seen_orcid.get(orcid) if orcid else None
+        if orcid:
+            seen_orcid[orcid] = p.name
+        flags = []
+        if not orcid:
+            flags.append("NO-ORCID")
+        if not name_ok:
+            flags.append(f"NAME?({disp})")
+        if aff and "LAUSANNE" not in aff.upper():
+            flags.append(f"AFF?({aff})")
+        if dup:
+            flags.append(f"DUP-with:{dup}")
+        rows.append((p.name, orcid, works, " ".join(flags)))
+
+    save_registry(profs)
+
+    print("\n=== ORCID candidates — VERIFY each (https://orcid.org/<id>) ===", file=sys.stderr)
+    for name, orcid, works, flags in rows:
+        mark = "  " if not flags else "!!"
+        print(f"{mark} {name:<32} {orcid or '-':<21} works={works or '-':<5} {flags}", file=sys.stderr)
+    flagged = sum(1 for r in rows if r[3])
+    print(
+        f"\n{len(rows)} entries resolved, {flagged} flagged for closer review.\n"
+        "Verify each ORCID against the professor's real profile, correct any wrong\n"
+        "ones by hand, fill github_org, then set reviewed: true.",
+        file=sys.stderr,
+    )
+    return 0
 
 
 def run_bootstrap(start_url: str = "https://c4dt.epfl.ch/laboratory/") -> int:

@@ -7,6 +7,7 @@
       "update": ["uv run prof-tracker update"],
       "announce": ["uv run prof-tracker announce"],
       "bootstrap": ["uv run prof-tracker bootstrap"],
+      "resolve-orcids": ["uv run prof-tracker resolve-orcids"],
       "regen-readme": ["uv run prof-tracker regen-readme"],
       "test": ["uv run pytest"]
     }
