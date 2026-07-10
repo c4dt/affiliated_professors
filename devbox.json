@@ -8,7 +8,7 @@
       "announce": ["uv run prof-tracker announce"],
       "bootstrap": ["uv run prof-tracker bootstrap"],
       "resolve-orcids": ["uv run prof-tracker resolve-orcids"],
-      "regen-readme": ["uv run prof-tracker regen-readme"],
+      "regen-professors": ["uv run prof-tracker regen-professors"],
       "test": ["uv run pytest"]
     }
   }

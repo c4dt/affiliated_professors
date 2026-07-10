@@ -1,7 +1,7 @@
 from prof_tracker.models import Link, Professor, ProfileUpdate
 from prof_tracker.render import (
+    build_professors_md,
     build_profile,
-    build_readme,
     write_profile,
 )
 
@@ -87,7 +87,7 @@ def test_readme_lists_professors_sorted():
         Professor(slug="zoe", name="Zoe Z", lab="LabZ", last_updated="2026-01-01"),
         Professor(slug="amy", name="Amy A", lab="LabA", readme_paragraph="Does A."),
     ]
-    out = build_readme(profs)
+    out = build_professors_md(profs)
     assert out.index("Amy A") < out.index("Zoe Z")
     assert "professors/AMY.md" in out
     assert "Does A." in out
@@ -107,7 +107,7 @@ def test_readme_shows_verification_links_even_when_unreviewed():
             reviewed=False,
         )
     ]
-    out = build_readme(profs)
+    out = build_professors_md(profs)
     assert "⬜ unreviewed" in out
     assert "[laba.example](https://laba.example/)" in out
     assert "[amy.example](https://amy.example/)" in out

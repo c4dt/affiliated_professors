@@ -1,4 +1,4 @@
-"""Command-line entry point: update / announce / bootstrap / regen-readme."""
+"""Command-line entry point: update / announce / bootstrap / regen-professors."""
 
 from __future__ import annotations
 
@@ -16,7 +16,7 @@ from .registry import (
     pick_least_recently_updated,
     save_registry,
 )
-from .render import regen_readme, write_profile
+from .render import regen_professors_md, write_profile
 
 RUN_DIR = Path(".run")
 ANNOUNCEMENT = RUN_DIR / "announcement.json"
@@ -138,13 +138,13 @@ def cmd_update(args: argparse.Namespace) -> int:
             update = _fallback_update(prof, f"- Update failed (LLM error); sources fetched but not summarized.")
             failed = True
 
-    # persist profile + registry-derived fields + README
+    # persist profile + registry-derived fields + professors index
     write_profile(prof, update, today)
     prof.one_sentence_summary = update.one_sentence_summary or prof.one_sentence_summary
     prof.readme_paragraph = update.readme_paragraph or prof.readme_paragraph
     prof.last_updated = today
     save_registry(profs)
-    regen_readme(profs)
+    regen_professors_md(profs)
 
     # emit run artifacts for the workflow
     RUN_DIR.mkdir(exist_ok=True)
@@ -229,11 +229,11 @@ def cmd_announce(args: argparse.Namespace) -> int:
 
 
 # --------------------------------------------------------------------------- #
-# regen-readme
+# regen-professors
 # --------------------------------------------------------------------------- #
-def cmd_regen_readme(args: argparse.Namespace) -> int:
-    regen_readme(load_registry())
-    print("Regenerated README.md", file=sys.stderr)
+def cmd_regen_professors(args: argparse.Namespace) -> int:
+    regen_professors_md(load_registry())
+    print("Regenerated PROFESSORS.md", file=sys.stderr)
     return 0
 
 
@@ -268,8 +268,8 @@ def main(argv: list[str] | None = None) -> int:
     p_boot.add_argument("--url", default="https://c4dt.epfl.ch/laboratory/")
     p_boot.set_defaults(func=cmd_bootstrap)
 
-    p_regen = sub.add_parser("regen-readme", help="regenerate README.md")
-    p_regen.set_defaults(func=cmd_regen_readme)
+    p_regen = sub.add_parser("regen-professors", help="regenerate PROFESSORS.md")
+    p_regen.set_defaults(func=cmd_regen_professors)
 
     p_orcid = sub.add_parser(
         "resolve-orcids", help="fill candidate ORCIDs for human verification"

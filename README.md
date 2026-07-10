@@ -1,237 +1,69 @@
-# C4DT Affiliated Professors
-
-Research tracker for C4DT's affiliated professors. Each weekday an automated agent refreshes the least-recently-updated professor from their websites, code repositories, and publication feed.
-
-## Professors
-
-### [Alessandro Chiesa](professors/ALESSANDRO-CHIESA.md)
-*Laboratory for Computation Security (COMPSEC)* · last updated — · ⬜ unreviewed
-
-[ic-people.epfl.ch](https://ic-people.epfl.ch/~achiesa/) · [ORCID 0000-0003-2955-3998](https://orcid.org/0000-0003-2955-3998) · [OpenAlex A5028305118](https://openalex.org/A5028305118)
-
-### [Andrea Cavallaro](professors/ANDREA-CAVALLARO.md)
-*Laboratory of Multimodal Intelligent Systems (MINTS)* · last updated — · ⬜ unreviewed
-
-[epfl.ch](https://www.epfl.ch/labs/mints/) · [ORCID 0000-0001-5086-7858](https://orcid.org/0000-0001-5086-7858) · [OpenAlex A5004087827](https://openalex.org/A5004087827)
-
-### [Anne-Marie Kermarrec](professors/ANNE-MARIE-KERMARREC.md)
-*Scalable Computing Systems Laboratory (SaCS)* · last updated — · ⬜ unreviewed
-
-[epfl.ch](https://www.epfl.ch/labs/sacs/) · [ORCID 0000-0001-8187-724X](https://orcid.org/0000-0001-8187-724X) · [OpenAlex A5031849486](https://openalex.org/A5031849486)
-
-### [Annie Hartley](professors/ANNIE-HARTLEY.md)
-*Laboratory for Intelligent Global Health and Humanitarian Response Technologies (LiGHT)* · last updated — · ⬜ unreviewed
-
-[light-laboratory.org](https://www.light-laboratory.org/) · [OpenAlex A5119699799](https://openalex.org/A5119699799)
-
-### [Antoine Bosselut](professors/ANTOINE-BOSSELUT.md)
-*Natural Language Processing Lab (NLP Lab)* · last updated — · ⬜ unreviewed
-
-[nlp.epfl.ch](https://nlp.epfl.ch/) · [ORCID 0000-0001-8968-9649](https://orcid.org/0000-0001-8968-9649) · [OpenAlex A5088410008](https://openalex.org/A5088410008)
-
-### [Babak Falsafi](professors/BABAK-FALSAFI.md)
-*Parallel Systems Architecture Laboratory (PARSA)* · last updated — · ⬜ unreviewed
-
-[parsa.epfl.ch](https://parsa.epfl.ch/) · [ORCID 0000-0001-5916-8068](https://orcid.org/0000-0001-5916-8068) · [OpenAlex A5057697787](https://openalex.org/A5057697787)
-
-### [Boi Faltings](professors/BOI-FALTINGS.md)
-*Artificial Intelligence Laboratory (LIA)* · last updated — · ⬜ unreviewed
-
-[lia.epfl.ch](https://lia.epfl.ch/) · [ORCID 0000-0002-7188-7230](https://orcid.org/0000-0002-7188-7230) · [OpenAlex A5060427576](https://openalex.org/A5060427576)
-
-### [Bryan Ford](professors/BRYAN-FORD.md)
-*Decentralized and Distributed Systems Lab (DEDIS)* · last updated 2026-07-10 · ✅ reviewed
-
-[dedis.epfl.ch](https://dedis.epfl.ch/) · [github.com/dedis](https://github.com/dedis) · [ORCID 0000-0002-0528-3033](https://orcid.org/0000-0002-0528-3033) · [OpenAlex A5045962151](https://openalex.org/A5045962151)
-
-Bryan Ford leads the Decentralized and Distributed Systems Lab (DEDIS) at EPFL, focusing on decentralized trust, collective authorities, scalable consensus, and coercion-resistant e-voting. Recent work includes Limix (NINeS 2026), a metadata service that confines strongly-consistent state to local regions to insulate global distributed systems from remote failures, and TRIP (ACM CCS 2025), a coercion-resistant registration protocol extending the Votegral e-voting platform. The lab maintains widely-used open-source libraries including the Kyber cryptography library (699 ★) and the QuePaxa consensus protocol (SOSP '23).
-
-### [Caglar Gulcehre](professors/CAGLAR-GULCEHRE.md)
-*Caglar Gulcehre Lab for AI Research (CLAIRE)* · last updated — · ⬜ unreviewed
-
-[epfl.ch](https://www.epfl.ch/labs/claire/) · [ORCID 0009-0003-4124-1687](https://orcid.org/0009-0003-4124-1687) · [OpenAlex A5041145688](https://openalex.org/A5041145688)
-
-### [Carmela Troncoso](professors/CARMELA-TRONCOSO.md)
-*Security and Privacy Engineering Lab (SPRING)* · last updated — · ⬜ unreviewed
-
-[spring.epfl.ch](https://spring.epfl.ch/) · [ORCID 0000-0002-2374-2248](https://orcid.org/0000-0002-2374-2248) · [OpenAlex A5072857797](https://openalex.org/A5072857797)
-
-### [Charlotte Bunne](professors/CHARLOTTE-BUNNE.md)
-*Artificial Intelligence in Molecular Medicine Lab (AIMM)* · last updated — · ⬜ unreviewed
-
-[aimm.epfl.ch](https://aimm.epfl.ch/) · [ORCID 0000-0003-1431-103X](https://orcid.org/0000-0003-1431-103X) · [OpenAlex A5033283546](https://openalex.org/A5033283546)
-
-### [Clément Pit-Claudel](professors/CLEMENT-PIT-CLAUDEL.md)
-*Systems and Formalisms Lab (SYSTEMF)* · last updated — · ⬜ unreviewed
-
-[pit-claudel.fr](https://pit-claudel.fr/clement/) · [ORCID 0000-0002-1900-3901](https://orcid.org/0000-0002-1900-3901) · [OpenAlex A5018186543](https://openalex.org/A5018186543)
-
-### [Damir Filipovic](professors/DAMIR-FILIPOVIC.md)
-*Swissquote Chair in Quantitative Finance* · last updated — · ⬜ unreviewed
-
-[sfi.epfl.ch](https://sfi.epfl.ch/) · [ORCID 0000-0002-2443-5741](https://orcid.org/0000-0002-2443-5741) · [OpenAlex A5059712147](https://openalex.org/A5059712147)
-
-### [David Atienza](professors/DAVID-ATIENZA.md)
-*Embedded Systems Laboratory (ESL)* · last updated — · ✅ reviewed
-
-[esl.epfl.ch](https://esl.epfl.ch/) · [ORCID 0000-0001-9536-4947](https://orcid.org/0000-0001-9536-4947) · [OpenAlex A5074236306](https://openalex.org/A5074236306)
-
-### [Edouard Bugnion](professors/EDOUARD-BUGNION.md)
-*Data Center Systems Laboratory (DCSL)* · last updated — · ⬜ unreviewed
-
-[epfl.ch](https://www.epfl.ch/labs/dcsl/) · [ORCID 0000-0001-7237-6929](https://orcid.org/0000-0001-7237-6929) · [OpenAlex A5049034675](https://openalex.org/A5049034675)
-
-### [Florence Graezer Bideau](professors/FLORENCE-GRAEZER-BIDEAU.md)
-*Heritage, Anthropology and Technologies Research Group (HAT)* · last updated — · ⬜ unreviewed
-
-[epfl.ch](https://www.epfl.ch/labs/hat/fr/) · [ORCID 0000-0002-9499-1479](https://orcid.org/0000-0002-9499-1479) · [OpenAlex A5010772457](https://openalex.org/A5010772457)
-
-### [Gaétan de Rassenfosse](professors/GAETAN-DE-RASSENFOSSE.md)
-*Chair of Science Technology and Innovation Policy (STIP)* · last updated — · ⬜ unreviewed
-
-[epfl.ch](https://www.epfl.ch/labs/stip/) · [ORCID 0000-0002-7862-0918](https://orcid.org/0000-0002-7862-0918) · [OpenAlex A5086533373](https://openalex.org/A5086533373)
-
-### [George Candea](professors/GEORGE-CANDEA.md)
-*Dependable Systems Laboratory (DSLAB)* · last updated — · ⬜ unreviewed
-
-[dslab.epfl.ch](https://dslab.epfl.ch/) · [ORCID 0009-0002-8107-6535](https://orcid.org/0009-0002-8107-6535) · [OpenAlex A5028907149](https://openalex.org/A5028907149)
-
-### [Giovanni de Micheli](professors/GIOVANNI-DE-MICHELI.md)
-*Integrated Systems Laboratory (LSI)* · last updated — · ⬜ unreviewed
-
-[lsi.epfl.ch](https://lsi.epfl.ch/) · [ORCID 0000-0002-7827-3215](https://orcid.org/0000-0002-7827-3215) · [OpenAlex A5072927296](https://openalex.org/A5072927296)
-
-### [Jacques Fellay](professors/JACQUES-FELLAY.md)
-*Fellay Lab – Human Genomics of Infection and Immunity (GR-FE)* · last updated — · ⬜ unreviewed
-
-[fellay-lab.epfl.ch](https://fellay-lab.epfl.ch/) · [ORCID 0000-0002-8240-939X](https://orcid.org/0000-0002-8240-939X) · [OpenAlex A5089009771](https://openalex.org/A5089009771)
-
-### [Julien Hugonnier](professors/JULIEN-HUGONNIER.md)
-*Chair SFI-JH* · last updated — · ⬜ unreviewed
-
-[sfi.epfl.ch](https://sfi.epfl.ch/) · [ORCID 0000-0003-1356-5070](https://orcid.org/0000-0003-1356-5070) · [OpenAlex A5002167713](https://openalex.org/A5002167713)
-
-### [Katerina Argyraki](professors/KATERINA-ARGYRAKI.md)
-*Network Architecture Laboratory (NAL)* · last updated — · ✅ reviewed
-
-[epfl.ch](https://www.epfl.ch/labs/nal/) · [ORCID 0009-0004-9470-2819](https://orcid.org/0009-0004-9470-2819) · [OpenAlex A5011668097](https://openalex.org/A5011668097)
-
-### [Marcel Salathé](professors/MARCEL-SALATHE.md)
-*Digital Epidemiology Lab (SALATHELAB)* · last updated — · ⬜ unreviewed
-
-[digitalepidemiologylab.org](https://www.digitalepidemiologylab.org/) · [ORCID 0000-0002-5079-7797](https://orcid.org/0000-0002-5079-7797) · [OpenAlex A5010649096](https://openalex.org/A5010649096)
-
-### [Mario Paolone](professors/MARIO-PAOLONE.md)
-*Distributed Electrical Systems Laboratory (DESL)* · last updated — · ⬜ unreviewed
-
-[desl-pwrs.epfl.ch](https://desl-pwrs.epfl.ch/) · [ORCID 0000-0001-7073-9036](https://orcid.org/0000-0001-7073-9036) · [OpenAlex A5050504092](https://openalex.org/A5050504092)
-
-### [Martin Jaggi](professors/MARTIN-JAGGI.md)
-*Machine Learning and Optimization Laboratory (MLO)* · last updated — · ⬜ unreviewed
-
-[mlo.epfl.ch](https://mlo.epfl.ch/) · [ORCID 0000-0003-1579-5558](https://orcid.org/0000-0003-1579-5558) · [OpenAlex A5073756389](https://openalex.org/A5073756389)
-
-### [Martin Odersky](professors/MARTIN-ODERSKY.md)
-*Programming Methods Laboratory (LAMP)* · last updated — · ⬜ unreviewed
-
-[lamp.epfl.ch](https://lamp.epfl.ch/) · [ORCID 0009-0005-3923-8993](https://orcid.org/0009-0005-3923-8993) · [OpenAlex A5085410724](https://openalex.org/A5085410724)
-
-### [Mathias Payer](professors/MATHIAS-PAYER.md)
-*HexHive Laboratory* · last updated — · ⬜ unreviewed
-
-[hexhive.epfl.ch](https://hexhive.epfl.ch/) · [ORCID 0000-0001-5054-7547](https://orcid.org/0000-0001-5054-7547) · [OpenAlex A5065116578](https://openalex.org/A5065116578)
-
-### [Matthias Grossglauser](professors/MATTHIAS-GROSSGLAUSER.md)
-*Information and Network Dynamics Laboratory (INDY)* · last updated — · ⬜ unreviewed
-
-[indy.epfl.ch](https://indy.epfl.ch/) · [OpenAlex A5014508720](https://openalex.org/A5014508720)
-
-### [Nate Foster](professors/NATE-FOSTER.md)
-*Prof. Foster Group (UPFOSTER)* · last updated — · ⬜ unreviewed
-
-[search.epfl.ch](https://search.epfl.ch/?filter=unit&q=UPFOSTER) · [ORCID 0000-0002-6557-684X](https://orcid.org/0000-0002-6557-684X) · [OpenAlex A5013378091](https://openalex.org/A5013378091)
-
-### [Nicolas Flammarion](professors/NICOLAS-FLAMMARION.md)
-*Theory of Machine Learning Laboratory (TML)* · last updated — · ⬜ unreviewed
-
-[search.epfl.ch](https://search.epfl.ch/?filter=unit&q=TML) · [OpenAlex A5061093552](https://openalex.org/A5061093552)
-
-### [Paolo Ienne](professors/PAOLO-IENNE.md)
-*Processor Architecture Laboratory (LAP)* · last updated — · ⬜ unreviewed
-
-[lap.epfl.ch](https://lap.epfl.ch/) · [ORCID 0000-0002-6142-7345](https://orcid.org/0000-0002-6142-7345) · [OpenAlex A5020575991](https://openalex.org/A5020575991)
-
-### [Pascal Frossard](professors/PASCAL-FROSSARD.md)
-*Signal Processing Laboratory (LTS4)* · last updated — · ⬜ unreviewed
-
-[lts4.epfl.ch](https://lts4.epfl.ch/) · [ORCID 0000-0002-4010-714X](https://orcid.org/0000-0002-4010-714X) · [OpenAlex A5000947076](https://openalex.org/A5000947076)
-
-### [Pierre Collin-Dufresne](professors/PIERRE-COLLIN-DUFRESNE.md)
-*Chair SFI-PCD* · last updated — · ⬜ unreviewed
-
-[sfi.epfl.ch](https://sfi.epfl.ch/) · [OpenAlex A5078759107](https://openalex.org/A5078759107)
-
-### [Rachid Guerraoui](professors/RACHID-GUERRAOUI.md)
-*Distributed Computing Laboratory (DCL)* · last updated — · ⬜ unreviewed
-
-[dcl.epfl.ch](https://dcl.epfl.ch/) · [ORCID 0000-0002-4794-8902](https://orcid.org/0000-0002-4794-8902) · [OpenAlex A5049321288](https://openalex.org/A5049321288)
-
-### [Robert West](professors/ROBERT-WEST.md)
-*Data Science Laboratory (DLAB)* · last updated — · ⬜ unreviewed
-
-[dlab.epfl.ch](https://dlab.epfl.ch/) · [ORCID 0000-0001-6398-0921](https://orcid.org/0000-0001-6398-0921) · [OpenAlex A5059645286](https://openalex.org/A5059645286)
-
-### [Ruediger Fahlenbrach](professors/RUEDIGER-FAHLENBRACH.md)
-*Chair SFI-RF* · last updated — · ⬜ unreviewed
-
-[sfi.epfl.ch](https://sfi.epfl.ch/) · [ORCID 0000-0003-0102-3717](https://orcid.org/0000-0003-0102-3717) · [OpenAlex A5022485788](https://openalex.org/A5022485788)
-
-### [Sabine Süsstrunk](professors/SABINE-SUSSTRUNK.md)
-*Image and Visual Representation Laboratory (IVRL)* · last updated — · ⬜ unreviewed
-
-[ivrl.epfl.ch](https://ivrl.epfl.ch/) · [ORCID 0000-0002-0441-6068](https://orcid.org/0000-0002-0441-6068) · [OpenAlex A5078201467](https://openalex.org/A5078201467)
-
-### [Sanidhya Kashyap](professors/SANIDHYA-KASHYAP.md)
-*Robust Scalable Systems Software Lab (RS3Lab)* · last updated — · ⬜ unreviewed
-
-[sanidhya.github.io](https://sanidhya.github.io/) · [ORCID 0000-0002-9534-8565](https://orcid.org/0000-0002-9534-8565) · [OpenAlex A5030479442](https://openalex.org/A5030479442)
-
-### [Semyon Malamud](professors/SEMYON-MALAMUD.md)
-*Chair SFI-SM* · last updated — · ⬜ unreviewed
-
-[sfi.epfl.ch](https://sfi.epfl.ch/) · [ORCID 0000-0001-6574-7322](https://orcid.org/0000-0001-6574-7322) · [OpenAlex A5067616912](https://openalex.org/A5067616912)
-
-### [Serge Vaudenay](professors/SERGE-VAUDENAY.md)
-*Security and Cryptography Laboratory (LASEC)* · last updated — · ⬜ unreviewed
-
-[lasec.epfl.ch](https://lasec.epfl.ch/) · [ORCID 0000-0001-9185-1449](https://orcid.org/0000-0001-9185-1449) · [OpenAlex A5073902849](https://openalex.org/A5073902849)
-
-### [Thomas Bourgeat](professors/THOMAS-BOURGEAT.md)
-*Verification and Computer Architecture Lab (VCA)* · last updated — · ⬜ unreviewed
-
-[vca.epfl.ch](https://vca.epfl.ch/) · [ORCID 0000-0002-8468-8409](https://orcid.org/0000-0002-8468-8409) · [OpenAlex A5031573662](https://openalex.org/A5031573662)
-
-### [Thomas Vidick](professors/THOMAS-VIDICK.md)
-*Quantum Complexity and Cryptography Laboratory (QCC)* · last updated — · ⬜ unreviewed
-
-[search.epfl.ch](https://search.epfl.ch/?filter=unit&q=QCC) · [ORCID 0000-0002-6405-365X](https://orcid.org/0000-0002-6405-365X) · [OpenAlex A5019616211](https://openalex.org/A5019616211)
-
-### [Touradj Ebrahimi](professors/TOURADJ-EBRAHIMI.md)
-*Multimedia Signal Processing Group (MMSPG)* · last updated — · ⬜ unreviewed
-
-[mmspg.epfl.ch](https://mmspg.epfl.ch/) · [ORCID 0000-0002-9900-3687](https://orcid.org/0000-0002-9900-3687) · [OpenAlex A5082188773](https://openalex.org/A5082188773)
-
-### [Viktor Kunčak](professors/VIKTOR-KUNCAK.md)
-*Lab for Automated Reasoning and Analysis (LARA)* · last updated — · ⬜ unreviewed
-
-[lara.epfl.ch](https://lara.epfl.ch/w/) · [ORCID 0000-0001-7044-9522](https://orcid.org/0000-0001-7044-9522) · [OpenAlex A5008699657](https://openalex.org/A5008699657)
-
-### [Volkan Cevher](professors/VOLKAN-CEVHER.md)
-*Laboratory for Information and Inference Systems (LIONS)* · last updated — · ⬜ unreviewed
-
-[lions.epfl.ch](https://lions.epfl.ch/) · [ORCID 0000-0002-5004-201X](https://orcid.org/0000-0002-5004-201X) · [OpenAlex A5027059837](https://openalex.org/A5027059837)
-
-### [Yanina Shkel](professors/YANINA-SHKEL.md)
-*Mathematics of Information Laboratory (MIL)* · last updated — · ⬜ unreviewed
-
-[search.epfl.ch](https://search.epfl.ch/?filter=unit&q=MIL) · [ORCID 0000-0002-2575-1762](https://orcid.org/0000-0002-2575-1762) · [OpenAlex A5052329970](https://openalex.org/A5052329970)
+# C4DT Affiliated Professors Tracker
+
+An agentic tracker that follows the research of C4DT's ~40 affiliated professors.
+
+Every weekday a GitHub Actions job picks the **least-recently-updated** professor
+(so each is revisited roughly every two months), reads their websites, code
+repositories, and publication feed, updates that professor's file under
+[`professors/`](professors/), regenerates the index, commits, and announces
+significant updates to a Matrix channel.
+
+👉 **The generated index of all professors is [PROFESSORS.md](PROFESSORS.md).**
+
+## Updating
+
+`professors.yaml` is the source of truth. After editing it (adding URLs, fixing an
+ORCID, flipping `reviewed: true`, …), rebuild the index:
+
+```bash
+devbox run regen-professors     # rebuild PROFESSORS.md from professors.yaml
+```
+
+Do not hand-edit `PROFESSORS.md` — it is generated and will be overwritten.
+
+Other commands:
+
+```bash
+devbox run update                    # update the least-recently-updated professor
+devbox run update -- --slug <slug>   # update one specific professor
+devbox run announce                  # post the last update to Matrix
+devbox run resolve-orcids            # fill candidate ORCIDs for review
+devbox run bootstrap                 # (re)build the registry from the C4DT labs listing
+devbox run test                      # run the unit tests
+```
+
+Local runs that hit the LLM / Firecrawl / Matrix need credentials: copy
+`.env.example` to `.env` and fill it in (`.env` is gitignored). In CI these come
+from GitHub Actions secrets and variables.
+
+## Identifiers: ORCID and OpenAlex
+
+Publications are tracked via [OpenAlex](https://openalex.org), anchored on each
+professor's **ORCID** when available. ORCID is a stable, researcher-curated id;
+OpenAlex's own author ids are name-clustered and prone to collisions (two people
+sharing a name, or one person split across records). The daily job falls back to
+a human-verified OpenAlex author id when there is no ORCID:
+
+| `orcid` | `openalex_id` | Publication tracking |
+|---------|---------------|----------------------|
+| set     | (ignored)     | filter by ORCID — preferred; aggregates OpenAlex's duplicate author records |
+| null    | set           | filter by OpenAlex author id — works, but may miss papers if OpenAlex split the author |
+| null    | null          | skipped — the professor is still tracked from websites + code |
+
+A **wrong** id is worse than none: it produces confidently-wrong publication
+feeds. When you can't confirm an id, set it to `null`. The links in
+[PROFESSORS.md](PROFESSORS.md) — rendered even for `reviewed: false` entries — let
+you click through and verify each ORCID / OpenAlex record quickly.
+
+## How it fits together
+
+| File / dir | Role |
+|------------|------|
+| `professors.yaml` | Registry & rotation source of truth (one entry per professor) |
+| `professors/<SLUG>.md` | Per-professor profile with a dated changelog |
+| `PROFESSORS.md` | Generated index (one entry per professor + verification links) |
+| `src/prof_tracker/` | The updater: registry, sources, agent, render, matrix, CLI |
+| `.github/workflows/update.yml` | The daily scheduled run |
+
+The updater is a plain CLI (`devbox run …`), so it runs identically locally and in
+CI, and could move to a server cron unchanged.

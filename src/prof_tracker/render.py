@@ -1,4 +1,4 @@
-"""Render professor markdown files and the README index.
+"""Render professor markdown files and the PROFESSORS.md index.
 
 Code owns the file structure; the model only supplies today's content. This
 keeps the LLM from rewriting history and keeps diffs clean.
@@ -47,7 +47,7 @@ def _link_line(prof: Professor) -> str | None:
     return " · ".join(parts) if parts else None
 
 PROFESSORS_DIR = Path("professors")
-README = Path("README.md")
+PROFESSORS_MD = Path("PROFESSORS.md")
 
 _CHANGELOG_HEADER = "## Changelog"
 _ENTRY_RE = re.compile(r"^### (\d{4}-\d{2}-\d{2})\s*$", re.MULTILINE)
@@ -135,13 +135,14 @@ def write_profile(
     return path
 
 
-def build_readme(profs: list[Professor]) -> str:
+def build_professors_md(profs: list[Professor]) -> str:
     lines = [
         "# C4DT Affiliated Professors",
         "",
         "Research tracker for C4DT's affiliated professors. Each weekday an "
         "automated agent refreshes the least-recently-updated professor from "
-        "their websites, code repositories, and publication feed.",
+        "their websites, code repositories, and publication feed. See "
+        "[README.md](README.md) for how this works and how to update.",
         "",
         "## Professors",
         "",
@@ -166,5 +167,5 @@ def build_readme(profs: list[Professor]) -> str:
     return "\n".join(lines).rstrip() + "\n"
 
 
-def regen_readme(profs: list[Professor], path: Path = README) -> None:
-    path.write_text(build_readme(profs))
+def regen_professors_md(profs: list[Professor], path: Path = PROFESSORS_MD) -> None:
+    path.write_text(build_professors_md(profs))
