@@ -8,7 +8,7 @@
   code_urls: []
   orcid: 0000-0002-3029-2353
   openalex_id: A5101591310
-  last_updated: null
+  last_updated: "2026-07-10"
   reviewed: true
 - slug: andrea-cavallaro
   name: Andrea Cavallaro
@@ -19,7 +19,7 @@
   code_urls: []
   orcid: 0000-0001-5086-7858
   openalex_id: A5004087827
-  last_updated: null
+  last_updated: "2026-07-10"
   reviewed: true
 - slug: anne-marie-kermarrec
   name: Anne-Marie Kermarrec
@@ -31,7 +31,7 @@
     - https://github.com/sacs-epfl
   orcid: 0000-0001-8187-724X
   openalex_id: A5031849486
-  last_updated: null
+  last_updated: "2026-07-10"
   reviewed: true
 - slug: annie-hartley
   name: Annie Hartley

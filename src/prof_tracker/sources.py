@@ -4,11 +4,14 @@ callers wrap in try/except so one dead source doesn't wedge the run.
 
 from __future__ import annotations
 
+import logging
 import os
 import time
 import unicodedata
 
 import httpx
+
+logger = logging.getLogger(__name__)
 
 FIRECRAWL_ENDPOINT = "https://api.firecrawl.dev/v2/scrape"
 GITHUB_API = "https://api.github.com"
@@ -26,6 +29,7 @@ _OPENALEX_UA = f"prof-tracker/0.1 (mailto:{MAILTO})"
 def _openalex_get(path: str, params: dict, retries: int = 7) -> dict:
     """GET an OpenAlex endpoint with backoff on 429 (respects Retry-After)."""
     for attempt in range(retries):
+        logger.debug("OpenAlex GET %s params=%s", path, params)
         resp = httpx.get(
             f"{OPENALEX_API}/{path}",
             params=params,
@@ -34,6 +38,7 @@ def _openalex_get(path: str, params: dict, retries: int = 7) -> dict:
         )
         if resp.status_code == 429 and attempt < retries - 1:
             wait = float(resp.headers.get("Retry-After", 2**attempt))
+            logger.debug("OpenAlex 429 rate-limited, waiting %.1fs (attempt %d)", wait, attempt + 1)
             time.sleep(min(wait, 30.0))
             continue
         resp.raise_for_status()
@@ -46,17 +51,20 @@ def firecrawl_scrape(url: str, api_key: str | None = None) -> str:
     api_key = api_key or os.environ.get("FIRECRAWL_API_KEY")
     if not api_key:
         raise RuntimeError("FIRECRAWL_API_KEY not set")
+    logger.debug("Firecrawl POST %s", url)
     resp = httpx.post(
         FIRECRAWL_ENDPOINT,
         headers={"Authorization": f"Bearer {api_key}"},
         json={"url": url, "formats": ["markdown"]},
         timeout=_TIMEOUT,
     )
+    logger.debug("Firecrawl response: HTTP %d", resp.status_code)
     resp.raise_for_status()
     data = resp.json().get("data", {})
     markdown = data.get("markdown")
     if not markdown:
         raise RuntimeError(f"Firecrawl returned no markdown for {url}")
+    logger.debug("Firecrawl returned %d chars", len(markdown))
     return markdown
 
 
@@ -75,6 +83,7 @@ def github_org_repos(org: str, token: str | None = None, per_page: int = 15) -> 
     """Recently-pushed repos for a GitHub org (name, description, url,
     pushed_at, stars, language)."""
     token = token or os.environ.get("GITHUB_TOKEN")
+    logger.debug("GitHub repos for org %s (token=%s)", org, "set" if token else "not set")
     headers = {"Accept": "application/vnd.github+json"}
     if token:
         headers["Authorization"] = f"Bearer {token}"
@@ -116,38 +125,6 @@ def works_filter(openalex_id: str | None = None, orcid: str | None = None) -> st
     raise ValueError("need orcid or openalex_id")
 
 
-def openalex_recent_works(
-    openalex_id: str | None = None,
-    orcid: str | None = None,
-    per_page: int = 25,
-) -> list[dict]:
-    """Recent works for an author (title, date, venue, doi, url). Prefers ORCID."""
-    payload = _openalex_get(
-        "works",
-        {
-            "filter": works_filter(openalex_id, orcid),
-            "sort": "publication_date:desc",
-            "per-page": per_page,
-            "mailto": MAILTO,
-        },
-    )
-    works = payload.get("results", [])
-    out = []
-    for w in works:
-        loc = (w.get("primary_location") or {}).get("source") or {}
-        out.append(
-            {
-                "title": w.get("title"),
-                "publication_date": w.get("publication_date"),
-                "venue": loc.get("display_name"),
-                "doi": w.get("doi"),
-                "url": w.get("id"),
-                "cited_by_count": w.get("cited_by_count"),
-            }
-        )
-    return out
-
-
 def _norm(s: str) -> list[str]:
     ascii_ = unicodedata.normalize("NFKD", s).encode("ascii", "ignore").decode()
     return [t for t in "".join(c if c.isalnum() else " " for c in ascii_).lower().split()]
@@ -165,6 +142,39 @@ def _affiliation(author: dict) -> str | None:
     return (author.get("last_known_institution") or {}).get("display_name")
 
 
+def openalex_recent_works(
+    openalex_id: str | None = None,
+    orcid: str | None = None,
+    per_page: int = 25,
+) -> list[dict]:
+    """Recent works for an author (title, date, venue, doi, url). Prefers ORCID."""
+    payload = _openalex_get(
+        "works",
+        {
+            "filter": works_filter(openalex_id, orcid),
+            "sort": "publication_date:desc",
+            "per-page": per_page,
+            "mailto": MAILTO,
+        },
+    )
+    works = payload.get("results", [])
+    logger.debug("OpenAlex: %d works found", len(works))
+    out = []
+    for w in works:
+        loc = (w.get("primary_location") or {}).get("source") or {}
+        out.append(
+            {
+                "title": w.get("title"),
+                "publication_date": w.get("publication_date"),
+                "venue": loc.get("display_name"),
+                "doi": w.get("doi"),
+                "url": w.get("id"),
+                "cited_by_count": w.get("cited_by_count"),
+            }
+        )
+    return out
+
+
 def openalex_find_author(name: str) -> dict | None:
     """Best candidate author for a name.
 
@@ -173,10 +183,12 @@ def openalex_find_author(name: str) -> dict | None:
     that carry an ORCID and have the most works (the primary author cluster,
     not a sparse duplicate).
     """
+    logger.debug("OpenAlex author search: %s", name)
     payload = _openalex_get(
         "authors", {"search": name, "per-page": 10, "mailto": MAILTO}
     )
     results = payload.get("results", [])
+    logger.debug("OpenAlex: %d author candidates for %s", len(results), name)
     if not results:
         return None
 
@@ -196,10 +208,18 @@ def openalex_find_author(name: str) -> dict | None:
         reverse=True,
     )
     chosen = pool[0]
-    return {
+    result = {
         "id": chosen.get("id"),
         "orcid": _bare_orcid(chosen),
         "display_name": chosen.get("display_name"),
         "works_count": chosen.get("works_count"),
         "affiliation": _affiliation(chosen),
     }
+    logger.debug(
+        "OpenAlex chose %s (orcid=%s, works=%s, aff=%s)",
+        result["display_name"],
+        result["orcid"],
+        result["works_count"],
+        result["affiliation"],
+    )
+    return result

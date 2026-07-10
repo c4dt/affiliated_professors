@@ -8,14 +8,16 @@ slug) are preserved verbatim — re-running never clobbers reviewed data.
 
 from __future__ import annotations
 
+import logging
 import re
-import sys
 import time
 import unicodedata
 
 from .models import Professor, RegistryEntry
 from .registry import load_registry, save_registry
 from .sources import firecrawl_scrape, openalex_find_author
+
+logger = logging.getLogger(__name__)
 
 _EXTRACT_INSTRUCTIONS = """\
 You are given the markdown of the C4DT "laboratory" listing page(s). Extract
@@ -50,10 +52,10 @@ def _scrape_pages(start_url: str) -> str:
         try:
             md = firecrawl_scrape(page_url)
         except Exception as e:  # noqa: BLE001 - 404 or last page: stop paginating
-            print(f"  stop at page {i}: {e}", file=sys.stderr)
+            logger.debug("Stop paginating at page %d: %s", i, e)
             break
         pages.append(md)
-        print(f"  scraped page {i} ({len(md)} chars)", file=sys.stderr)
+        logger.info("Scraped page %d (%d chars)", i, len(md))
     return "\n\n---PAGE BREAK---\n\n".join(pages)
 
 
@@ -87,7 +89,7 @@ def resolve_orcids() -> int:
         try:
             author = openalex_find_author(p.name)
         except Exception as e:  # noqa: BLE001 - throttle/network: keep existing, flag, go on
-            print(f"  ! lookup failed for {p.name}: {e}", file=sys.stderr)
+            logger.warning("ORCID lookup failed for %s: %s", p.name, e)
             rows.append((p.name, p.orcid, None, "LOOKUP-FAILED (kept existing)"))
             continue
         time.sleep(0.2)  # stay under OpenAlex's polite-pool rate limit
@@ -121,29 +123,30 @@ def resolve_orcids() -> int:
 
     save_registry(profs)
 
-    print("\n=== ORCID candidates — VERIFY each (https://orcid.org/<id>) ===", file=sys.stderr)
+    logger.info("\n=== ORCID candidates — VERIFY each (https://orcid.org/<id>) ===")
     for name, orcid, works, flags in rows:
         mark = "  " if not flags else "!!"
-        print(f"{mark} {name:<32} {orcid or '-':<21} works={works or '-':<5} {flags}", file=sys.stderr)
+        logger.info("%s %s %s works=%-5s %s", mark, f"{name:<32}", f"{orcid or '-':<21}", works or "-", flags)
     flagged = sum(1 for r in rows if r[3])
-    print(
-        f"\n{len(rows)} entries resolved, {flagged} flagged for closer review.\n"
+    logger.info(
+        "\n%d entries resolved, %d flagged for closer review.\n"
         "Verify each ORCID against the professor's real profile, correct any wrong\n"
         "ones by hand, fill epfl_profile + code_urls, then set reviewed: true.",
-        file=sys.stderr,
+        len(rows),
+        flagged,
     )
     return 0
 
 
 def run_bootstrap(start_url: str = "https://c4dt.epfl.ch/laboratory/") -> int:
-    print(f"Scraping {start_url} ...", file=sys.stderr)
+    logger.info("Scraping %s ...", start_url)
     markdown = _scrape_pages(start_url)
     if not markdown.strip():
-        print("No content scraped.", file=sys.stderr)
+        logger.warning("No content scraped.")
         return 1
 
     entries = _extract(markdown)
-    print(f"Extracted {len(entries)} labs.", file=sys.stderr)
+    logger.info("Extracted %d labs.", len(entries))
 
     profs = load_registry()
     by_slug = {p.slug: p for p in profs}
@@ -168,16 +171,17 @@ def run_bootstrap(start_url: str = "https://c4dt.epfl.ch/laboratory/") -> int:
         by_slug[slug] = prof
         added += 1
         aff = author.get("affiliation") if author else None
-        print(f"  + {e.name} ({slug}) openalex={prof.openalex_id} [{aff}]", file=sys.stderr)
+        logger.info("  + %s (%s) openalex=%s [%s]", e.name, slug, prof.openalex_id, aff)
 
     save_registry(profs)
-    print(
-        f"\nAdded {added} new professors ({len(profs)} total).\n"
+    logger.info(
+        "\nAdded %d new professors (%d total).\n"
         "HUMAN REVIEW REQUIRED before go-live:\n"
         "  - verify each openalex_id (wrong id => confidently wrong summaries)\n"
         "  - add the people.epfl.ch profile as epfl_profile\n"
         "  - fill in code_urls (GitHub/GitLab) where applicable\n"
         "  - flip reviewed: true once checked",
-        file=sys.stderr,
+        added,
+        len(profs),
     )
     return 0

@@ -5,6 +5,7 @@ from __future__ import annotations
 import argparse
 import datetime
 import json
+import logging
 import os
 import sys
 from pathlib import Path
@@ -21,6 +22,35 @@ from .render import regen_professors_md, write_profile
 RUN_DIR = Path(".run")
 ANNOUNCEMENT = RUN_DIR / "announcement.json"
 COMMIT_MSG = RUN_DIR / "commit-msg.txt"
+
+logger = logging.getLogger(__name__)
+
+
+class _LevelFormatter(logging.Formatter):
+    """Plain message for INFO; level prefix for WARNING+; module tag for DEBUG."""
+
+    def format(self, record: logging.LogRecord) -> str:
+        if record.levelno == logging.DEBUG:
+            return f"DEBUG {record.name}: {record.getMessage()}"
+        if record.levelno == logging.INFO:
+            return record.getMessage()
+        return f"{record.levelname}: {record.getMessage()}"
+
+
+def _setup_logging(verbose: bool) -> None:
+    level_env = os.environ.get("LOG_LEVEL", "").upper()
+    if verbose or level_env == "DEBUG":
+        level = logging.DEBUG
+    elif level_env in ("INFO", "WARNING", "ERROR"):
+        level = getattr(logging, level_env)
+    else:
+        level = logging.INFO
+
+    handler = logging.StreamHandler(sys.stderr)
+    handler.setFormatter(_LevelFormatter())
+    root = logging.getLogger("prof_tracker")
+    root.addHandler(handler)
+    root.setLevel(level)
 
 
 def _today() -> str:
@@ -40,48 +70,61 @@ def _fetch_sources(prof: Professor) -> tuple[str, bool]:
     web_urls = prof.all_urls()
     if web_urls:
         for url in web_urls[:3]:  # cap Firecrawl usage on the prefetch
+            logger.debug("Scraping web URL: %s", url)
             try:
                 md = sources.firecrawl_scrape(url)
+                logger.debug("  -> %d chars", len(md))
                 blocks.append(f"## Website ({url})\n\n{md[:15000]}")
                 ok = True
             except Exception as e:  # noqa: BLE001
+                logger.warning("Web source unavailable %s: %s", url, e)
                 blocks.append(f"## Website ({url})\n\n[unavailable: {e}]")
     else:
+        logger.debug("No web URLs configured for %s", prof.slug)
         blocks.append("## Website\n\n[no urls configured]")
 
     if prof.code_urls:
         for url in prof.code_urls[:3]:
             org = sources.github_org_from_url(url)
+            logger.debug("Fetching code source: %s (org=%s)", url, org)
             try:
                 if org:
                     repos = sources.github_org_repos(org)
+                    logger.debug("  -> %d repos", len(repos))
                     blocks.append(
                         f"## Code — GitHub ({url})\n\n"
                         + json.dumps(repos, indent=2, default=str)
                     )
                 else:
                     md = sources.firecrawl_scrape(url)
+                    logger.debug("  -> %d chars", len(md))
                     blocks.append(f"## Code ({url})\n\n{md[:10000]}")
                 ok = True
             except Exception as e:  # noqa: BLE001
+                logger.warning("Code source unavailable %s: %s", url, e)
                 blocks.append(f"## Code ({url})\n\n[unavailable: {e}]")
     else:
+        logger.debug("No code URLs configured for %s", prof.slug)
         blocks.append("## Code\n\n[no code_urls configured]")
 
     if prof.orcid or prof.openalex_id:
         anchor = f"ORCID {prof.orcid}" if prof.orcid else f"OpenAlex {prof.openalex_id}"
+        logger.debug("Fetching publications: %s", anchor)
         try:
             works = sources.openalex_recent_works(
                 openalex_id=prof.openalex_id, orcid=prof.orcid
             )
+            logger.debug("  -> %d works", len(works))
             blocks.append(
                 f"## Recent publications ({anchor})\n\n"
                 + json.dumps(works, indent=2, default=str)
             )
             ok = True
         except Exception as e:  # noqa: BLE001
+            logger.warning("Publications unavailable (%s): %s", anchor, e)
             blocks.append(f"## Recent publications\n\n[unavailable: {e}]")
     else:
+        logger.debug("No ORCID/OpenAlex ID configured for %s", prof.slug)
         blocks.append("## Recent publications\n\n[no orcid/openalex_id configured]")
 
     return "\n\n".join(blocks), ok
@@ -105,38 +148,45 @@ def _build_prompt(prof: Professor, sources_text: str, existing: str) -> str:
 def cmd_update(args: argparse.Namespace) -> int:
     profs = load_registry()
     if not profs:
-        print("No professors in registry. Run bootstrap first.", file=sys.stderr)
+        logger.error("No professors in registry. Run bootstrap first.")
         return 1
 
     prof = get_by_slug(profs, args.slug) if args.slug else pick_least_recently_updated(profs)
     if prof is None:
-        print(f"Professor not found: {args.slug}", file=sys.stderr)
+        logger.error("Professor not found: %s", args.slug)
         return 1
 
     today = _today()
-    print(f"Updating {prof.name} ({prof.slug}) for {today}", file=sys.stderr)
+    logger.info("Updating %s (%s) for %s", prof.name, prof.slug, today)
 
     path = Path("professors") / profile_filename(prof.slug)
     existing = path.read_text() if path.exists() else ""
+    logger.debug("Existing profile: %d chars", len(existing))
 
     sources_text, any_source_ok = _fetch_sources(prof)
 
     failed = False
     if not any_source_ok:
-        print("All sources unavailable.", file=sys.stderr)
+        logger.warning("All sources unavailable — writing fallback entry")
         update = _fallback_update(prof, "- All sources were unavailable today; no changes.")
         failed = True
     else:
         try:
             from .agent import run_update
 
+            logger.info("Running agent to produce profile update")
             update = run_update(
                 _build_prompt(prof, sources_text, existing),
                 firecrawl_api_key=os.environ.get("FIRECRAWL_API_KEY"),
             )
+            logger.info(
+                "Agent done: significant=%s, changelog=%d chars",
+                update.significant,
+                len(update.changelog_entry),
+            )
         except Exception as e:  # noqa: BLE001
-            print(f"Agent run failed: {e}", file=sys.stderr)
-            update = _fallback_update(prof, f"- Update failed (LLM error); sources fetched but not summarized.")
+            logger.warning("Agent run failed: %s", e)
+            update = _fallback_update(prof, "- Update failed (LLM error); sources fetched but not summarized.")
             failed = True
 
     # write the profile (prose lives there), bump rotation state, rebuild index
@@ -165,7 +215,7 @@ def cmd_update(args: argparse.Namespace) -> int:
     suffix = " [sources unavailable]" if failed else ""
     COMMIT_MSG.write_text(f"Update {prof.name} ({prof.slug}) — {today}{suffix}\n")
 
-    print(f"Wrote {path}; significant={announce}", file=sys.stderr)
+    logger.info("Wrote %s; significant=%s", path, announce)
     return 1 if failed else 0
 
 
@@ -197,34 +247,30 @@ def _profile_url(profile_path: str) -> str:
 
 
 def cmd_announce(args: argparse.Namespace) -> int:
-    if not ANNOUNCEMENT.exists():
-        print("No announcement.json — nothing to announce.", file=sys.stderr)
-        return 0
-    data = json.loads(ANNOUNCEMENT.read_text())
-
-    minor_ok = os.environ.get("MATRIX_POST_MINOR", "").lower() == "true"
-    if not data.get("significant") and not minor_ok:
-        print("Update not significant; skipping Matrix post.", file=sys.stderr)
-        return 0
-
     from . import matrix
 
     homeserver = os.environ["MATRIX_HOMESERVER_URL"].rstrip("/")
     token = matrix.resolve_token(homeserver)
     room = matrix.resolve_room(homeserver, token, os.environ["MATRIX_ROOM_ID"])
 
-    url = _profile_url(data["profile_path"])
-    name, lab = data["name"], data.get("lab", "")
-    summary = data.get("one_sentence_summary", "")
-    ms = data.get("matrix_summary", "")
+    if not ANNOUNCEMENT.exists():
+        plain = "Professor tracker: no update was run today."
+        html = plain
+    else:
+        data = json.loads(ANNOUNCEMENT.read_text())
+        url = _profile_url(data["profile_path"])
+        name, lab = data["name"], data.get("lab", "")
+        summary = data.get("one_sentence_summary", "")
+        ms = data.get("matrix_summary", "")
 
-    plain = f"{name} ({lab}) — {summary}\n{ms}\nFull profile: {url}"
-    html = (
-        f"<b>{name}</b> ({lab}) — {summary}<br/>{ms}<br/>"
-        f'<a href="{url}">Full profile</a>'
-    )
+        plain = f"{name} ({lab}) — {summary}\n{ms}\nFull profile: {url}"
+        html = (
+            f"<b>{name}</b> ({lab}) — {summary}<br/>{ms}<br/>"
+            f'<a href="{url}">Full profile</a>'
+        )
+
     event_id = matrix.send_html(homeserver, token, room, plain, html)
-    print(f"Posted to Matrix: {event_id}", file=sys.stderr)
+    logger.info("Posted to Matrix: %s", event_id)
     return 0
 
 
@@ -233,7 +279,7 @@ def cmd_announce(args: argparse.Namespace) -> int:
 # --------------------------------------------------------------------------- #
 def cmd_regen_professors(args: argparse.Namespace) -> int:
     regen_professors_md(load_registry())
-    print("Regenerated PROFESSORS.md", file=sys.stderr)
+    logger.info("Regenerated PROFESSORS.md")
     return 0
 
 
@@ -255,6 +301,12 @@ def cmd_resolve_orcids(args: argparse.Namespace) -> int:
 # --------------------------------------------------------------------------- #
 def main(argv: list[str] | None = None) -> int:
     parser = argparse.ArgumentParser(prog="prof-tracker")
+    parser.add_argument(
+        "--verbose", "-v",
+        action="store_true",
+        default=False,
+        help="Enable debug logging (overrides LOG_LEVEL env var)",
+    )
     sub = parser.add_subparsers(dest="cmd", required=True)
 
     p_update = sub.add_parser("update", help="update one professor")
@@ -277,6 +329,9 @@ def main(argv: list[str] | None = None) -> int:
     p_orcid.set_defaults(func=cmd_resolve_orcids)
 
     args = parser.parse_args(argv)
+    _setup_logging(args.verbose)
+    from dotenv import load_dotenv
+    load_dotenv()
     return args.func(args)
 
 

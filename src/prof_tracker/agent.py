@@ -5,8 +5,11 @@ against Anthropic, OpenAI, or any OpenAI-compatible endpoint.
 
 from __future__ import annotations
 
+import logging
 import os
 from dataclasses import dataclass
+
+logger = logging.getLogger(__name__)
 
 from pydantic_ai import Agent, RunContext
 from pydantic_ai.models.openai import OpenAIChatModel
@@ -65,6 +68,7 @@ def build_model():
         raise RuntimeError("LLM_MODEL not set")
     base_url = os.environ.get("LLM_BASE_URL")
     api_key = os.environ.get("LLM_API_KEY")
+    logger.debug("build_model: LLM_MODEL=%s base_url=%s api_key=%s", model_str, base_url, "set" if api_key else "not set")
 
     if base_url:
         model_name = model_str.split(":", 1)[-1]
@@ -95,17 +99,23 @@ def make_agent() -> Agent[Deps, ProfileUpdate]:
     def scrape_url(ctx: RunContext[Deps], url: str) -> str:
         """Scrape a single web page to markdown. Hard-capped per run."""
         if ctx.deps.scrapes_done >= ctx.deps.scrape_budget:
+            logger.debug("scrape_url: budget exhausted, refusing %s", url)
             return "Scrape budget exhausted (max 3 per run). Do not call scrape_url again."
         ctx.deps.scrapes_done += 1
+        logger.debug("scrape_url: %s (%d/%d)", url, ctx.deps.scrapes_done, ctx.deps.scrape_budget)
         try:
             return firecrawl_scrape(url, ctx.deps.firecrawl_api_key)[:20000]
         except Exception as e:  # noqa: BLE001 - report to the model, don't crash
+            logger.debug("scrape_url failed for %s: %s", url, e)
             return f"Scrape failed for {url}: {e}"
 
     return agent
 
 
 def run_update(prompt: str, firecrawl_api_key: str | None = None) -> ProfileUpdate:
+    logger.debug("run_update: prompt is %d chars", len(prompt))
     agent = make_agent()
+    logger.debug("run_update: starting agent.run_sync")
     result = agent.run_sync(prompt, deps=Deps(firecrawl_api_key=firecrawl_api_key))
+    logger.debug("run_update: done, usage=%s", getattr(result, "usage", None))
     return result.output
