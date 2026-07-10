@@ -7,17 +7,6 @@
     - https://github.com/dedis
   orcid: 0000-0002-0528-3033
   openalex_id: A5045962151
-  one_sentence_summary:
-    Bryan Ford leads DEDIS at EPFL, researching decentralized trust, scalable consensus,
-    coercion-resistant e-voting, and privacy-preserving distributed systems.
-  readme_paragraph:
-    Bryan Ford leads the Decentralized and Distributed Systems Lab (DEDIS) at EPFL, focusing
-    on decentralized trust, collective authorities, scalable consensus, and coercion-resistant e-voting.
-    Recent work includes Limix (NINeS 2026), a metadata service that confines strongly-consistent state
-    to local regions to insulate global distributed systems from remote failures, and TRIP (ACM CCS 2025),
-    a coercion-resistant registration protocol extending the Votegral e-voting platform. The lab maintains
-    widely-used open-source libraries including the Kyber cryptography library (699 ★) and the QuePaxa
-    consensus protocol (SOSP '23).
   last_updated: "2026-07-10"
   reviewed: true
 - slug: katerina-argyraki
@@ -28,8 +17,6 @@
   code_urls: []
   orcid: 0009-0004-9470-2819
   openalex_id: A5011668097
-  one_sentence_summary: ""
-  readme_paragraph: ""
   last_updated: null
   reviewed: true
 - slug: david-atienza
@@ -40,8 +27,6 @@
   code_urls: []
   orcid: 0000-0001-9536-4947
   openalex_id: A5074236306
-  one_sentence_summary: ""
-  readme_paragraph: ""
   last_updated: null
   reviewed: true
 - slug: antoine-bosselut
@@ -52,8 +37,6 @@
   code_urls: []
   orcid: 0000-0001-8968-9649
   openalex_id: A5088410008
-  one_sentence_summary: ""
-  readme_paragraph: ""
   last_updated: null
   reviewed: false
 - slug: thomas-bourgeat
@@ -64,8 +47,6 @@
   code_urls: []
   orcid: 0000-0002-8468-8409
   openalex_id: A5031573662
-  one_sentence_summary: ""
-  readme_paragraph: ""
   last_updated: null
   reviewed: false
 - slug: edouard-bugnion
@@ -76,8 +57,6 @@
   code_urls: []
   orcid: 0000-0001-7237-6929
   openalex_id: A5049034675
-  one_sentence_summary: ""
-  readme_paragraph: ""
   last_updated: null
   reviewed: false
 - slug: charlotte-bunne
@@ -88,8 +67,6 @@
   code_urls: []
   orcid: 0000-0003-1431-103X
   openalex_id: A5033283546
-  one_sentence_summary: ""
-  readme_paragraph: ""
   last_updated: null
   reviewed: false
 - slug: george-candea
@@ -100,8 +77,6 @@
   code_urls: []
   orcid: 0009-0002-8107-6535
   openalex_id: A5028907149
-  one_sentence_summary: ""
-  readme_paragraph: ""
   last_updated: null
   reviewed: false
 - slug: andrea-cavallaro
@@ -112,8 +87,6 @@
   code_urls: []
   orcid: 0000-0001-5086-7858
   openalex_id: A5004087827
-  one_sentence_summary: ""
-  readme_paragraph: ""
   last_updated: null
   reviewed: false
 - slug: volkan-cevher
@@ -124,8 +97,6 @@
   code_urls: []
   orcid: 0000-0002-5004-201X
   openalex_id: A5027059837
-  one_sentence_summary: ""
-  readme_paragraph: ""
   last_updated: null
   reviewed: false
 - slug: alessandro-chiesa
@@ -137,8 +108,6 @@
   code_urls: []
   orcid: 0000-0002-3029-2353
   openalex_id: A5101591310
-  one_sentence_summary: ""
-  readme_paragraph: ""
   last_updated: null
   reviewed: false
 - slug: pierre-collin-dufresne
@@ -149,8 +118,6 @@
   code_urls: []
   orcid: null
   openalex_id: A5078759107
-  one_sentence_summary: ""
-  readme_paragraph: ""
   last_updated: null
   reviewed: false
 - slug: giovanni-de-micheli
@@ -161,8 +128,6 @@
   code_urls: []
   orcid: 0000-0002-7827-3215
   openalex_id: A5072927296
-  one_sentence_summary: ""
-  readme_paragraph: ""
   last_updated: null
   reviewed: false
 - slug: gaetan-de-rassenfosse
@@ -173,8 +138,6 @@
   code_urls: []
   orcid: 0000-0002-7862-0918
   openalex_id: A5086533373
-  one_sentence_summary: ""
-  readme_paragraph: ""
   last_updated: null
   reviewed: false
 - slug: touradj-ebrahimi
@@ -185,8 +148,6 @@
   code_urls: []
   orcid: 0000-0002-9900-3687
   openalex_id: A5082188773
-  one_sentence_summary: ""
-  readme_paragraph: ""
   last_updated: null
   reviewed: false
 - slug: ruediger-fahlenbrach
@@ -197,8 +158,6 @@
   code_urls: []
   orcid: 0000-0003-0102-3717
   openalex_id: A5022485788
-  one_sentence_summary: ""
-  readme_paragraph: ""
   last_updated: null
   reviewed: false
 - slug: babak-falsafi
@@ -209,8 +168,6 @@
   code_urls: []
   orcid: 0000-0001-5916-8068
   openalex_id: A5057697787
-  one_sentence_summary: ""
-  readme_paragraph: ""
   last_updated: null
   reviewed: false
 - slug: boi-faltings
@@ -221,8 +178,6 @@
   code_urls: []
   orcid: 0000-0002-7188-7230
   openalex_id: A5060427576
-  one_sentence_summary: ""
-  readme_paragraph: ""
   last_updated: null
   reviewed: false
 - slug: jacques-fellay
@@ -233,8 +188,6 @@
   code_urls: []
   orcid: 0000-0002-8240-939X
   openalex_id: A5089009771
-  one_sentence_summary: ""
-  readme_paragraph: ""
   last_updated: null
   reviewed: false
 - slug: damir-filipovic
@@ -245,8 +198,6 @@
   code_urls: []
   orcid: 0000-0002-2443-5741
   openalex_id: A5059712147
-  one_sentence_summary: ""
-  readme_paragraph: ""
   last_updated: null
   reviewed: false
 - slug: nicolas-flammarion
@@ -257,8 +208,6 @@
   code_urls: []
   orcid: null
   openalex_id: A5061093552
-  one_sentence_summary: ""
-  readme_paragraph: ""
   last_updated: null
   reviewed: false
 - slug: nate-foster
@@ -269,8 +218,6 @@
   code_urls: []
   orcid: 0000-0002-6557-684X
   openalex_id: A5013378091
-  one_sentence_summary: ""
-  readme_paragraph: ""
   last_updated: null
   reviewed: false
 - slug: pascal-frossard
@@ -281,8 +228,6 @@
   code_urls: []
   orcid: 0000-0002-4010-714X
   openalex_id: A5000947076
-  one_sentence_summary: ""
-  readme_paragraph: ""
   last_updated: null
   reviewed: false
 - slug: florence-graezer-bideau
@@ -293,8 +238,6 @@
   code_urls: []
   orcid: 0000-0002-9499-1479
   openalex_id: A5010772457
-  one_sentence_summary: ""
-  readme_paragraph: ""
   last_updated: null
   reviewed: false
 - slug: matthias-grossglauser
@@ -305,8 +248,6 @@
   code_urls: []
   orcid: null
   openalex_id: A5014508720
-  one_sentence_summary: ""
-  readme_paragraph: ""
   last_updated: null
   reviewed: false
 - slug: rachid-guerraoui
@@ -317,8 +258,6 @@
   code_urls: []
   orcid: 0000-0002-4794-8902
   openalex_id: A5049321288
-  one_sentence_summary: ""
-  readme_paragraph: ""
   last_updated: null
   reviewed: false
 - slug: caglar-gulcehre
@@ -329,8 +268,6 @@
   code_urls: []
   orcid: 0009-0003-4124-1687
   openalex_id: A5041145688
-  one_sentence_summary: ""
-  readme_paragraph: ""
   last_updated: null
   reviewed: false
 - slug: annie-hartley
@@ -341,8 +278,6 @@
   code_urls: []
   orcid: null
   openalex_id: A5119699799
-  one_sentence_summary: ""
-  readme_paragraph: ""
   last_updated: null
   reviewed: false
 - slug: julien-hugonnier
@@ -353,8 +288,6 @@
   code_urls: []
   orcid: 0000-0003-1356-5070
   openalex_id: A5002167713
-  one_sentence_summary: ""
-  readme_paragraph: ""
   last_updated: null
   reviewed: false
 - slug: paolo-ienne
@@ -365,8 +298,6 @@
   code_urls: []
   orcid: 0000-0002-6142-7345
   openalex_id: A5020575991
-  one_sentence_summary: ""
-  readme_paragraph: ""
   last_updated: null
   reviewed: false
 - slug: martin-jaggi
@@ -377,8 +308,6 @@
   code_urls: []
   orcid: 0000-0003-1579-5558
   openalex_id: A5073756389
-  one_sentence_summary: ""
-  readme_paragraph: ""
   last_updated: null
   reviewed: false
 - slug: sanidhya-kashyap
@@ -389,8 +318,6 @@
   code_urls: []
   orcid: 0000-0002-9534-8565
   openalex_id: A5030479442
-  one_sentence_summary: ""
-  readme_paragraph: ""
   last_updated: null
   reviewed: false
 - slug: anne-marie-kermarrec
@@ -401,8 +328,6 @@
   code_urls: []
   orcid: 0000-0001-8187-724X
   openalex_id: A5031849486
-  one_sentence_summary: ""
-  readme_paragraph: ""
   last_updated: null
   reviewed: false
 - slug: viktor-kuncak
@@ -413,8 +338,6 @@
   code_urls: []
   orcid: 0000-0001-7044-9522
   openalex_id: A5008699657
-  one_sentence_summary: ""
-  readme_paragraph: ""
   last_updated: null
   reviewed: false
 - slug: semyon-malamud
@@ -425,8 +348,6 @@
   code_urls: []
   orcid: 0000-0001-6574-7322
   openalex_id: A5067616912
-  one_sentence_summary: ""
-  readme_paragraph: ""
   last_updated: null
   reviewed: false
 - slug: martin-odersky
@@ -437,8 +358,6 @@
   code_urls: []
   orcid: 0009-0005-3923-8993
   openalex_id: A5085410724
-  one_sentence_summary: ""
-  readme_paragraph: ""
   last_updated: null
   reviewed: false
 - slug: mario-paolone
@@ -449,8 +368,6 @@
   code_urls: []
   orcid: 0000-0001-7073-9036
   openalex_id: A5050504092
-  one_sentence_summary: ""
-  readme_paragraph: ""
   last_updated: null
   reviewed: false
 - slug: mathias-payer
@@ -461,8 +378,6 @@
   code_urls: []
   orcid: 0000-0001-5054-7547
   openalex_id: A5065116578
-  one_sentence_summary: ""
-  readme_paragraph: ""
   last_updated: null
   reviewed: false
 - slug: clement-pit-claudel
@@ -473,8 +388,6 @@
   code_urls: []
   orcid: 0000-0002-1900-3901
   openalex_id: A5018186543
-  one_sentence_summary: ""
-  readme_paragraph: ""
   last_updated: null
   reviewed: false
 - slug: marcel-salathe
@@ -485,8 +398,6 @@
   code_urls: []
   orcid: 0000-0002-5079-7797
   openalex_id: A5010649096
-  one_sentence_summary: ""
-  readme_paragraph: ""
   last_updated: null
   reviewed: false
 - slug: yanina-shkel
@@ -497,8 +408,6 @@
   code_urls: []
   orcid: 0000-0002-2575-1762
   openalex_id: A5052329970
-  one_sentence_summary: ""
-  readme_paragraph: ""
   last_updated: null
   reviewed: false
 - slug: sabine-susstrunk
@@ -509,8 +418,6 @@
   code_urls: []
   orcid: 0000-0002-0441-6068
   openalex_id: A5078201467
-  one_sentence_summary: ""
-  readme_paragraph: ""
   last_updated: null
   reviewed: false
 - slug: carmela-troncoso
@@ -521,8 +428,6 @@
   code_urls: []
   orcid: 0000-0002-2374-2248
   openalex_id: A5072857797
-  one_sentence_summary: ""
-  readme_paragraph: ""
   last_updated: null
   reviewed: false
 - slug: serge-vaudenay
@@ -533,8 +438,6 @@
   code_urls: []
   orcid: 0000-0001-9185-1449
   openalex_id: A5073902849
-  one_sentence_summary: ""
-  readme_paragraph: ""
   last_updated: null
   reviewed: false
 - slug: thomas-vidick
@@ -545,8 +448,6 @@
   code_urls: []
   orcid: 0000-0002-6405-365X
   openalex_id: A5019616211
-  one_sentence_summary: ""
-  readme_paragraph: ""
   last_updated: null
   reviewed: false
 - slug: robert-west
@@ -557,7 +458,5 @@
   code_urls: []
   orcid: 0000-0001-6398-0921
   openalex_id: A5059645286
-  one_sentence_summary: ""
-  readme_paragraph: ""
   last_updated: null
   reviewed: false

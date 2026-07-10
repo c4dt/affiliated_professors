@@ -2,6 +2,8 @@
 
 from __future__ import annotations
 
+import shutil
+import subprocess
 from pathlib import Path
 
 import yaml
@@ -40,6 +42,21 @@ def save_registry(profs: list[Professor], path: Path = DEFAULT_REGISTRY) -> None
     path.write_text(
         yaml.safe_dump(data, sort_keys=False, allow_unicode=True, width=100)
     )
+    _prettier_format(path)
+
+
+def _prettier_format(path: Path) -> None:
+    """Best-effort: canonicalize the file with Prettier (default settings) so
+    generated writes match editors that format YAML with Prettier (e.g. Zed) and
+    don't churn the diff. No-op if prettier isn't on PATH."""
+    if shutil.which("prettier") is None:
+        return
+    try:
+        subprocess.run(
+            ["prettier", "--write", str(path)], check=True, capture_output=True
+        )
+    except Exception:  # noqa: BLE001 - formatting is cosmetic, never fail a run
+        pass
 
 
 def pick_least_recently_updated(profs: list[Professor]) -> Professor | None:

@@ -138,10 +138,8 @@ def cmd_update(args: argparse.Namespace) -> int:
             update = _fallback_update(prof, f"- Update failed (LLM error); sources fetched but not summarized.")
             failed = True
 
-    # persist profile + registry-derived fields + professors index
+    # write the profile (prose lives there), bump rotation state, rebuild index
     write_profile(prof, update, today)
-    prof.one_sentence_summary = update.one_sentence_summary or prof.one_sentence_summary
-    prof.readme_paragraph = update.readme_paragraph or prof.readme_paragraph
     prof.last_updated = today
     save_registry(profs)
     regen_professors_md(profs)
@@ -171,13 +169,14 @@ def cmd_update(args: argparse.Namespace) -> int:
 
 
 def _fallback_update(prof: Professor, changelog: str) -> ProfileUpdate:
+    # empty summary/links -> build_profile preserves whatever is in the existing
+    # profile file, so a failed run only appends a changelog line
     return ProfileUpdate(
-        one_sentence_summary=prof.one_sentence_summary,
+        one_sentence_summary="",
         important_links=[],
         changelog_entry=changelog,
         significant=False,
         matrix_summary="",
-        readme_paragraph=prof.readme_paragraph,
     )
 
 

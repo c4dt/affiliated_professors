@@ -15,7 +15,6 @@ def _prof():
         code_urls=["https://github.com/dedis"],
         orcid="0000-0002-0528-3033",
         openalex_id="A5000000000",
-        readme_paragraph="Works on decentralized systems.",
         last_updated="2026-07-10",
         reviewed=True,
     )
@@ -28,7 +27,6 @@ def _update(entry="- did a thing"):
         changelog_entry=entry,
         significant=True,
         matrix_summary="New paper.",
-        readme_paragraph="Works on decentralized systems.",
     )
 
 
@@ -82,19 +80,21 @@ def test_write_profile_uppercase_filename(tmp_path):
     assert path.exists()
 
 
-def test_readme_lists_professors_sorted():
+def test_readme_lists_professors_sorted(tmp_path):
     profs = [
         Professor(slug="zoe", name="Zoe Z", lab="LabZ", last_updated="2026-01-01"),
-        Professor(slug="amy", name="Amy A", lab="LabA", readme_paragraph="Does A."),
+        Professor(slug="amy", name="Amy A", lab="LabA"),
     ]
-    out = build_professors_md(profs)
+    # the index reads each summary from the profile file, not the registry
+    (tmp_path / "AMY.md").write_text("# Amy A\n\n**Lab:** LabA\n\nDoes A.\n\n## Changelog\n")
+    out = build_professors_md(profs, tmp_path)
     assert out.index("Amy A") < out.index("Zoe Z")
     assert "professors/AMY.md" in out
-    assert "Does A." in out
-    assert "last updated —" in out  # amy never updated
+    assert "Does A." in out                 # summary pulled from AMY.md
+    assert "last updated —" in out          # amy never updated
 
 
-def test_readme_shows_verification_links_even_when_unreviewed():
+def test_readme_shows_verification_links_even_when_unreviewed(tmp_path):
     profs = [
         Professor(
             slug="amy",
@@ -107,10 +107,35 @@ def test_readme_shows_verification_links_even_when_unreviewed():
             reviewed=False,
         )
     ]
-    out = build_professors_md(profs)
+    out = build_professors_md(profs, tmp_path)  # no profile file yet
     assert "⬜ unreviewed" in out
     assert "[laba.example](https://laba.example/)" in out
     assert "[amy.example](https://amy.example/)" in out
     assert "[github.com/amy](https://github.com/amy)" in out
     assert "[ORCID 0000-0000-0000-0001](https://orcid.org/0000-0000-0000-0001)" in out
     assert "[OpenAlex A5001](https://openalex.org/A5001)" in out
+
+
+def test_extract_summary_ignores_header_and_metadata():
+    from prof_tracker.render import _extract_summary
+
+    text = "# Amy A\n\n**Lab:** LabA\n**Web:** [x](https://x)\n\nDoes A things.\n\n## Key research\n\n- [a](https://b)\n"
+    assert _extract_summary(text) == "Does A things."
+
+
+def test_fallback_update_preserves_existing_summary_and_links():
+    from prof_tracker.models import ProfileUpdate
+
+    existing = build_profile(_prof(), _update("- first"), "2026-06-01")
+    empty = ProfileUpdate(
+        one_sentence_summary="",
+        important_links=[],
+        changelog_entry="- sources unavailable",
+        significant=False,
+        matrix_summary="",
+    )
+    out = build_profile(_prof(), empty, "2026-07-10", existing)
+    assert "Builds decentralized systems." in out  # summary preserved
+    assert "## Key research" in out                 # links preserved
+    assert "[DEDIS](https://dedis.epfl.ch/)" in out
+    assert "- sources unavailable" in out

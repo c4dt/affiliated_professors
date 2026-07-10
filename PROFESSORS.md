@@ -44,7 +44,7 @@ Research tracker for C4DT's affiliated professors. Each weekday an automated age
 
 [dedis.epfl.ch](https://dedis.epfl.ch/) · [github.com/dedis](https://github.com/dedis) · [ORCID 0000-0002-0528-3033](https://orcid.org/0000-0002-0528-3033) · [OpenAlex A5045962151](https://openalex.org/A5045962151)
 
-Bryan Ford leads the Decentralized and Distributed Systems Lab (DEDIS) at EPFL, focusing on decentralized trust, collective authorities, scalable consensus, and coercion-resistant e-voting. Recent work includes Limix (NINeS 2026), a metadata service that confines strongly-consistent state to local regions to insulate global distributed systems from remote failures, and TRIP (ACM CCS 2025), a coercion-resistant registration protocol extending the Votegral e-voting platform. The lab maintains widely-used open-source libraries including the Kyber cryptography library (699 ★) and the QuePaxa consensus protocol (SOSP '23).
+Bryan Ford leads DEDIS at EPFL, researching decentralized trust, scalable consensus, coercion-resistant e-voting, and privacy-preserving distributed systems.
 
 ### [Caglar Gulcehre](professors/CAGLAR-GULCEHRE.md)
 *Caglar Gulcehre Lab for AI Research (CLAIRE)* · last updated — · ⬜ unreviewed

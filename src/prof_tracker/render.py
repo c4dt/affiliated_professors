@@ -51,6 +51,40 @@ PROFESSORS_MD = Path("PROFESSORS.md")
 
 _CHANGELOG_HEADER = "## Changelog"
 _ENTRY_RE = re.compile(r"^### (\d{4}-\d{2}-\d{2})\s*$", re.MULTILINE)
+_KEY_RESEARCH_HEADER = "## Key research"
+
+
+def _extract_summary(text: str) -> str:
+    """The intro paragraph of a profile — the first non-header, non-metadata
+    block, before any '## ' section."""
+    summary: list[str] = []
+    for line in text.splitlines():
+        s = line.strip()
+        if s.startswith("## ") or s.startswith("### "):
+            break
+        if summary:  # collecting the paragraph
+            if not s:
+                break
+            summary.append(s)
+        elif s and not s.startswith("#") and not s.startswith("**"):
+            summary.append(s)
+    return " ".join(summary).strip()
+
+
+def _extract_key_research(text: str) -> list[str]:
+    """The bullet lines under '## Key research' in an existing profile."""
+    bullets: list[str] = []
+    in_section = False
+    for line in text.splitlines():
+        if line.strip() == _KEY_RESEARCH_HEADER:
+            in_section = True
+            continue
+        if in_section:
+            if line.startswith("## "):
+                break
+            if line.strip().startswith("- "):
+                bullets.append(line.strip())
+    return bullets
 
 
 def _split_changelog(existing: str) -> list[tuple[str, str]]:
@@ -105,15 +139,21 @@ def build_profile(
         lines.append(f"**OpenAlex:** [{prof.openalex_id}]({_openalex_url(prof.openalex_id)})")
     lines.append("")
 
-    if update.one_sentence_summary:
-        lines.append(update.one_sentence_summary)
+    # preserve existing prose when the update doesn't supply new content
+    # (e.g. a sources-down fallback), so a failed run can't blank the profile
+    summary = update.one_sentence_summary.strip() or _extract_summary(existing)
+    if summary:
+        lines.append(summary)
         lines.append("")
 
     if update.important_links:
-        lines.append("## Key research")
+        research = [f"- [{link.title}]({link.url})" for link in update.important_links]
+    else:
+        research = _extract_key_research(existing)
+    if research:
+        lines.append(_KEY_RESEARCH_HEADER)
         lines.append("")
-        for link in update.important_links:
-            lines.append(f"- [{link.title}]({link.url})")
+        lines.extend(research)
         lines.append("")
 
     entries = [(d, b) for (d, b) in _split_changelog(existing) if d != today]
@@ -135,7 +175,9 @@ def write_profile(
     return path
 
 
-def build_professors_md(profs: list[Professor]) -> str:
+def build_professors_md(
+    profs: list[Professor], professors_dir: Path = PROFESSORS_DIR
+) -> str:
     lines = [
         "# C4DT Affiliated Professors",
         "",
@@ -160,9 +202,10 @@ def build_professors_md(profs: list[Professor]) -> str:
         if links:
             lines.append(links)
             lines.append("")
-        body = prof.readme_paragraph or prof.one_sentence_summary
-        if body:
-            lines.append(body)
+        profile_path = professors_dir / fname
+        summary = _extract_summary(profile_path.read_text()) if profile_path.exists() else ""
+        if summary:
+            lines.append(summary)
             lines.append("")
     return "\n".join(lines).rstrip() + "\n"
 

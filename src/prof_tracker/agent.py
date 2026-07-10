@@ -39,7 +39,6 @@ Produce a ProfileUpdate:
 - significant: true ONLY if there is a genuinely newsworthy development worth
   broadcasting to a team channel; routine activity is not significant.
 - matrix_summary: 1-2 sentences summarizing what's new, for a chat announcement.
-- readme_paragraph: a concise paragraph (2-4 sentences) for the index page.
 
 You may call scrape_url(url) up to 3 times total to follow one interesting link
 (e.g. a news post or project page). Use it sparingly.
