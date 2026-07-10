@@ -89,6 +89,7 @@ def make_agent() -> Agent[Deps, ProfileUpdate]:
         deps_type=Deps,
         output_type=ProfileUpdate,
         instructions=INSTRUCTIONS,
+        defer_model_check=True,  # allow newer model names not yet in pydantic-ai's list
     )
 
     @agent.tool

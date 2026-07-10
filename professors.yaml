@@ -1,0 +1,18 @@
+- slug: bryan-ford
+  name: Bryan Ford
+  lab: Decentralized and Distributed Systems Lab (DEDIS)
+  lab_url: https://dedis.epfl.ch/
+  github_org: dedis
+  openalex_id: A5045962151
+  one_sentence_summary: Bryan Ford leads the DEDIS lab at EPFL, researching decentralized trust, collective
+    authorities, scalable consensus, privacy-preserving systems, and coercion-resistant e-voting.
+  readme_paragraph: Bryan Ford leads the Decentralized and Distributed Systems (DEDIS) lab at EPFL, focusing
+    on large-scale collective authorities ("cothorities"), scalable Byzantine consensus, privacy-preserving
+    data sharing, and coercion-resistant e-voting. Recent highlights include **Limix** (NINeS 2026), a
+    fault-isolation metadata service for globally-managed distributed systems, and **TRIP** (ACM CCS 2025),
+    a coercion-resistant registration protocol for the Votegral e-voting platform. The lab actively maintains
+    widely used open-source infrastructure including the **Kyber** cryptographic library and the **QuePaxa**
+    consensus protocol, and explores foundational topics from blockchain rationality to grounded deduction
+    in formal logic.
+  last_updated: '2026-07-10'
+  reviewed: true
