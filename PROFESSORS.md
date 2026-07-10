@@ -51,9 +51,11 @@ Annie Hartley leads EPFL's LiGHT lab, developing open, auditable AI systems—mo
 Bryan Ford leads DEDIS at EPFL, researching decentralized trust, scalable consensus, coercion-resistant e-voting, and privacy-preserving distributed systems.
 
 ### [Caglar Gulcehre](professors/CAGLAR-GULCEHRE.md)
-*Caglar Gulcehre Lab for AI Research (CLAIRE)* · last updated — · ✅ reviewed
+*Caglar Gulcehre Lab for AI Research (CLAIRE)* · last updated 2026-07-10 · ✅ reviewed
 
 [EPFL profile](https://people.epfl.ch/caglar.gulcehre) · [epfl.ch](https://www.epfl.ch/labs/claire/) · [ORCID 0009-0003-4124-1687](https://orcid.org/0009-0003-4124-1687) · [OpenAlex A5041145688](https://openalex.org/A5041145688)
+
+Caglar Gulcehre leads CLAIRE at EPFL, researching efficient and safe deep learning algorithms spanning reinforcement learning, large language model training, sequence modeling architectures, alignment/safety, and system-2 level reasoning.
 
 ### [Carmela Troncoso](professors/CARMELA-TRONCOSO.md)
 *Security and Privacy Engineering Lab (SPRING)* · last updated — · ✅ reviewed
