@@ -160,8 +160,11 @@ def build_profile(
         lines.extend(research)
         lines.append("")
 
+    today_body = update.changelog_entry.strip()
     entries = [(d, b) for (d, b) in _split_changelog(existing) if d != today]
-    entries.insert(0, (today, update.changelog_entry.strip()))
+    if today_body:
+        entries.append((today, today_body))
+    entries.sort(key=lambda e: e[0], reverse=True)
 
     return "\n".join(lines).rstrip() + "\n\n" + _render_changelog(entries)
 

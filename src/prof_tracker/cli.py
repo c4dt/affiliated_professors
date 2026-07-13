@@ -297,6 +297,37 @@ def cmd_announce(args: argparse.Namespace) -> int:
 
 
 # --------------------------------------------------------------------------- #
+# reformat
+# --------------------------------------------------------------------------- #
+def cmd_reformat(args: argparse.Namespace) -> int:
+    """Re-render all professor files in-place without an LLM call.
+
+    Preserves all existing content (summary, key research, changelog) but
+    applies the current render logic — including newest-first changelog sorting.
+    """
+    from .render import build_profile, PROFESSORS_DIR
+
+    profs = load_registry()
+    empty = ProfileUpdate(
+        one_sentence_summary="",
+        important_links=[],
+        changelog_entry="",
+        significant=False,
+        matrix_summary="",
+    )
+    count = 0
+    for prof in profs:
+        path = PROFESSORS_DIR / profile_filename(prof.slug)
+        if not path.exists():
+            continue
+        existing = path.read_text()
+        path.write_text(build_profile(prof, empty, "0000-00-00", existing))
+        count += 1
+    logger.info("Reformatted %d professor files.", count)
+    return 0
+
+
+# --------------------------------------------------------------------------- #
 # regen-professors
 # --------------------------------------------------------------------------- #
 def cmd_regen_professors(args: argparse.Namespace) -> int:
@@ -344,6 +375,9 @@ def main(argv: list[str] | None = None) -> int:
 
     p_regen = sub.add_parser("regen-professors", help="regenerate PROFESSORS.md")
     p_regen.set_defaults(func=cmd_regen_professors)
+
+    p_reformat = sub.add_parser("reformat", help="re-render all professor files in-place (no LLM)")
+    p_reformat.set_defaults(func=cmd_reformat)
 
     p_orcid = sub.add_parser(
         "resolve-orcids", help="fill candidate ORCIDs for human verification"

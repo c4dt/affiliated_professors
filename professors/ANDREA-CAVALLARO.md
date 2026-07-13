@@ -21,8 +21,6 @@ Andrea Cavallaro leads the MINTS lab at EPFL, researching multimodal intelligent
 
 ## Changelog
 
-### 2026-07-13
-
 ### 2026-07-14
 
 - **New paper – DeX (Cross-modal Counterfactual Explanations, arXiv Dec 2025):** "Decompose and Explain" (DeX) is a training-free interpretability framework that uses cross-modal decompositionality and image-specific concepts to generate natural-language counterfactual explanations for subjective classification tasks (e.g. image privacy). Identifies decision factors and dataset biases for fairness mitigation.

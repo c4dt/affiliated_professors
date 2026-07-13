@@ -13,6 +13,7 @@
       "bootstrap":        ["uv run prof-tracker bootstrap $@"],
       "resolve-orcids":   ["uv run prof-tracker resolve-orcids $@"],
       "regen-professors": ["uv run prof-tracker regen-professors $@"],
+      "reformat":         ["uv run prof-tracker reformat $@"],
       "test":             ["uv run pytest"]
     }
   }

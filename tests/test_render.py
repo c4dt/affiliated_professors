@@ -33,7 +33,8 @@ def _update(entry="- did a thing"):
 
 def test_profile_has_header_and_links():
     out = build_profile(_prof(), _update(), "2026-07-10")
-    assert out.startswith("# Bryan Ford")
+    assert out.startswith("[../PROFESSORS.md]")
+    assert "# Bryan Ford" in out
     assert "**Lab:** DEDIS" in out
     assert "[dedis.epfl.ch](https://dedis.epfl.ch/)" in out
     assert "[bford.info](https://bford.info/)" in out  # multiple urls
@@ -41,6 +42,8 @@ def test_profile_has_header_and_links():
     assert "[0000-0002-0528-3033](https://orcid.org/0000-0002-0528-3033)" in out
     assert "## Key research" in out
     assert "### 2026-07-10" in out
+    # changelog stays after key research
+    assert out.index("## Changelog") > out.index("## Key research")
 
 
 def test_changelog_prepends_and_preserves_history():
