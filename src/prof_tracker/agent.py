@@ -150,7 +150,7 @@ def run_extract(raw_text: str, professors: list[Professor], today: str) -> Discu
     return result.output
 
 
-DISCUSS_INSTRUCTIONS = """\
+NOTES_INSTRUCTIONS = """\
 You maintain research-tracking profiles for EPFL/C4DT affiliated professors.
 
 You are given: the professor's current profile (for style context) and raw
@@ -161,25 +161,31 @@ Produce clean, concise markdown that:
   their existing profile
 - Is 2-5 short paragraphs or a mix of prose and bullets as appropriate
 - Focuses on what is new and notable — what the professor highlighted themselves
+- Preserves every URL from the notes as a markdown hyperlink, e.g.
+  [Paper Title](https://...) — never drop or paraphrase away a link
 - Does NOT include the section header (added automatically)
 - Does NOT use first-person voice (write as reporting, not quoting)
+- Does NOT include any personal information (names of people other than the
+  professor, private contact details, sensitive organisational context, or
+  anything the professor said off the record) — this profile is stored in a
+  public repository
 
 Output ONLY the formatted markdown, no preamble or trailing commentary.
 """
 
 
-def run_discuss(raw_text: str, existing_profile: str) -> str:
-    """Format raw meeting notes into markdown for a Discussion section."""
+def run_notes(raw_text: str, existing_profile: str) -> str:
+    """Format raw meeting notes into markdown for a Notes section."""
     agent: Agent[None, str] = Agent(
         build_model(),
         output_type=str,
-        instructions=DISCUSS_INSTRUCTIONS,
+        instructions=NOTES_INSTRUCTIONS,
         defer_model_check=True,
     )
     prompt = (
         f"=== EXISTING PROFILE ===\n{existing_profile}\n\n"
         f"=== MEETING NOTES ===\n{raw_text}\n"
     )
-    logger.debug("run_discuss: prompt is %d chars", len(prompt))
+    logger.debug("run_notes: prompt is %d chars", len(prompt))
     result = agent.run_sync(prompt)
     return result.output

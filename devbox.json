@@ -8,7 +8,7 @@
   "shell": {
     "init_hook": ["uv sync"],
     "scripts": {
-      "discuss":          ["uv run prof-tracker discuss $@"],
+      "notes":            ["uv run prof-tracker notes $@"],
       "update":           ["uv run prof-tracker update $@"],
       "announce":         ["uv run prof-tracker announce $@"],
       "bootstrap":        ["uv run prof-tracker bootstrap $@"],

@@ -34,23 +34,28 @@ devbox run test                      # run the unit tests
 
 ### Recording meeting notes
 
-Use `discuss` to add a dated Discussion section to a professor's profile from
+Use `notes` to add a dated Notes section to a professor's profile from
 free-form notes (the LLM extracts the professor name and date automatically):
+
+> **Privacy:** notes are stored in a public repository. Do **not** include
+> personal information — names of third parties, private contact details,
+> off-the-record remarks, or any sensitive organisational context. Stick to
+> publicly shareable research topics and outcomes.
 
 ```bash
 # Pass text directly — avoid special shell characters (!, backticks) this way:
-devbox run discuss -- --file - <<'EOF'
+devbox run notes -- --file - <<'EOF'
 Met with Alice Example on 2026-07-10.  She mentioned a new paper on X.
 EOF
 
 # Or pipe from another command:
-cat notes.txt | devbox run discuss -- --file -
+cat notes.txt | devbox run notes -- --file -
 
 # Or read from a file:
-devbox run discuss -- --file notes.txt
+devbox run notes -- --file notes.txt
 
 # Override the extracted slug/date if needed:
-devbox run discuss -- --file - --slug alice-example --date 2026-07-10 <<'EOF'
+devbox run notes -- --file - --slug alice-example --date 2026-07-10 <<'EOF'
 ...
 EOF
 ```

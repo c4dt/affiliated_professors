@@ -54,7 +54,7 @@ PROFESSORS_MD = Path("PROFESSORS.md")
 _CHANGELOG_HEADER = "## Changelog"
 _ENTRY_RE = re.compile(r"^### (\d{4}-\d{2}-\d{2})\s*$", re.MULTILINE)
 _KEY_RESEARCH_HEADER = "## Key research"
-_DISCUSSION_RE = re.compile(r"^## Discussion (\d{4}-\d{2}-\d{2})\s*$", re.MULTILINE)
+_NOTES_RE = re.compile(r"^## Notes (\d{4}-\d{2}-\d{2})\s*$", re.MULTILINE)
 
 
 def _extract_summary(text: str) -> str:
@@ -91,11 +91,11 @@ def _extract_key_research(text: str) -> list[str]:
 
 
 def _split_discussions(existing: str) -> list[tuple[str, str]]:
-    """Parse ## Discussion YYYY-MM-DD sections from an existing profile into
+    """Parse ## Notes YYYY-MM-DD sections from an existing profile into
     [(date, body), ...] in file order (newest first). Stops before ## Changelog."""
     changelog_idx = existing.find(_CHANGELOG_HEADER)
     search_in = existing[:changelog_idx] if changelog_idx != -1 else existing
-    matches = list(_DISCUSSION_RE.finditer(search_in))
+    matches = list(_NOTES_RE.finditer(search_in))
     entries: list[tuple[str, str]] = []
     for i, m in enumerate(matches):
         date = m.group(1)
@@ -112,7 +112,7 @@ def _render_discussions(discussions: list[tuple[str, str]]) -> str:
         if not body.strip() or date in seen:
             continue
         seen.add(date)
-        parts.append(f"## Discussion {date}")
+        parts.append(f"## Notes {date}")
         parts.append("")
         parts.append(body.strip())
         parts.append("")
@@ -164,7 +164,7 @@ def build_profile(
     day: an existing entry for `today` is replaced).
 
     new_discussion, if provided, is (date, body) and is inserted/replaced in
-    the ## Discussion sections that appear between key research and changelog.
+    the ## Notes sections that appear between key research and changelog.
     """
     lines = ["[../PROFESSORS.md](../PROFESSORS.md)  ", "", f"# {prof.name}", ""]
     if prof.lab:
@@ -198,7 +198,7 @@ def build_profile(
         lines.extend(research)
         lines.append("")
 
-    # Discussion sections (between key research and changelog)
+    # Notes sections (between key research and changelog)
     discussions = [(d, b) for (d, b) in _split_discussions(existing)
                    if new_discussion is None or d != new_discussion[0]]
     if new_discussion is not None:

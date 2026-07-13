@@ -20,13 +20,13 @@ Clément Pit-Claudel leads EPFL's SYSTEMF lab, researching programming languages
 - [POPL 2026: Formal Verification for JavaScript Regular Expressions (Distinguished Paper)](https://doi.org/10.1145/3776710)
 - [SOSP 2024: Practical Verification of System-Software Components in Standard C](https://doi.org/10.1145/3694715.3695980)
 
-## Discussion 2026-07-08
+## Notes 2026-07-13
 
 Two Distinguished Paper awards arrived in January 2026, both reflecting SYSTEMF's focus on rigorous formal verification of real-world systems.
 
-**Formal Verification for JavaScript Regular Expressions** (POPL 2026) demonstrates that JavaScript's notoriously complex regex semantics can be captured in a single page of mathematical rules — without sacrificing precision. The mechanised semantics is proved to be a faithful model of the original specification, enabling formal verification of regex algorithms and optimisations, and surfacing bugs in widely used libraries.
+**[Formal Verification for JavaScript Regular Expressions](https://dl.acm.org/doi/10.1145/3776710)** (POPL 2026) demonstrates that JavaScript's notoriously complex regex semantics can be captured in a single page of mathematical rules — without sacrificing precision. The mechanised semantics is proved to be a faithful model of the original specification, enabling formal verification of regex algorithms and optimisations, and surfacing bugs in widely used libraries.
 
-**Precise Reasoning about Container-Internal Pointers with Logical Pinning** (CPP 2026) introduces a new verification methodology for programs performing complex pointer manipulations that conservative tools like Rust's borrow-checker would reject outright. The approach uses a fine-grained calculus that selectively tracks which pointers are visible to the environment and which remain private to a data structure, yielding elegant and concise proofs for otherwise difficult programs.
+**[Precise Reasoning about Container-Internal Pointers with Logical Pinning](https://dl.acm.org/doi/10.1145/3779031.3779096)** (CPP 2026) introduces a new verification methodology for programs performing complex pointer manipulations that conservative tools like Rust's borrow-checker would reject outright. The approach uses a fine-grained calculus that selectively tracks which pointers are visible to the environment and which remain private to a data structure, yielding elegant and concise proofs for otherwise difficult programs.
 
 ## Changelog
 
