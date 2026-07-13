@@ -32,6 +32,29 @@ devbox run bootstrap                 # (re)build the registry from the C4DT labs
 devbox run test                      # run the unit tests
 ```
 
+### Recording meeting notes
+
+Use `discuss` to add a dated Discussion section to a professor's profile from
+free-form notes (the LLM extracts the professor name and date automatically):
+
+```bash
+# Pass text directly — avoid special shell characters (!, backticks) this way:
+devbox run discuss -- --file - <<'EOF'
+Met with Alice Example on 2026-07-10.  She mentioned a new paper on X.
+EOF
+
+# Or pipe from another command:
+cat notes.txt | devbox run discuss -- --file -
+
+# Or read from a file:
+devbox run discuss -- --file notes.txt
+
+# Override the extracted slug/date if needed:
+devbox run discuss -- --file - --slug alice-example --date 2026-07-10 <<'EOF'
+...
+EOF
+```
+
 Local runs that hit the LLM / Firecrawl / Matrix need credentials: copy
 `.env.example` to `.env` and fill it in (`.env` is gitignored). In CI these come
 from GitHub Actions secrets and variables.

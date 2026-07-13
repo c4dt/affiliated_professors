@@ -299,6 +299,63 @@ def cmd_announce(args: argparse.Namespace) -> int:
 # --------------------------------------------------------------------------- #
 # reformat
 # --------------------------------------------------------------------------- #
+def cmd_discuss(args: argparse.Namespace) -> int:
+    """Add LLM-formatted meeting notes as a Discussion section to a professor profile."""
+    import sys
+    profs = load_registry()
+    if args.file is not None:
+        if args.file == "-":
+            raw_text = sys.stdin.read()
+        else:
+            with open(args.file) as fh:
+                raw_text = fh.read()
+    elif args.text is not None:
+        raw_text = args.text
+    else:
+        logger.error("provide text as argument or via --file / -f (use - for stdin)")
+        return 1
+    today = _today()
+
+    slug = args.slug
+    date = args.date
+    if not slug or not date:
+        from .agent import run_extract
+
+        logger.info("Extracting professor/date from text...")
+        meta = run_extract(raw_text, profs, today)
+        slug = slug or meta.slug
+        date = date or meta.date
+
+    prof = get_by_slug(profs, slug)
+    if prof is None:
+        logger.error("Professor not found: %s", slug)
+        return 1
+
+    path = Path("professors") / profile_filename(prof.slug)
+    existing = path.read_text() if path.exists() else ""
+
+    logger.info("Formatting discussion for %s (%s)", prof.name, date)
+    from .agent import run_discuss
+
+    formatted = run_discuss(raw_text, existing)
+
+    from .render import PROFESSORS_DIR, build_profile
+
+    empty = ProfileUpdate(
+        one_sentence_summary="",
+        important_links=[],
+        changelog_entry="",
+        significant=False,
+        matrix_summary="",
+    )
+    out = PROFESSORS_DIR / profile_filename(prof.slug)
+    PROFESSORS_DIR.mkdir(parents=True, exist_ok=True)
+    out.write_text(build_profile(prof, empty, "0000-00-00", existing,
+                                 new_discussion=(date, formatted)))
+    logger.info("Added Discussion %s to %s", date, out)
+    return 0
+
+
 def cmd_reformat(args: argparse.Namespace) -> int:
     """Re-render all professor files in-place without an LLM call.
 
@@ -375,6 +432,15 @@ def main(argv: list[str] | None = None) -> int:
 
     p_regen = sub.add_parser("regen-professors", help="regenerate PROFESSORS.md")
     p_regen.set_defaults(func=cmd_regen_professors)
+
+    p_discuss = sub.add_parser("discuss", help="add meeting notes to a professor profile")
+    p_discuss.add_argument("text", nargs="?", default=None,
+                           help="raw meeting notes (may include professor name and date in preamble)")
+    p_discuss.add_argument("--file", "-f", default=None,
+                           help="read notes from file (use - for stdin)")
+    p_discuss.add_argument("--slug", default=None, help="professor slug (extracted from text if omitted)")
+    p_discuss.add_argument("--date", default=None, help="meeting date YYYY-MM-DD (extracted from text if omitted)")
+    p_discuss.set_defaults(func=cmd_discuss)
 
     p_reformat = sub.add_parser("reformat", help="re-render all professor files in-place (no LLM)")
     p_reformat.set_defaults(func=cmd_reformat)

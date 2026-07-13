@@ -15,7 +15,7 @@ from pydantic_ai import Agent, RunContext
 from pydantic_ai.models.openai import OpenAIChatModel
 from pydantic_ai.providers.openai import OpenAIProvider
 
-from .models import ProfileUpdate
+from .models import DiscussionExtraction, Professor, ProfileUpdate
 from .sources import firecrawl_scrape
 
 _PROVIDER_ENV = {
@@ -118,4 +118,68 @@ def run_update(prompt: str, firecrawl_api_key: str | None = None) -> ProfileUpda
     logger.debug("run_update: starting agent.run_sync")
     result = agent.run_sync(prompt, deps=Deps(firecrawl_api_key=firecrawl_api_key))
     logger.debug("run_update: done, usage=%s", getattr(result, "usage", None))
+    return result.output
+
+
+EXTRACT_INSTRUCTIONS = """\
+You extract metadata from raw meeting notes about an EPFL professor.
+
+You are given: raw notes (possibly with a preamble like "Discussed last Thursday
+with Clement Pit-Claudel"), a list of professor names and slugs, and today's date.
+
+Return:
+- slug: the slug of the professor mentioned (match to the closest registry entry)
+- date: the meeting date as YYYY-MM-DD (resolve relative references like
+  "last Thursday" using today's date; default to today if no date mentioned)
+"""
+
+
+def run_extract(raw_text: str, professors: list[Professor], today: str) -> DiscussionExtraction:
+    """Extract professor slug and meeting date from raw meeting notes."""
+    roster = "\n".join(f"{p.slug}: {p.name}" for p in professors)
+    agent: Agent[None, DiscussionExtraction] = Agent(
+        build_model(),
+        output_type=DiscussionExtraction,
+        instructions=EXTRACT_INSTRUCTIONS,
+        defer_model_check=True,
+    )
+    prompt = f"Today: {today}\n\nProfessors:\n{roster}\n\nNotes:\n{raw_text}"
+    logger.debug("run_extract: prompt is %d chars", len(prompt))
+    result = agent.run_sync(prompt)
+    logger.debug("run_extract: slug=%s date=%s", result.output.slug, result.output.date)
+    return result.output
+
+
+DISCUSS_INSTRUCTIONS = """\
+You maintain research-tracking profiles for EPFL/C4DT affiliated professors.
+
+You are given: the professor's current profile (for style context) and raw
+notes from a personal conversation with the professor about their recent work.
+
+Produce clean, concise markdown that:
+- Summarises what the professor described, matching the tone and style of
+  their existing profile
+- Is 2-5 short paragraphs or a mix of prose and bullets as appropriate
+- Focuses on what is new and notable — what the professor highlighted themselves
+- Does NOT include the section header (added automatically)
+- Does NOT use first-person voice (write as reporting, not quoting)
+
+Output ONLY the formatted markdown, no preamble or trailing commentary.
+"""
+
+
+def run_discuss(raw_text: str, existing_profile: str) -> str:
+    """Format raw meeting notes into markdown for a Discussion section."""
+    agent: Agent[None, str] = Agent(
+        build_model(),
+        output_type=str,
+        instructions=DISCUSS_INSTRUCTIONS,
+        defer_model_check=True,
+    )
+    prompt = (
+        f"=== EXISTING PROFILE ===\n{existing_profile}\n\n"
+        f"=== MEETING NOTES ===\n{raw_text}\n"
+    )
+    logger.debug("run_discuss: prompt is %d chars", len(prompt))
+    result = agent.run_sync(prompt)
     return result.output

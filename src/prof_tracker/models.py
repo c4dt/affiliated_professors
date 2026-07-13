@@ -61,6 +61,13 @@ class ProfileUpdate(BaseModel):
     matrix_summary: str  # 1-2 sentences
 
 
+class DiscussionExtraction(BaseModel):
+    """Structured output for extracting professor slug and date from raw meeting notes."""
+
+    slug: str  # matched against the registry
+    date: str  # YYYY-MM-DD resolved from text + today's date
+
+
 class RegistryEntry(BaseModel):
     """One professor extracted during bootstrap from the C4DT labs listing."""
 

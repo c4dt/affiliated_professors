@@ -54,6 +54,7 @@ PROFESSORS_MD = Path("PROFESSORS.md")
 _CHANGELOG_HEADER = "## Changelog"
 _ENTRY_RE = re.compile(r"^### (\d{4}-\d{2}-\d{2})\s*$", re.MULTILINE)
 _KEY_RESEARCH_HEADER = "## Key research"
+_DISCUSSION_RE = re.compile(r"^## Discussion (\d{4}-\d{2}-\d{2})\s*$", re.MULTILINE)
 
 
 def _extract_summary(text: str) -> str:
@@ -87,6 +88,35 @@ def _extract_key_research(text: str) -> list[str]:
             if line.strip().startswith("- "):
                 bullets.append(line.strip())
     return bullets
+
+
+def _split_discussions(existing: str) -> list[tuple[str, str]]:
+    """Parse ## Discussion YYYY-MM-DD sections from an existing profile into
+    [(date, body), ...] in file order (newest first). Stops before ## Changelog."""
+    changelog_idx = existing.find(_CHANGELOG_HEADER)
+    search_in = existing[:changelog_idx] if changelog_idx != -1 else existing
+    matches = list(_DISCUSSION_RE.finditer(search_in))
+    entries: list[tuple[str, str]] = []
+    for i, m in enumerate(matches):
+        date = m.group(1)
+        start = m.end()
+        end = matches[i + 1].start() if i + 1 < len(matches) else len(search_in)
+        entries.append((date, search_in[start:end].strip("\n")))
+    return entries
+
+
+def _render_discussions(discussions: list[tuple[str, str]]) -> str:
+    parts: list[str] = []
+    seen: set[str] = set()
+    for date, body in discussions:
+        if not body.strip() or date in seen:
+            continue
+        seen.add(date)
+        parts.append(f"## Discussion {date}")
+        parts.append("")
+        parts.append(body.strip())
+        parts.append("")
+    return "\n".join(parts)
 
 
 def _split_changelog(existing: str) -> list[tuple[str, str]]:
@@ -123,11 +153,19 @@ def _render_changelog(entries: list[tuple[str, str]]) -> str:
 
 
 def build_profile(
-    prof: Professor, update: ProfileUpdate, today: str, existing: str = ""
+    prof: Professor,
+    update: ProfileUpdate,
+    today: str,
+    existing: str = "",
+    new_discussion: tuple[str, str] | None = None,
 ) -> str:
     """Rebuild the header + summary + links from current data, then prepend
     today's changelog entry above the preserved old entries (idempotent per
-    day: an existing entry for `today` is replaced)."""
+    day: an existing entry for `today` is replaced).
+
+    new_discussion, if provided, is (date, body) and is inserted/replaced in
+    the ## Discussion sections that appear between key research and changelog.
+    """
     lines = ["[../PROFESSORS.md](../PROFESSORS.md)  ", "", f"# {prof.name}", ""]
     if prof.lab:
         lines.append(f"**Lab:** {prof.lab}  ")
@@ -159,6 +197,16 @@ def build_profile(
         lines.append("")
         lines.extend(research)
         lines.append("")
+
+    # Discussion sections (between key research and changelog)
+    discussions = [(d, b) for (d, b) in _split_discussions(existing)
+                   if new_discussion is None or d != new_discussion[0]]
+    if new_discussion is not None:
+        discussions.append(new_discussion)
+    discussions.sort(key=lambda e: e[0], reverse=True)
+    rendered_discussions = _render_discussions(discussions)
+    if rendered_discussions:
+        lines.append(rendered_discussions)
 
     today_body = update.changelog_entry.strip()
     entries = [(d, b) for (d, b) in _split_changelog(existing) if d != today]
