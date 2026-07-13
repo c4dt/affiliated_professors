@@ -8,18 +8,30 @@
 **ORCID:** [0000-0001-5086-7858](https://orcid.org/0000-0001-5086-7858)  
 **OpenAlex:** [A5004087827](https://openalex.org/A5004087827)  
 
-Andrea Cavallaro leads the MINTS lab at EPFL, researching multimodal intelligent systems spanning privacy-preserving machine learning, AI safety and alignment, robustness/interpretability, and multi-modal perception for autonomous systems.
+Andrea Cavallaro leads the MINTS lab at EPFL, researching multimodal intelligent systems with a focus on privacy-preserving AI, vision-language models, cross-modal explainability, and multimodal perception for autonomous and robotic systems.
 
 ## Key research
 
 - [MINTS Lab Website](https://www.epfl.ch/labs/mints/)
-- [MINTS Research Areas](https://www.epfl.ch/labs/mints/research/)
 - [EPFL Profile – Andrea Cavallaro](https://people.epfl.ch/andrea.cavallaro)
 - [PrivLEX: Detecting Legal Concepts in Images via VLMs (arXiv 2025)](https://arxiv.org/abs/2601.09449)
+- [Cross-modal Counterfactual Explanations: DeX Framework (arXiv Dec 2025)](https://arxiv.org/abs/2512.18864)
 - [MM-HSD: Multi-Modal Hate Speech Detection in Videos (ACM MM 2025)](https://doi.org/10.1145/3746027.3754558)
 - [High-Resolution Open-Vocabulary Object 6D Pose Estimation (IEEE TPAMI 2025)](https://doi.org/10.1109/tpami.2025.3624589)
 
 ## Changelog
+
+### 2026-07-13
+
+### 2026-07-14
+
+- **New paper – DeX (Cross-modal Counterfactual Explanations, arXiv Dec 2025):** "Decompose and Explain" (DeX) is a training-free interpretability framework that uses cross-modal decompositionality and image-specific concepts to generate natural-language counterfactual explanations for subjective classification tasks (e.g. image privacy). Identifies decision factors and dataset biases for fairness mitigation.
+- **New paper – Zero-shot image privacy classification with VLMs (arXiv Oct 2025):** Explores zero-shot VLM-based image privacy classification, extending the lab's VLM-for-privacy research thread.
+- **New paper – Specializing General-purpose LLM Embeddings for Implicit Hate Speech Detection (ACM MM 2025, Oct 2025):** Presents methods for adapting LLM embeddings across datasets for implicit hate speech detection; 1 citation already.
+- **New paper – On the Consistency Between Subjective and Objective Evaluation for Speech Enhancement Under Low-SNR Drone Noise (IEEE Signal Processing Letters, 2026):** Published in IEEE SPL; extends the lab's drone-noise speech enhancement line.
+- **New paper – High-resolution open-vocabulary object 6D pose estimation datasets released on Zenodo (Feb 2026):** Code/data artifacts for the IEEE TPAMI paper now publicly archived on Zenodo.
+- No major new awards or institutional changes since the last profile update; ELLIS Fellowship (2025) and keynote/invited talk schedule remain as previously recorded.
+- Publications from medical/clinical domains appearing in ORCID feed (mesenteric ischemia, eating disorders, rehabilitation) appear to be false-positive ORCID matches and are not attributed to this Andrea Cavallaro.
 
 ### 2026-07-10
 
