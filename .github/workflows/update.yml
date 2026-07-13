@@ -2,7 +2,7 @@ name: update-professor
 
 on:
   schedule:
-    - cron: '37 5 * * 1-5'      # weekdays, off-peak minute (UTC; may drift ~15 min)
+    - cron: '37 4 * * 1-5'      # weekdays, off-peak minute (UTC; may drift ~15 min)
   workflow_dispatch:
     inputs:
       slug:
