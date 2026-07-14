@@ -19,11 +19,11 @@ Alessandro Chiesa leads COMPSEC at EPFL, working on the theoretical foundations 
 Andrea Cavallaro leads the MINTS lab at EPFL, researching multimodal intelligent systems with a focus on privacy-preserving AI, vision-language models, cross-modal explainability, and multimodal perception for autonomous and robotic systems.
 
 ### [Anne-Marie Kermarrec](professors/ANNE-MARIE-KERMARREC.md)
-*Scalable Computing Systems Laboratory (SaCS)* · last updated 2026-07-10 · ✅ reviewed
+*Scalable Computing Systems Laboratory (SaCS)* · last updated 2026-07-14 · ✅ reviewed
 
 [EPFL profile](https://people.epfl.ch/anne-marie.kermarrec) · [epfl.ch](https://www.epfl.ch/labs/sacs/) · [github.com/sacs-epfl](https://github.com/sacs-epfl) · [ORCID 0000-0001-8187-724X](https://orcid.org/0000-0001-8187-724X) · [OpenAlex A5031849486](https://openalex.org/A5031849486)
 
-Anne-Marie Kermarrec leads the SACS lab at EPFL, researching large-scale distributed systems with a strong current focus on federated and decentralized machine learning, scalable inference, and retrieval-augmented generation.
+Anne-Marie Kermarrec leads the SACS lab at EPFL, researching large-scale distributed systems with a strong focus on federated/decentralized machine learning, scalable LLM/MoE inference, agentic AI workflows, and retrieval-augmented generation.
 
 ### [Annie Hartley](professors/ANNIE-HARTLEY.md)
 *Laboratory for Intelligent Global Health and Humanitarian Response Technologies (LiGHT)* · last updated 2026-07-10 · ✅ reviewed
