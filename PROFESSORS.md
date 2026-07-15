@@ -26,7 +26,7 @@ Andrea Cavallaro leads the MINTS lab at EPFL, researching multimodal intelligent
 Anne-Marie Kermarrec leads the SACS lab at EPFL, researching large-scale distributed systems with a strong focus on federated/decentralized machine learning, scalable LLM/MoE inference, agentic AI workflows, and retrieval-augmented generation.
 
 ### [Annie Hartley](professors/ANNIE-HARTLEY.md)
-*Laboratory for Intelligent Global Health and Humanitarian Response Technologies (LiGHT)* · last updated 2026-07-10 · ✅ reviewed
+*Laboratory for Intelligent Global Health and Humanitarian Response Technologies (LiGHT)* · last updated 2026-07-15 · ✅ reviewed
 
 [EPFL profile](https://people.epfl.ch/mary-anne.hartley) · [light-laboratory.org](https://www.light-laboratory.org/) · [ORCID 0000-0002-8826-3870](https://orcid.org/0000-0002-8826-3870) · [OpenAlex a5063796208](https://openalex.org/a5063796208)
 
