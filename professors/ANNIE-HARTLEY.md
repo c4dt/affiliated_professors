@@ -21,6 +21,12 @@ Annie Hartley leads EPFL's LiGHT lab, developing open, auditable AI systems—mo
 
 ## Changelog
 
+### 2026-07-15
+
+### 2026-07-16
+
+- **No materially new developments since 2026-07-10 profile entry.** The freshly fetched sources confirm the same publication list and lab statistics (100,000+ Meditron downloads, 500,000+ MOOVE evaluations, 19 countries) already captured. Two previously noted papers now appear with slightly different OpenAlex entries (duplicate arXiv/Zenodo records) but no new content. A new publication in the list not previously noted: **"MMORE: Massive Multimodal Open RAG & Extraction"** (arXiv 2509.11937, Sept 2025) — a multimodal retrieval-augmented generation and extraction framework. Also newly visible: **"AI and the airway"** (Anaesthesia, Nov 2025, 2 citations) and **"Lung Ultrasound for TB detection"** (SSRN, Jan 2025, 2 citations) and **"InfoKids+: Pediatric Acuity Risk Stratification"** (Mayo Clinic Proceedings Digital Health, April 2025, 1 citation) — these are older papers not flagged in the prior profile but not breaking news.
+
 ### 2026-07-10
 
 - **New (first profile entry):** Established initial profile for Annie Hartley (Mary-Anne Hartley), Adjunct Professor at EPFL IC, leading the LiGHT lab.

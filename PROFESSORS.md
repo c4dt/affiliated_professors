@@ -19,33 +19,39 @@ Alessandro Chiesa leads COMPSEC at EPFL, working on the theoretical foundations 
 Andrea Cavallaro leads the MINTS lab at EPFL, researching multimodal intelligent systems with a focus on privacy-preserving AI, vision-language models, cross-modal explainability, and multimodal perception for autonomous and robotic systems.
 
 ### [Anne-Marie Kermarrec](professors/ANNE-MARIE-KERMARREC.md)
-*Scalable Computing Systems Laboratory (SaCS)* · last updated 2026-07-10 · ✅ reviewed
+*Scalable Computing Systems Laboratory (SaCS)* · last updated 2026-07-14 · ✅ reviewed
 
 [EPFL profile](https://people.epfl.ch/anne-marie.kermarrec) · [epfl.ch](https://www.epfl.ch/labs/sacs/) · [github.com/sacs-epfl](https://github.com/sacs-epfl) · [ORCID 0000-0001-8187-724X](https://orcid.org/0000-0001-8187-724X) · [OpenAlex A5031849486](https://openalex.org/A5031849486)
 
-Anne-Marie Kermarrec leads the SACS lab at EPFL, researching large-scale distributed systems with a strong current focus on federated and decentralized machine learning, scalable inference, and retrieval-augmented generation.
+Anne-Marie Kermarrec leads the SACS lab at EPFL, researching large-scale distributed systems with a strong focus on federated/decentralized machine learning, scalable LLM/MoE inference, agentic AI workflows, and retrieval-augmented generation.
 
 ### [Annie Hartley](professors/ANNIE-HARTLEY.md)
-*Laboratory for Intelligent Global Health and Humanitarian Response Technologies (LiGHT)* · last updated 2026-07-10 · ✅ reviewed
+*Laboratory for Intelligent Global Health and Humanitarian Response Technologies (LiGHT)* · last updated 2026-07-15 · ✅ reviewed
 
 [EPFL profile](https://people.epfl.ch/mary-anne.hartley) · [light-laboratory.org](https://www.light-laboratory.org/) · [ORCID 0000-0002-8826-3870](https://orcid.org/0000-0002-8826-3870) · [OpenAlex a5063796208](https://openalex.org/a5063796208)
 
 Annie Hartley leads EPFL's LiGHT lab, developing open, auditable AI systems—most notably the Meditron clinical LLM family—for global health equity and humanitarian response in low-resource settings.
 
 ### [Antoine Bosselut](professors/ANTOINE-BOSSELUT.md)
-*Natural Language Processing Lab (NLP Lab)* · last updated 2026-07-10 · ✅ reviewed
+*Natural Language Processing Lab (NLP Lab)* · last updated 2026-07-16 · ✅ reviewed
 
 [EPFL profile](https://people.epfl.ch/antoine.bosselut) · [nlp.epfl.ch](https://nlp.epfl.ch/) · [ORCID 0000-0001-8968-9649](https://orcid.org/0000-0001-8968-9649) · [OpenAlex A5088410008](https://openalex.org/A5088410008)
 
+Antoine Bosselut leads the EPFL NLP Lab, researching knowledge representation, commonsense reasoning, and language generation in NLP systems, with recent work spanning LLM-brain alignment, multimodal reasoning, and multilingual evaluation.
+
 ### [Babak Falsafi](professors/BABAK-FALSAFI.md)
-*Parallel Systems Architecture Laboratory (PARSA)* · last updated 2026-07-10 · ✅ reviewed
+*Parallel Systems Architecture Laboratory (PARSA)* · last updated 2026-07-17 · ✅ reviewed
 
 [EPFL profile](https://people.epfl.ch/babak.falsafi) · [parsa.epfl.ch](https://parsa.epfl.ch/) · [ORCID 0000-0001-5916-8068](https://orcid.org/0000-0001-5916-8068) · [OpenAlex A5057697787](https://openalex.org/A5057697787)
 
+Babak Falsafi leads PARSA at EPFL, researching post-Moore server architecture, datacenter systems, GPU microarchitecture, and AI hardware efficiency including scaled numeric formats for DNN acceleration.
+
 ### [Boi Faltings](professors/BOI-FALTINGS.md)
-*Artificial Intelligence Laboratory (LIA)* · last updated 2026-07-10 · ✅ reviewed
+*Artificial Intelligence Laboratory (LIA)* · last updated 2026-07-20 · ✅ reviewed
 
 [EPFL profile](https://people.epfl.ch/boi.faltings) · [lia.epfl.ch](https://lia.epfl.ch/) · [ORCID 0000-0002-7188-7230](https://orcid.org/0000-0002-7188-7230) · [OpenAlex A5060427576](https://openalex.org/A5060427576)
+
+Boi Faltings (Professor Emeritus, LIA closed July 2025) researched multi-agent systems, game-theoretic information elicitation, privacy-preserving AI, and continual learning, with recent post-retirement publications exploring evolutionary/developmental AI paradigms and LLM-based reasoning.
 
 ### [Bryan Ford](professors/BRYAN-FORD.md)
 *Decentralized and Distributed Systems Lab (DEDIS)* · last updated 2026-07-10 · ✅ reviewed
