@@ -250,8 +250,9 @@ def build_professors_md(
         meta = prof.lab or ""
         updated = prof.last_updated or "—"
         review = "✅ reviewed" if prof.reviewed else "⬜ unreviewed"
+        retired = " · 🏁 retired" if prof.retired else ""
         head = f"*{meta}* · " if meta else ""
-        lines.append(f"{head}last updated {updated} · {review}")
+        lines.append(f"{head}last updated {updated} · {review}{retired}")
         lines.append("")
         links = _link_line(prof)
         if links:

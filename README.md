@@ -29,8 +29,24 @@ devbox run update -- --slug <slug>   # update one specific professor
 devbox run announce                  # post the last update to Matrix
 devbox run resolve-orcids            # fill candidate ORCIDs for review
 devbox run bootstrap                 # (re)build the registry from the C4DT labs listing
+devbox run retire <slug>             # freeze a profile and drop it from rotation
+devbox run unretire <slug>           # resume tracking a retired professor
 devbox run test                      # run the unit tests
 ```
+
+### Retiring a professor
+
+When a professor leaves EPFL or should no longer be tracked, retire them:
+
+```bash
+devbox run retire <slug>
+```
+
+This sets `retired: true` in `professors.yaml`, so the daily rotation skips
+them and their `professors/<SLUG>.md` profile is left frozen as-is. They stay
+listed in `PROFESSORS.md` with a 🏁 retired badge. A manual
+`devbox run update -- --slug <slug>` on a retired professor is refused unless
+you pass `--force`. Reverse it with `devbox run unretire <slug>`.
 
 ### Recording meeting notes
 

@@ -10,6 +10,7 @@
   openalex_id: A5101591310
   last_updated: "2026-07-13"
   reviewed: true
+  retired: false
 - slug: andrea-cavallaro
   name: Andrea Cavallaro
   lab: Laboratory of Multimodal Intelligent Systems (MINTS)
@@ -21,6 +22,7 @@
   openalex_id: A5004087827
   last_updated: "2026-07-13"
   reviewed: true
+  retired: false
 - slug: anne-marie-kermarrec
   name: Anne-Marie Kermarrec
   lab: Scalable Computing Systems Laboratory (SaCS)
@@ -33,6 +35,7 @@
   openalex_id: A5031849486
   last_updated: "2026-07-10"
   reviewed: true
+  retired: false
 - slug: annie-hartley
   name: Annie Hartley
   lab: Laboratory for Intelligent Global Health and Humanitarian Response Technologies (LiGHT)
@@ -44,6 +47,7 @@
   openalex_id: a5063796208
   last_updated: "2026-07-10"
   reviewed: true
+  retired: false
 - slug: antoine-bosselut
   name: Antoine Bosselut
   lab: Natural Language Processing Lab (NLP Lab)
@@ -55,6 +59,7 @@
   openalex_id: A5088410008
   last_updated: "2026-07-10"
   reviewed: true
+  retired: false
 - slug: babak-falsafi
   name: Babak Falsafi
   lab: Parallel Systems Architecture Laboratory (PARSA)
@@ -66,6 +71,7 @@
   openalex_id: A5057697787
   last_updated: "2026-07-10"
   reviewed: true
+  retired: false
 - slug: boi-faltings
   name: Boi Faltings
   lab: Artificial Intelligence Laboratory (LIA)
@@ -77,6 +83,7 @@
   openalex_id: A5060427576
   last_updated: "2026-07-10"
   reviewed: true
+  retired: false
 - slug: bryan-ford
   name: Bryan Ford
   lab: Decentralized and Distributed Systems Lab (DEDIS)
@@ -89,6 +96,7 @@
   openalex_id: A5045962151
   last_updated: "2026-07-10"
   reviewed: true
+  retired: false
 - slug: caglar-gulcehre
   name: Caglar Gulcehre
   lab: Caglar Gulcehre Lab for AI Research (CLAIRE)
@@ -100,6 +108,7 @@
   openalex_id: A5041145688
   last_updated: "2026-07-10"
   reviewed: true
+  retired: false
 - slug: carmela-troncoso
   name: Carmela Troncoso
   lab: Security and Privacy Engineering Lab (SPRING)
@@ -112,6 +121,7 @@
   openalex_id: A5072857797
   last_updated: "2026-07-10"
   reviewed: true
+  retired: false
 - slug: charlotte-bunne
   name: Charlotte Bunne
   lab: Artificial Intelligence in Molecular Medicine Lab (AIMM)
@@ -124,6 +134,7 @@
   openalex_id: A5033283546
   last_updated: "2026-07-10"
   reviewed: true
+  retired: false
 - slug: clement-pit-claudel
   name: Clément Pit-Claudel
   lab: Systems and Formalisms Lab (SYSTEMF)
@@ -136,6 +147,7 @@
   openalex_id: A5018186543
   last_updated: "2026-07-10"
   reviewed: true
+  retired: false
 - slug: damir-filipovic
   name: Damir Filipovic
   lab: Swissquote Chair in Quantitative Finance
@@ -147,6 +159,7 @@
   openalex_id: A5059712147
   last_updated: "2026-07-10"
   reviewed: true
+  retired: false
 - slug: david-atienza
   name: David Atienza
   lab: Embedded Systems Laboratory (ESL)
@@ -159,6 +172,7 @@
   openalex_id: A5074236306
   last_updated: "2026-07-10"
   reviewed: true
+  retired: false
 - slug: edouard-bugnion
   name: Edouard Bugnion
   lab: Data Center Systems Laboratory (DCSL)
@@ -171,6 +185,7 @@
   openalex_id: A5049034675
   last_updated: "2026-07-10"
   reviewed: true
+  retired: false
 - slug: florence-graezer-bideau
   name: Florence Graezer Bideau
   lab: Heritage, Anthropology and Technologies Research Group (HAT)
@@ -182,6 +197,7 @@
   openalex_id: A5010772457
   last_updated: "2026-07-10"
   reviewed: true
+  retired: false
 - slug: gaetan-de-rassenfosse
   name: Gaétan de Rassenfosse
   lab: Chair of Science Technology and Innovation Policy (STIP)
@@ -193,6 +209,7 @@
   openalex_id: A5086533373
   last_updated: "2026-07-10"
   reviewed: true
+  retired: false
 - slug: george-candea
   name: George Candea
   lab: Dependable Systems Laboratory (DSLAB)
@@ -205,6 +222,7 @@
   openalex_id: A5028907149
   last_updated: "2026-07-10"
   reviewed: true
+  retired: false
 - slug: giovanni-de-micheli
   name: Giovanni de Micheli
   lab: Integrated Systems Laboratory (LSI)
@@ -216,6 +234,7 @@
   openalex_id: A5072927296
   last_updated: "2026-07-10"
   reviewed: true
+  retired: false
 - slug: jacques-fellay
   name: Jacques Fellay
   lab: Fellay Lab – Human Genomics of Infection and Immunity (GR-FE)
@@ -227,6 +246,7 @@
   openalex_id: A5089009771
   last_updated: "2026-07-10"
   reviewed: true
+  retired: false
 - slug: julien-hugonnier
   name: Julien Hugonnier
   lab: Chair SFI-JH
@@ -238,6 +258,7 @@
   openalex_id: A5002167713
   last_updated: "2026-07-10"
   reviewed: true
+  retired: false
 - slug: katerina-argyraki
   name: Katerina Argyraki
   lab: Network Architecture Laboratory (NAL)
@@ -250,6 +271,7 @@
   openalex_id: A5011668097
   last_updated: "2026-07-10"
   reviewed: true
+  retired: false
 - slug: marcel-salathe
   name: Marcel Salathé
   lab: Digital Epidemiology Lab (SALATHELAB)
@@ -262,6 +284,7 @@
   openalex_id: A5010649096
   last_updated: "2026-07-10"
   reviewed: true
+  retired: false
 - slug: mario-paolone
   name: Mario Paolone
   lab: Distributed Electrical Systems Laboratory (DESL)
@@ -273,6 +296,7 @@
   openalex_id: A5050504092
   last_updated: "2026-07-10"
   reviewed: true
+  retired: false
 - slug: martin-jaggi
   name: Martin Jaggi
   lab: Machine Learning and Optimization Laboratory (MLO)
@@ -285,6 +309,7 @@
   openalex_id: A5073756389
   last_updated: "2026-07-10"
   reviewed: true
+  retired: false
 - slug: martin-odersky
   name: Martin Odersky
   lab: Programming Methods Laboratory (LAMP)
@@ -297,6 +322,7 @@
   openalex_id: A5085410724
   last_updated: "2026-07-10"
   reviewed: true
+  retired: false
 - slug: mathias-payer
   name: Mathias Payer
   lab: HexHive Laboratory (HEXHIVE)
@@ -309,6 +335,7 @@
   openalex_id: A5065116578
   last_updated: "2026-07-10"
   reviewed: true
+  retired: false
 - slug: matthias-grossglauser
   name: Matthias Grossglauser
   lab: Information and Network Dynamics Laboratory (INDY)
@@ -320,6 +347,7 @@
   openalex_id: A5014508720
   last_updated: "2026-07-10"
   reviewed: true
+  retired: false
 - slug: nate-foster
   name: Nate Foster
   lab: Networked Systems Abstractions Lab (LASER)
@@ -331,6 +359,7 @@
   openalex_id: A5013378091
   last_updated: "2026-07-10"
   reviewed: true
+  retired: false
 - slug: nicolas-flammarion
   name: Nicolas Flammarion
   lab: Theory of Machine Learning Laboratory (TML)
@@ -342,6 +371,7 @@
   openalex_id: A5061093552
   last_updated: "2026-07-10"
   reviewed: true
+  retired: false
 - slug: paolo-ienne
   name: Paolo Ienne
   lab: Processor Architecture Laboratory (LAP)
@@ -354,6 +384,7 @@
   openalex_id: A5020575991
   last_updated: "2026-07-10"
   reviewed: true
+  retired: false
 - slug: pascal-frossard
   name: Pascal Frossard
   lab: Signal Processing Laboratory (LTS4)
@@ -365,6 +396,7 @@
   openalex_id: A5000947076
   last_updated: "2026-07-10"
   reviewed: true
+  retired: false
 - slug: pierre-collin-dufresne
   name: Pierre Collin-Dufresne
   lab: Chair SFI-PCD
@@ -376,6 +408,7 @@
   openalex_id: null
   last_updated: "2026-07-10"
   reviewed: true
+  retired: false
 - slug: rachid-guerraoui
   name: Rachid Guerraoui
   lab: Distributed Computing Laboratory (DCL)
@@ -389,6 +422,7 @@
   openalex_id: A5049321288
   last_updated: "2026-07-10"
   reviewed: true
+  retired: false
 - slug: robert-west
   name: Robert West
   lab: Data Science Laboratory (DLAB)
@@ -401,6 +435,7 @@
   openalex_id: A5059645286
   last_updated: "2026-07-10"
   reviewed: true
+  retired: false
 - slug: ruediger-fahlenbrach
   name: Ruediger Fahlenbrach
   lab: Chair SFI-RF
@@ -412,6 +447,7 @@
   openalex_id: A5022485788
   last_updated: "2026-07-10"
   reviewed: true
+  retired: false
 - slug: sabine-susstrunk
   name: Sabine Süsstrunk
   lab: Image and Visual Representation Laboratory (IVRL)
@@ -424,6 +460,7 @@
   openalex_id: A5078201467
   last_updated: "2026-07-10"
   reviewed: true
+  retired: false
 - slug: sanidhya-kashyap
   name: Sanidhya Kashyap
   lab: Robust Scalable Systems Software Lab (RS3Lab)
@@ -437,6 +474,7 @@
   openalex_id: A5030479442
   last_updated: "2026-07-10"
   reviewed: true
+  retired: false
 - slug: semyon-malamud
   name: Semyon Malamud
   lab: Chair SFI-SM
@@ -448,6 +486,7 @@
   openalex_id: A5067616912
   last_updated: "2026-07-10"
   reviewed: true
+  retired: false
 - slug: serge-vaudenay
   name: Serge Vaudenay
   lab: Security and Cryptography Laboratory (LASEC)
@@ -459,6 +498,7 @@
   openalex_id: A5073902849
   last_updated: "2026-07-10"
   reviewed: true
+  retired: false
 - slug: thomas-bourgeat
   name: Thomas Bourgeat
   lab: Verification and Computer Architecture Lab (VCA)
@@ -470,6 +510,7 @@
   openalex_id: A5031573662
   last_updated: "2026-07-10"
   reviewed: true
+  retired: false
 - slug: thomas-vidick
   name: Thomas Vidick
   lab: Quantum Complexity and Cryptography Laboratory (QCC)
@@ -481,6 +522,7 @@
   openalex_id: A5019616211
   last_updated: "2026-07-10"
   reviewed: true
+  retired: false
 - slug: touradj-ebrahimi
   name: Touradj Ebrahimi
   lab: Multimedia Signal Processing Group (MMSPG)
@@ -492,6 +534,7 @@
   openalex_id: A5082188773
   last_updated: "2026-07-10"
   reviewed: true
+  retired: false
 - slug: viktor-kuncak
   name: Viktor Kunčak
   lab: Lab for Automated Reasoning and Analysis (LARA)
@@ -504,6 +547,7 @@
   openalex_id: A5008699657
   last_updated: "2026-07-10"
   reviewed: true
+  retired: false
 - slug: volkan-cevher
   name: Volkan Cevher
   lab: Laboratory for Information and Inference Systems (LIONS)
@@ -515,6 +559,7 @@
   openalex_id: A5027059837
   last_updated: "2026-07-10"
   reviewed: true
+  retired: false
 - slug: yanina-shkel
   name: Yanina Shkel
   lab: Mathematics of Information Laboratory (MIL)
@@ -526,3 +571,4 @@
   openalex_id: A5052329970
   last_updated: "2026-07-10"
   reviewed: true
+  retired: false

@@ -38,6 +38,24 @@ def test_empty_registry():
     assert pick_least_recently_updated([]) is None
 
 
+def test_retired_excluded_from_rotation():
+    # b would normally win (never updated), but it's retired -> skip it
+    profs = [
+        Professor(slug="a", name="A", last_updated="2026-06-01"),
+        Professor(slug="b", name="B", last_updated=None, retired=True),
+        Professor(slug="c", name="C", last_updated="2026-05-15"),
+    ]
+    assert pick_least_recently_updated(profs).slug == "c"
+
+
+def test_all_retired_returns_none():
+    profs = [
+        Professor(slug="a", name="A", last_updated=None, retired=True),
+        Professor(slug="b", name="B", last_updated="2026-05-15", retired=True),
+    ]
+    assert pick_least_recently_updated(profs) is None
+
+
 def test_legacy_fields_migrate_to_lists(tmp_path):
     path = tmp_path / "professors.yaml"
     path.write_text(

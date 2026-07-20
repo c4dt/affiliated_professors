@@ -156,6 +156,14 @@ def cmd_update(args: argparse.Namespace) -> int:
         logger.error("Professor not found: %s", args.slug)
         return 1
 
+    if prof.retired and not args.force:
+        logger.info(
+            "%s (%s) is retired; profile left unchanged. "
+            "Use `unretire` or `--force` to update anyway.",
+            prof.name, prof.slug,
+        )
+        return 0
+
     today = _today()
     logger.info("Updating %s (%s) for %s", prof.name, prof.slug, today)
 
@@ -394,6 +402,32 @@ def cmd_regen_professors(args: argparse.Namespace) -> int:
 
 
 # --------------------------------------------------------------------------- #
+# retire / unretire
+# --------------------------------------------------------------------------- #
+def _set_retired(slug: str, retired: bool) -> int:
+    """Flip the retired flag for one professor, persist, and rebuild the index.
+    Never touches the professor's .md profile — it stays frozen as-is."""
+    profs = load_registry()
+    prof = get_by_slug(profs, slug)
+    if prof is None:
+        logger.error("Professor not found: %s", slug)
+        return 1
+    prof.retired = retired
+    save_registry(profs)
+    regen_professors_md(profs)
+    logger.info("%s %s (%s)", "Retired" if retired else "Unretired", prof.name, prof.slug)
+    return 0
+
+
+def cmd_retire(args: argparse.Namespace) -> int:
+    return _set_retired(args.slug, True)
+
+
+def cmd_unretire(args: argparse.Namespace) -> int:
+    return _set_retired(args.slug, False)
+
+
+# --------------------------------------------------------------------------- #
 # bootstrap
 # --------------------------------------------------------------------------- #
 def cmd_bootstrap(args: argparse.Namespace) -> int:
@@ -421,6 +455,8 @@ def main(argv: list[str] | None = None) -> int:
 
     p_update = sub.add_parser("update", help="update one professor")
     p_update.add_argument("--slug", default=None)
+    p_update.add_argument("--force", action="store_true", default=False,
+                          help="update even if the professor is retired")
     p_update.set_defaults(func=cmd_update)
 
     p_announce = sub.add_parser("announce", help="post the last update to Matrix")
@@ -432,6 +468,14 @@ def main(argv: list[str] | None = None) -> int:
 
     p_regen = sub.add_parser("regen-professors", help="regenerate PROFESSORS.md")
     p_regen.set_defaults(func=cmd_regen_professors)
+
+    p_retire = sub.add_parser("retire", help="freeze a professor's profile and drop them from rotation")
+    p_retire.add_argument("slug", help="professor slug")
+    p_retire.set_defaults(func=cmd_retire)
+
+    p_unretire = sub.add_parser("unretire", help="resume tracking a retired professor")
+    p_unretire.add_argument("slug", help="professor slug")
+    p_unretire.set_defaults(func=cmd_unretire)
 
     p_notes = sub.add_parser("notes", help="add meeting notes to a professor profile")
     p_notes.add_argument("text", nargs="?", default=None,

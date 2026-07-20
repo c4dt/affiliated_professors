@@ -24,6 +24,7 @@ class Professor(BaseModel):
     openalex_id: str | None = None  # optional fallback when no ORCID
     last_updated: str | None = None  # ISO date (YYYY-MM-DD), null until first run
     reviewed: bool = False
+    retired: bool = False  # left EPFL / no longer tracked; profile frozen, skipped by rotation
     # Note: agent-generated prose (summary, links, changelog) lives in the
     # professors/<SLUG>.md profile, not here — the registry is config only.
 

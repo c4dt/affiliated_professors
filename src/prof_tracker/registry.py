@@ -73,11 +73,13 @@ def _prettier_format(path: Path) -> None:
 
 def pick_least_recently_updated(profs: list[Professor]) -> Professor | None:
     """Never-updated professors (last_updated is None) come first; then the
-    oldest last_updated. Ties broken by slug for determinism."""
-    if not profs:
+    oldest last_updated. Ties broken by slug for determinism. Retired
+    professors are excluded from the rotation entirely."""
+    active = [p for p in profs if not p.retired]
+    if not active:
         return None
     return min(
-        profs,
+        active,
         key=lambda p: (p.last_updated is not None, p.last_updated or "", p.slug),
     )
 

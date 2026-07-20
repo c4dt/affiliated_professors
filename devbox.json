@@ -15,6 +15,8 @@
       "resolve-orcids":   ["uv run prof-tracker resolve-orcids $@"],
       "regen-professors": ["uv run prof-tracker regen-professors $@"],
       "reformat":         ["uv run prof-tracker reformat $@"],
+      "retire":           ["uv run prof-tracker retire $@"],
+      "unretire":         ["uv run prof-tracker unretire $@"],
       "test":             ["uv run pytest"]
     }
   }

@@ -121,6 +121,19 @@ def test_readme_shows_verification_links_even_when_unreviewed(tmp_path):
     assert "[OpenAlex A5001](https://openalex.org/A5001)" in out
 
 
+def test_readme_shows_retired_badge(tmp_path):
+    profs = [
+        Professor(slug="amy", name="Amy A", lab="LabA", last_updated="2026-01-01"),
+        Professor(slug="zoe", name="Zoe Z", lab="LabZ", last_updated="2026-01-01", retired=True),
+    ]
+    out = build_professors_md(profs, tmp_path)
+    # retired badge only on the retired professor
+    assert "🏁 retired" in out
+    assert out.count("🏁 retired") == 1
+    # the badge sits with the retired entry, not the active one
+    assert out.index("🏁 retired") > out.index("Zoe Z")
+
+
 def test_extract_summary_ignores_header_and_metadata():
     from prof_tracker.render import _extract_summary
 
