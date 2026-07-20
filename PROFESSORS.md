@@ -47,7 +47,7 @@ Antoine Bosselut leads the EPFL NLP Lab, researching knowledge representation, c
 Babak Falsafi leads PARSA at EPFL, researching post-Moore server architecture, datacenter systems, GPU microarchitecture, and AI hardware efficiency including scaled numeric formats for DNN acceleration.
 
 ### [Boi Faltings](professors/BOI-FALTINGS.md)
-*Artificial Intelligence Laboratory (LIA)* · last updated 2026-07-20 · ✅ reviewed
+*Artificial Intelligence Laboratory (LIA)* · last updated 2026-07-20 · ✅ reviewed · 🏁 retired
 
 [EPFL profile](https://people.epfl.ch/boi.faltings) · [lia.epfl.ch](https://lia.epfl.ch/) · [ORCID 0000-0002-7188-7230](https://orcid.org/0000-0002-7188-7230) · [OpenAlex A5060427576](https://openalex.org/A5060427576)
 

@@ -83,7 +83,7 @@
   openalex_id: A5060427576
   last_updated: "2026-07-20"
   reviewed: true
-  retired: false
+  retired: true
 - slug: bryan-ford
   name: Bryan Ford
   lab: Decentralized and Distributed Systems Lab (DEDIS)
