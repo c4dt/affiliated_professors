@@ -54,11 +54,11 @@ Babak Falsafi leads PARSA at EPFL, researching post-Moore server architecture, d
 Boi Faltings (Professor Emeritus, LIA closed July 2025) researched multi-agent systems, game-theoretic information elicitation, privacy-preserving AI, and continual learning, with recent post-retirement publications exploring evolutionary/developmental AI paradigms and LLM-based reasoning.
 
 ### [Bryan Ford](professors/BRYAN-FORD.md)
-*Decentralized and Distributed Systems Lab (DEDIS)* · last updated 2026-07-10 · ✅ reviewed
+*Decentralized and Distributed Systems Lab (DEDIS)* · last updated 2026-07-21 · ✅ reviewed
 
 [EPFL profile](https://people.epfl.ch/bryan.ford) · [dedis.epfl.ch](https://dedis.epfl.ch/) · [github.com/dedis](https://github.com/dedis) · [ORCID 0000-0002-0528-3033](https://orcid.org/0000-0002-0528-3033) · [OpenAlex A5045962151](https://openalex.org/A5045962151)
 
-Bryan Ford leads DEDIS at EPFL, researching decentralized trust, scalable consensus, coercion-resistant e-voting, and privacy-preserving distributed systems.
+Bryan Ford leads DEDIS at EPFL, researching decentralized trust, scalable consensus, coercion-resistant e-voting, and privacy-preserving distributed systems, with an emerging thread on formal foundations via grounded deduction logic.
 
 ### [Caglar Gulcehre](professors/CAGLAR-GULCEHRE.md)
 *Caglar Gulcehre Lab for AI Research (CLAIRE)* · last updated 2026-07-10 · ✅ reviewed

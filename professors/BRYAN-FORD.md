@@ -9,7 +9,7 @@
 **ORCID:** [0000-0002-0528-3033](https://orcid.org/0000-0002-0528-3033)  
 **OpenAlex:** [A5045962151](https://openalex.org/A5045962151)  
 
-Bryan Ford leads DEDIS at EPFL, researching decentralized trust, scalable consensus, coercion-resistant e-voting, and privacy-preserving distributed systems.
+Bryan Ford leads DEDIS at EPFL, researching decentralized trust, scalable consensus, coercion-resistant e-voting, and privacy-preserving distributed systems, with an emerging thread on formal foundations via grounded deduction logic.
 
 ## Key research
 
@@ -17,10 +17,18 @@ Bryan Ford leads DEDIS at EPFL, researching decentralized trust, scalable consen
 - [DEDIS GitHub Organisation](https://github.com/dedis)
 - [Kyber: Advanced Crypto Library (Go)](https://github.com/dedis/kyber)
 - [QuePaxa: Escaping Timeout Tyranny in Consensus (SOSP '23)](https://github.com/dedis/quepaxa)
-- [Limix: Fault-Isolation for Globally-Managed Distributed Systems (NINeS 2026)](https://doi.org/10.4230/OASIcs.NINeS.2026.3)
 - [Votegral: Coercion-Resistant E-Voting System](https://github.com/dedis/votegral)
+- [gd-pure: Grounded Arithmetic Formalized in Isabelle/Pure](https://github.com/dedis/gd-pure)
 
 ## Changelog
+
+### 2026-07-21
+
+### 2026-07-21
+
+- **`gd-pure` repo active:** The `gd-pure` repository (Grounded Arithmetic formalized in Isabelle/Pure) has seen continued commits through July 2026 (most recently 2026-07-20), making it the most actively updated research repo this cycle. It formalizes Ford's [Grounded Arithmetic logic](https://bford.info/pub/lang/gd/) and originated from an ETH Zürich B.Sc. thesis (Sascha Kehrli, Sep 2025); the DEDIS team is now extending it with additional contributors.
+- **`matchertext` also updated 2026-07-20:** Work-in-progress paper and experimental code on the matchertext embeddable syntax discipline continues to see activity.
+- No new publications since the last update (Limix at NINeS 2026, TRIP/Votegral at ACM CCS 2025, ZeroAuction at FC 2025 remain the most recent).
 
 ### 2026-07-10
 
