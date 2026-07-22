@@ -70,6 +70,19 @@ def test_stray_empty_and_duplicate_headers_are_collapsed():
     assert "- new body" in out and "- older" in out
 
 
+def test_model_supplied_date_header_is_stripped():
+    # the model sometimes prepends its own '### DATE' header to the changelog
+    # body; the code must not nest it under the code-generated today header
+    # (which produced an empty entry + a duplicate dated header)
+    body = "### 2026-07-11\n\n- real body"
+    out = build_profile(_prof(), _update(body), "2026-07-10")
+    assert out.count("### 2026-07-11") == 0
+    assert out.count("### 2026-07-10") == 1
+    assert "- real body" in out
+    # no empty entry: the today header is immediately followed by the body
+    assert "### 2026-07-10\n\n- real body" in out
+
+
 def test_same_day_rerun_replaces_entry():
     existing = build_profile(_prof(), _update("- old body"), "2026-07-10")
     rerun = build_profile(_prof(), _update("- new body"), "2026-07-10", existing)

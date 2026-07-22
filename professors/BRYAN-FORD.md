@@ -24,8 +24,6 @@ Bryan Ford leads DEDIS at EPFL, researching decentralized trust, scalable consen
 
 ### 2026-07-21
 
-### 2026-07-21
-
 - **`gd-pure` repo active:** The `gd-pure` repository (Grounded Arithmetic formalized in Isabelle/Pure) has seen continued commits through July 2026 (most recently 2026-07-20), making it the most actively updated research repo this cycle. It formalizes Ford's [Grounded Arithmetic logic](https://bford.info/pub/lang/gd/) and originated from an ETH Zürich B.Sc. thesis (Sascha Kehrli, Sep 2025); the DEDIS team is now extending it with additional contributors.
 - **`matchertext` also updated 2026-07-20:** Work-in-progress paper and experimental code on the matchertext embeddable syntax discipline continues to see activity.
 - No new publications since the last update (Limix at NINeS 2026, TRIP/Votegral at ACM CCS 2025, ZeroAuction at FC 2025 remain the most recent).

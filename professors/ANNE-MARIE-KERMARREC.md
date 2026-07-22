@@ -24,8 +24,6 @@ Anne-Marie Kermarrec leads the SACS lab at EPFL, researching large-scale distrib
 
 ### 2026-07-14
 
-### 2026-07-15
-
 - **New publications (2026):** Several new papers have appeared since the last profile:
   - *HarMoEny: Efficient Inference of MoE Models* — published at IPDPS 2026 (May 2026); extends prior MoE inference work to multi-GPU settings.
   - *The Evaluation Game: Beyond Static LLM Benchmarking* — arXiv preprint (May 2026), questioning static benchmarking paradigms for LLMs.

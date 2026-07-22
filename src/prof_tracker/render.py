@@ -136,6 +136,14 @@ def _split_changelog(existing: str) -> list[tuple[str, str]]:
     return entries
 
 
+def _strip_date_headers(body: str) -> str:
+    """Remove any '### YYYY-MM-DD' header lines from a model-supplied changelog
+    body. Dating the entry is the code's job; when the model includes its own
+    date header it would otherwise be nested under the code-generated one,
+    producing an empty entry plus a duplicate dated header."""
+    return _ENTRY_RE.sub("", body)
+
+
 def _render_changelog(entries: list[tuple[str, str]]) -> str:
     parts = [_CHANGELOG_HEADER, ""]
     seen: set[str] = set()
@@ -208,7 +216,7 @@ def build_profile(
     if rendered_discussions:
         lines.append(rendered_discussions)
 
-    today_body = update.changelog_entry.strip()
+    today_body = _strip_date_headers(update.changelog_entry).strip()
     entries = [(d, b) for (d, b) in _split_changelog(existing) if d != today]
     if today_body:
         entries.append((today, today_body))
