@@ -68,11 +68,11 @@ Bryan Ford leads DEDIS at EPFL, researching decentralized trust, scalable consen
 Caglar Gulcehre leads CLAIRE at EPFL, researching efficient and safe deep learning algorithms spanning reinforcement learning, large language model training, sequence modeling architectures, alignment/safety, and system-2 level reasoning.
 
 ### [Carmela Troncoso](professors/CARMELA-TRONCOSO.md)
-*Security and Privacy Engineering Lab (SPRING)* · last updated 2026-07-10 · ✅ reviewed
+*Security and Privacy Engineering Lab (SPRING)* · last updated 2026-07-23 · ✅ reviewed
 
 [EPFL profile](https://people.epfl.ch/carmela.troncoso) · [spring.epfl.ch](https://spring.epfl.ch/) · [github.com/spring-epfl](https://github.com/spring-epfl) · [ORCID 0000-0002-2374-2248](https://orcid.org/0000-0002-2374-2248) · [OpenAlex A5072857797](https://openalex.org/A5072857797)
 
-Carmela Troncoso leads the SPRING Lab (now spanning EPFL and MPI-SP) researching security and privacy engineering, with a focus on privacy-preserving systems, ML fairness/security, and privacy evaluation frameworks.
+Carmela Troncoso leads the SPRING Lab (spanning EPFL and MPI-SP) researching security and privacy engineering, with focus on privacy-preserving systems, ML fairness/security, and privacy evaluation frameworks.
 
 ### [Charlotte Bunne](professors/CHARLOTTE-BUNNE.md)
 *Artificial Intelligence in Molecular Medicine Lab (AIMM)* · last updated 2026-07-10 · ✅ reviewed
