@@ -18,9 +18,17 @@ Charlotte Bunne leads the AIMM Lab at EPFL, developing AI foundation models and 
 - [VirTues Preprint (arXiv)](https://arxiv.org/abs/2501.06039)
 - [Cell Perspective: How to Build the Virtual Cell with AI](https://www.cell.com/cell/fulltext/S0092-8674(24)01332-1)
 - [Lopez-Loreta Prize Announcement (EPFL News)](https://actu.epfl.ch/news/charlotte-bunne-wins-2026-lopez-loreta-prize-2/)
-- [spora-bench – Spatial Proteomics Foundation Model Benchmark](https://github.com/bunnelab/spora-bench)
+- [Large GPU Grant – Swiss AI Alps Supercomputer](https://www.swiss-ai.org/all-projects)
 
 ## Changelog
+
+### 2026-07-24
+
+- **Large GPU Grant (new):** The AIMM Lab was awarded a large GPU grant on Switzerland's national supercomputer Alps for the "Virtual Patient Platform" project — not captured in the previous profile entry.
+- **VirTues actively maintained:** GitHub repo last pushed 2026-07-22 (77 stars); spora-io updated 2026-07-15. No material change from prior profile.
+- **Cell perspective citation count updated:** "How to build the virtual cell with AI" now at 307 citations (up from 297).
+- **Pycytominer (Nature Methods) citations updated:** Now at 43 (up from 42).
+- **No new papers or repos beyond what was captured in the 2026-07-10 profile entry.**
 
 ### 2026-07-10
 

@@ -75,7 +75,7 @@ Caglar Gulcehre leads CLAIRE at EPFL, researching efficient and safe deep learni
 Carmela Troncoso leads the SPRING Lab (spanning EPFL and MPI-SP) researching security and privacy engineering, with focus on privacy-preserving systems, ML fairness/security, and privacy evaluation frameworks.
 
 ### [Charlotte Bunne](professors/CHARLOTTE-BUNNE.md)
-*Artificial Intelligence in Molecular Medicine Lab (AIMM)* · last updated 2026-07-10 · ✅ reviewed
+*Artificial Intelligence in Molecular Medicine Lab (AIMM)* · last updated 2026-07-24 · ✅ reviewed
 
 [EPFL profile](https://people.epfl.ch/charlotte.bunne) · [aimm.epfl.ch](https://aimm.epfl.ch/) · [github.com/bunnelab](https://github.com/bunnelab) · [ORCID 0000-0003-1431-103X](https://orcid.org/0000-0003-1431-103X) · [OpenAlex A5033283546](https://openalex.org/A5033283546)
 
