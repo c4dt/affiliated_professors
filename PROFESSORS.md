@@ -82,7 +82,7 @@ Carmela Troncoso leads the SPRING Lab (spanning EPFL and MPI-SP) researching sec
 Charlotte Bunne leads the AIMM Lab at EPFL, developing AI foundation models and generative methods to build "virtual patients" — multi-scale computational models of human biology for precision oncology and drug discovery.
 
 ### [Clément Pit-Claudel](professors/CLEMENT-PIT-CLAUDEL.md)
-*Systems and Formalisms Lab (SYSTEMF)* · last updated 2026-07-10 · ✅ reviewed
+*Systems and Formalisms Lab (SYSTEMF)* · last updated 2026-07-27 · ✅ reviewed
 
 [EPFL profile](https://people.epfl.ch/clement.pit-claudel) · [pit-claudel.fr](https://pit-claudel.fr/clement/) · [github.com/epfl-systemf](https://github.com/epfl-systemf) · [ORCID 0000-0002-1900-3901](https://orcid.org/0000-0002-1900-3901) · [OpenAlex A5018186543](https://openalex.org/A5018186543)
 

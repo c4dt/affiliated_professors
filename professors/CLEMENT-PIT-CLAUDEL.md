@@ -30,6 +30,14 @@ Two Distinguished Paper awards arrived in January 2026, both reflecting SYSTEMF'
 
 ## Changelog
 
+### 2026-07-27
+
+- **No materially new developments** since the 2026-07-10 profile. GitHub repos (`camltac`, `sepviz`, `mltac2`, `ppx_rocq`) remain actively pushed (latest: July 26), with `camltac` growing from 14 to 19 stars. A new repo **`lorikeet`** (Scala, 2 ★, pushed 2026-07-05) appeared — no description yet.
+- **New publication record**: `rocq-prover/rocq: Rocq 9.3+rc1` (Zenodo, 2026-07-22) — Pit-Claudel is a contributor to the Rocq Prover release train.
+- **New artifact**: "Automatic heap memory diagrams for separation logic proofs in Rocq" (multiple Zenodo deposits, Apr 2026) — artifact for a forthcoming paper on `sepviz`-style tooling, not yet in the existing profile.
+- **VSTTE 2025 proceedings** published as a Springer LNCS volume ("Verified Software. Theories, Tools and Experiments", DOI 10.1007/978-3-032-27340-6), reflecting Pit-Claudel's role as VSTTE'25 chair.
+- All previously noted preprints and repos remain as documented; no new major papers or awards detected.
+
 ### 2026-07-10
 
 - **First profile created** for Clément Pit-Claudel (SYSTEMF, EPFL IC).
