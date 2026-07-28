@@ -8,18 +8,22 @@
 **ORCID:** [0000-0002-2443-5741](https://orcid.org/0000-0002-2443-5741)  
 **OpenAlex:** [A5059712147](https://openalex.org/A5059712147)  
 
-Damir Filipovic holds the Swissquote Chair in Quantitative Finance at EPFL, conducting research on term structure models, machine learning methods for fixed-income pricing, risk management, and stochastic processes.
+Damir Filipovic holds the Swissquote Chair in Quantitative Finance at EPFL, researching term structure models, machine learning methods for fixed-income pricing, risk management, and stochastic processes.
 
 ## Key research
 
 - [CSF Lab Website](https://www.epfl.ch/labs/csf/)
+- [EPFL People Profile](https://people.epfl.ch/damir.filipovic)
 - [Stripping the Discount Curve — A Robust Machine Learning Approach (Management Science, 2025)](https://doi.org/10.1287/mnsc.2023.01401)
 - [Shrinking the Term Structure (NBER, 2024)](https://doi.org/10.3386/w32472)
-- [Sparse Portfolio Selection via Topological Data Analysis based Clustering (Quantitative Finance, 2025)](https://doi.org/10.1080/14697688.2025.2544762)
 - [Transfer Learning Across Fixed-Income Product Classes (arXiv, 2025)](https://doi.org/10.48550/arxiv.2505.07676)
-- [EPFL People Profile](https://people.epfl.ch/damir.filipovic)
+- [Sparse Portfolio Selection via Topological Data Analysis based Clustering (Quantitative Finance, 2025)](https://doi.org/10.1080/14697688.2025.2544762)
 
 ## Changelog
+
+### 2026-07-28
+
+- No materially new developments since the last profile update (2026-07-10). Publication list and lab membership are unchanged; active PhD students remain Joshua Hayes and Andrea Ruglioni. The two anomalous ORCID-linked publications (6G networking white papers, Zenodo, July 2026) appear to be ORCID mis-attributions unrelated to Filipovic's research.
 
 ### 2026-07-10
 
