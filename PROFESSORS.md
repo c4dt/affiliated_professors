@@ -96,11 +96,11 @@ Clément Pit-Claudel leads EPFL's SYSTEMF lab, researching programming languages
 Damir Filipovic holds the Swissquote Chair in Quantitative Finance at EPFL, researching term structure models, machine learning methods for fixed-income pricing, risk management, and stochastic processes.
 
 ### [David Atienza](professors/DAVID-ATIENZA.md)
-*Embedded Systems Laboratory (ESL)* · last updated 2026-07-10 · ✅ reviewed
+*Embedded Systems Laboratory (ESL)* · last updated 2026-07-29 · ✅ reviewed
 
 [EPFL profile](https://people.epfl.ch/david.atienza) · [esl.epfl.ch](https://esl.epfl.ch/) · [github.com/esl-epfl](https://github.com/esl-epfl) · [ORCID 0000-0001-9536-4947](https://orcid.org/0000-0001-9536-4947) · [OpenAlex A5074236306](https://openalex.org/A5074236306)
 
-David Atienza leads EPFL's Embedded Systems Laboratory (ESL), pioneering system-level design methods for high-performance edge AI, ultra-low-power IoT/MPSoC architectures, smart wearables, and thermal-aware computing.
+David Atienza leads EPFL's Embedded Systems Laboratory (ESL), pioneering system-level design methods for high-performance edge AI, ultra-low-power IoT/MPSoC architectures, smart wearables, CGRA compilation, and thermal-aware computing.
 
 ### [Edouard Bugnion](professors/EDOUARD-BUGNION.md)
 *Data Center Systems Laboratory (DCSL)* · last updated 2026-07-10 · ✅ reviewed
