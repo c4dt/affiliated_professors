@@ -103,11 +103,11 @@ Damir Filipovic holds the Swissquote Chair in Quantitative Finance at EPFL, rese
 David Atienza leads EPFL's Embedded Systems Laboratory (ESL), pioneering system-level design methods for high-performance edge AI, ultra-low-power IoT/MPSoC architectures, smart wearables, CGRA compilation, and thermal-aware computing.
 
 ### [Edouard Bugnion](professors/EDOUARD-BUGNION.md)
-*Data Center Systems Laboratory (DCSL)* · last updated 2026-07-10 · ✅ reviewed
+*Data Center Systems Laboratory (DCSL)* · last updated 2026-07-30 · ✅ reviewed
 
 [EPFL profile](https://people.epfl.ch/edouard.bugnion) · [epfl.ch](https://www.epfl.ch/labs/dcsl/) · [github.com/epfl-dcsl](https://github.com/epfl-dcsl) · [ORCID 0000-0001-7237-6929](https://orcid.org/0000-0001-7237-6929) · [OpenAlex A5049034675](https://openalex.org/A5049034675)
 
-Edouard Bugnion leads EPFL's Data Center Systems Laboratory (DCSL), researching datacenter efficiency (low-latency networking, transport protocols) and system security (Trusted Execution Environments, virtual firmware monitors), while also serving as EPFL's Vice President for Innovation and Impact since January 2025.
+Edouard Bugnion leads EPFL's DCSL, researching datacenter efficiency (low-latency networking, in-kernel scheduling) and system security (Trusted Execution Environments, virtual firmware monitors), while serving as EPFL's Vice President for Innovation and Impact.
 
 ### [Florence Graezer Bideau](professors/FLORENCE-GRAEZER-BIDEAU.md)
 *Heritage, Anthropology and Technologies Research Group (HAT)* · last updated 2026-07-10 · ✅ reviewed

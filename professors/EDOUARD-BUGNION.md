@@ -9,18 +9,24 @@
 **ORCID:** [0000-0001-7237-6929](https://orcid.org/0000-0001-7237-6929)  
 **OpenAlex:** [A5049034675](https://openalex.org/A5049034675)  
 
-Edouard Bugnion leads EPFL's Data Center Systems Laboratory (DCSL), researching datacenter efficiency (low-latency networking, transport protocols) and system security (Trusted Execution Environments, virtual firmware monitors), while also serving as EPFL's Vice President for Innovation and Impact since January 2025.
+Edouard Bugnion leads EPFL's DCSL, researching datacenter efficiency (low-latency networking, in-kernel scheduling) and system security (Trusted Execution Environments, virtual firmware monitors), while serving as EPFL's Vice President for Innovation and Impact.
 
 ## Key research
 
 - [DCSL Lab Website](https://www.epfl.ch/labs/dcsl/)
 - [EPFL People Page](https://people.epfl.ch/edouard.bugnion)
 - [DCSL GitHub Organisation](https://github.com/epfl-dcsl)
+- [Rakaia OSDI'26 Artifact – In-Kernel Message-Oriented Scheduling](https://github.com/epfl-dcsl/rakaia-osdi26-artifact)
 - [Tyche: Composable Isolation (ArXiv preprint, 2025)](https://doi.org/10.48550/arxiv.2507.12364)
 - [Miralis SOSP'25 Artifact – Virtual Firmware Monitor](https://github.com/epfl-dcsl/miralis-sosp25-artifact)
-- [Koma OSDI'26 Artifact – In-Kernel Message-Oriented Scheduling](https://github.com/epfl-dcsl/koma-osdi26-artifact)
 
 ## Changelog
+
+### 2026-07-30
+
+- **OSDI'26 paper renamed:** The previously tracked paper "Koma: Achieving Low Tail Latency with In-Kernel Message-Oriented Scheduling" has been **renamed to "Rakaia"** — the artifact repo [`koma-osdi26-artifact`](https://github.com/epfl-dcsl/koma-osdi26-artifact) is now [`rakaia-osdi26-artifact`](https://github.com/epfl-dcsl/rakaia-osdi26-artifact), with the rename reflected in all source files (commit "koma->rakaia", Jul 13 2026). The system (in-kernel message-oriented TCP scheduling for microsecond tail latency) is otherwise unchanged.
+- **Miralis SOSP'25 artifact formally published on Zenodo (Jul 20 2026):** Two Zenodo DOIs issued for "The Design and Implementation of a Virtual Firmware Monitor" artifact ([10.5281/zenodo.21452407](https://doi.org/10.5281/zenodo.21452407), [10.5281/zenodo.21452408](https://doi.org/10.5281/zenodo.21452408)), signalling the paper is in final SOSP'25 proceedings pipeline.
+- **No other materially new papers or repos** since the last profile update.
 
 ### 2026-07-10
 
