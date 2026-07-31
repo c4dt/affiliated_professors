@@ -110,7 +110,7 @@ David Atienza leads EPFL's Embedded Systems Laboratory (ESL), pioneering system-
 Edouard Bugnion leads EPFL's DCSL, researching datacenter efficiency (low-latency networking, in-kernel scheduling) and system security (Trusted Execution Environments, virtual firmware monitors), while serving as EPFL's Vice President for Innovation and Impact.
 
 ### [Florence Graezer Bideau](professors/FLORENCE-GRAEZER-BIDEAU.md)
-*Heritage, Anthropology and Technologies Research Group (HAT)* · last updated 2026-07-10 · ✅ reviewed
+*Heritage, Anthropology and Technologies Research Group (HAT)* · last updated 2026-07-31 · ✅ reviewed
 
 [EPFL profile](https://people.epfl.ch/florence.graezerbideau) · [epfl.ch](https://www.epfl.ch/labs/hat/fr/) · [ORCID 0000-0002-9499-1479](https://orcid.org/0000-0002-9499-1479) · [OpenAlex A5010772457](https://openalex.org/A5010772457)
 

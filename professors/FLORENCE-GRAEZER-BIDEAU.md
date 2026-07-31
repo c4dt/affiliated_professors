@@ -21,6 +21,10 @@ Florence Graezer Bideau is an anthropologist and sinologist leading EPFL's HAT l
 
 ## Changelog
 
+### 2026-07-31
+
+- No materially new developments since the last profile update (2026-07-10). The freshly fetched sources confirm all previously recorded publications and activities — the Routledge edited volume (March 2026), the Bristol UP book (Sept 2025), the SociologieS article (2026), and the ongoing HAT lab research axes — without surfacing any new papers, projects, or announcements beyond what is already documented.
+
 ### 2026-07-10
 
 - **New edited volume (Routledge, March 2026):** *The Heritage, Creativity and Innovation Nexus: Critical Approaches and Interdisciplinary Perspectives* (co-edited with Peter Bille Larsen) published, with Graezer Bideau authoring the introductory chapter and a chapter on creativity and innovation in heritage bureaucracy (avalanche risk management as intangible cultural heritage in Switzerland).
