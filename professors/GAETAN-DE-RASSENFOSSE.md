@@ -15,11 +15,17 @@ Gaétan de Rassenfosse is an innovation economist at EPFL's STIP lab studying ho
 - [STIP Lab (Chair of Science, Technology and Innovation Policy)](https://www.epfl.ch/labs/stip/)
 - [EPFL People Profile](https://people.epfl.ch/gaetan.derassenfosse)
 - [Google Scholar](https://scholar.google.com/citations?user=C1mFPY8AAAAJ)
-- [Paper: Certification or cash prize — venture competitions (Small Business Economics, 2026)](https://doi.org/10.1007/s11187-026-01234-3)
+- [Paper: Counting Patents, Miscounting Innovation (SSRN, 2026)](https://doi.org/10.2139/ssrn.7084898)
 - [Paper: Beyond the front page — in-text patent citations (Strategic Management Journal, 2025)](https://doi.org/10.1002/smj.70027)
 - [Paper: New approach to measuring invention commercialization — SBIR program (Research Policy, 2025)](https://doi.org/10.1016/j.respol.2025.105302)
 
 ## Changelog
+
+### 2026-08-03
+
+- **New SSRN working papers (2026):** Three new papers have appeared: "Counting Patents, Miscounting Innovation" (critiquing patent count metrics), "When patent fees become innovation policy" (on fee design as an IP policy lever), and "Patent Rights and Cumulative Innovation" — all posted on SSRN in 2026.
+- **New arXiv preprint (Aug 2025):** "Do more citations mean better patents?" — examines whether citation counts reliably proxy patent quality.
+- **No other materially new developments** since the last profile update (Jul 2026); the lab website and EPFL profile confirm the same recent news (armasuisse agentic AI grant, *Small Business Economics* venture competition paper, *JELS* patent price premium paper).
 
 ### 2026-07-10
 

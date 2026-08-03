@@ -117,7 +117,7 @@ Edouard Bugnion leads EPFL's DCSL, researching datacenter efficiency (low-latenc
 Florence Graezer Bideau is an anthropologist and sinologist leading EPFL's HAT lab, researching heritage governance, cultural policy, memory, and technology transmission through comparative fieldwork across Asia, Europe, and Latin America.
 
 ### [Gaétan de Rassenfosse](professors/GAETAN-DE-RASSENFOSSE.md)
-*Chair of Science Technology and Innovation Policy (STIP)* · last updated 2026-07-10 · ✅ reviewed
+*Chair of Science Technology and Innovation Policy (STIP)* · last updated 2026-08-03 · ✅ reviewed
 
 [EPFL profile](https://people.epfl.ch/gaetan.derassenfosse) · [epfl.ch](https://www.epfl.ch/labs/stip/) · [ORCID 0000-0002-7862-0918](https://orcid.org/0000-0002-7862-0918) · [OpenAlex A5086533373](https://openalex.org/A5086533373)
 
