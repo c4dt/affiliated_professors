@@ -234,7 +234,7 @@
   openalex_id: A5072927296
   last_updated: "2026-08-05"
   reviewed: true
-  retired: false
+  retired: true
 - slug: jacques-fellay
   name: Jacques Fellay
   lab: Fellay Lab – Human Genomics of Infection and Immunity (GR-FE)
