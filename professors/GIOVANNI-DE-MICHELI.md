@@ -8,7 +8,7 @@
 **ORCID:** [0000-0002-7827-3215](https://orcid.org/0000-0002-7827-3215)  
 **OpenAlex:** [A5072927296](https://openalex.org/A5072927296)  
 
-Giovanni De Micheli is a pioneering Professor Emeritus at EPFL's Integrated Systems Laboratory (LSI) and Scientific Director of EcoCloud, specializing in Electronic Design Automation (EDA), logic synthesis, and design technologies for emerging computing platforms including superconducting, quantum, and nanosystems.
+Giovanni De Micheli (Professor Emeritus, LSI/EPFL) pioneers Electronic Design Automation, logic synthesis, and design technologies for silicon, superconducting, quantum, and nanosystems, while directing the EcoCloud sustainable-computing center.
 
 ## Key research
 
@@ -20,6 +20,10 @@ Giovanni De Micheli is a pioneering Professor Emeritus at EPFL's Integrated Syst
 - [Google Scholar – Giovanni De Micheli](https://scholar.google.com/citations?user=7SUnVDsAAAAJ)
 
 ## Changelog
+
+### 2026-08-05
+
+- **No materially new developments since the 2026-07-10 profile update.** The freshly fetched sources confirm all previously recorded items: Best Paper Award at SMACD 2025 ("SPFD-Based Delay Resynthesis"), the 2025 IEEE Gustav Kirchhoff Award, active 2025 publication stream (IEEE TCAD, arXiv, IEEE QCE), and two new PhD completions (Andrea Costamagna 2026, Mingfei Yu 2025) which are now listed on the EPFL profile. Publication list adds one new IEEE Solid-State Circuits Magazine piece: *"The Essence of System-Level Design: Collaboration and Interdisciplinarity"* (2026, 1 citation) and a conference paper *"Lazy Man's Resynthesis For Glitching-Aware Power Minimization"* (DDECS 2025) — both minor additions. Several ORCID-attributed medical/HIV publications (STI/PrEP posters) appear to be a name-collision artefact and are not relevant to De Micheli's research.
 
 ### 2026-07-10
 
