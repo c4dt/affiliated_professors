@@ -131,14 +131,14 @@ Gaétan de Rassenfosse is an innovation economist at EPFL's STIP lab studying ho
 George Candea leads EPFL's Dependable Systems Lab (DSLAB), researching techniques to make performance and energy programmable in computer systems through formal verification, performance interfaces, and efficient OS/network-function design.
 
 ### [Giovanni de Micheli](professors/GIOVANNI-DE-MICHELI.md)
-*Integrated Systems Laboratory (LSI)* · last updated 2026-08-05 · ✅ reviewed
+*Integrated Systems Laboratory (LSI)* · last updated 2026-08-05 · ✅ reviewed · 🏁 retired
 
 [EPFL profile](https://people.epfl.ch/giovanni.demicheli) · [lsi.epfl.ch](https://lsi.epfl.ch/) · [ORCID 0000-0002-7827-3215](https://orcid.org/0000-0002-7827-3215) · [OpenAlex A5072927296](https://openalex.org/A5072927296)
 
 Giovanni De Micheli (Professor Emeritus, LSI/EPFL) pioneers Electronic Design Automation, logic synthesis, and design technologies for silicon, superconducting, quantum, and nanosystems, while directing the EcoCloud sustainable-computing center.
 
 ### [Jacques Fellay](professors/JACQUES-FELLAY.md)
-*Fellay Lab – Human Genomics of Infection and Immunity (GR-FE)* · last updated 2026-07-10 · ✅ reviewed
+*Fellay Lab – Human Genomics of Infection and Immunity (GR-FE)* · last updated 2026-08-06 · ✅ reviewed
 
 [EPFL profile](https://people.epfl.ch/jacques.fellay) · [fellay-lab.epfl.ch](https://fellay-lab.epfl.ch/) · [ORCID 0000-0002-8240-939X](https://orcid.org/0000-0002-8240-939X) · [OpenAlex A5089009771](https://openalex.org/A5089009771)
 

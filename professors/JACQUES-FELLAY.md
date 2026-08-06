@@ -16,10 +16,20 @@ Jacques Fellay leads the Fellay Lab at EPFL, using large-scale genomics and bioi
 - [EPFL People Profile – Jacques Fellay](https://people.epfl.ch/jacques.fellay)
 - [News: EPFL joins $25M Cancer Grand Challenges ATLAS team (Mar 2026)](https://actu.epfl.ch/news/epfl-joins-25-million-research-on-cancer-avoidan-3)
 - [News: Fellay promoted to Full Professor (Mar 2026)](https://actu.epfl.ch/news/three-promotions-in-the-life-sciences-2)
-- [Paper: Genetic and transcriptomic signatures of host control in HIV-1 infection (Retrovirology, Jun 2026)](https://doi.org/10.1186/s12977-026-00679-4)
-- [Paper: GWAS of untargeted plasma metabolomics in people with HIV (HGG Advances, Jun 2026)](https://doi.org/10.1016/j.xhgg.2026.100635)
+- [Paper: Epidemiology and Clinical Impact of Clonal Hematopoiesis in People with HIV (JID, Jul 2026)](https://doi.org/10.1093/infdis/jiag393)
+- [Paper: Do autoantibodies shape cancer immunosurveillance? (Cell, Jul 2026)](https://doi.org/10.1016/j.cell.2026.06.021)
 
 ## Changelog
+
+### 2026-08-06
+
+- **New publication – Clonal Hematopoiesis in HIV (Jul 26, 2026):** *Epidemiology and Clinical Impact of Clonal Hematopoiesis in People with HIV* published in *The Journal of Infectious Diseases* (peer-reviewed; complements the earlier medRxiv longitudinal modelling preprint).
+- **New publication – Cancer immunosurveillance commentary (Jul 1, 2026):** *Do autoantibodies shape cancer immunosurveillance?* published in *Cell* — a high-profile opinion/review piece, likely connected to the ATLAS Cancer Grand Challenges project.
+- **New preprint – Multi-omics in pediatric sepsis (Jul 13, 2026):** *Multi-omics integration identifies a reproducible inflammatory host-response axis in pediatric sepsis* (bioRxiv), extending prior GWAS work on paediatric bacteraemia.
+- **New preprint – Mutational bias in RNA viruses (Jul 9, 2026):** *Mutational bias shapes protein evolution across RNA viruses* (bioRxiv).
+- **New preprint – Plasma proteomic ageing clock in HIV (Mar 26, 2026):** *A Plasma Proteomic Ageing Clock Reflects Advanced Ageing in People with Untreated HIV and its Reduction Under Antiretroviral Therapy* (medRxiv) — not previously listed.
+- **New tool paper – NMDap (Apr 22, 2026):** *From mutation to degradation: predicting nonsense-mediated mRNA decay with NMDap* (Biochemical and Biophysical Research Communications, 1 citation).
+- No materially new institutional news beyond items already captured in previous changelog.
 
 ### 2026-07-10
 
