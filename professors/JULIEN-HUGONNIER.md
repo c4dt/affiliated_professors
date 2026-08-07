@@ -8,7 +8,7 @@
 **ORCID:** [0000-0003-1356-5070](https://orcid.org/0000-0003-1356-5070)  
 **OpenAlex:** [A5002167713](https://openalex.org/A5002167713)  
 
-Julien Hugonnier is a Full Professor of Finance at EPFL/Swiss Finance Institute whose research spans asset pricing theory, OTC market microstructure, incomplete markets, and financial frictions, with recent work on perpetual futures, heterogeneous beliefs, and government debt dynamics.
+Julien Hugonnier is a Full Professor of Finance at EPFL/Swiss Finance Institute whose research spans asset pricing theory, OTC market microstructure, incomplete markets, and financial frictions, with recent work on perpetual futures (including a new extension with stochastic rates and clamp), heterogeneous beliefs, and government debt dynamics.
 
 ## Key research
 
@@ -16,10 +16,16 @@ Julien Hugonnier is a Full Professor of Finance at EPFL/Swiss Finance Institute 
 - [EPFL People Page](https://people.epfl.ch/julien.hugonnier)
 - [The Economics of Over-the-Counter Markets (Princeton University Press, 2025)](https://press.princeton.edu/books/hardcover/9780691236285/the-economics-of-over-the-counter-markets)
 - [Perpetual Futures Pricing (Mathematical Finance, 2025)](https://doi.org/10.1111/mafi.70018)
-- [Heterogeneous Beliefs Recovery (R&R at Review of Financial Studies)](https://www.epfl.ch/labs/sfi-jh/wp-content/uploads/2025/06/HNN-11.pdf)
+- [Perpetual Futures Pricing with Stochastic Rates and Clamp (SSRN, 2025)](https://doi.org/10.2139/ssrn.5481866)
 - [Admissible Surplus Dynamics and the Government Debt Puzzle (working paper)](https://www.epfl.ch/labs/sfi-jh/wp-content/uploads/2025/10/DebtPuz-102025.pdf)
 
 ## Changelog
+
+### 2026-08-07
+
+- **New working paper (2025):** "Perpetual Futures Pricing with Stochastic Rates and Clamp" (with Ackerer and Jermann) has appeared on SSRN in two versions — this is a new extension of the published *Mathematical Finance* paper not present in the previous profile.
+- **New working paper in preparation:** "Asset pricing with source dependent risk-aversion" — listed on the lab website but not previously recorded.
+- No other material changes detected; all other working papers and publications match the existing profile.
 
 ### 2026-07-10
 

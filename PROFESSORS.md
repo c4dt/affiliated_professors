@@ -145,11 +145,11 @@ Giovanni De Micheli (Professor Emeritus, LSI/EPFL) pioneers Electronic Design Au
 Jacques Fellay leads the Fellay Lab at EPFL, using large-scale genomics and bioinformatics to dissect how human genetic variation shapes immunity and individual outcomes in infectious diseases, with a translational focus on personalized medicine.
 
 ### [Julien Hugonnier](professors/JULIEN-HUGONNIER.md)
-*Chair SFI-JH* · last updated 2026-07-10 · ✅ reviewed
+*Chair SFI-JH* · last updated 2026-08-07 · ✅ reviewed
 
 [EPFL profile](https://people.epfl.ch/julien.hugonnier) · [epfl.ch](https://www.epfl.ch/labs/sfi-jh/) · [ORCID 0000-0003-1356-5070](https://orcid.org/0000-0003-1356-5070) · [OpenAlex A5002167713](https://openalex.org/A5002167713)
 
-Julien Hugonnier is a Full Professor of Finance at EPFL/Swiss Finance Institute whose research spans asset pricing theory, OTC market microstructure, incomplete markets, and financial frictions, with recent work on perpetual futures, heterogeneous beliefs, and government debt dynamics.
+Julien Hugonnier is a Full Professor of Finance at EPFL/Swiss Finance Institute whose research spans asset pricing theory, OTC market microstructure, incomplete markets, and financial frictions, with recent work on perpetual futures (including a new extension with stochastic rates and clamp), heterogeneous beliefs, and government debt dynamics.
 
 ### [Katerina Argyraki](professors/KATERINA-ARGYRAKI.md)
 *Network Architecture Laboratory (NAL)* · last updated 2026-07-10 · ✅ reviewed
