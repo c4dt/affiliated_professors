@@ -9,7 +9,7 @@
 **ORCID:** [0009-0004-9470-2819](https://orcid.org/0009-0004-9470-2819)  
 **OpenAlex:** [A5011668097](https://openalex.org/A5011668097)  
 
-Katerina Argyraki leads EPFL's Network Architecture Lab (NAL), focusing on network transparency, neutrality inference, and predictable software network functions, with current work spanning Internet latency mapping from gaming footage, edge caching as differentiation, and traffic localization.
+Katerina Argyraki leads EPFL's Network Architecture Lab (NAL), researching network transparency, neutrality inference, Internet latency mapping from gaming footage, and edge caching as unintentional traffic differentiation.
 
 ## Key research
 
@@ -21,6 +21,12 @@ Katerina Argyraki leads EPFL's Network Architecture Lab (NAL), focusing on netwo
 - [NAL GitHub Organisation](https://github.com/nal-epfl)
 
 ## Changelog
+
+### 2026-08-10
+
+- **NINeS 2026 Workshop Co-organizer**: Argyraki co-organized (with Aurojit Panda) the inaugural *New Ideas in Networked Systems* (NINeS 2026) workshop, published as OASIcs Volume 139 via Schloss Dagstuhl (published 2026-03-19). This is a new venue she helped create for early-stage/novel networking ideas.
+- **Advanced-Networking-Labs repo updated**: GitHub repo last pushed 2026-07-28, confirming active ongoing use for coursework.
+- No new research papers beyond those already tracked (SIGCOMM 2025 "Edge Caching as Differentiation", IMC 2024 "Flow/Path Performance Consistency") have appeared in recent publications.
 
 ### 2026-07-10
 
