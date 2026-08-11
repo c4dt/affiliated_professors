@@ -159,11 +159,11 @@ Julien Hugonnier is a Full Professor of Finance at EPFL/Swiss Finance Institute 
 Katerina Argyraki leads EPFL's Network Architecture Lab (NAL), researching network transparency, neutrality inference, Internet latency mapping from gaming footage, and edge caching as unintentional traffic differentiation.
 
 ### [Marcel Salathé](professors/MARCEL-SALATHE.md)
-*Digital Epidemiology Lab (SALATHELAB)* · last updated 2026-07-10 · ✅ reviewed
+*Digital Epidemiology Lab (SALATHELAB)* · last updated 2026-08-11 · ✅ reviewed
 
 [EPFL profile](https://people.epfl.ch/marcel.salathe) · [digitalepidemiologylab.org](https://www.digitalepidemiologylab.org/) · [github.com/digitalepidemiologylab](https://github.com/digitalepidemiologylab) · [ORCID 0000-0002-5079-7797](https://orcid.org/0000-0002-5079-7797) · [OpenAlex A5010649096](https://openalex.org/A5010649096)
 
-Marcel Salathé leads the Digital Epidemiology Lab at EPFL, applying AI and mobile technologies to public health challenges including digital nutrition cohorts, gut microbiome research, personalized glucose prediction, and LLM-based analysis of health discourse.
+Marcel Salathé leads the Digital Epidemiology Lab at EPFL, applying AI and mobile technologies to digital health cohorts, nutrition science, gut microbiome research, and LLM-based public health analysis.
 
 ### [Mario Paolone](professors/MARIO-PAOLONE.md)
 *Distributed Electrical Systems Laboratory (DESL)* · last updated 2026-07-10 · ✅ reviewed

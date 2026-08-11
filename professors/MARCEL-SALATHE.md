@@ -9,18 +9,25 @@
 **ORCID:** [0000-0002-5079-7797](https://orcid.org/0000-0002-5079-7797)  
 **OpenAlex:** [A5010649096](https://openalex.org/A5010649096)  
 
-Marcel Salathé leads the Digital Epidemiology Lab at EPFL, applying AI and mobile technologies to public health challenges including digital nutrition cohorts, gut microbiome research, personalized glucose prediction, and LLM-based analysis of health discourse.
+Marcel Salathé leads the Digital Epidemiology Lab at EPFL, applying AI and mobile technologies to digital health cohorts, nutrition science, gut microbiome research, and LLM-based public health analysis.
 
 ## Key research
 
 - [Digital Epidemiology Lab](https://www.digitalepidemiologylab.org/)
 - [EPFL People Page](https://people.epfl.ch/marcel.salathe)
 - [GitHub: digitalepidemiologylab](https://github.com/digitalepidemiologylab)
-- [Nature Communications: Dietary regularity & gut microbiome diversity (Food & You)](https://doi.org/10.1038/s41467-025-63799-z)
-- [PLOS Digital Health: LLMs for public health discourse](https://doi.org/10.1371/journal.pdig.0000631)
-- [GitHub: covid-twitter-bert (184 stars)](https://github.com/digitalepidemiologylab/covid-twitter-bert)
+- [The Lancet Digital Health: App-based interventions umbrella review (2026)](https://doi.org/10.1016/j.landig.2026.101009)
+- [Nature Communications: Dietary regularity & gut microbiome diversity](https://doi.org/10.1038/s41467-025-63799-z)
+- [GitHub: covid-twitter-bert (183 stars)](https://github.com/digitalepidemiologylab/covid-twitter-bert)
 
 ## Changelog
+
+### 2026-08-11
+
+- **New Lancet Digital Health paper (July 2026):** "Effectiveness of app-based interventions for glucose management, cardiometabolic and mental health, and related risk factors: an umbrella review with meta-analysis" published in *The Lancet Digital Health* — a notable high-impact venue publication not previously captured in the profile.
+- **GitHub activity:** `meal-pattern-analysis-paper` repo received an update on 2026-07-14, the most recent push in the org, suggesting ongoing work on meal timing and glycemic response analyses from the Food & You cohort.
+- **Nature Communications citation count:** The dietary regularity & gut microbiome paper (Sept 2025) has now reached 17 citations (up from 16 at last profile).
+- No other materially new developments since the 2026-07-10 profile update; the two June 2026 medRxiv preprints and active GitHub repos were already logged.
 
 ### 2026-07-10
 
