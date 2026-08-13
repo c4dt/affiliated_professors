@@ -173,11 +173,11 @@ Marcel Salathé leads the Digital Epidemiology Lab at EPFL, applying AI and mobi
 Mario Paolone leads EPFL's Distributed Electrical Systems Laboratory (DESL), advancing smart grid technologies including PMU-based monitoring of active distribution networks, optimal planning of distributed energy resources, EV integration, carbon flow tracing, and multi-energy system co-planning toward net-zero.
 
 ### [Martin Jaggi](professors/MARTIN-JAGGI.md)
-*Machine Learning and Optimization Laboratory (MLO)* · last updated 2026-07-10 · ✅ reviewed
+*Machine Learning and Optimization Laboratory (MLO)* · last updated 2026-08-13 · ✅ reviewed
 
 [EPFL profile](https://people.epfl.ch/martin.jaggi) · [mlo.epfl.ch](https://mlo.epfl.ch/) · [github.com/epfml](https://github.com/epfml) · [ORCID 0000-0003-1579-5558](https://orcid.org/0000-0003-1579-5558) · [OpenAlex A5073756389](https://openalex.org/A5073756389)
 
-Martin Jaggi leads the MLO lab at EPFL, researching scalable machine learning optimization, distributed/federated learning, and large language model training — including the Apertus open LLM and the DISCO browser-based collaborative learning platform.
+Martin Jaggi leads the MLO lab at EPFL, researching scalable ML optimization, federated/distributed learning, and large language model training — including the Apertus open LLM, multilingual pre-training data, and LLM evaluation benchmarks.
 
 ### [Martin Odersky](professors/MARTIN-ODERSKY.md)
 *Programming Methods Laboratory (LAMP)* · last updated 2026-07-10 · ✅ reviewed
