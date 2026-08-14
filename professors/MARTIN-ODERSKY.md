@@ -9,18 +9,27 @@
 **ORCID:** [0009-0005-3923-8993](https://orcid.org/0009-0005-3923-8993)  
 **OpenAlex:** [A5085410724](https://openalex.org/A5085410724)  
 
-Martin Odersky leads EPFL's LAMP group, designing and implementing the Scala programming language with a focus on unifying functional and object-oriented programming through advanced type systems, including capture checking, substructural types, and safe concurrency.
+Martin Odersky leads EPFL's LAMP group, designing the Scala programming language with a focus on advanced type systems including capture checking, capability classifiers, first-class refinement types, and safe concurrency for AI agent security.
 
 ## Key research
 
 - [LAMP Lab website](https://lamp.epfl.ch/)
 - [Martin Odersky's EPFL profile](https://people.epfl.ch/martin.odersky)
 - [TACIT — Tracked Agent Capabilities In Types (GitHub)](https://github.com/lampepfl/tacit)
-- [Securing Agents With Tracked Capabilities (Best Paper, CAIS 2026)](https://dl.acm.org/doi/10.1145/3786335.3813127)
-- [Modular Substructural Constraints for Embedded DSLs (GPCE 2026)](https://doi.org/10.1145/3814885.3816411)
+- [Classifying Capabilities — OOPSLA 2026 (artifact)](https://doi.org/10.1145/3839474)
+- [First-Class Refinement Types in Scala (artifact, Aug 2026)](https://doi.org/10.5281/zenodo.21737492)
 - [gears — async library for Scala 3 (GitHub)](https://github.com/lampepfl/gears)
 
 ## Changelog
+
+### 2026-08-14
+
+- **New paper — "Classifying Capabilities" (OOPSLA 2026)**: Extends Scala 3 capture checking with *capability classifiers* — a user-extensible, tree-structured hierarchy of tags with `.only`/`.except` projections on capture sets. Artifact published 2026-08-10 (Zenodo). This is a significant advance over the flat capture-set model.
+- **New paper — "First-Class Refinement Types in Scala"**: Co-authored with Matthieu Bovel and Viktor Kunčak; artifact published 2026-08-01 on Zenodo (multiple versions). Adds first-class refinement types to Scala 3, integrating with the existing type system.
+- **New course — "Agentic-Systems Security" (CS-620)**: Odersky is now teaching a graduate seminar at EPFL covering AI agent security research, directly complementing the TACIT/capybaraclaw research strand.
+- **TACIT repo** now at 69 stars (up from 58 in July 2026); **gears** at 304 stars (up from 302).
+- **scala3-benchmarks-data** is a new repo (Python, pushed 2026-08-14), supporting Scala 3 benchmarking infrastructure.
+- No other materially new developments since the 2026-07-10 profile update.
 
 ### 2026-07-10
 
