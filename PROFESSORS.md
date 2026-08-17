@@ -187,11 +187,11 @@ Martin Jaggi leads the MLO lab at EPFL, researching scalable ML optimization, fe
 Martin Odersky leads EPFL's LAMP group, designing the Scala programming language with a focus on advanced type systems including capture checking, capability classifiers, first-class refinement types, and safe concurrency for AI agent security.
 
 ### [Mathias Payer](professors/MATHIAS-PAYER.md)
-*HexHive Laboratory (HEXHIVE)* · last updated 2026-07-10 · ✅ reviewed
+*HexHive Laboratory (HEXHIVE)* · last updated 2026-08-17 · ✅ reviewed
 
 [EPFL profile](https://people.epfl.ch/mathias.payer) · [hexhive.epfl.ch](https://hexhive.epfl.ch/) · [github.com/HexHive](https://github.com/HexHive) · [ORCID 0000-0001-5054-7547](https://orcid.org/0000-0001-5054-7547) · [OpenAlex A5065116578](https://openalex.org/A5065116578)
 
-Mathias Payer leads the HexHive Laboratory at EPFL, focusing on systems and software security through fuzzing, sanitization, exploit mitigations, and compartmentalization, with a strong record of top-venue publications and open-source tooling.
+Mathias Payer leads the HexHive Laboratory at EPFL, pioneering systems and software security research through fuzzing, sanitization, exploit mitigations, and compartmentalization, with a prolific publication record at top security venues and consistent award recognition.
 
 ### [Matthias Grossglauser](professors/MATTHIAS-GROSSGLAUSER.md)
 *Information and Network Dynamics Laboratory (INDY)* · last updated 2026-07-10 · ✅ reviewed

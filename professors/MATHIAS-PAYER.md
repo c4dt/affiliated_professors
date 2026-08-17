@@ -9,18 +9,30 @@
 **ORCID:** [0000-0001-5054-7547](https://orcid.org/0000-0001-5054-7547)  
 **OpenAlex:** [A5065116578](https://openalex.org/A5065116578)  
 
-Mathias Payer leads the HexHive Laboratory at EPFL, focusing on systems and software security through fuzzing, sanitization, exploit mitigations, and compartmentalization, with a strong record of top-venue publications and open-source tooling.
+Mathias Payer leads the HexHive Laboratory at EPFL, pioneering systems and software security research through fuzzing, sanitization, exploit mitigations, and compartmentalization, with a prolific publication record at top security venues and consistent award recognition.
 
 ## Key research
 
 - [HexHive Laboratory](https://hexhive.epfl.ch/)
 - [HexHive GitHub Organization](https://github.com/HexHive)
 - [HexHive Publications](https://hexhive.epfl.ch/publications/)
-- [TÄMU – Trusted App Emulator (Oakland'26)](https://hexhive.epfl.ch/publications/files/26Oakland.pdf)
-- [PrivacyShield – BLE Tracking Counter (SEC'26)](https://hexhive.epfl.ch/publications/files/26SEC.pdf)
-- [type++ – Type Confusion Prevention (NDSS'25 Distinguished Paper)](https://hexhive.epfl.ch/publications/files/25NDSS.pdf)
+- [liberator – Automated Fuzz Driver Generation (FSE'25)](https://github.com/HexHive/liberator)
+- [x402scope – x402 Blockchain Payment Risks (SEC'26)](https://github.com/HexHive/x402scope)
+- [Grape – new HexHive repo (Python, 13★)](https://github.com/HexHive/Grape)
 
 ## Changelog
+
+### 2026-08-17
+
+- **No major structural changes** since the 2026-07-10 profile; the existing paper slate and team roster are confirmed by the current publications page and lab website.
+- **New paper confirmed at SEC'26 (3rd):** *"When HTTP 402 Meets the Blockchain: Risks on Emerging x402 Payments"* (Qinying Wang et al.) — HexHive now has **three** papers at USENIX SEC'26; the `x402scope` repo is its artifact.
+- **WOOT'26 Best Paper Award** confirmed: *"Squeezing Juicy Variant Bugs Out of Modern Browsers"* (Han Zheng, Flavio Toffalini, Qiang Liu, Mathias Payer) — noted as **best paper award** on the publications page, which was not previously flagged.
+- **New papers now indexed:** *"Towards Path-Aware Coverage-Guided Fuzzing"* (CGO'26), *"OTABase"* (ACSAC'25), *"eBPF Misbehavior Detection"* (SOSP'25), *"Fixing 7,400 Bugs for 1$: Cheap Crash-Site Program Repair"* (arXiv preprint), *"Cuckoo Attack: Stealthy and Persistent Attacks Against AI-IDE"* (arXiv preprint) — all appeared in ORCID feed and are new since the previous profile.
+- **New notable GitHub repo:** `Grape` (Python, 13★, pushed 2026-05-29) — no description yet, but relatively active and starred.
+- **`artow-artifact`** repo now listed: artifact for *"Exploiting Android Apps with Counterfeit Art"* (WOOT'26).
+- **`hexhive.github.io`** had a recent push (2026-08-13), suggesting homepage content updates.
+- **Team:** No personnel changes beyond what was previously noted; two new post-docs (Qiang Liu and Qinying Wang, formerly visiting PhD students from Zhejiang University) are now listed as Post Docs on the lab page.
+- **Routine activity:** ongoing course materials (`cs412-26-fuzzing-lab-resources`), `pubstats` tool updated.
 
 ### 2026-07-10
 
