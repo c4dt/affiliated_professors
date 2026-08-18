@@ -17,9 +17,19 @@ Matthias Grossglauser leads EPFL's INDY Lab, researching machine learning, stoch
 - [EPFL people page](https://people.epfl.ch/matthias.grossglauser)
 - [ICML 2025: Hierarchical RL with Targeted Causal Interventions](https://indy.epfl.ch/publication/infoscience/4163046931)
 - [NeurIPS 2025: Optimal Graph Clustering without Edge Density Signals](https://indy.epfl.ch/publication/infoscience/4027491887)
-- [ALT 2026: Ranking Items from Discrete Ratings](https://indy.epfl.ch/publication/infoscience/1842369817)
+- [JASA 2025: When does bottom-up beat top-down in hierarchical community detection?](https://indy.epfl.ch/publication/infoscience/1405706870)
 
 ## Changelog
+
+### 2026-08-18
+
+- **New 2026 paper**: "Robust estimation of a Markov chain transition matrix from multiple sample paths" (Leskelä, Dreveton) — published in *Statistica Neerlandica* (2026); establishes sharp Bernstein-type concentration inequalities for ensemble-time averages of parallel, heterogeneous Markov chains, with consistency guarantees in high-dimensional regimes.
+- **New JASA 2025 paper**: "When does bottom-up beat top-down in hierarchical community detection?" (Dreveton, Kuroda, Grossglauser, Thiran) — *Journal of the American Statistical Association* (2025); theoretically characterizes regimes where bottom-up approaches outperform top-down for hierarchical community detection.
+- **New SIGMETRICS 2025 paper**: "Reducing Sensor Requirements by Relaxing the Network Metric Dimension" (Mürmann, Alavi Razavi Ravari, Dreveton, Jaccard, Thiran) — presented at ACM SIGMETRICS 2025 (Stony Brook, NY); relaxes traditional metric dimension to reduce sensor counts for source localization.
+- **New ICML 2025 paper (INDY)**: "Learn to Vaccinate: Combining Structure Learning and Effective Vaccination for Epidemic and Outbreak Control" (Elahi, Mürmann, Thiran) — accepted at ICML 2025; addresses epidemic control via combined structure learning and vaccination strategies under the SIS model.
+- **New ACM SIGMETRICS PER 2025**: "Differentiating between Hierarchical and Flat Communities" (Kuroda) — short paper on hierarchical community detection methodology.
+- All previously noted papers (ICML 2025 HRL, NeurIPS 2025 graph clustering, UAI 2025 saddle points, ALT 2026 ranking, IEEE Trans. NOMA) remain current; no retractions or updates noted.
+- Lab continues to advertise open postdoc and PhD positions across all research areas.
 
 ### 2026-07-10
 
