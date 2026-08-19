@@ -8,18 +8,24 @@
 **ORCID:** [0000-0002-6557-684X](https://orcid.org/0000-0002-6557-684X)  
 **OpenAlex:** [A5013378091](https://openalex.org/A5013378091)  
 
-Nate Foster leads the Networked Systems Abstractions Lab (LASeR) at EPFL, developing programming languages and formal verification tools for networked systems, with flagship contributions to NetKAT, P4, and consistent network updates.
+Nate Foster leads EPFL's LASeR lab, developing programming languages and formal verification tools for networked systems, with flagship contributions to NetKAT, P4, and consistent network updates.
 
 ## Key research
 
 - [LASeR Lab Website](https://laser.epfl.ch/)
 - [EPFL People Page](https://people.epfl.ch/nate.foster)
-- [Personal Website](https://natefoster.org)
 - [Weighted NetKAT (PLDI 2026)](https://doi.org/10.1145/3808318)
 - [NEST: Network Enforced Session Types (ECOOP 2026)](https://doi.org/10.4230/lipics.ecoop.2026.17)
+- [A Fast Quantitative Analyzer for NetKAT (arXiv 2026)](https://arxiv.org/abs/2607.14420)
 - [KATch: A Fast Symbolic Verifier for NetKAT (PLDI 2024)](https://doi.org/10.1145/3656454)
 
 ## Changelog
+
+### 2026-08-19
+
+- **New preprint (July 2026)**: *A Fast Quantitative Analyzer for NetKAT* (arXiv:2607.14420) — presents wSPPs (weighted symbolic packet programs), a symbolic data structure for quantitative network analysis based on weighted NetKAT. Implemented in Lean (formalization) and Rust (optimized implementation); shown to be competitive with KATch on Boolean reachability and orders of magnitude faster than McNetKAT/Storm on probabilistic analyses.
+- **SOSP 2026 artifact**: Zenodo artifacts for *The Design and Implementation of a Virtual Firmware Monitor* published (July 20, 2026).
+- No other materially new papers or news since the 2026-07-10 profile update.
 
 ### 2026-07-10
 

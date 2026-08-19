@@ -201,11 +201,11 @@ Mathias Payer leads the HexHive Laboratory at EPFL, pioneering systems and softw
 Matthias Grossglauser leads EPFL's INDY Lab, researching machine learning, stochastic networks, and discrete choice models with applications in reinforcement learning, network science, graph mining, and recommender systems.
 
 ### [Nate Foster](professors/NATE-FOSTER.md)
-*Networked Systems Abstractions Lab (LASER)* · last updated 2026-07-10 · ✅ reviewed
+*Networked Systems Abstractions Lab (LASER)* · last updated 2026-08-19 · ✅ reviewed
 
 [EPFL profile](https://people.epfl.ch/nate.foster) · [laser.epfl.ch](https://laser.epfl.ch/) · [ORCID 0000-0002-6557-684X](https://orcid.org/0000-0002-6557-684X) · [OpenAlex A5013378091](https://openalex.org/A5013378091)
 
-Nate Foster leads the Networked Systems Abstractions Lab (LASeR) at EPFL, developing programming languages and formal verification tools for networked systems, with flagship contributions to NetKAT, P4, and consistent network updates.
+Nate Foster leads EPFL's LASeR lab, developing programming languages and formal verification tools for networked systems, with flagship contributions to NetKAT, P4, and consistent network updates.
 
 ### [Nicolas Flammarion](professors/NICOLAS-FLAMMARION.md)
 *Theory of Machine Learning Laboratory (TML)* · last updated 2026-07-10 · ✅ reviewed
