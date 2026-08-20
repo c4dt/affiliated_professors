@@ -208,11 +208,11 @@ Matthias Grossglauser leads EPFL's INDY Lab, researching machine learning, stoch
 Nate Foster leads EPFL's LASeR lab, developing programming languages and formal verification tools for networked systems, with flagship contributions to NetKAT, P4, and consistent network updates.
 
 ### [Nicolas Flammarion](professors/NICOLAS-FLAMMARION.md)
-*Theory of Machine Learning Laboratory (TML)* · last updated 2026-07-10 · ✅ reviewed
+*Theory of Machine Learning Laboratory (TML)* · last updated 2026-08-20 · ✅ reviewed
 
 [EPFL profile](https://people.epfl.ch/nicolas.flammarion) · [epfl.ch](https://www.epfl.ch/labs/tml/) · [OpenAlex A5061093552](https://openalex.org/A5061093552)
 
-Nicolas Flammarion leads the Theory of Machine Learning Laboratory at EPFL, developing algorithmic and theoretical foundations for machine learning with a strong current focus on the theory of large language models, in-context learning, implicit regularization in deep learning, adversarial robustness, and stochastic optimization.
+Nicolas Flammarion leads the Theory of Machine Learning Laboratory (TML) at EPFL, developing algorithmic and theoretical foundations for machine learning with a strong focus on the theory of LLMs, in-context learning, implicit regularization, adversarial robustness, and stochastic optimization.
 
 ### [Paolo Ienne](professors/PAOLO-IENNE.md)
 *Processor Architecture Laboratory (LAP)* · last updated 2026-07-10 · ✅ reviewed

@@ -7,18 +7,25 @@
 **Web:** [epfl.ch](https://www.epfl.ch/labs/tml/)  
 **OpenAlex:** [A5061093552](https://openalex.org/A5061093552)  
 
-Nicolas Flammarion leads the Theory of Machine Learning Laboratory at EPFL, developing algorithmic and theoretical foundations for machine learning with a strong current focus on the theory of large language models, in-context learning, implicit regularization in deep learning, adversarial robustness, and stochastic optimization.
+Nicolas Flammarion leads the Theory of Machine Learning Laboratory (TML) at EPFL, developing algorithmic and theoretical foundations for machine learning with a strong focus on the theory of LLMs, in-context learning, implicit regularization, adversarial robustness, and stochastic optimization.
 
 ## Key research
 
 - [TML Lab Website](https://www.epfl.ch/labs/tml/)
-- [Nicolas Flammarion – EPFL People](https://people.epfl.ch/nicolas.flammarion)
-- [Google Scholar Profile](https://scholar.google.com/citations?user=7nVGYfgAAAAJ&hl)
 - [TML Publications](https://www.epfl.ch/labs/tml/publications/)
-- [arXiv: Induction Heads Interpolate N-Grams (2025/2026)](https://doi.org/10.48550/arxiv.2607.02800)
+- [Google Scholar Profile](https://scholar.google.com/citations?user=7nVGYfgAAAAJ&hl)
+- [arXiv: Induction Heads Interpolate N-Grams (2026)](https://doi.org/10.48550/arxiv.2607.02800)
 - [arXiv: OS-Harm – Safety Benchmark for Computer Use Agents](https://doi.org/10.48550/arxiv.2506.14866)
+- [arXiv: Transformers Learn Latent Mixture Models In-Context via Mirror Descent](https://doi.org/10.48550/arxiv.2604.10848)
 
 ## Changelog
+
+### 2026-08-20
+
+- No materially new developments since the last profile update (2026-07-10). The publication list is unchanged, with the same preprints already recorded: *Induction Heads Interpolate N-Grams* (Jul 2026), *Space-Efficient Language Generation in the Limit* (Jun 2026), *Learning What to Forget* (Jun 2026), *Transformers Learn Latent Mixture Models In-Context via Mirror Descent* (Apr 2026), *Gradient Flow Polarizes Softmax Outputs towards Low-Entropy Solutions* (Mar 2026), and earlier 2026 preprints.
+- Three additional preprints from 2025 are now visible in OpenAlex that were not explicitly listed previously: *Exact Learning of Arithmetic with Differentiable Agents* (Nov 2025), *Selective Induction Heads: How Transformers Select Causal Structures In Context* (Sep 2025), and *Learning In-context n-grams with Transformers: Sub-n-grams Are Near-stationary Points* (Aug 2025) — all extending the lab's theoretical study of transformer induction heads and in-context learning.
+- *Chain-of-Frames: Advancing Video Understanding in Multimodal LLMs via Frame-Aware Reasoning* (May 2025) and *Learning Parametric Distributions from Samples and Preferences* (May 2025) also newly surfaced, indicating broadening interest in video LLMs and preference-based learning.
+- EPFL people page returned a 404; no profile-page changes to report.
 
 ### 2026-07-10
 
