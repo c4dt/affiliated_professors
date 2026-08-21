@@ -215,7 +215,7 @@ Nate Foster leads EPFL's LASeR lab, developing programming languages and formal 
 Nicolas Flammarion leads the Theory of Machine Learning Laboratory (TML) at EPFL, developing algorithmic and theoretical foundations for machine learning with a strong focus on the theory of LLMs, in-context learning, implicit regularization, adversarial robustness, and stochastic optimization.
 
 ### [Paolo Ienne](professors/PAOLO-IENNE.md)
-*Processor Architecture Laboratory (LAP)* · last updated 2026-07-10 · ✅ reviewed
+*Processor Architecture Laboratory (LAP)* · last updated 2026-08-21 · ✅ reviewed
 
 [EPFL profile](https://people.epfl.ch/paolo.ienne) · [lap.epfl.ch](https://lap.epfl.ch/) · [github.com/EPFL-LAP](https://github.com/EPFL-LAP) · [ORCID 0000-0002-6142-7345](https://orcid.org/0000-0002-6142-7345) · [OpenAlex A5020575991](https://openalex.org/A5020575991)
 

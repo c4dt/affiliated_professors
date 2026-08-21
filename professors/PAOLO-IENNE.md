@@ -22,6 +22,13 @@ Paolo Ienne leads EPFL's Processor Architecture Laboratory (LAP), specializing i
 
 ## Changelog
 
+### 2026-08-21
+
+- **Dynamatic repo growth:** The flagship DHLS compiler has now reached 201 stars (up from 197) and was pushed as recently as 2026-08-20, confirming very active ongoing development.
+- **HardCilk repo active:** Pushed 2026-08-16, continuing to track the NetCilk/FCCM 2026 artefact work.
+- **No materially new papers** since the last profile update (2026-07-10); the recent publication list reflects the same FCCM 2026, ASPLOS 2026, and FPGA 2026 papers already logged. Graphiti (ASPLOS 2026) now has 1 citation; Chext (FPGA 2026) has 1 citation; Out with LSQs (FPGA 2026) has 1 citation.
+- **New course repo active:** `cs473` (System Programming for Systems in Chips virtual prototype) pushed 2026-08-19, reflecting active teaching infrastructure maintenance.
+
 ### 2026-07-10
 
 - **New paper – FCCM 2026:** *NetCilk: Extending Task-Level Parallelism Seamlessly across FPGAs* (Shahawy, Sönmez, Ienne) — extends the HardCilk framework to span multiple FPGAs via latency-insensitive networking, distributing up to 128 PEs across 8 FPGAs with <3% resource overhead and near-perfect scalability on real-world applications.
