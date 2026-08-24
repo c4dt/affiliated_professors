@@ -8,18 +8,25 @@
 **ORCID:** [0000-0002-4010-714X](https://orcid.org/0000-0002-4010-714X)  
 **OpenAlex:** [A5000947076](https://openalex.org/A5000947076)  
 
-Pascal Frossard leads EPFL's LTS4 lab, researching machine learning, graph signal processing, image analysis, and AI applications in health and science discovery, while also co-directing the EPFL AI Center and the Swiss Data Science Center.
+Pascal Frossard leads EPFL's LTS4 lab, researching machine learning, graph signal processing, generative models, and AI applications in biomedical science—including drug discovery and computational pathology.
 
 ## Key research
 
 - [LTS4 Lab Website](https://lts4.epfl.ch/)
-- [Pascal Frossard – LTS4 Profile](https://lts4.epfl.ch/frossard)
+- [Pascal Frossard – EPFL Profile](https://people.epfl.ch/pascal.frossard)
 - [EPFL AI Center](https://ai.epfl.ch/)
 - [Swiss Data Science Center](https://www.datascience.ch/)
-- [DiPhon: Diffusion on Graphons for Scalable Graph Generation (arXiv 2025)](https://doi.org/10.48550/arxiv.2607.07232)
-- [Prognostic RNA-splicing archetypes in breast cancer (Nature Communications)](https://doi.org/10.1038/s41467-026-75217-z)
+- [DBMol: De Novo Drug Design via Structure Prediction Models (arXiv 2026)](https://doi.org/10.48550/arxiv.2607.19237)
+- [DiPhon: Diffusion on Graphons for Scalable Graph Generation (arXiv 2026)](https://doi.org/10.48550/arxiv.2607.07232)
 
 ## Changelog
+
+### 2026-08-24
+
+- **New paper – DBMol (July 21, 2026):** *DBMol: Design of High-Affinity, Target-Specific Small Molecules through Structure Prediction Models* (arXiv:2607.19237) — a new framework by LTS4 PhD student Yiming Qin et al. that uses AlphaFold-3/Boltz-2 structure-prediction models as optimization signals for de novo small-molecule drug design, marking a significant expansion of LTS4's AI-for-drug-discovery agenda.
+- **New Parkinson's spatial transcriptomics dataset (July 20, 2026):** A Figshare dataset on Xenium in situ spatial transcriptomics of the amygdala and striatum in an α-synuclein PFF mouse model of Parkinson's disease was published, linked to Frossard's group's neuroscience-AI work.
+- **Role update – Academic Director of SNAI:** Frossard now holds an additional appointment as Academic Director of SNAI (Swiss National AI initiative/unit at EPFL AI Center), not reflected in the previous profile.
+- No other materially new publications or lab events beyond those already captured in the 2026-07-10 profile entry.
 
 ### 2026-07-10
 

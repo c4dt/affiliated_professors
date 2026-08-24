@@ -222,11 +222,11 @@ Nicolas Flammarion leads the Theory of Machine Learning Laboratory (TML) at EPFL
 Paolo Ienne leads EPFL's Processor Architecture Laboratory (LAP), specializing in computer architecture, FPGAs, reconfigurable computing, dynamic high-level synthesis (DHLS), and electronic design automation.
 
 ### [Pascal Frossard](professors/PASCAL-FROSSARD.md)
-*Signal Processing Laboratory (LTS4)* · last updated 2026-07-10 · ✅ reviewed
+*Signal Processing Laboratory (LTS4)* · last updated 2026-08-24 · ✅ reviewed
 
 [EPFL profile](https://people.epfl.ch/pascal.frossard) · [lts4.epfl.ch](https://lts4.epfl.ch/) · [ORCID 0000-0002-4010-714X](https://orcid.org/0000-0002-4010-714X) · [OpenAlex A5000947076](https://openalex.org/A5000947076)
 
-Pascal Frossard leads EPFL's LTS4 lab, researching machine learning, graph signal processing, image analysis, and AI applications in health and science discovery, while also co-directing the EPFL AI Center and the Swiss Data Science Center.
+Pascal Frossard leads EPFL's LTS4 lab, researching machine learning, graph signal processing, generative models, and AI applications in biomedical science—including drug discovery and computational pathology.
 
 ### [Pierre Collin-Dufresne](professors/PIERRE-COLLIN-DUFRESNE.md)
 *Chair SFI-PCD* · last updated 2026-07-10 · ✅ reviewed
