@@ -229,7 +229,7 @@ Paolo Ienne leads EPFL's Processor Architecture Laboratory (LAP), specializing i
 Pascal Frossard leads EPFL's LTS4 lab, researching machine learning, graph signal processing, generative models, and AI applications in biomedical science—including drug discovery and computational pathology.
 
 ### [Pierre Collin-Dufresne](professors/PIERRE-COLLIN-DUFRESNE.md)
-*Chair SFI-PCD* · last updated 2026-07-10 · ✅ reviewed
+*Chair SFI-PCD* · last updated 2026-08-25 · ✅ reviewed
 
 [EPFL profile](https://people.epfl.ch/pierre.collin-dufresne) · [epfl.ch](https://www.epfl.ch/labs/sfi-pcd/)
 

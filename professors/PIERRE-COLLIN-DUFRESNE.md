@@ -15,9 +15,13 @@ Pierre Collin-Dufresne is a Full Professor at EPFL/Swiss Finance Institute whose
 - [Curriculum Vitae (2023)](https://www.epfl.ch/labs/sfi-pcd/wp-content/uploads/2023/12/CVPCDnew2023_July.pdf)
 - [Insider Trading, Stochastic Liquidity and Equilibrium Prices (Econometrica 2016)](http://apps.webofknowledge.com/InboundService.do?customersID=LinksAMR&mode=FullRecord&IsProductCode=Yes&product=WOS&Init=Yes&Func=Frame&DestFail=http%3A%2F%2Fwww.webofknowledge.com&action=retrieve&SrcApp=PARTNER_APP&SrcAuth=LinksAMR&SID=E5jsI9HAiKbeAjAvHKP&UT=WOS%3A000380136000004)
 - [Admissible Surplus Dynamics and the Government Debt Puzzle (2023 working paper)](https://www.epfl.ch/labs/sfi-pcd/wp-content/uploads/2023/12/Admissible-Surplus-Dynamics-and-the-Government-Debt-Puzzle.pdf)
-- [Market Structure and Transaction Costs of Index CDSs (Journal of Finance, forthcoming)](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=2786907)
+- [Market Structure and Transaction Costs of Index CDSs (Journal of Finance)](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=2786907)
 
 ## Changelog
+
+### 2026-08-25
+
+- No materially new developments detected since the last profile update. The lab website and EPFL profile remain unchanged: the same publications, awards (EFA 2024 Best Conference Paper Prize being the most recent), working papers, and PhD student roster (Federico Baldi Lanfranchi, Darius Nik Nejad, Luca Pagliuca) are listed. No new papers, news posts, or repository activity observed.
 
 ### 2026-07-10
 
