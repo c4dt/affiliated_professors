@@ -236,11 +236,11 @@ Pascal Frossard leads EPFL's LTS4 lab, researching machine learning, graph signa
 Pierre Collin-Dufresne is a Full Professor at EPFL/Swiss Finance Institute whose research spans asset pricing, credit markets, market microstructure, and information economics, with publications in top journals including Econometrica, AER, and Journal of Finance.
 
 ### [Rachid Guerraoui](professors/RACHID-GUERRAOUI.md)
-*Distributed Computing Laboratory (DCL)* · last updated 2026-07-10 · ✅ reviewed
+*Distributed Computing Laboratory (DCL)* · last updated 2026-08-26 · ✅ reviewed
 
 [EPFL profile](https://people.epfl.ch/rachid.guerraoui) · [dcl.epfl.ch](https://dcl.epfl.ch/) · [github.com/Distributed-EPFL](https://github.com/Distributed-EPFL) · [github.com/LPD-EPFL](https://github.com/LPD-EPFL) · [ORCID 0000-0002-4794-8902](https://orcid.org/0000-0002-4794-8902) · [OpenAlex A5049321288](https://openalex.org/A5049321288)
 
-Rachid Guerraoui leads EPFL's Distributed Computing Laboratory (DCL), pioneering research in robust (Byzantine-resilient) machine learning, distributed algorithms, secure distributed storage, and concurrent computing.
+Rachid Guerraoui leads EPFL's Distributed Computing Laboratory (DCL), pioneering research in Byzantine-resilient machine learning, distributed algorithms, secure distributed storage, and concurrent computing.
 
 ### [Robert West](professors/ROBERT-WEST.md)
 *Data Science Laboratory (DLAB)* · last updated 2026-07-10 · ✅ reviewed

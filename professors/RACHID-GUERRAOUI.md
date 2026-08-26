@@ -10,7 +10,7 @@
 **ORCID:** [0000-0002-4794-8902](https://orcid.org/0000-0002-4794-8902)  
 **OpenAlex:** [A5049321288](https://openalex.org/A5049321288)  
 
-Rachid Guerraoui leads EPFL's Distributed Computing Laboratory (DCL), pioneering research in robust (Byzantine-resilient) machine learning, distributed algorithms, secure distributed storage, and concurrent computing.
+Rachid Guerraoui leads EPFL's Distributed Computing Laboratory (DCL), pioneering research in Byzantine-resilient machine learning, distributed algorithms, secure distributed storage, and concurrent computing.
 
 ## Key research
 
@@ -19,8 +19,16 @@ Rachid Guerraoui leads EPFL's Distributed Computing Laboratory (DCL), pioneering
 - [ByzFL – Byzantine-Resilient Federated Learning Library (GitHub)](https://github.com/LPD-EPFL/byzfl)
 - [SWARM: Replicating Shared Disaggregated-Memory Data (GitHub)](https://github.com/LPD-EPFL/swarm-kv)
 - [LPD-EPFL GitHub Organisation](https://github.com/LPD-EPFL)
+- [Distributed-EPFL GitHub Organisation](https://github.com/Distributed-EPFL)
 
 ## Changelog
+
+### 2026-08-26
+
+- **New papers since last update:** Two notable new preprints appeared: "Byzantine-Robust and Communication-Efficient Distributed Training: Compressive and Cyclic Gradient Coding" (arXiv, Mar 2026) and "Efficient Federated Search for Retrieval-Augmented Generation" (published at a venue, Mar 2025, now accruing 9 citations). Also: "Towards Trustworthy Federated Learning with Untrusted Participants" (arXiv, May 2025), "Robust and Efficient Collaborative Learning" (arXiv, Oct 2025), and "Robust Federated Inference" (arXiv, Sep 2025).
+- **New PhD student:** Maxime Jacovella and Salim Najib now appear on the EPFL profile as current PhD students (not listed in prior profile).
+- **No new major software releases or awards** detected beyond those already recorded. ByzFL and course repos remain the most recently active repositories.
+- **Routine activity:** Publication stream continues at a high pace across robust/Byzantine FL, machine unlearning, Byzantine agreement, and federated RAG search.
 
 ### 2026-07-10
 
