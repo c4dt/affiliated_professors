@@ -243,11 +243,11 @@ Pierre Collin-Dufresne is a Full Professor at EPFL/Swiss Finance Institute whose
 Rachid Guerraoui leads EPFL's Distributed Computing Laboratory (DCL), pioneering research in Byzantine-resilient machine learning, distributed algorithms, secure distributed storage, and concurrent computing.
 
 ### [Robert West](professors/ROBERT-WEST.md)
-*Data Science Laboratory (DLAB)* · last updated 2026-07-10 · ✅ reviewed
+*Data Science Laboratory (DLAB)* · last updated 2026-08-27 · ✅ reviewed
 
 [EPFL profile](https://people.epfl.ch/robert.west) · [dlab.epfl.ch](https://dlab.epfl.ch/) · [github.com/epfl-dlab](https://github.com/epfl-dlab) · [ORCID 0000-0001-6398-0921](https://orcid.org/0000-0001-6398-0921) · [OpenAlex A5059645286](https://openalex.org/A5059645286)
 
-Robert West leads EPFL's Data Science & AI Lab (dlab), conducting research at the intersection of AI, NLP, and computational social science with a focus on safe and beneficial AI systems.
+Robert West leads EPFL's Data Science & AI Lab (dlab), researching AI safety, NLP, and computational social science, with active projects on LLM alignment (Synthetic Persona Pretraining), inference-time adaptive tokenization (zip2zip), and structured LLM decoding.
 
 ### [Ruediger Fahlenbrach](professors/RUEDIGER-FAHLENBRACH.md)
 *Chair SFI-RF* · last updated 2026-07-10 · ✅ reviewed

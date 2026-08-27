@@ -9,18 +9,26 @@
 **ORCID:** [0000-0001-6398-0921](https://orcid.org/0000-0001-6398-0921)  
 **OpenAlex:** [A5059645286](https://openalex.org/A5059645286)  
 
-Robert West leads EPFL's Data Science & AI Lab (dlab), conducting research at the intersection of AI, NLP, and computational social science with a focus on safe and beneficial AI systems.
+Robert West leads EPFL's Data Science & AI Lab (dlab), researching AI safety, NLP, and computational social science, with active projects on LLM alignment (Synthetic Persona Pretraining), inference-time adaptive tokenization (zip2zip), and structured LLM decoding.
 
 ## Key research
 
 - [DLAB — Data Science & AI Lab](https://dlab.epfl.ch/)
 - [Robert West — EPFL Profile](https://people.epfl.ch/robert.west)
+- [SPP: Synthetic Persona Pretraining (GitHub)](https://github.com/epfl-dlab/spp)
+- [SPP arXiv Paper (arXiv:2608.13482)](https://arxiv.org/abs/2608.13482)
 - [zip2zip: Inference-Time Adaptive Vocabularies (GitHub)](https://github.com/epfl-dlab/zip2zip)
-- [zip2zip arXiv Paper](https://arxiv.org/abs/2506.01084)
-- [transformers-CFG: Context-Free Grammars for HuggingFace Transformers](https://github.com/epfl-dlab/transformers-CFG)
 - [DLAB GitHub Organisation](https://github.com/epfl-dlab)
 
 ## Changelog
+
+### 2026-08-27
+
+- **NEW PAPER — Synthetic Persona Pretraining (SPP)** (arXiv:2608.13482, August 2026): Major new preprint introducing SPP, which installs an aligned assistant persona from token zero of LLM pretraining rather than relying solely on post-training alignment. Models (3B and 1.7B, base and instruct, five variants) and datasets released on Hugging Face under [dlab-spp](https://huggingface.co/dlab-spp). Full code in three submodule repos (`spp-data`, `spp-training`, `spp-evals`), actively updated August 2026. This is the lab's most significant new paper since the last profile update.
+- **nelight** repo (Python, pushed August 2026): New repository with no public description yet — likely an emerging project.
+- **model-raising-data** (Python, pushed August 2026): Still active with recent commits; project direction remains undisclosed.
+- **zip2zip** continues to be actively maintained (last push August 2026, 19 stars); no new paper but growing community interest.
+- ORCID publication feed continues to return unrelated papers (tobacco, mental health, etc.) — not attributable to Robert West (EPFL).
 
 ### 2026-07-10
 
