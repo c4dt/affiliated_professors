@@ -250,11 +250,11 @@ Rachid Guerraoui leads EPFL's Distributed Computing Laboratory (DCL), pioneering
 Robert West leads EPFL's Data Science & AI Lab (dlab), researching AI safety, NLP, and computational social science, with active projects on LLM alignment (Synthetic Persona Pretraining), inference-time adaptive tokenization (zip2zip), and structured LLM decoding.
 
 ### [Ruediger Fahlenbrach](professors/RUEDIGER-FAHLENBRACH.md)
-*Chair SFI-RF* · last updated 2026-07-10 · ✅ reviewed
+*Chair SFI-RF* · last updated 2026-08-28 · ✅ reviewed
 
 [EPFL profile](https://people.epfl.ch/ruediger.fahlenbrach) · [epfl.ch](https://www.epfl.ch/labs/sfi-rf/) · [ORCID 0000-0003-0102-3717](https://orcid.org/0000-0003-0102-3717) · [OpenAlex A5022485788](https://openalex.org/A5022485788)
 
-Rüdiger Fahlenbrach is a Full Professor of Finance at EPFL and Director of the College of Management, specializing in empirical corporate finance with a focus on corporate governance, entrepreneurship, and the economics of startups and venture capital.
+Rüdiger Fahlenbrach is a Full Professor of Finance at EPFL and Director of the College of Management, specializing in empirical corporate finance with a focus on corporate governance, entrepreneurship, startups, venture capital, and bank regulation.
 
 ### [Sabine Süsstrunk](professors/SABINE-SUSSTRUNK.md)
 *Image and Visual Representation Laboratory (IVRL)* · last updated 2026-07-10 · ✅ reviewed

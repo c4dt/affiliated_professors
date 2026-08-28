@@ -8,7 +8,7 @@
 **ORCID:** [0000-0003-0102-3717](https://orcid.org/0000-0003-0102-3717)  
 **OpenAlex:** [A5022485788](https://openalex.org/A5022485788)  
 
-Rüdiger Fahlenbrach is a Full Professor of Finance at EPFL and Director of the College of Management, specializing in empirical corporate finance with a focus on corporate governance, entrepreneurship, and the economics of startups and venture capital.
+Rüdiger Fahlenbrach is a Full Professor of Finance at EPFL and Director of the College of Management, specializing in empirical corporate finance with a focus on corporate governance, entrepreneurship, startups, venture capital, and bank regulation.
 
 ## Key research
 
@@ -20,6 +20,10 @@ Rüdiger Fahlenbrach is a Full Professor of Finance at EPFL and Director of the 
 - [Published: Greening the Swiss National Bank's Portfolio (2023)](https://doi.org/10.1093/rcfs/cfad011)
 
 ## Changelog
+
+### 2026-08-28
+
+- **No materially new developments** since the last profile update (2026-07-10). The lab website and EPFL people page reflect the same publications, working papers, and personnel as previously recorded. Alice Marie Eliet-Doillet is the current active PhD student. The LBO paper now appears in ORCID/OpenAlex under the updated title "From Bridge Loans to CLOs to Private Credit: The Transformation of Pipeline Risk in LBO Financing" (SSRN, 2024) — this is the same paper previously tracked as "Navigating New Norms" but with a revised title, now with 2 citations. No new publications, preprints, or personnel changes detected.
 
 ### 2026-07-10
 
