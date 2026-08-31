@@ -257,11 +257,11 @@ Robert West leads EPFL's Data Science & AI Lab (dlab), researching AI safety, NL
 Rüdiger Fahlenbrach is a Full Professor of Finance at EPFL and Director of the College of Management, specializing in empirical corporate finance with a focus on corporate governance, entrepreneurship, startups, venture capital, and bank regulation.
 
 ### [Sabine Süsstrunk](professors/SABINE-SUSSTRUNK.md)
-*Image and Visual Representation Laboratory (IVRL)* · last updated 2026-07-10 · ✅ reviewed
+*Image and Visual Representation Laboratory (IVRL)* · last updated 2026-08-31 · ✅ reviewed
 
 [EPFL profile](https://people.epfl.ch/sabine.susstrunk) · [ivrl.epfl.ch](https://ivrl.epfl.ch/) · [github.com/IVRL](https://github.com/IVRL) · [ORCID 0000-0002-0441-6068](https://orcid.org/0000-0002-0441-6068) · [OpenAlex A5078201467](https://openalex.org/A5078201467)
 
-Sabine Süsstrunk leads the IVRL at EPFL, researching computational photography, color image processing, computer vision, and image quality, with recent work spanning low-light denoising, diffusion-based image editing, neural cellular automata, and deepfake detection.
+Sabine Süsstrunk leads IVRL at EPFL, researching computational photography, color image processing, computer vision, and image quality, with recent highlights including three CVPR 2026 papers, new work on neural cellular/particle automata presented at ALIFE 2026, and ongoing deepfake detection and diffusion-model research.
 
 ### [Sanidhya Kashyap](professors/SANIDHYA-KASHYAP.md)
 *Robust Scalable Systems Software Lab (RS3Lab)* · last updated 2026-07-10 · ✅ reviewed

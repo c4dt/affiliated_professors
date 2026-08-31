@@ -9,7 +9,7 @@
 **ORCID:** [0000-0002-0441-6068](https://orcid.org/0000-0002-0441-6068)  
 **OpenAlex:** [A5078201467](https://openalex.org/A5078201467)  
 
-Sabine Süsstrunk leads the IVRL at EPFL, researching computational photography, color image processing, computer vision, and image quality, with recent work spanning low-light denoising, diffusion-based image editing, neural cellular automata, and deepfake detection.
+Sabine Süsstrunk leads IVRL at EPFL, researching computational photography, color image processing, computer vision, and image quality, with recent highlights including three CVPR 2026 papers, new work on neural cellular/particle automata presented at ALIFE 2026, and ongoing deepfake detection and diffusion-model research.
 
 ## Key research
 
@@ -17,10 +17,18 @@ Sabine Süsstrunk leads the IVRL at EPFL, researching computational photography,
 - [IVRL GitHub Organisation](https://github.com/IVRL)
 - [2-Shots in the Dark (CVPR 2026)](https://openaccess.thecvf.com/content/CVPR2026/html/Lu_2-Shots_in_the_Dark_Low-Light_Denoising_with_Minimal_Data_Acquisition_CVPR_2026_paper.html)
 - [Weight Space Representation Learning (CVPR 2026)](https://openaccess.thecvf.com/content/CVPR2026/html/Yang_Weight_Space_Representation_Learning_via_Neural_Field_Adaptation_CVPR_2026_paper.html)
-- [FDS: Frequency-Aware Denoising Score (CVPR 2025)](https://github.com/IVRL/FDS)
+- [NoiseDiff – Dark Noise Diffusion (TPAMI 2025, most active repo)](https://github.com/IVRL/NoiseDiff)
 - [Sabine Süsstrunk EPFL Profile](https://people.epfl.ch/sabine.susstrunk)
 
 ## Changelog
+
+### 2026-08-31
+
+- **No materially new developments since the last update (2026-07-10).** The freshly fetched sources confirm the same news items already captured: three CVPR 2026 papers, 2025 awards (RPS Imaging Science, Royal Flemish Academy), Best Poster at BMVC 2025, PhD completions, and the Deepfake Booth appearances. No new papers, repos, or announcements have appeared since.
+- **New publications at ALIFE 2026 (July 16):** Two IVRL papers formally published at the ALIFE 2026 conference — *Neural Cellular Automata: From Cells to Pixels* and *Neural Particle Automata: Learning Self-Organizing Particle Dynamics* — extending the lab's NCA/self-organizing-systems thread. These were previously on arXiv; the conference publication is the noteworthy step.
+- **NoiseDiff repo most active** (last push 2026-07-25, 23 ★), indicating continued community interest in the TPAMI 2025 dark-noise diffusion work.
+- **New arXiv preprint (June 2025):** *Canonical Latent Representations in Conditional Diffusion Models* — not yet in the existing profile.
+- **New preprint:** *VibrantLeaves: A principled parametric image generator for training deep restoration models* (April 2025) — parametric synthetic data for image restoration, also not previously listed.
 
 ### 2026-07-10
 
