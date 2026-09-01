@@ -264,11 +264,11 @@ Rüdiger Fahlenbrach is a Full Professor of Finance at EPFL and Director of the 
 Sabine Süsstrunk leads IVRL at EPFL, researching computational photography, color image processing, computer vision, and image quality, with recent highlights including three CVPR 2026 papers, new work on neural cellular/particle automata presented at ALIFE 2026, and ongoing deepfake detection and diffusion-model research.
 
 ### [Sanidhya Kashyap](professors/SANIDHYA-KASHYAP.md)
-*Robust Scalable Systems Software Lab (RS3Lab)* · last updated 2026-07-10 · ✅ reviewed
+*Robust Scalable Systems Software Lab (RS3Lab)* · last updated 2026-09-01 · ✅ reviewed
 
 [EPFL profile](https://people.epfl.ch/sanidhya.kashyap) · [sanidhya.github.io](https://sanidhya.github.io/) · [rs3lab.github.io](https://rs3lab.github.io) · [github.com/rs3lab](https://github.com/rs3lab) · [ORCID 0000-0002-9534-8565](https://orcid.org/0000-0002-9534-8565) · [OpenAlex A5030479442](https://openalex.org/A5030479442)
 
-Sanidhya Kashyap leads the RS3Lab at EPFL, designing performant, scalable, and robust systems software — spanning operating systems, concurrency, memory management, file systems, fuzzing, and networks — for modern heterogeneous hardware.
+Sanidhya Kashyap leads RS3Lab at EPFL, building performant, scalable, and robust systems software spanning OS kernels, concurrency, memory management, file systems, fuzzing, and networks for modern heterogeneous hardware.
 
 ### [Semyon Malamud](professors/SEMYON-MALAMUD.md)
 *Chair SFI-SM* · last updated 2026-07-10 · ✅ reviewed

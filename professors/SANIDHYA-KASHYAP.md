@@ -10,7 +10,7 @@
 **ORCID:** [0000-0002-9534-8565](https://orcid.org/0000-0002-9534-8565)  
 **OpenAlex:** [A5030479442](https://openalex.org/A5030479442)  
 
-Sanidhya Kashyap leads the RS3Lab at EPFL, designing performant, scalable, and robust systems software — spanning operating systems, concurrency, memory management, file systems, fuzzing, and networks — for modern heterogeneous hardware.
+Sanidhya Kashyap leads RS3Lab at EPFL, building performant, scalable, and robust systems software spanning OS kernels, concurrency, memory management, file systems, fuzzing, and networks for modern heterogeneous hardware.
 
 ## Key research
 
@@ -22,6 +22,14 @@ Sanidhya Kashyap leads the RS3Lab at EPFL, designing performant, scalable, and r
 - [Mage Artifact – Scalable Far Memory (SOSP'25)](https://github.com/rs3lab/mage-artifact)
 
 ## Changelog
+
+### 2026-09-01
+
+- **New journal publication (TOCS, Jul 2026):** *"Performance and Security in Userspace NVM File Systems through State Separation"* — a journal version of the Trio architecture (best paper at SOSP'23), published in ACM Transactions on Computer Systems (DOI: 10.1145/3828543). This extends the conference paper with additional evaluation and discussion.
+- **New journal publication (TOS, Jun 2026):** *"Horizontally Scaling Heterogeneous Storage for Combined Capabilities with PolyStore"* — extended version of the FAST'25 PolyStore paper, published in ACM Transactions on Storage (DOI: 10.1145/3785328).
+- **New GitHub repos:** `compreh-SMoTherSpectre` (proof-of-concept for SMoTherSpectre exploit, C, pushed Jun 2026) and `kernel-tla` (TLA+ implementation for Resilient Queued Spin Lock, pushed Feb 2026) are newly visible; these appear related to ongoing security/verification work under the `compreh` project umbrella.
+- **`mage-artifact` star count** increased to 5 (was 4).
+- No new conference acceptances beyond those already recorded in the previous changelog entry.
 
 ### 2026-07-10
 
