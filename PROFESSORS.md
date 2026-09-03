@@ -278,11 +278,11 @@ Sanidhya Kashyap leads RS3Lab at EPFL, building performant, scalable, and robust
 Semyon Malamud is an EPFL Associate Professor and SFI chair whose research fuses machine learning, high-dimensional statistics, and financial economics to advance asset pricing, portfolio theory, and market microstructure.
 
 ### [Serge Vaudenay](professors/SERGE-VAUDENAY.md)
-*Security and Cryptography Laboratory (LASEC)* · last updated 2026-07-10 · ✅ reviewed
+*Security and Cryptography Laboratory (LASEC)* · last updated 2026-09-03 · ✅ reviewed
 
 [EPFL profile](https://people.epfl.ch/serge.vaudenay) · [lasec.epfl.ch](https://lasec.epfl.ch/) · [ORCID 0000-0001-9185-1449](https://orcid.org/0000-0001-9185-1449) · [OpenAlex A5073902849](https://openalex.org/A5073902849)
 
-Serge Vaudenay leads EPFL's Security and Cryptography Laboratory (LASEC), focusing on cryptographic analysis, post-quantum cryptography, lightweight cryptography, and secure communication channels.
+Serge Vaudenay leads EPFL's LASEC, conducting foundational research in cryptographic analysis, post-quantum cryptography (isogenies, KEMs, code-based), side-channel attacks, anonymous tokens, and blockchain-related fair exchange protocols.
 
 ### [Thomas Bourgeat](professors/THOMAS-BOURGEAT.md)
 *Verification and Computer Architecture Lab (VCA)* · last updated 2026-07-10 · ✅ reviewed

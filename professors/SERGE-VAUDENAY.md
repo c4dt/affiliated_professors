@@ -8,7 +8,7 @@
 **ORCID:** [0000-0001-9185-1449](https://orcid.org/0000-0001-9185-1449)  
 **OpenAlex:** [A5073902849](https://openalex.org/A5073902849)  
 
-Serge Vaudenay leads EPFL's Security and Cryptography Laboratory (LASEC), focusing on cryptographic analysis, post-quantum cryptography, lightweight cryptography, and secure communication channels.
+Serge Vaudenay leads EPFL's LASEC, conducting foundational research in cryptographic analysis, post-quantum cryptography (isogenies, KEMs, code-based), side-channel attacks, anonymous tokens, and blockchain-related fair exchange protocols.
 
 ## Key research
 
@@ -17,9 +17,17 @@ Serge Vaudenay leads EPFL's Security and Cryptography Laboratory (LASEC), focusi
 - [LASEC Publications (Infoscience)](https://infoscience.epfl.ch/entities/orgunit/d7a6896a-217a-418f-b31e-b419a884b9e8)
 - [PEGASIS: Practical Effective Class Group Action using 4-Dimensional Isogenies (CRYPTO 2025)](https://infoscience.epfl.ch/entities/publication/670061a9-5a82-47bf-95cf-ee0aeeb9c8dc)
 - [Verifiable Decapsulation: Recognizing Faulty Implementations of Post-quantum KEMs (CRYPTO 2025)](https://infoscience.epfl.ch/entities/publication/a94f967c-e989-40d2-a695-21ad574418c9)
-- [Non-Transferable Anonymous Tokens by Secret Binding (CCS 2024)](https://doi.org/10.1145/3658644.3670338)
+- [The Cryptographic Layer of Biometric Authentication (LNCS 2026)](https://doi.org/10.1007/978-3-032-32575-4_11)
 
 ## Changelog
+
+### 2026-09-03
+
+### 2026-07-XX
+
+- **New publication (July 2026):** "The Cryptographic Layer of Biometric Authentication" appeared in *Lecture Notes in Computer Science* (publication date 2026-07-23) — this is a new chapter/paper not previously recorded in the profile.
+- **PhD student roster update:** The EPFL profile now lists only three active PhD students — Keng-Yu Chen, Max Duparc, and Lewis Glabush — no longer listing David Dervishi and Augustine Picquet (though Picquet still appears on the LASEC website). This may reflect an updated roster.
+- **No other materially new developments** since the 2026-07-10 profile: the LASEC publication list and announcements are consistent with what was previously captured.
 
 ### 2026-07-10
 
