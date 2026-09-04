@@ -285,11 +285,11 @@ Semyon Malamud is an EPFL Associate Professor and SFI chair whose research fuses
 Serge Vaudenay leads EPFL's LASEC, conducting foundational research in cryptographic analysis, post-quantum cryptography (isogenies, KEMs, code-based), side-channel attacks, anonymous tokens, and blockchain-related fair exchange protocols.
 
 ### [Thomas Bourgeat](professors/THOMAS-BOURGEAT.md)
-*Verification and Computer Architecture Lab (VCA)* · last updated 2026-07-10 · ✅ reviewed
+*Verification and Computer Architecture Lab (VCA)* · last updated 2026-09-04 · ✅ reviewed
 
 [EPFL profile](https://people.epfl.ch/thomas.bourgeat) · [vca.epfl.ch](https://vca.epfl.ch/) · [ORCID 0000-0002-8468-8409](https://orcid.org/0000-0002-8468-8409) · [OpenAlex A5031573662](https://openalex.org/A5031573662)
 
-Thomas Bourgeat leads the VCA lab at EPFL, focusing on formal verification of hardware (processors, dataflow circuits, cache coherence protocols), hardware–software interface specifications, and security verification at the RTL level.
+Thomas Bourgeat leads the VCA lab at EPFL, researching formal verification of hardware (processors, dataflow circuits, cache coherence protocols), hardware–software interface specifications, and security verification at the RTL level.
 
 ### [Thomas Vidick](professors/THOMAS-VIDICK.md)
 *Quantum Complexity and Cryptography Laboratory (QCC)* · last updated 2026-07-10 · ✅ reviewed

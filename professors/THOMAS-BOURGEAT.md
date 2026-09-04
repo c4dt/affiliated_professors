@@ -8,7 +8,7 @@
 **ORCID:** [0000-0002-8468-8409](https://orcid.org/0000-0002-8468-8409)  
 **OpenAlex:** [A5031573662](https://openalex.org/A5031573662)  
 
-Thomas Bourgeat leads the VCA lab at EPFL, focusing on formal verification of hardware (processors, dataflow circuits, cache coherence protocols), hardware–software interface specifications, and security verification at the RTL level.
+Thomas Bourgeat leads the VCA lab at EPFL, researching formal verification of hardware (processors, dataflow circuits, cache coherence protocols), hardware–software interface specifications, and security verification at the RTL level.
 
 ## Key research
 
@@ -17,9 +17,16 @@ Thomas Bourgeat leads the VCA lab at EPFL, focusing on formal verification of ha
 - [PLDI '25 – Making Concurrent Hardware Verification Sequential](https://doi.org/10.1145/3729331)
 - [ASPLOS '26 – Graphiti: Formally Verified Out-of-Order Execution in Dataflow Circuits](https://doi.org/10.1145/3779212.3790166)
 - [Graphiti Artefact (GitHub)](https://github.com/vca-epfl/graphiti)
-- [Preprint – SystolicAttention: Fusing FlashAttention within a single systolic array](http://arxiv.org/abs/2507.11331)
+- [HyperTest Artifact for OOPSLA 2026 (Zenodo)](https://doi.org/10.5281/zenodo.21701376)
 
 ## Changelog
+
+### 2026-09-04
+
+- **OOPSLA '26 – HyperTest:** A new paper (Guokai Chen, Sergi Soler, Clément Pit-Claudel, Thomas Bourgeat) with a full artifact released on Zenodo (v1, Nov 30 2026). HyperTest is a framework for microarchitectural testing on the XiangShan RISC-V processor, validating performance bugs, side-channel attacks (Flush+Reload, Prime+Probe, Spectre, Phantom, Load Predictor), and mitigations at the RTL simulation level. This is a notable new venue/paper not in the previous profile.
+- **New course added:** *Hardware-software co-design* (CS-463) now listed among Bourgeat's teaching duties (was not in previous profile).
+- **CADE '25** (*Interoperability of Proof Systems with SC-TPTP*) now appears in the publication list — confirms acceptance; not explicitly noted in prior changelog.
+- No other materially new publications or repos beyond those already captured in the 2026-07-10 profile entry.
 
 ### 2026-07-10
 
