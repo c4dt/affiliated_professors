@@ -299,11 +299,11 @@ Thomas Bourgeat leads the VCA lab at EPFL, researching formal verification of ha
 Thomas Vidick leads the QCC Lab at EPFL, working at the intersection of quantum complexity theory, interactive proof systems, quantum error correction, and the stability of group representations.
 
 ### [Touradj Ebrahimi](professors/TOURADJ-EBRAHIMI.md)
-*Multimedia Signal Processing Group (MMSPG)* · last updated 2026-07-10 · ✅ reviewed
+*Multimedia Signal Processing Group (MMSPG)* · last updated 2026-09-08 · ✅ reviewed
 
 [EPFL profile](https://people.epfl.ch/touradj.ebrahimi) · [mmspg.epfl.ch](https://mmspg.epfl.ch/) · [ORCID 0000-0002-9900-3687](https://orcid.org/0000-0002-9900-3687) · [OpenAlex A5082188773](https://openalex.org/A5082188773)
 
-Touradj Ebrahimi leads EPFL's Multimedia Signal Processing Group (MMSPG), focusing on AI-powered image/video coding, JPEG standardization (including JPEG AI and JPEG DNA), media security, and quality assessment.
+Touradj Ebrahimi leads EPFL's Multimedia Signal Processing Group (MMSPG), focusing on AI-powered image/video coding, JPEG standardization (JPEG AI, JPEG Trust, JPEG DNA), media security, and fine-grained quality assessment.
 
 ### [Viktor Kunčak](professors/VIKTOR-KUNCAK.md)
 *Lab for Automated Reasoning and Analysis (LARA)* · last updated 2026-07-10 · ✅ reviewed

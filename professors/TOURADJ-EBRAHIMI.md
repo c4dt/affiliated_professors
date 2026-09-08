@@ -8,18 +8,26 @@
 **ORCID:** [0000-0002-9900-3687](https://orcid.org/0000-0002-9900-3687)  
 **OpenAlex:** [A5082188773](https://openalex.org/A5082188773)  
 
-Touradj Ebrahimi leads EPFL's Multimedia Signal Processing Group (MMSPG), focusing on AI-powered image/video coding, JPEG standardization (including JPEG AI and JPEG DNA), media security, and quality assessment.
+Touradj Ebrahimi leads EPFL's Multimedia Signal Processing Group (MMSPG), focusing on AI-powered image/video coding, JPEG standardization (JPEG AI, JPEG Trust, JPEG DNA), media security, and fine-grained quality assessment.
 
 ## Key research
 
 - [MMSPG Lab Website](https://mmspg.epfl.ch/)
 - [EPFL People Page](https://people.epfl.ch/touradj.ebrahimi)
 - [JPEG AI: First International Standard for Learning-Based Image Coding (IEEE Multimedia, 2024)](https://doi.org/10.1109/mmul.2024.3485255)
-- [Overview of JPEG DNA Coding System (2025)](https://doi.org/10.1117/12.3068093)
-- [Fine-Grained HDR Image Quality Assessment (2025)](https://doi.org/10.1109/qomex65720.2025.11219975)
+- [JPEG AIC2026: Large-Scale Dataset for Fine-Grained Assessment of Image Coding (arXiv, 2026)](https://arxiv.org/abs/2607.22783)
+- [Assessing Media Authenticity via Watermarking in JPEG Trust (ICIP 2026)](https://doi.org/10.1109/icip61757.2026.11630453)
 - [MMSPG on X (Twitter)](https://twitter.com/mmspg)
 
 ## Changelog
+
+### 2026-09-08
+
+- **JPEG AIC2026 dataset released** (arXiv, July 2026): A large-scale benchmark dataset for fine-grained assessment of image coding, covering 70 source images, 12 codecs (8 conventional + 4 learning-based), and 9,618 distorted images at perceptually spaced distortion levels. The dataset is publicly available and co-authored with JPEG standardization partners.
+- **JPEG Trust at ICIP 2026**: A new paper ("Assessing Media Authenticity Through Watermarking in the Context of the JPEG Trust Standard") was presented at ICIP 2026 (August 2026), extending the JPEG Trust standardization work into watermarking-based authenticity assessment.
+- **DNA-based image storage at PCS 2025** (December 2025): New paper on substitution and indel error correction for DNA-based image storage.
+- **JPEG AI citation count up**: The flagship JPEG AI IEEE Multimedia paper (Oct 2024) has now reached 25 citations (up from 21 at last profile).
+- No new PhD students or major lab restructuring noted.
 
 ### 2026-07-10
 
