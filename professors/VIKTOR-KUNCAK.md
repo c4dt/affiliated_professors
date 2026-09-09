@@ -9,18 +9,26 @@
 **ORCID:** [0000-0001-7044-9522](https://orcid.org/0000-0001-7044-9522)  
 **OpenAlex:** [A5008699657](https://openalex.org/A5008699657)  
 
-Viktor Kunčak leads EPFL's LARA lab, developing automated reasoning, formal verification, and program synthesis tools — most notably the Stainless verifier for Scala — and is now pushing into AI-assisted Lean 4 formalization with the new LeanFlow agent framework.
+Viktor Kunčak leads EPFL's LARA lab, developing automated reasoning, formal verification, and program synthesis tools — notably the Stainless verifier for Scala — and is now building an expanding AI-driven Lean 4 ecosystem including LeanFlow (proof generation), LeanFaith (autoformalization faithfulness metric), and LeanProbe (fast feedback server).
 
 ## Key research
 
 - [LARA Lab Website](https://lara.epfl.ch/w/)
 - [Stainless Verifier](https://stainless.epfl.ch/)
-- [Stainless GitHub](https://github.com/epfl-lara/stainless)
+- [Stainless GitHub (404 ★)](https://github.com/epfl-lara/stainless)
 - [LeanFlow — AI agent for Lean 4 proof generation](https://github.com/epfl-lara/LeanFlow)
-- [AutoformalizedProjects — autonomous Lean formalizations of math papers](https://github.com/epfl-lara/AutoformalizedProjects)
-- [Formal Autograding in a Classroom (ACM TOPLAS 2026)](https://doi.org/10.1145/3828727)
+- [LeanFaith — calibrated faithfulness metric for autoformalization](https://github.com/epfl-lara/LeanFaith)
+- [First-Class Refinement Types in Scala (ECOOP 2026 artifact)](https://doi.org/10.5281/zenodo.21494568)
 
 ## Changelog
+
+### 2026-09-09
+
+- **New repo: LeanFaith (August–September 2026):** LARA launched *LeanFaith*, a calibrated learned metric that judges whether a candidate Lean 4 theorem statement faithfully expresses the same mathematical claim as a natural-language source — stricter than logical equivalence. Actively developed with 236 commits; uses a private fine-tuning dataset (`formalmathatepfl/sft_classic`) and a staged training plan (S0–S3). This is a distinct tool from LeanFlow, filling the evaluation/faithfulness gap in the autoformalization pipeline.
+- **"First-Class Refinement Types in Scala" artifacts deposited (August 2026):** Multiple artifact versions uploaded to Zenodo (DOIs 10.5281/zenodo.21494568, .21737784, .21737492), indicating an associated paper accepted at a 2026 venue (likely ECOOP or PLDI); paper itself not yet indexed on ORCID.
+- **Stainless now at 404 ★** (up from 401); Inox at 97 ★; both actively maintained with pushes as recently as September 8, 2026.
+- **LeanFlow, AutoformalizedProjects, LeanProbe** all receiving continued pushes into September 2026 — the Lean 4 AI ecosystem is consolidating.
+- No major new publications beyond those already recorded; routine activity otherwise.
 
 ### 2026-07-10
 

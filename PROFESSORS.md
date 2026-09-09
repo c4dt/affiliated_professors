@@ -306,11 +306,11 @@ Thomas Vidick leads the QCC Lab at EPFL, working at the intersection of quantum 
 Touradj Ebrahimi leads EPFL's Multimedia Signal Processing Group (MMSPG), focusing on AI-powered image/video coding, JPEG standardization (JPEG AI, JPEG Trust, JPEG DNA), media security, and fine-grained quality assessment.
 
 ### [Viktor Kunčak](professors/VIKTOR-KUNCAK.md)
-*Lab for Automated Reasoning and Analysis (LARA)* · last updated 2026-07-10 · ✅ reviewed
+*Lab for Automated Reasoning and Analysis (LARA)* · last updated 2026-09-09 · ✅ reviewed
 
 [EPFL profile](https://people.epfl.ch/viktor.kuncak) · [lara.epfl.ch](https://lara.epfl.ch/w/) · [github.com/epfl-lara](https://github.com/epfl-lara) · [ORCID 0000-0001-7044-9522](https://orcid.org/0000-0001-7044-9522) · [OpenAlex A5008699657](https://openalex.org/A5008699657)
 
-Viktor Kunčak leads EPFL's LARA lab, developing automated reasoning, formal verification, and program synthesis tools — most notably the Stainless verifier for Scala — and is now pushing into AI-assisted Lean 4 formalization with the new LeanFlow agent framework.
+Viktor Kunčak leads EPFL's LARA lab, developing automated reasoning, formal verification, and program synthesis tools — notably the Stainless verifier for Scala — and is now building an expanding AI-driven Lean 4 ecosystem including LeanFlow (proof generation), LeanFaith (autoformalization faithfulness metric), and LeanProbe (fast feedback server).
 
 ### [Volkan Cevher](professors/VOLKAN-CEVHER.md)
 *Laboratory for Information and Inference Systems (LIONS)* · last updated 2026-07-10 · ✅ reviewed
