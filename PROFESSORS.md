@@ -313,11 +313,11 @@ Touradj Ebrahimi leads EPFL's Multimedia Signal Processing Group (MMSPG), focusi
 Viktor Kunčak leads EPFL's LARA lab, developing automated reasoning, formal verification, and program synthesis tools — notably the Stainless verifier for Scala — and is now building an expanding AI-driven Lean 4 ecosystem including LeanFlow (proof generation), LeanFaith (autoformalization faithfulness metric), and LeanProbe (fast feedback server).
 
 ### [Volkan Cevher](professors/VOLKAN-CEVHER.md)
-*Laboratory for Information and Inference Systems (LIONS)* · last updated 2026-07-10 · ✅ reviewed
+*Laboratory for Information and Inference Systems (LIONS)* · last updated 2026-09-10 · ✅ reviewed
 
 [EPFL profile](https://people.epfl.ch/volkan.cevher) · [lions.epfl.ch](https://lions.epfl.ch/) · [ORCID 0000-0002-5004-201X](https://orcid.org/0000-0002-5004-201X) · [OpenAlex A5027059837](https://openalex.org/A5027059837)
 
-Volkan Cevher leads EPFL's LIONS lab, conducting research at the intersection of machine learning, optimization theory, and reinforcement learning, with recent focus on LLM training, adversarial robustness, and online learning in games.
+Volkan Cevher leads EPFL's LIONS lab, advancing machine learning through optimization theory, LLM training, adversarial robustness, and online learning in games.
 
 ### [Yanina Shkel](professors/YANINA-SHKEL.md)
 *Mathematics of Information Laboratory (MIL)* · last updated 2026-07-10 · ✅ reviewed

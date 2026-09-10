@@ -8,18 +8,36 @@
 **ORCID:** [0000-0002-5004-201X](https://orcid.org/0000-0002-5004-201X)  
 **OpenAlex:** [A5027059837](https://openalex.org/A5027059837)  
 
-Volkan Cevher leads EPFL's LIONS lab, conducting research at the intersection of machine learning, optimization theory, and reinforcement learning, with recent focus on LLM training, adversarial robustness, and online learning in games.
+Volkan Cevher leads EPFL's LIONS lab, advancing machine learning through optimization theory, LLM training, adversarial robustness, and online learning in games.
 
 ## Key research
 
 - [LIONS Lab Website](https://lions.epfl.ch/)
 - [Volkan Cevher – EPFL People Page](https://people.epfl.ch/volkan.cevher)
 - [Google Scholar Profile](https://scholar.google.com/citations?user=hlWhzU8AAAAJ)
-- [LIONS @ ICML 2026 (3 accepted papers)](https://actu.epfl.ch/news/lions-icml-2026)
-- [Optimistic Dual Averaging Unifies Modern Optimizers (arXiv 2025)](https://doi.org/10.48550/arxiv.2605.11172)
+- [Scion: Training Deep Learning Models with Norm-Constrained LMOs (Aug 2026)](https://doi.org/10.5281/zenodo.22145504)
+- [Optimistic Dual Averaging Unifies Modern Optimizers (arXiv 2026)](https://doi.org/10.48550/arxiv.2605.11172)
 - [Training Neural Networks at Any Scale (arXiv 2025)](https://doi.org/10.48550/arxiv.2511.11163)
 
 ## Changelog
+
+### 2026-09-10
+
+- **Two new PhD defenses (August 24, 2026):**
+  - **Yongtao Wu** defended "Optimization in Modern Machine Learning: Steepest Descent Theory and Trustworthy Models" — covering adaptive steepest descent, mean-field analysis of normalized descent methods, LLM alignment via min-max optimization, and character-level adversarial attacks.
+  - **Zhenyu Zhu** defended "Theoretical Studies of Learning in Overparameterized Neural Networks."
+- **Luca Viano** also defended (July 17, 2026): "Reward is not enough: Advances in reinforcement learning from demonstrations and preferences."
+- **New preprints/papers (August 2026):**
+  - *Scion: Training Deep Learning Models with Norm-Constrained LMOs* (Zenodo, Aug 28 2026) — introduces a novel training framework using Linear Minimization Oracles under norm constraints.
+  - *ClippedScion: Generalized Gradient Norm Clipping and Non-Euclidean (L0, L1)-Smoothness* (Zenodo, Aug 28 2026) — extends Scion with generalized clipping theory.
+  - *Charmer: Revisiting Character-level Adversarial Attacks for Language Models* (Zenodo, Aug 28 2026).
+- **Other recent papers since last update:**
+  - *Best of Both Worlds: Regret Minimization versus Minimax Play* (July 2026).
+  - *MaD-Mix: Multi-Modal Data Mixtures via Latent Space Coupling for Vision-Language Model Training* (Feb 2026).
+  - *Selective Rotary Position Embedding* (arXiv, Nov 2025).
+  - *Accelerating Spectral Clustering under Fairness Constraints* (arXiv, Jun 2025).
+  - *Rate optimal learning of equilibria from data* (arXiv, Oct 2025).
+- **LIONS open house:** Lab hosting a student info session on September 11, 2026 (10:00–12:00, ELD 243) for semester and Master's project opportunities.
 
 ### 2026-07-10
 
