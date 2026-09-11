@@ -8,7 +8,7 @@
 **ORCID:** [0000-0002-2575-1762](https://orcid.org/0000-0002-2575-1762)  
 **OpenAlex:** [A5052329970](https://openalex.org/A5052329970)  
 
-Yanina Shkel is an Assistant Professor at EPFL's Mathematics of Information Laboratory, working on the theoretical foundations of data privacy (differential privacy, maximal leakage), information-theoretic secrecy, minimum entropy couplings, and functional representations.
+Yanina Shkel is an Assistant Professor at EPFL's Mathematics of Information Laboratory (MIL) working on the theoretical foundations of data privacy (differential privacy, maximal leakage), information-theoretic secrecy, minimum entropy couplings, and functional representations.
 
 ## Key research
 
@@ -20,6 +20,13 @@ Yanina Shkel is an Assistant Professor at EPFL's Mathematics of Information Labo
 - [Learning and Information Theory Workshop (LITH @ EPFL, Feb 2026)](https://lith.epfl.ch/)
 
 ## Changelog
+
+### 2026-09-11
+
+- **Mini-course at AIMS Rwanda (July 29 – Aug 5, 2026):** Shkel gave a mini-course on differential privacy and hypothesis testing at the African Institute for Mathematical Sciences, Rwanda ([APIC 2026](https://sites.google.com/view/apic-2026/)).
+- **Talk at Chinese University of Hong Kong (July 7, 2026):** Invited talk on minimum entropy probability couplings ([IEEE event](https://events.vtools.ieee.org/m/566687)).
+- **All 4 ISIT 2026 papers now published** with DOIs confirmed (IEEE ISIT 2026, Guangzhou, June 28 – July 3, 2026); two papers already accumulating citations (1 each for "Log-Likelihood Loss for Semantic Compression" and "Composition Theorems for Multiple Differential Privacy Constraints").
+- No new preprints or publications since last update; PhD student roster unchanged (Çadir, Coban, Najib, Yadav).
 
 ### 2026-07-10
 
