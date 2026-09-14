@@ -9,7 +9,7 @@
 **ORCID:** [0000-0002-3029-2353](https://orcid.org/0000-0002-3029-2353)  
 **OpenAlex:** [A5101591310](https://openalex.org/A5101591310)  
 
-Alessandro Chiesa leads COMPSEC at EPFL, working on the theoretical foundations and practical constructions of cryptographic proofs—including zkSNARKs, IOPs, proof-carrying data, and post-quantum secure argument systems.
+Alessandro Chiesa leads COMPSEC at EPFL, researching the theoretical foundations and practical constructions of cryptographic proofs including zkSNARKs, IOPs, proof-carrying data, and post-quantum secure argument systems.
 
 ## Key research
 
@@ -21,6 +21,14 @@ Alessandro Chiesa leads COMPSEC at EPFL, working on the theoretical foundations 
 - [EPFL profile](https://people.epfl.ch/alessandro.chiesa)
 
 ## Changelog
+
+### 2026-09-14
+
+- **New published paper (2026):** "All Polynomial Generators Preserve Distance with Mutual Correlated Agreement" — published in DROPS (LIPIcs, CCC 2026), not previously tracked in the profile.
+- **New published paper (2026):** "On the Fiat–Shamir Security of Succinct Arguments from Functional Commitments" — published in LNCS (2026), not previously tracked.
+- **New published paper (2026):** "How to Build Succinct Arguments From Succinct Commitments" — published in *Proceedings of the IEEE* (2026), a high-profile venue, not previously tracked.
+- **New group members:** Zihan Hu, Ignacio Manzur, and Burcu Yıldız now appear on the personal website as current PhD students (not listed in the prior profile); Jérôme Thomas Guyot also appears on the EPFL profile but not the personal site. The COMPSEC lab website still lists Ziyi Guan as a graduate student (stale), while the personal site correctly lists him as alumni.
+- Lab and research focus are otherwise unchanged.
 
 ### 2026-07-13
 

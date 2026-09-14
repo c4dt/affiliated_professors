@@ -5,11 +5,11 @@ Research tracker for C4DT's affiliated professors. Each weekday an automated age
 ## Professors
 
 ### [Alessandro Chiesa](professors/ALESSANDRO-CHIESA.md)
-*Laboratory for Computation Security (COMPSEC)* · last updated 2026-07-13 · ✅ reviewed
+*Laboratory for Computation Security (COMPSEC)* · last updated 2026-09-14 · ✅ reviewed
 
 [EPFL profile](https://people.epfl.ch/alessandro.chiesa) · [compsec.epfl.ch](https://compsec.epfl.ch) · [ic-people.epfl.ch](https://ic-people.epfl.ch/~achiesa/) · [ORCID 0000-0002-3029-2353](https://orcid.org/0000-0002-3029-2353) · [OpenAlex A5101591310](https://openalex.org/A5101591310)
 
-Alessandro Chiesa leads COMPSEC at EPFL, working on the theoretical foundations and practical constructions of cryptographic proofs—including zkSNARKs, IOPs, proof-carrying data, and post-quantum secure argument systems.
+Alessandro Chiesa leads COMPSEC at EPFL, researching the theoretical foundations and practical constructions of cryptographic proofs including zkSNARKs, IOPs, proof-carrying data, and post-quantum secure argument systems.
 
 ### [Andrea Cavallaro](professors/ANDREA-CAVALLARO.md)
 *Laboratory of Multimodal Intelligent Systems (MINTS)* · last updated 2026-07-13 · ✅ reviewed
