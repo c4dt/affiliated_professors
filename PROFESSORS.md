@@ -12,11 +12,11 @@ Research tracker for C4DT's affiliated professors. Each weekday an automated age
 Alessandro Chiesa leads COMPSEC at EPFL, researching the theoretical foundations and practical constructions of cryptographic proofs including zkSNARKs, IOPs, proof-carrying data, and post-quantum secure argument systems.
 
 ### [Andrea Cavallaro](professors/ANDREA-CAVALLARO.md)
-*Laboratory of Multimodal Intelligent Systems (MINTS)* · last updated 2026-07-13 · ✅ reviewed
+*Laboratory of Multimodal Intelligent Systems (MINTS)* · last updated 2026-09-15 · ✅ reviewed
 
 [EPFL profile](https://people.epfl.ch/andrea.cavallaro) · [epfl.ch](https://www.epfl.ch/labs/mints/) · [ORCID 0000-0001-5086-7858](https://orcid.org/0000-0001-5086-7858) · [OpenAlex A5004087827](https://openalex.org/A5004087827)
 
-Andrea Cavallaro leads the MINTS lab at EPFL, researching multimodal intelligent systems with a focus on privacy-preserving AI, vision-language models, cross-modal explainability, and multimodal perception for autonomous and robotic systems.
+Andrea Cavallaro leads the MINTS lab at EPFL, advancing multimodal intelligent systems across privacy-preserving AI, vision-language models, cross-modal explainability, video anomaly detection, and multimodal perception for autonomous and robotic systems.
 
 ### [Anne-Marie Kermarrec](professors/ANNE-MARIE-KERMARREC.md)
 *Scalable Computing Systems Laboratory (SaCS)* · last updated 2026-07-14 · ✅ reviewed

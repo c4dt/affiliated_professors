@@ -8,18 +8,25 @@
 **ORCID:** [0000-0001-5086-7858](https://orcid.org/0000-0001-5086-7858)  
 **OpenAlex:** [A5004087827](https://openalex.org/A5004087827)  
 
-Andrea Cavallaro leads the MINTS lab at EPFL, researching multimodal intelligent systems with a focus on privacy-preserving AI, vision-language models, cross-modal explainability, and multimodal perception for autonomous and robotic systems.
+Andrea Cavallaro leads the MINTS lab at EPFL, advancing multimodal intelligent systems across privacy-preserving AI, vision-language models, cross-modal explainability, video anomaly detection, and multimodal perception for autonomous and robotic systems.
 
 ## Key research
 
 - [MINTS Lab Website](https://www.epfl.ch/labs/mints/)
 - [EPFL Profile – Andrea Cavallaro](https://people.epfl.ch/andrea.cavallaro)
-- [PrivLEX: Detecting Legal Concepts in Images via VLMs (arXiv 2025)](https://arxiv.org/abs/2601.09449)
+- [CSI-VAD: Context-structured Video Anomaly Detection (arXiv Jul 2026)](https://arxiv.org/abs/2607.19077)
+- [PrivLEX: Detecting Legal Concepts in Images via VLMs (arXiv 2026)](https://arxiv.org/abs/2601.09449)
 - [Cross-modal Counterfactual Explanations: DeX Framework (arXiv Dec 2025)](https://arxiv.org/abs/2512.18864)
 - [MM-HSD: Multi-Modal Hate Speech Detection in Videos (ACM MM 2025)](https://doi.org/10.1145/3746027.3754558)
-- [High-Resolution Open-Vocabulary Object 6D Pose Estimation (IEEE TPAMI 2025)](https://doi.org/10.1109/tpami.2025.3624589)
 
 ## Changelog
+
+### 2026-09-15
+
+- **New paper – CSI-VAD: Context-structured Video Anomaly Detection with Large Vision-Language Models (arXiv Jul 2026, accepted at AVSS 2026):** A training-free video anomaly detector that decomposes each video into three context branches (environment, objects, time) and uses large VLMs for context-specific inference — no predefined prompts or dataset tuning required. Demonstrates competitive results on UCF-Crime and UBnormal. This is a notable new research direction for MINTS, extending their VLM work into video anomaly detection.
+- **"Contextual Scalarisation Thompson Sampling" formally published** in Lecture Notes in Computer Science (Aug 2026), having previously appeared as an arXiv preprint (May 2026).
+- No major institutional changes or new awards noted since the 2026-07-14 update; ELLIS Fellowship and active keynote/talk schedule remain as previously recorded.
+- Medical/clinical publications in ORCID feed (mesenteric ischemia, eating disorders, rehabilitation) continue to appear as false-positive ORCID matches and are not attributed to this Andrea Cavallaro.
 
 ### 2026-07-14
 
