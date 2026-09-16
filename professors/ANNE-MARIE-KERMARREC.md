@@ -9,18 +9,28 @@
 **ORCID:** [0000-0001-8187-724X](https://orcid.org/0000-0001-8187-724X)  
 **OpenAlex:** [A5031849486](https://openalex.org/A5031849486)  
 
-Anne-Marie Kermarrec leads the SACS lab at EPFL, researching large-scale distributed systems with a strong focus on federated/decentralized machine learning, scalable LLM/MoE inference, agentic AI workflows, and retrieval-augmented generation.
+Anne-Marie Kermarrec leads the SACS lab at EPFL, researching large-scale distributed systems with a focus on federated/decentralized machine learning, scalable LLM/MoE inference, agentic AI, and now privacy-preserving vector search.
 
 ## Key research
 
 - [SACS Lab Website](https://www.epfl.ch/labs/sacs/)
 - [EPFL People Profile](https://people.epfl.ch/anne-marie.kermarrec)
 - [GitHub: sacs-epfl](https://github.com/sacs-epfl)
+- [Secure Vector Search (arXiv:2608.01192)](https://arxiv.org/abs/2608.01192)
+- [CESAR – Communication-Efficient Secure Aggregation in Decentralized Learning](https://github.com/sacs-epfl/cesar)
 - [RAGRoute – Efficient Federated Search for RAG](https://github.com/sacs-epfl/ragroute)
-- [FlexMerge – Flexible Model Merging (ICLR 2026)](https://github.com/sacs-epfl/flexmerge)
-- [Google Scholar](https://scholar.google.com/citations?user=aIAy-qcAAAAJ)
 
 ## Changelog
+
+### 2026-09-16
+
+- **New repo: `secure-vector-search`** (Rust, pushed August 2026) — code for the new paper *"A Unified Benchmark for Privacy-preserving Vector Search"* (arXiv:2608.01192, Aug 2026). The repo implements and benchmarks five privacy-preserving vector similarity search backends (Plaintext, SAP/DCPE, EMVP, Tiptoe, Braverman–Newman), representing a significant new research direction combining secure computation with vector search/RAG infrastructure.
+- **New repo: `fl-freeriding`** (pushed August 2026) — suggests active work on free-rider detection in federated learning; no public description yet.
+- **New repo: `cesar`** (Python, pushed July 2026) — code for *"Communication-Efficient Secure Aggregation in Decentralized Learning"*; extends privacy-preserving decentralized ML work.
+- **Second PhD completion:** Rishi Sharma defended his PhD in 2026 (thesis published, doi:10.5075/epfl-thesis-11369), joining Akash Dhasade (2026) as recently completed students.
+- **Robust ML Auditing paper** (arXiv May 2026): *"Robust ML Auditing using Prior Knowledge"* — new preprint not in prior profile.
+- **Robust Fingerprinting of Graphs with Fing** — published at SRDS 2025 (September 2025), not previously recorded.
+- No new awards or institutional role changes since the last update.
 
 ### 2026-07-14
 
