@@ -9,18 +9,26 @@
 **ORCID:** [0000-0002-0528-3033](https://orcid.org/0000-0002-0528-3033)  
 **OpenAlex:** [A5045962151](https://openalex.org/A5045962151)  
 
-Bryan Ford leads DEDIS at EPFL, researching decentralized trust, scalable consensus, coercion-resistant e-voting, and privacy-preserving distributed systems, with an emerging thread on formal foundations via grounded deduction logic.
+Bryan Ford leads DEDIS at EPFL, researching decentralized trust, scalable consensus, coercion-resistant e-voting, and privacy-preserving distributed systems, with an active thread on formal foundations via grounded deduction logic formalized in Isabelle.
 
 ## Key research
 
 - [DEDIS Lab Website](https://dedis.epfl.ch/)
 - [DEDIS GitHub Organisation](https://github.com/dedis)
 - [Kyber: Advanced Crypto Library (Go)](https://github.com/dedis/kyber)
+- [gd-pure: Grounded Deduction atop Isabelle/Pure](https://github.com/dedis/gd-pure)
 - [QuePaxa: Escaping Timeout Tyranny in Consensus (SOSP '23)](https://github.com/dedis/quepaxa)
 - [Votegral: Coercion-Resistant E-Voting System](https://github.com/dedis/votegral)
-- [gd-pure: Grounded Arithmetic Formalized in Isabelle/Pure](https://github.com/dedis/gd-pure)
 
 ## Changelog
+
+### 2026-09-22
+
+- **`gd-pure` most actively updated repo:** The Isabelle/Pure formalization of grounded deduction was pushed as recently as 2026-09-21, continuing its streak as the lab's most actively maintained research repo.
+- **`matchertext` and `matchertext-sqlite` active:** `matchertext` (embeddable syntax discipline, WIP paper + experimental code) was updated 2026-09-15; a new companion repo `matchertext-sqlite` (a SQLite driver implementing Matchertext as an injection-attack prevention mechanism) was pushed 2026-08-18 — this is a new applied artifact not previously tracked in the profile.
+- **`pandoc` fork active:** A DEDIS fork of the universal markup converter pandoc was updated 2026-09-18, likely related to matchertext or lab documentation tooling.
+- No new publications since the last update (Limix at NINeS 2026, TRIP/Votegral at ACM CCS 2025, ZeroAuction at FC 2025 remain the most recent).
+- Three PhD students currently active: Shailesh Mishra, Ant Srikanth, Haoqian Zhang. Five EPFL PhD students graduated in 2025 (Colombo, Merino, Tennage among them).
 
 ### 2026-07-21
 
