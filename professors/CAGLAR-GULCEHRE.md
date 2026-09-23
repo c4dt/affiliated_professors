@@ -21,6 +21,13 @@ Caglar Gulcehre leads CLAIRE at EPFL, researching efficient and safe deep learni
 
 ## Changelog
 
+### 2026-09-23
+
+- **No materially new developments** since the 2026-07-22 profile update. Publication list, lab structure, PhD student roster, and course offerings remain unchanged.
+- One previously untracked paper now visible in the feed: **"The 2025 PNPL Competition: Speech Detection and Phoneme Classification in the LibriBrain Dataset"** (arXiv, June 2025) — a peripheral competition/dataset paper, not a core CLAIRE research contribution.
+- **"Partition Generative Modeling: Masked Modeling Without Masks"** (arXiv, May 2025) also appears in the feed but was not previously highlighted; this is a generative modeling preprint from a CLAIRE PhD student, representing routine lab activity.
+- No new preprints, accepted papers, news posts, or significant events since last update.
+
 ### 2026-07-22
 
 - **No major new developments** since last profile update (2026-07-10). Publication list and lab structure remain consistent.
