@@ -9,18 +9,23 @@
 **ORCID:** [0000-0002-2374-2248](https://orcid.org/0000-0002-2374-2248)  
 **OpenAlex:** [A5072857797](https://openalex.org/A5072857797)  
 
-Carmela Troncoso leads the SPRING Lab (spanning EPFL and MPI-SP) researching security and privacy engineering, with focus on privacy-preserving systems, ML fairness/security, and privacy evaluation frameworks.
+Carmela Troncoso leads the SPRING Lab at EPFL (and MPI-SP) researching security and privacy engineering, including privacy-preserving systems, ML fairness/security, CSAM detection, and now end-to-end encrypted real-time media.
 
 ## Key research
 
 - [SPRING Lab Website](https://spring.epfl.ch/)
 - [SPRING Lab GitHub](https://github.com/spring-epfl)
-- [Carmela Troncoso @ MPI-SP](https://www.mpi-sp.org/carmela-troncoso)
-- [USENIX Security '25: Characterizing Propaganda on Telegram (Distinguished Paper)](https://www.usenix.org/conference/usenixsecurity25/presentation/kireev)
+- [SafeCast: E2E Encrypted Real-Time Media over IP Multicast](https://github.com/spring-epfl/SafeCast)
+- [USENIX Security '25 Distinguished Paper: Propaganda on Telegram](https://www.usenix.org/conference/usenixsecurity25/presentation/kireev)
 - [IEEE S&P '26: Evaluating Concept Filtering Defenses (CSAM / T2I)](https://doi.org/10.1109/sp63933.2026.00251)
-- [A Telegram Dataset of Propaganda and its Moderation (ICWSM 2025)](https://doi.org/10.1609/icwsm.v19i1.35952)
+- [Carmela Troncoso @ MPI-SP](https://www.mpi-sp.org/carmela-troncoso)
 
 ## Changelog
+
+### 2026-09-24
+
+- **New repo: [`SafeCast`](https://github.com/spring-epfl/SafeCast)** — actively developed (last push August 26, 2026), this is a research prototype for **end-to-end encrypted real-time media over IP multicast**, combining MLS (RFC 9420) for group key management with SRTP for transport protection. It also implements per-sender source authentication via an adapted TESLA protocol, fine-grained within-epoch keying for forward secrecy, and includes a full live multicast demo plus extensive benchmarks. This is a significant new project not previously tracked, and likely accompanies an upcoming or recent paper (connected to the "Designing Secure ST 2110 Systems" publication from January 2026).
+- No other materially new publications, lab news, or GitHub activity since the last update (2026-07-23).
 
 ### 2026-07-23
 
