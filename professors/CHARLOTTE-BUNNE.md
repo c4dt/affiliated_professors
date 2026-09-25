@@ -9,18 +9,28 @@
 **ORCID:** [0000-0003-1431-103X](https://orcid.org/0000-0003-1431-103X)  
 **OpenAlex:** [A5033283546](https://openalex.org/A5033283546)  
 
-Charlotte Bunne leads the AIMM Lab at EPFL, developing AI foundation models and generative methods to build "virtual patients" — multi-scale computational models of human biology for precision oncology and drug discovery.
+Charlotte Bunne leads the AIMM Lab at EPFL, building AI foundation models — including the newly Nature-published VirTues spatial proteomics model — to create "virtual patients" for precision oncology and drug discovery.
 
 ## Key research
 
 - [AIMM Lab Website](https://aimm.epfl.ch/)
-- [VirTues – AI-powered Virtual Tissues (GitHub)](https://github.com/bunnelab/virtues)
-- [VirTues Preprint (arXiv)](https://arxiv.org/abs/2501.06039)
+- [VirTues – Virtual Tissues Foundation Model (GitHub)](https://github.com/bunnelab/virtues)
+- [VirTues Published in Nature (Aug 2026)](https://www.nature.com/articles/s41586-026-10884-y)
+- [EPFL News: AI model maps tumor tissue to improve cancer care](https://actu.epfl.ch/news/ai-model-maps-tumor-tissue-to-improve-cancer-care/)
 - [Cell Perspective: How to Build the Virtual Cell with AI](https://www.cell.com/cell/fulltext/S0092-8674(24)01332-1)
 - [Lopez-Loreta Prize Announcement (EPFL News)](https://actu.epfl.ch/news/charlotte-bunne-wins-2026-lopez-loreta-prize-2/)
-- [Large GPU Grant – Swiss AI Alps Supercomputer](https://www.swiss-ai.org/all-projects)
 
 ## Changelog
+
+### 2026-09-25
+
+- **VirTues published in Nature (Aug 2026):** The flagship VirTues paper — "The Virtual Tissues foundation model resolves spatial proteomics across scales" — was published in *Nature* (doi: 10.1038/s41586-026-10884-y). The model was trained on 12,000+ images from 5,000+ patients across 31 clinical cohorts and introduces a new Transformer architecture supporting cross-study spatial proteomics. First author: PhD student Johann Wenckstern. Already has 1 citation.
+- **VirTues GitHub star count surged:** The `virtues` repo now has 154 stars (up from 77 at last update on 2026-07-22), likely driven by the Nature publication.
+- **spora-bench updated (Sep 2026):** The spatial proteomics benchmark repo `spora-bench` was pushed on 2026-09-15 and `spora-io` on 2026-09-07, reflecting active ecosystem development alongside the Nature paper.
+- **Cell perspective citation count updated:** "How to build the virtual cell with AI" now at 383 citations (up from 307 at last update).
+- **Pycytominer (Nature Methods) citations updated:** Now at 48 (up from 43).
+- **Publications repo updated (Aug 2026):** `.publications` repo pushed 2026-08-17, likely reflecting the Nature paper addition.
+- **No new preprints or awards beyond what was already captured.**
 
 ### 2026-07-24
 
