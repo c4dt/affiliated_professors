@@ -30,6 +30,18 @@ Two Distinguished Paper awards arrived in January 2026, both reflecting SYSTEMF'
 
 ## Changelog
 
+### 2026-09-28
+
+- **New preprint (Sep 2026)**: "A Deeper Look at Depth: Stable Generation Accounting for Quantifier Reasoning" (arXiv:2609.26345, Sep 22 2026) — co-authored with Can Cebeci, Nikolaj Bjørner, and George Candea. Addresses SMT solver instability (unsat/unknown outcome fluctuations) in program verification, showing that generation-depth accounting for quantifier instantiation in solvers like Z3 is non-confluent, and proposes a new stable accounting method that reduces instability by 94% on the Mariposa benchmark. Notable collaboration with a Microsoft Research author (Bjørner).
+- **New OOPSLA 2026 artifact**: "HyperTest Artifact for OOPSLA 2026" (Zenodo, deposited Aug–Nov 2026) — indicates a forthcoming OOPSLA 2026 paper on "HyperTest" (not yet in the existing profile). Likely a hyperproperties testing or verification tool; details TBD when paper appears.
+- **Rocq 9.3.0 released** (Zenodo, Sep 19 2026) — Pit-Claudel is a contributor to the Rocq Prover release train; also listed as contributor to Rocq 9.3+rc1 (Jul 22 2026, previously noted).
+- **New repo `verified-bootstrapping`** (Rocq Prover, 1 ★, pushed Sep 18 2026) — "Verified bootstrapping of an imperative compiler"; description suggests a new project in extensible/verified compilation, not in any prior profile.
+- **New repo `vsrocq`** (pushed Sep 17 2026) — SYSTEMF fork of the VSRocq VS Code extension for Rocq; no description, 0 stars.
+- **New repo `poll`** (Rocq Prover, pushed Aug 20 2026) — "Proof-oriented layout language"; no stars, new since last profile.
+- **`camltac` grew to 20 stars** (was 19 in July 2026); `ppx_rocq` now at 5 stars (was 0 in an earlier snapshot); `sepviz` at 6 stars; `logical-pinning` at 10 stars.
+- **`lorikeet` now described**: "Flexible code rewriting tool for Scala based on Scalafix" (2 ★, pushed Sep 18 2026) — previously appeared with no description.
+- No major new accepted papers beyond what was noted in the previous changelog entry.
+
 ### 2026-07-27
 
 - **No materially new developments** since the 2026-07-10 profile. GitHub repos (`camltac`, `sepviz`, `mltac2`, `ppx_rocq`) remain actively pushed (latest: July 26), with `camltac` growing from 14 to 19 stars. A new repo **`lorikeet`** (Scala, 2 ★, pushed 2026-07-05) appeared — no description yet.
