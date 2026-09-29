@@ -89,7 +89,7 @@ Charlotte Bunne leads the AIMM Lab at EPFL, building AI foundation models — in
 Clément Pit-Claudel leads EPFL's SYSTEMF lab, researching programming languages, formal verification, and extensible compilers to build small, fast, and completely verified critical-system components.
 
 ### [Damir Filipovic](professors/DAMIR-FILIPOVIC.md)
-*Swissquote Chair in Quantitative Finance* · last updated 2026-07-28 · ✅ reviewed
+*Swissquote Chair in Quantitative Finance* · last updated 2026-09-29 · ✅ reviewed
 
 [EPFL profile](https://people.epfl.ch/damir.filipovic) · [epfl.ch](https://www.epfl.ch/labs/csf/) · [ORCID 0000-0002-2443-5741](https://orcid.org/0000-0002-2443-5741) · [OpenAlex A5059712147](https://openalex.org/A5059712147)
 

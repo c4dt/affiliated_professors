@@ -21,6 +21,12 @@ Damir Filipovic holds the Swissquote Chair in Quantitative Finance at EPFL, rese
 
 ## Changelog
 
+### 2026-09-29
+
+- No materially new developments since the last profile update (2026-07-28). Publication list and lab membership are unchanged.
+- A new PhD student, **Christophe Ludwig Beney**, is now listed on the EPFL People page alongside continuing students Joshua Hayes and Andrea Ruglioni — this is a minor but previously unrecorded addition.
+- The two anomalous ORCID-linked publications (6G networking white papers, Zenodo, July 2026) continue to appear and remain confirmed ORCID mis-attributions unrelated to Filipovic's research.
+
 ### 2026-07-28
 
 - No materially new developments since the last profile update (2026-07-10). Publication list and lab membership are unchanged; active PhD students remain Joshua Hayes and Andrea Ruglioni. The two anomalous ORCID-linked publications (6G networking white papers, Zenodo, July 2026) appear to be ORCID mis-attributions unrelated to Filipovic's research.
