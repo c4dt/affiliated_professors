@@ -9,7 +9,7 @@
 **ORCID:** [0000-0001-9536-4947](https://orcid.org/0000-0001-9536-4947)  
 **OpenAlex:** [A5074236306](https://openalex.org/A5074236306)  
 
-David Atienza leads EPFL's Embedded Systems Laboratory (ESL), pioneering system-level design methods for high-performance edge AI, ultra-low-power IoT/MPSoC architectures, smart wearables, CGRA compilation, and thermal-aware computing.
+David Atienza leads EPFL's Embedded Systems Laboratory (ESL), pioneering system-level design methods for high-performance edge AI, ultra-low-power IoT/MPSoC architectures, smart wearables, CGRA compilation, and thermal-aware computing for next-generation embedded systems.
 
 ## Key research
 
@@ -21,6 +21,29 @@ David Atienza leads EPFL's Embedded Systems Laboratory (ESL), pioneering system-
 - [David Atienza – EPFL People Page](https://people.epfl.ch/david.atienza)
 
 ## Changelog
+
+### 2026-09-30
+
+- **New repo: `aion_flow`** (Python, 9 stars, pushed 2026-09-24) — most recently active ESL repo; purpose not yet described publicly but likely related to the AION chip project alongside `aion_chip` (Python, pushed 2026-09-16), suggesting a new chip design effort in progress.
+- **New repo: `HEEPidermis`** (C, 11 stars, pushed 2026-08-20) — new X-HEEP ecosystem project (skin/wearable sensing connotation from the name), now among the more starred recent repos.
+- **New paper – MetaWearS / meta-learning for wearables (Nature Communications Medicine, Jul 2026):** *"A meta-learning method with reduced data requirements for training and updating deep learning models on wearable devices"* — published in *Communications Medicine* (Nature portfolio); significant as it targets on-device continual learning with minimal labelled data.
+- **New paper – FDSOI feedforward leakage suppression (arXiv, Aug 2026):** *"Enabling Ultra-Low-Power Always-On Feedforward Leakage Suppression Logic Circuits with FDSOI"* — new ultra-low-power circuit angle.
+- **New paper – Application-Driven System Technology Co-Optimization for 2.5D Edge AI (Aug 2026):** technology co-optimization for 2.5D chiplet-based edge AI platforms.
+- **New paper – CXLRAMSim v1.0 (arXiv, Mar 2026):** system-level simulation of CXL memory expander cards — new memory-system exploration tool.
+- **New paper – GridPilot (arXiv, May 2026):** *"GridPilot: Real-Time Grid-Responsive Control for AI Supercomputers"* — real-time power-grid-responsive scheduling for AI infrastructure; extends sustainability research.
+- **New paper – AquaCast (Journal of Hydrology, Feb 2026):** *"AquaCast: Urban water dynamics forecasting with precipitation-informed multi-input transformer"* — surprising expansion into urban hydrology/sustainability AI.
+- **New paper – SigmaQuant (IEEE TCAS-AI, Feb 2026):** *"SigmaQuant: Hardware-Aware Heterogeneous Quantization Method for Edge DNN Inference"* (2 citations) — hardware-aware quantization for edge inference.
+- **New paper – Mitigating the Bandwidth Wall (ACM TACO, Apr 2026):** *"Mitigating the Bandwidth Wall via Data-Streaming System–Accelerator Co-Design"* — memory bandwidth co-design work.
+- **New paper – CGRA architectural trade-offs (arXiv, Jun 2026):** *"Evaluating Architectural Trade-offs in CGRAs: The Impact of Scratchpad Memory and Heterogeneity on Compute-Intensive Kernels"* — deepens CGRA research.
+- **New paper – CUTh-Solver (arXiv, Jun 2026):** GPU-accelerated sparse thermal solver for high-resolution 3D IC simulation — extends thermal modelling capabilities.
+- **New paper – ETLA-3D (DATE 2026):** Thermal FEM for hybrid bonding face-to-face 3D ICs — complements 3D-ICE 4.0 release.
+- **New paper – Polyhedral transformations for CGRA compilation (arXiv, Apr 2026):** *"Exploiting pre-optimized kernels with polyhedral transformations for CGRA compilation"* — further MLIR/CGRA compilation research.
+- **New paper – Crossing the Layers: Near-Memory Computing (ISQED 2026):** systematic exploration of near-memory computing.
+- **New paper – GeneTEK formally published (Computers in Biology and Medicine, May 2026):** previously noted as arXiv; now in journal.
+- **Denisa Constantinescu (ESL PhD student) featured in Swiss research magazine Horizons (Jul 2026):** Article on AI data-centre infrastructure renewal trade-offs between economic and ecological incentives; the full piece is publicly available at horizons-mag.ch.
+- **3 new PhD completions listed (2026):** Hojjat Karami, Qunyou Liu, and Lara Orlandic — all awarded EPFL PhDs in 2026, reflecting continued group output.
+- **`szcore` repo actively updated** (pushed Sep 2026, now 23 stars) — seizure benchmarking platform still gaining community traction.
+- No further new awards or major institutional changes beyond those noted in the prior profile (Academia Europaea, IEEE CEDA Distinguished Service Award, ARC 2026 Best Paper).
 
 ### 2026-07-29
 
