@@ -9,18 +9,25 @@
 **ORCID:** [0000-0001-7237-6929](https://orcid.org/0000-0001-7237-6929)  
 **OpenAlex:** [A5049034675](https://openalex.org/A5049034675)  
 
-Edouard Bugnion leads EPFL's DCSL, researching datacenter efficiency (low-latency networking, in-kernel scheduling) and system security (Trusted Execution Environments, virtual firmware monitors), while serving as EPFL's Vice President for Innovation and Impact.
+Edouard Bugnion leads EPFL's DCSL, researching datacenter efficiency (low-latency networking, in-kernel scheduling) and system security (Trusted Execution Environments, virtual firmware monitors, hardware-software isolation), while serving as EPFL's Vice President for Innovation and Impact.
 
 ## Key research
 
 - [DCSL Lab Website](https://www.epfl.ch/labs/dcsl/)
 - [EPFL People Page](https://people.epfl.ch/edouard.bugnion)
 - [DCSL GitHub Organisation](https://github.com/epfl-dcsl)
+- [Flashpoint ASPLOS'27 Artifact – Privileged-Software Isolation on RISC-V](https://github.com/epfl-dcsl/flashpoint)
 - [Rakaia OSDI'26 Artifact – In-Kernel Message-Oriented Scheduling](https://github.com/epfl-dcsl/rakaia-osdi26-artifact)
-- [Tyche: Composable Isolation (ArXiv preprint, 2025)](https://doi.org/10.48550/arxiv.2507.12364)
-- [Miralis SOSP'25 Artifact – Virtual Firmware Monitor](https://github.com/epfl-dcsl/miralis-sosp25-artifact)
+- [Tyche: Composable Isolation (EuroS&P 2026)](https://doi.org/10.1109/eurosp68448.2026.00055)
 
 ## Changelog
+
+### 2026-10-01
+
+- **New ASPLOS'27 paper — "Flashpoint":** A new artifact repo [`epfl-dcsl/flashpoint`](https://github.com/epfl-dcsl/flashpoint) appeared (first commit Aug 11, 2026; actively updated through Sep 30, 2026). The paper, titled "Flashpoint: Privileged-Software Isolation on RISC-V", describes a hardware-software co-design that combines a lightweight ISA extension with **Anchor** (a small Rust mediator) to establish a dynamic root of trust for the Tyche security monitor, isolating it from OpenSBI and recording measurements in a TPM. Two Zenodo DOIs published Sep 10, 2026 ([10.5281/zenodo.22688440](https://doi.org/10.5281/zenodo.22688440), [10.5281/zenodo.22688439](https://doi.org/10.5281/zenodo.22688439)) confirm it is in the ASPLOS'27 artifact pipeline. This is the lab's third major systems-security paper in quick succession (after Miralis/SOSP'25 and Tyche/EuroS&P'26).
+- **Tyche published at EuroS&P 2026:** The previously tracked ArXiv preprint "Tyche: Composable Isolation as a Foundation to Manage Trust in the Cloud" has now been formally published at IEEE EuroS&P 2026 ([doi:10.1109/eurosp68448.2026.00055](https://doi.org/10.1109/eurosp68448.2026.00055)).
+- **`tyche-devel` and `linux-kvm-tyche` actively updated** through Aug 27, 2026, consistent with ongoing Flashpoint / Tyche integration work.
+- **No other materially new repos or papers** beyond the above since the last profile update.
 
 ### 2026-07-30
 
