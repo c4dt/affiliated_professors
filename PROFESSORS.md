@@ -193,6 +193,11 @@ Martin Odersky leads EPFL's LAMP group, designing the Scala programming language
 
 Mathias Payer leads the HexHive Laboratory at EPFL, pioneering systems and software security research through fuzzing, sanitization, exploit mitigations, and compartmentalization, with a prolific publication record at top security venues and consistent award recognition.
 
+### [Mats Stensrud](professors/MATS-STENSRUD.md)
+*Chair of Biostatistics (BIOSTAT)* · last updated — · ✅ reviewed
+
+[EPFL profile](https://people.epfl.ch/mats.stensrud) · [epfl.ch](https://www.epfl.ch/labs/biostat/) · [matsjst.github.io](https://matsjst.github.io/) · [github.com/matsjst](https://github.com/matsjst) · [ORCID 0000-0001-9641-1936](https://orcid.org/0000-0001-9641-1936) · [OpenAlex A5074841194](https://openalex.org/A5074841194)
+
 ### [Matthias Grossglauser](professors/MATTHIAS-GROSSGLAUSER.md)
 *Information and Network Dynamics Laboratory (INDY)* · last updated 2026-08-18 · ✅ reviewed
 

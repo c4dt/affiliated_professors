@@ -336,6 +336,20 @@
   last_updated: "2026-08-17"
   reviewed: true
   retired: false
+- slug: mats-stensrud
+  name: Mats Stensrud
+  lab: Chair of Biostatistics (BIOSTAT)
+  epfl_profile: https://people.epfl.ch/mats.stensrud
+  lab_urls:
+    - https://www.epfl.ch/labs/biostat/
+    - https://matsjst.github.io/
+  code_urls:
+    - https://github.com/matsjst
+  orcid: 0000-0001-9641-1936
+  openalex_id: A5074841194
+  last_updated: null
+  reviewed: true
+  retired: false
 - slug: matthias-grossglauser
   name: Matthias Grossglauser
   lab: Information and Network Dynamics Laboratory (INDY)
