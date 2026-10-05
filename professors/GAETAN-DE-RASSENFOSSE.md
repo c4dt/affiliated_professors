@@ -15,11 +15,19 @@ Gaétan de Rassenfosse is an innovation economist at EPFL's STIP lab studying ho
 - [STIP Lab (Chair of Science, Technology and Innovation Policy)](https://www.epfl.ch/labs/stip/)
 - [EPFL People Profile](https://people.epfl.ch/gaetan.derassenfosse)
 - [Google Scholar](https://scholar.google.com/citations?user=C1mFPY8AAAAJ)
+- [EPO CodeFest 2026 — EPFL team takes second place](https://actu.epfl.ch/news/epfl-team-takes-second-place-at-epo-codefest-202-3)
 - [Paper: Counting Patents, Miscounting Innovation (SSRN, 2026)](https://doi.org/10.2139/ssrn.7084898)
 - [Paper: Beyond the front page — in-text patent citations (Strategic Management Journal, 2025)](https://doi.org/10.1002/smj.70027)
-- [Paper: New approach to measuring invention commercialization — SBIR program (Research Policy, 2025)](https://doi.org/10.1016/j.respol.2025.105302)
 
 ## Changelog
+
+### 2026-10-05
+
+- **EPO CodeFest 2026 — 2nd place (Sep 2026):** Prof. de Rassenfosse led the "Red Cube Coders" team (with alumni and an EPO examiner) to second place at the European Patent Office's CodeFest 2026, which challenged teams from 12 countries to build automated patent portfolio evaluation tools. The team developed two novel indicators: a *blocking score* (measuring how strongly a patent constrains subsequent applications, using LLMs) and a *commercialization score* (estimating the probability a patent protects a market-ready product, drawing on EPFL's IPRoduct database). Outputs released on Zenodo.
+- **New SSRN working papers (mid-2026):** Three additional papers have appeared since last update — "Measuring Novelty" (SSRN, 2026), "Deconstructing the 'Comparables' Method in FRAND Licensing" (SSRN, 2026), and "Analysis of Unpatentability Findings in Inter Partes Review Final Written Decisions 2013–2025" (SSRN, 2026) — expanding the lab's IP analytics and legal-empirical output.
+- **New AoM Proceedings papers (Jul 2026):** Two Academy of Management 2026 proceedings papers: "Preemptive Patent Enforcement and Cumulative Innovation: Evidence from Virtual Patent Marking" and "R to D IV: Path Dependence in Science and Technology."
+- **New dataset in *Scientific Data* (Jan 2026):** "A dataset of scientific citations in U.S. patent Office Actions" published in *Scientific Data* (Nature portfolio), providing a new public resource for science-technology linkage research.
+- **New SEP/FRAND paper (SSRN, 2026):** "When Standards Meet Patents: The Economics of SEPs and FRAND" adds to the lab's standard-essential patents coverage.
 
 ### 2026-08-03
 
