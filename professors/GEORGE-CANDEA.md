@@ -22,6 +22,10 @@ George Candea leads EPFL's Dependable Systems Lab (DSLAB), researching technique
 
 ## Changelog
 
+### 2026-10-07
+
+- No materially new developments since the last profile update (2026-08-04). Sources confirm the same research focus, same active PhD students (Cebeci, Chung, Ma, Nair, Piveteau — note Cendes is no longer listed on the EPFL page), same GitHub activity levels (NEX last pushed Sept 2025, SimBricks-LPN Aug 2025, lpn Aug 2025, NEXDSIM_AE Aug 2025), and no new publications beyond what was previously recorded. The SOSP 2024 tpot paper now shows 4 citations (up from 2), a minor uptick but not a notable development.
+
 ### 2026-08-04
 
 - No materially new developments since the last profile update (2026-07-10). The freshly fetched sources confirm the same research focus (programmable performance and energy), the same active PhD students (Piveteau, Nair, Cendes, Cebeci, Ma, Chung), the same GitHub activity levels (NEX last pushed Sept 2025, SimBricks-LPN Aug 2025, lpn Aug 2025), and the same recent publications. The ORCID publication list does not show any new papers beyond what was already recorded. The SOSP 2025 NEX paper, ACM Fellow 2025, and Mark Weiser Award 2024 remain the most recent notable items.

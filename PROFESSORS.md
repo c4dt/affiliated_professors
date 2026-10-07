@@ -124,7 +124,7 @@ Florence Graezer Bideau is an anthropologist and sinologist leading EPFL's HAT l
 Gaétan de Rassenfosse is an innovation economist at EPFL's STIP lab studying how legal and policy frameworks — especially patents and IP — shape technology creation and commercialization, using large-scale data, econometrics, and machine learning.
 
 ### [George Candea](professors/GEORGE-CANDEA.md)
-*Dependable Systems Laboratory (DSLAB)* · last updated 2026-08-04 · ✅ reviewed
+*Dependable Systems Laboratory (DSLAB)* · last updated 2026-10-07 · ✅ reviewed
 
 [EPFL profile](https://people.epfl.ch/george.candea) · [dslab.epfl.ch](https://dslab.epfl.ch/) · [github.com/dslab-epfl](https://github.com/dslab-epfl) · [ORCID 0009-0002-8107-6535](https://orcid.org/0009-0002-8107-6535) · [OpenAlex A5028907149](https://openalex.org/A5028907149)
 
