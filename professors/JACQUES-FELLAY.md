@@ -16,10 +16,18 @@ Jacques Fellay leads the Fellay Lab at EPFL, using large-scale genomics and bioi
 - [EPFL People Profile – Jacques Fellay](https://people.epfl.ch/jacques.fellay)
 - [News: EPFL joins $25M Cancer Grand Challenges ATLAS team (Mar 2026)](https://actu.epfl.ch/news/epfl-joins-25-million-research-on-cancer-avoidan-3)
 - [News: Fellay promoted to Full Professor (Mar 2026)](https://actu.epfl.ch/news/three-promotions-in-the-life-sciences-2)
-- [Paper: Epidemiology and Clinical Impact of Clonal Hematopoiesis in People with HIV (JID, Jul 2026)](https://doi.org/10.1093/infdis/jiag393)
-- [Paper: Do autoantibodies shape cancer immunosurveillance? (Cell, Jul 2026)](https://doi.org/10.1016/j.cell.2026.06.021)
+- [Paper: Benchmarking LLMs for HIV medical decision support (Communications Medicine, Aug 2026)](https://doi.org/10.1038/s43856-026-01875-1)
+- [Data: Genome of Switzerland (GoS) Pilot – 1000 whole genomes (Sep 2026)](https://doi.org/10.5281/zenodo.23018549)
 
 ## Changelog
+
+### 2026-10-08
+
+- **New dataset release – Genome of Switzerland (GoS) Pilot (Sep 28, 2026):** Aggregated allele counts of small variants from 1,000 whole genomes released on Zenodo — a notable national genomics infrastructure milestone contributing to Swiss population-level reference data.
+- **New preprint – PRKD2 variants in Systemic Sclerosis (Sep 25, 2026):** *Activating variants in PRKD2 in two families with Systemic sclerosis, and enrichment of rare variants in a sporadic series* (medRxiv) — extends the lab's rare-variant immunogenetics work beyond infectious disease into autoimmunity.
+- **New publication – LLM benchmarking for HIV clinical decision support (Aug 29, 2026):** *Benchmarking large language models for HIV medical decision support* published in *Communications Medicine* (1 citation) — a novel AI/clinical genomics intersection paper.
+- **New preprint – Pharmacogenetics via low-pass sequencing (Aug 19, 2026):** *Comparative evaluation of genotyping and low-pass sequencing for pharmacogenetic variant and phenotype inference* (medRxiv) — relevant to clinical implementation of precision medicine.
+- No new institutional news beyond items captured in previous changelog entries.
 
 ### 2026-08-06
 

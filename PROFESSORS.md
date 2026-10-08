@@ -138,7 +138,7 @@ George Candea leads EPFL's Dependable Systems Lab (DSLAB), researching technique
 Giovanni De Micheli (Professor Emeritus, LSI/EPFL) pioneers Electronic Design Automation, logic synthesis, and design technologies for silicon, superconducting, quantum, and nanosystems, while directing the EcoCloud sustainable-computing center.
 
 ### [Jacques Fellay](professors/JACQUES-FELLAY.md)
-*Fellay Lab – Human Genomics of Infection and Immunity (GR-FE)* · last updated 2026-08-06 · ✅ reviewed
+*Fellay Lab – Human Genomics of Infection and Immunity (GR-FE)* · last updated 2026-10-08 · ✅ reviewed
 
 [EPFL profile](https://people.epfl.ch/jacques.fellay) · [fellay-lab.epfl.ch](https://fellay-lab.epfl.ch/) · [ORCID 0000-0002-8240-939X](https://orcid.org/0000-0002-8240-939X) · [OpenAlex A5089009771](https://openalex.org/A5089009771)
 
