@@ -2,6 +2,8 @@
 
 # Boi Faltings
 
+<img src="https://people.epfl.ch/boi.faltings/photo" alt="Boi Faltings" width="150" align="right">
+
 **Lab:** Artificial Intelligence Laboratory (LIA)  
 **EPFL profile:** [people.epfl.ch](https://people.epfl.ch/boi.faltings)  
 **Web:** [lia.epfl.ch](https://lia.epfl.ch/)  

@@ -2,6 +2,8 @@
 
 # Rachid Guerraoui
 
+<img src="https://people.epfl.ch/rachid.guerraoui/photo" alt="Rachid Guerraoui" width="150" align="right">
+
 **Lab:** Distributed Computing Laboratory (DCL)  
 **EPFL profile:** [people.epfl.ch](https://people.epfl.ch/rachid.guerraoui)  
 **Web:** [dcl.epfl.ch](https://dcl.epfl.ch/)  

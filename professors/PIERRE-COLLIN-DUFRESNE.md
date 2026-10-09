@@ -2,6 +2,8 @@
 
 # Pierre Collin-Dufresne
 
+<img src="https://people.epfl.ch/pierre.collin-dufresne/photo" alt="Pierre Collin-Dufresne" width="150" align="right">
+
 **Lab:** Chair SFI-PCD  
 **EPFL profile:** [people.epfl.ch](https://people.epfl.ch/pierre.collin-dufresne)  
 **Web:** [epfl.ch](https://www.epfl.ch/labs/sfi-pcd/)  

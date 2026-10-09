@@ -2,6 +2,8 @@
 
 # Thomas Vidick
 
+<img src="https://people.epfl.ch/thomas.vidick/photo" alt="Thomas Vidick" width="150" align="right">
+
 **Lab:** Quantum Complexity and Cryptography Laboratory (QCC)  
 **EPFL profile:** [people.epfl.ch](https://people.epfl.ch/thomas.vidick)  
 **Web:** [epfl.ch](https://www.epfl.ch/labs/qcc/)  

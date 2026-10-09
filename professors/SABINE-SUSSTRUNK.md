@@ -2,6 +2,8 @@
 
 # Sabine Süsstrunk
 
+<img src="https://people.epfl.ch/sabine.susstrunk/photo" alt="Sabine Süsstrunk" width="150" align="right">
+
 **Lab:** Image and Visual Representation Laboratory (IVRL)  
 **EPFL profile:** [people.epfl.ch](https://people.epfl.ch/sabine.susstrunk)  
 **Web:** [ivrl.epfl.ch](https://ivrl.epfl.ch/)  

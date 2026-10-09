@@ -2,6 +2,8 @@
 
 # Semyon Malamud
 
+<img src="https://people.epfl.ch/semyon.malamud/photo" alt="Semyon Malamud" width="150" align="right">
+
 **Lab:** Chair SFI-SM  
 **EPFL profile:** [people.epfl.ch](https://people.epfl.ch/semyon.malamud)  
 **Web:** [epfl.ch](https://www.epfl.ch/labs/sfi-sm/)  

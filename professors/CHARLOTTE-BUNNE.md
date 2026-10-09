@@ -2,6 +2,8 @@
 
 # Charlotte Bunne
 
+<img src="https://people.epfl.ch/charlotte.bunne/photo" alt="Charlotte Bunne" width="150" align="right">
+
 **Lab:** Artificial Intelligence in Molecular Medicine Lab (AIMM)  
 **EPFL profile:** [people.epfl.ch](https://people.epfl.ch/charlotte.bunne)  
 **Web:** [aimm.epfl.ch](https://aimm.epfl.ch/)  

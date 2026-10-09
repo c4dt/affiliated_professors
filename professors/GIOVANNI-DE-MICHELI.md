@@ -2,6 +2,8 @@
 
 # Giovanni de Micheli
 
+<img src="https://people.epfl.ch/giovanni.demicheli/photo" alt="Giovanni de Micheli" width="150" align="right">
+
 **Lab:** Integrated Systems Laboratory (LSI)  
 **EPFL profile:** [people.epfl.ch](https://people.epfl.ch/giovanni.demicheli)  
 **Web:** [lsi.epfl.ch](https://lsi.epfl.ch/)  

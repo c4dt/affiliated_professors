@@ -2,6 +2,8 @@
 
 # Thomas Bourgeat
 
+<img src="https://people.epfl.ch/thomas.bourgeat/photo" alt="Thomas Bourgeat" width="150" align="right">
+
 **Lab:** Verification and Computer Architecture Lab (VCA)  
 **EPFL profile:** [people.epfl.ch](https://people.epfl.ch/thomas.bourgeat)  
 **Web:** [vca.epfl.ch](https://vca.epfl.ch/)  

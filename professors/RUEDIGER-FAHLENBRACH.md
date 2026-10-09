@@ -2,6 +2,8 @@
 
 # Ruediger Fahlenbrach
 
+<img src="https://people.epfl.ch/ruediger.fahlenbrach/photo" alt="Ruediger Fahlenbrach" width="150" align="right">
+
 **Lab:** Chair SFI-RF  
 **EPFL profile:** [people.epfl.ch](https://people.epfl.ch/ruediger.fahlenbrach)  
 **Web:** [epfl.ch](https://www.epfl.ch/labs/sfi-rf/)  

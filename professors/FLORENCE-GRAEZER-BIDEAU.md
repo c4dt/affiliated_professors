@@ -2,6 +2,8 @@
 
 # Florence Graezer Bideau
 
+<img src="https://people.epfl.ch/florence.graezerbideau/photo" alt="Florence Graezer Bideau" width="150" align="right">
+
 **Lab:** Heritage, Anthropology and Technologies Research Group (HAT)  
 **EPFL profile:** [people.epfl.ch](https://people.epfl.ch/florence.graezerbideau)  
 **Web:** [epfl.ch](https://www.epfl.ch/labs/hat/fr/)  

@@ -2,6 +2,8 @@
 
 # Pascal Frossard
 
+<img src="https://people.epfl.ch/pascal.frossard/photo" alt="Pascal Frossard" width="150" align="right">
+
 **Lab:** Signal Processing Laboratory (LTS4)  
 **EPFL profile:** [people.epfl.ch](https://people.epfl.ch/pascal.frossard)  
 **Web:** [lts4.epfl.ch](https://lts4.epfl.ch/)  

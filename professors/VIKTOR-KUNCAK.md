@@ -2,6 +2,8 @@
 
 # Viktor Kunčak
 
+<img src="https://people.epfl.ch/viktor.kuncak/photo" alt="Viktor Kunčak" width="150" align="right">
+
 **Lab:** Lab for Automated Reasoning and Analysis (LARA)  
 **EPFL profile:** [people.epfl.ch](https://people.epfl.ch/viktor.kuncak)  
 **Web:** [lara.epfl.ch](https://lara.epfl.ch/w/)  

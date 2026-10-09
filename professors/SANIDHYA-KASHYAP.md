@@ -2,6 +2,8 @@
 
 # Sanidhya Kashyap
 
+<img src="https://people.epfl.ch/sanidhya.kashyap/photo" alt="Sanidhya Kashyap" width="150" align="right">
+
 **Lab:** Robust Scalable Systems Software Lab (RS3Lab)  
 **EPFL profile:** [people.epfl.ch](https://people.epfl.ch/sanidhya.kashyap)  
 **Web:** [sanidhya.github.io](https://sanidhya.github.io/)  

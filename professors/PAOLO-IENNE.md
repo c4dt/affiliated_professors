@@ -2,6 +2,8 @@
 
 # Paolo Ienne
 
+<img src="https://people.epfl.ch/paolo.ienne/photo" alt="Paolo Ienne" width="150" align="right">
+
 **Lab:** Processor Architecture Laboratory (LAP)  
 **EPFL profile:** [people.epfl.ch](https://people.epfl.ch/paolo.ienne)  
 **Web:** [lap.epfl.ch](https://lap.epfl.ch/)  

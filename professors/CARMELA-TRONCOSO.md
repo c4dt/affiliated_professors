@@ -2,6 +2,8 @@
 
 # Carmela Troncoso
 
+<img src="https://people.epfl.ch/carmela.troncoso/photo" alt="Carmela Troncoso" width="150" align="right">
+
 **Lab:** Security and Privacy Engineering Lab (SPRING)  
 **EPFL profile:** [people.epfl.ch](https://people.epfl.ch/carmela.troncoso)  
 **Web:** [spring.epfl.ch](https://spring.epfl.ch/)  

@@ -2,6 +2,8 @@
 
 # Serge Vaudenay
 
+<img src="https://people.epfl.ch/serge.vaudenay/photo" alt="Serge Vaudenay" width="150" align="right">
+
 **Lab:** Security and Cryptography Laboratory (LASEC)  
 **EPFL profile:** [people.epfl.ch](https://people.epfl.ch/serge.vaudenay)  
 **Web:** [lasec.epfl.ch](https://lasec.epfl.ch/)  

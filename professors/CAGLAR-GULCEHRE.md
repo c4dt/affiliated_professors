@@ -2,6 +2,8 @@
 
 # Caglar Gulcehre
 
+<img src="https://people.epfl.ch/caglar.gulcehre/photo" alt="Caglar Gulcehre" width="150" align="right">
+
 **Lab:** Caglar Gulcehre Lab for AI Research (CLAIRE)  
 **EPFL profile:** [people.epfl.ch](https://people.epfl.ch/caglar.gulcehre)  
 **Web:** [epfl.ch](https://www.epfl.ch/labs/claire/)  

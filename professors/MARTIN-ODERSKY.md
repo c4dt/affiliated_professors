@@ -2,6 +2,8 @@
 
 # Martin Odersky
 
+<img src="https://people.epfl.ch/martin.odersky/photo" alt="Martin Odersky" width="150" align="right">
+
 **Lab:** Programming Methods Laboratory (LAMP)  
 **EPFL profile:** [people.epfl.ch](https://people.epfl.ch/martin.odersky)  
 **Web:** [lamp.epfl.ch](https://lamp.epfl.ch/)  

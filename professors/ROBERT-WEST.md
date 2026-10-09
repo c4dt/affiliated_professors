@@ -2,6 +2,8 @@
 
 # Robert West
 
+<img src="https://people.epfl.ch/robert.west/photo" alt="Robert West" width="150" align="right">
+
 **Lab:** Data Science Laboratory (DLAB)  
 **EPFL profile:** [people.epfl.ch](https://people.epfl.ch/robert.west)  
 **Web:** [dlab.epfl.ch](https://dlab.epfl.ch/)  

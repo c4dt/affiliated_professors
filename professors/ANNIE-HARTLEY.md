@@ -2,6 +2,8 @@
 
 # Annie Hartley
 
+<img src="https://people.epfl.ch/mary-anne.hartley/photo" alt="Annie Hartley" width="150" align="right">
+
 **Lab:** Laboratory for Intelligent Global Health and Humanitarian Response Technologies (LiGHT)  
 **EPFL profile:** [people.epfl.ch](https://people.epfl.ch/mary-anne.hartley)  
 **Web:** [light-laboratory.org](https://www.light-laboratory.org/)  

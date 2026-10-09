@@ -32,6 +32,12 @@ def _openalex_url(openalex_id: str) -> str:
     return f"https://openalex.org/{openalex_id}"
 
 
+def photo_url(epfl_profile: str) -> str:
+    """people.epfl.ch/<name>/photo is a stable redirect to the current
+    portrait (the direct image URLs it points to expire)."""
+    return f"{epfl_profile.rstrip('/')}/photo"
+
+
 def _link_line(prof: Professor) -> str | None:
     """One clickable markdown line: sites, code, ORCID, OpenAlex — for quick
     verification (rendered even for reviewed:false entries)."""
@@ -69,7 +75,7 @@ def _extract_summary(text: str) -> str:
             if not s:
                 break
             summary.append(s)
-        elif s and not s.startswith("#") and not s.startswith("**") and not s.startswith("[../"):
+        elif s and not s.startswith(("#", "**", "[../", "<img")):
             summary.append(s)
     return " ".join(summary).strip()
 
@@ -175,6 +181,11 @@ def build_profile(
     the ## Notes sections that appear between key research and changelog.
     """
     lines = ["[../PROFESSORS.md](../PROFESSORS.md)  ", "", f"# {prof.name}", ""]
+    if prof.epfl_profile:
+        lines.append(
+            f'<img src="{photo_url(prof.epfl_profile)}" alt="{prof.name}" width="150" align="right">'
+        )
+        lines.append("")
     if prof.lab:
         lines.append(f"**Lab:** {prof.lab}  ")
     if prof.epfl_profile:

@@ -2,6 +2,8 @@
 
 # George Candea
 
+<img src="https://people.epfl.ch/george.candea/photo" alt="George Candea" width="150" align="right">
+
 **Lab:** Dependable Systems Laboratory (DSLAB)  
 **EPFL profile:** [people.epfl.ch](https://people.epfl.ch/george.candea)  
 **Web:** [dslab.epfl.ch](https://dslab.epfl.ch/)  

@@ -2,6 +2,8 @@
 
 # Matthias Grossglauser
 
+<img src="https://people.epfl.ch/matthias.grossglauser/photo" alt="Matthias Grossglauser" width="150" align="right">
+
 **Lab:** Information and Network Dynamics Laboratory (INDY)  
 **EPFL profile:** [people.epfl.ch](https://people.epfl.ch/matthias.grossglauser)  
 **Web:** [indy.epfl.ch](https://indy.epfl.ch/)  

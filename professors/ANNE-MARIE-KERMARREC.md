@@ -2,6 +2,8 @@
 
 # Anne-Marie Kermarrec
 
+<img src="https://people.epfl.ch/anne-marie.kermarrec/photo" alt="Anne-Marie Kermarrec" width="150" align="right">
+
 **Lab:** Scalable Computing Systems Laboratory (SaCS)  
 **EPFL profile:** [people.epfl.ch](https://people.epfl.ch/anne-marie.kermarrec)  
 **Web:** [epfl.ch](https://www.epfl.ch/labs/sacs/)  

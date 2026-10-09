@@ -2,6 +2,8 @@
 
 # Babak Falsafi
 
+<img src="https://people.epfl.ch/babak.falsafi/photo" alt="Babak Falsafi" width="150" align="right">
+
 **Lab:** Parallel Systems Architecture Laboratory (PARSA)  
 **EPFL profile:** [people.epfl.ch](https://people.epfl.ch/babak.falsafi)  
 **Web:** [parsa.epfl.ch](https://parsa.epfl.ch/)  

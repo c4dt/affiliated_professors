@@ -2,6 +2,8 @@
 
 # Mats Stensrud
 
+<img src="https://people.epfl.ch/mats.stensrud/photo" alt="Mats Stensrud" width="150" align="right">
+
 **Lab:** Chair of Biostatistics (BIOSTAT)  
 **EPFL profile:** [people.epfl.ch](https://people.epfl.ch/mats.stensrud)  
 **Web:** [epfl.ch](https://www.epfl.ch/labs/biostat/)  

@@ -2,6 +2,8 @@
 
 # Antoine Bosselut
 
+<img src="https://people.epfl.ch/antoine.bosselut/photo" alt="Antoine Bosselut" width="150" align="right">
+
 **Lab:** Natural Language Processing Lab (NLP Lab)  
 **EPFL profile:** [people.epfl.ch](https://people.epfl.ch/antoine.bosselut)  
 **Web:** [nlp.epfl.ch](https://nlp.epfl.ch/)  

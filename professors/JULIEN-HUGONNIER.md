@@ -2,6 +2,8 @@
 
 # Julien Hugonnier
 
+<img src="https://people.epfl.ch/julien.hugonnier/photo" alt="Julien Hugonnier" width="150" align="right">
+
 **Lab:** Chair SFI-JH  
 **EPFL profile:** [people.epfl.ch](https://people.epfl.ch/julien.hugonnier)  
 **Web:** [epfl.ch](https://www.epfl.ch/labs/sfi-jh/)  

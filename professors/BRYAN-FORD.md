@@ -2,6 +2,8 @@
 
 # Bryan Ford
 
+<img src="https://people.epfl.ch/bryan.ford/photo" alt="Bryan Ford" width="150" align="right">
+
 **Lab:** Decentralized and Distributed Systems Lab (DEDIS)  
 **EPFL profile:** [people.epfl.ch](https://people.epfl.ch/bryan.ford)  
 **Web:** [dedis.epfl.ch](https://dedis.epfl.ch/)  

@@ -2,6 +2,8 @@
 
 # Clément Pit-Claudel
 
+<img src="https://people.epfl.ch/clement.pit-claudel/photo" alt="Clément Pit-Claudel" width="150" align="right">
+
 **Lab:** Systems and Formalisms Lab (SYSTEMF)  
 **EPFL profile:** [people.epfl.ch](https://people.epfl.ch/clement.pit-claudel)  
 **Web:** [pit-claudel.fr](https://pit-claudel.fr/clement/)  

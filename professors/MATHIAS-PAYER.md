@@ -2,6 +2,8 @@
 
 # Mathias Payer
 
+<img src="https://people.epfl.ch/mathias.payer/photo" alt="Mathias Payer" width="150" align="right">
+
 **Lab:** HexHive Laboratory (HEXHIVE)  
 **EPFL profile:** [people.epfl.ch](https://people.epfl.ch/mathias.payer)  
 **Web:** [hexhive.epfl.ch](https://hexhive.epfl.ch/)  

@@ -2,6 +2,8 @@
 
 # Katerina Argyraki
 
+<img src="https://people.epfl.ch/katerina.argyraki/photo" alt="Katerina Argyraki" width="150" align="right">
+
 **Lab:** Network Architecture Laboratory (NAL)  
 **EPFL profile:** [people.epfl.ch](https://people.epfl.ch/katerina.argyraki)  
 **Web:** [epfl.ch](https://www.epfl.ch/labs/nal/)  

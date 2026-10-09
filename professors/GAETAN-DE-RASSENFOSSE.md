@@ -2,6 +2,8 @@
 
 # Gaétan de Rassenfosse
 
+<img src="https://people.epfl.ch/gaetan.derassenfosse/photo" alt="Gaétan de Rassenfosse" width="150" align="right">
+
 **Lab:** Chair of Science Technology and Innovation Policy (STIP)  
 **EPFL profile:** [people.epfl.ch](https://people.epfl.ch/gaetan.derassenfosse)  
 **Web:** [epfl.ch](https://www.epfl.ch/labs/stip/)  

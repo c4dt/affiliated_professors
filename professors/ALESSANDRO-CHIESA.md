@@ -2,6 +2,8 @@
 
 # Alessandro Chiesa
 
+<img src="https://people.epfl.ch/alessandro.chiesa/photo" alt="Alessandro Chiesa" width="150" align="right">
+
 **Lab:** Laboratory for Computation Security (COMPSEC)  
 **EPFL profile:** [people.epfl.ch](https://people.epfl.ch/alessandro.chiesa)  
 **Web:** [compsec.epfl.ch](https://compsec.epfl.ch)  

@@ -2,6 +2,8 @@
 
 # Volkan Cevher
 
+<img src="https://people.epfl.ch/volkan.cevher/photo" alt="Volkan Cevher" width="150" align="right">
+
 **Lab:** Laboratory for Information and Inference Systems (LIONS)  
 **EPFL profile:** [people.epfl.ch](https://people.epfl.ch/volkan.cevher)  
 **Web:** [lions.epfl.ch](https://lions.epfl.ch/)  

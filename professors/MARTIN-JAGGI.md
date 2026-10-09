@@ -2,6 +2,8 @@
 
 # Martin Jaggi
 
+<img src="https://people.epfl.ch/martin.jaggi/photo" alt="Martin Jaggi" width="150" align="right">
+
 **Lab:** Machine Learning and Optimization Laboratory (MLO)  
 **EPFL profile:** [people.epfl.ch](https://people.epfl.ch/martin.jaggi)  
 **Web:** [mlo.epfl.ch](https://mlo.epfl.ch/)  

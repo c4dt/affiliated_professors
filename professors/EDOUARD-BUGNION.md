@@ -2,6 +2,8 @@
 
 # Edouard Bugnion
 
+<img src="https://people.epfl.ch/edouard.bugnion/photo" alt="Edouard Bugnion" width="150" align="right">
+
 **Lab:** Data Center Systems Laboratory (DCSL)  
 **EPFL profile:** [people.epfl.ch](https://people.epfl.ch/edouard.bugnion)  
 **Web:** [epfl.ch](https://www.epfl.ch/labs/dcsl/)  

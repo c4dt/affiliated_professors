@@ -58,6 +58,24 @@ def _txn_id(seed: str) -> str:
     return "prof-" + hashlib.sha256(seed.encode()).hexdigest()[:24]
 
 
+def upload_image(homeserver: str, token: str, image_url: str) -> str:
+    """Fetch an external image and re-host it on the homeserver; returns its
+    mxc:// URI. Clients only render <img> tags whose src is an mxc:// URI."""
+    img = httpx.get(image_url, follow_redirects=True, timeout=_TIMEOUT)
+    img.raise_for_status()
+    content_type = img.headers.get("content-type", "image/jpeg").split(";")[0]
+    filename = img.url.path.rsplit("/", 1)[-1] or "photo.jpg"
+    resp = httpx.post(
+        f"{homeserver}/_matrix/media/v3/upload",
+        params={"filename": filename},
+        headers={"Authorization": f"Bearer {token}", "Content-Type": content_type},
+        content=img.content,
+        timeout=_TIMEOUT,
+    )
+    resp.raise_for_status()
+    return resp.json()["content_uri"]
+
+
 def send_html(
     homeserver: str,
     token: str,

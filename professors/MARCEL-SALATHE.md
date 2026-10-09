@@ -2,6 +2,8 @@
 
 # Marcel Salathé
 
+<img src="https://people.epfl.ch/marcel.salathe/photo" alt="Marcel Salathé" width="150" align="right">
+
 **Lab:** Digital Epidemiology Lab (SALATHELAB)  
 **EPFL profile:** [people.epfl.ch](https://people.epfl.ch/marcel.salathe)  
 **Web:** [digitalepidemiologylab.org](https://www.digitalepidemiologylab.org/)  

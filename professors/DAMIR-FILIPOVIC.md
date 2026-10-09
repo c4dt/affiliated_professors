@@ -2,6 +2,8 @@
 
 # Damir Filipovic
 
+<img src="https://people.epfl.ch/damir.filipovic/photo" alt="Damir Filipovic" width="150" align="right">
+
 **Lab:** Swissquote Chair in Quantitative Finance  
 **EPFL profile:** [people.epfl.ch](https://people.epfl.ch/damir.filipovic)  
 **Web:** [epfl.ch](https://www.epfl.ch/labs/csf/)  

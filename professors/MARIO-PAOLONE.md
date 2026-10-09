@@ -2,6 +2,8 @@
 
 # Mario Paolone
 
+<img src="https://people.epfl.ch/mario.paolone/photo" alt="Mario Paolone" width="150" align="right">
+
 **Lab:** Distributed Electrical Systems Laboratory (DESL)  
 **EPFL profile:** [people.epfl.ch](https://people.epfl.ch/mario.paolone)  
 **Web:** [desl-pwrs.epfl.ch](https://desl-pwrs.epfl.ch/)  

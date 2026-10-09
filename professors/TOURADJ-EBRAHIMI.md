@@ -2,6 +2,8 @@
 
 # Touradj Ebrahimi
 
+<img src="https://people.epfl.ch/touradj.ebrahimi/photo" alt="Touradj Ebrahimi" width="150" align="right">
+
 **Lab:** Multimedia Signal Processing Group (MMSPG)  
 **EPFL profile:** [people.epfl.ch](https://people.epfl.ch/touradj.ebrahimi)  
 **Web:** [mmspg.epfl.ch](https://mmspg.epfl.ch/)  

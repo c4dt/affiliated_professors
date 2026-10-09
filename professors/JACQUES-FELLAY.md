@@ -2,6 +2,8 @@
 
 # Jacques Fellay
 
+<img src="https://people.epfl.ch/jacques.fellay/photo" alt="Jacques Fellay" width="150" align="right">
+
 **Lab:** Fellay Lab – Human Genomics of Infection and Immunity (GR-FE)  
 **EPFL profile:** [people.epfl.ch](https://people.epfl.ch/jacques.fellay)  
 **Web:** [fellay-lab.epfl.ch](https://fellay-lab.epfl.ch/)  

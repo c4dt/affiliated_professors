@@ -2,6 +2,8 @@
 
 # Nicolas Flammarion
 
+<img src="https://people.epfl.ch/nicolas.flammarion/photo" alt="Nicolas Flammarion" width="150" align="right">
+
 **Lab:** Theory of Machine Learning Laboratory (TML)  
 **EPFL profile:** [people.epfl.ch](https://people.epfl.ch/nicolas.flammarion)  
 **Web:** [epfl.ch](https://www.epfl.ch/labs/tml/)  

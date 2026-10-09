@@ -276,6 +276,22 @@ def _github_repo_from_git_remote() -> str | None:
     return m.group(1) if m else None
 
 
+def _upload_photo(homeserver: str, token: str, slug: str) -> str | None:
+    """Re-host the professor's people.epfl.ch photo on the homeserver. Best
+    effort: a missing photo must not block the announcement."""
+    from . import matrix
+    from .render import photo_url
+
+    prof = get_by_slug(load_registry(), slug)
+    if prof is None or not prof.epfl_profile:
+        return None
+    try:
+        return matrix.upload_image(homeserver, token, photo_url(prof.epfl_profile))
+    except Exception as exc:  # noqa: BLE001
+        logger.warning("Could not upload photo for %s: %s", slug, exc)
+        return None
+
+
 def cmd_announce(args: argparse.Namespace) -> int:
     from . import matrix
 
@@ -294,10 +310,16 @@ def cmd_announce(args: argparse.Namespace) -> int:
         ms = data.get("matrix_summary", "")
 
         plain = f"{name} ({lab}) — {summary}\n{ms}\nFull profile: {url}"
-        html = (
-            f"<b>{name}</b> ({lab}) — {summary}<br/>{ms}<br/>"
-            f'<a href="{url}">Full profile</a>'
-        )
+        header = f'<b>{name}</b> ({lab})<br/><a href="{url}">Full profile</a>'
+        photo = _upload_photo(homeserver, token, data["slug"])
+        if photo:
+            header = (
+                f'<table><tr><td><img src="{photo}" alt="{name}" height="100"/></td>'
+                f"<td>{header}</td></tr></table>"
+            )
+        else:
+            header += "<br/>"
+        html = f"{header}{summary}<br/>{ms}"
 
     event_id = matrix.send_html(homeserver, token, room, plain, html)
     logger.info("Posted to Matrix: %s", event_id)

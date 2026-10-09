@@ -2,6 +2,8 @@
 
 # David Atienza
 
+<img src="https://people.epfl.ch/david.atienza/photo" alt="David Atienza" width="150" align="right">
+
 **Lab:** Embedded Systems Laboratory (ESL)  
 **EPFL profile:** [people.epfl.ch](https://people.epfl.ch/david.atienza)  
 **Web:** [esl.epfl.ch](https://esl.epfl.ch/)  

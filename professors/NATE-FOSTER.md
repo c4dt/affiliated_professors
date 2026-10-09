@@ -2,6 +2,8 @@
 
 # Nate Foster
 
+<img src="https://people.epfl.ch/nate.foster/photo" alt="Nate Foster" width="150" align="right">
+
 **Lab:** Networked Systems Abstractions Lab (LASER)  
 **EPFL profile:** [people.epfl.ch](https://people.epfl.ch/nate.foster)  
 **Web:** [laser.epfl.ch](https://laser.epfl.ch/)  

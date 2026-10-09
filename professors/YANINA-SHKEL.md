@@ -2,6 +2,8 @@
 
 # Yanina Shkel
 
+<img src="https://people.epfl.ch/yanina.shkel/photo" alt="Yanina Shkel" width="150" align="right">
+
 **Lab:** Mathematics of Information Laboratory (MIL)  
 **EPFL profile:** [people.epfl.ch](https://people.epfl.ch/yanina.shkel)  
 **Web:** [theory.epfl.ch](https://theory.epfl.ch/yanina/)  

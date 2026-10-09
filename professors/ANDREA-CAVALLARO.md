@@ -2,6 +2,8 @@
 
 # Andrea Cavallaro
 
+<img src="https://people.epfl.ch/andrea.cavallaro/photo" alt="Andrea Cavallaro" width="150" align="right">
+
 **Lab:** Laboratory of Multimodal Intelligent Systems (MINTS)  
 **EPFL profile:** [people.epfl.ch](https://people.epfl.ch/andrea.cavallaro)  
 **Web:** [epfl.ch](https://www.epfl.ch/labs/mints/)  

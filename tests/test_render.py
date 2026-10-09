@@ -35,6 +35,7 @@ def test_profile_has_header_and_links():
     out = build_profile(_prof(), _update(), "2026-07-10")
     assert out.startswith("[../PROFESSORS.md]")
     assert "# Bryan Ford" in out
+    assert '<img src="https://people.epfl.ch/bryan.ford/photo"' in out
     assert "**Lab:** DEDIS" in out
     assert "[dedis.epfl.ch](https://dedis.epfl.ch/)" in out
     assert "[bford.info](https://bford.info/)" in out  # multiple urls
@@ -150,7 +151,7 @@ def test_readme_shows_retired_badge(tmp_path):
 def test_extract_summary_ignores_header_and_metadata():
     from prof_tracker.render import _extract_summary
 
-    text = "# Amy A\n\n**Lab:** LabA\n**Web:** [x](https://x)\n\nDoes A things.\n\n## Key research\n\n- [a](https://b)\n"
+    text = "# Amy A\n\n<img src=\"https://people.epfl.ch/amy.a/photo\">\n\n**Lab:** LabA\n**Web:** [x](https://x)\n\nDoes A things.\n\n## Key research\n\n- [a](https://b)\n"
     assert _extract_summary(text) == "Does A things."
 
 
