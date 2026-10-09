@@ -8,7 +8,7 @@
 **ORCID:** [0000-0003-1356-5070](https://orcid.org/0000-0003-1356-5070)  
 **OpenAlex:** [A5002167713](https://openalex.org/A5002167713)  
 
-Julien Hugonnier is a Full Professor of Finance at EPFL/Swiss Finance Institute whose research spans asset pricing theory, OTC market microstructure, incomplete markets, and financial frictions, with recent work on perpetual futures (including a new extension with stochastic rates and clamp), heterogeneous beliefs, and government debt dynamics.
+Julien Hugonnier is a Full Professor of Finance at EPFL/Swiss Finance Institute whose research spans asset pricing theory, OTC market microstructure, incomplete markets, and financial frictions, with active work on perpetual futures pricing, heterogeneous beliefs, and government debt dynamics.
 
 ## Key research
 
@@ -20,6 +20,12 @@ Julien Hugonnier is a Full Professor of Finance at EPFL/Swiss Finance Institute 
 - [Admissible Surplus Dynamics and the Government Debt Puzzle (working paper)](https://www.epfl.ch/labs/sfi-jh/wp-content/uploads/2025/10/DebtPuz-102025.pdf)
 
 ## Changelog
+
+### 2026-10-09
+
+- **New SSRN preprint (2026):** "Funding Discontinuities and Arbitrage-Free Pricing of Perpetual Futures" (DOI: 10.2139/ssrn.7321823) has appeared on ORCID/OpenAlex with a 2026-01-01 publication date — this is a new entry not present in the previous profile and may represent a further extension or companion paper in the perpetual futures line of research.
+- **Second version of "Perpetual Futures Pricing with Stochastic Rates and Clamp"** (DOI: 10.2139/ssrn.5610430) now indexed separately on OpenAlex alongside the earlier version (10.2139/ssrn.5481866), indicating an updated revision posted to SSRN.
+- No other material changes detected; lab website and EPFL profile are consistent with the previous profile.
 
 ### 2026-08-07
 
