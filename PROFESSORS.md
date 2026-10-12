@@ -152,11 +152,11 @@ Jacques Fellay leads the Fellay Lab at EPFL, using large-scale genomics and bioi
 Julien Hugonnier is a Full Professor of Finance at EPFL/Swiss Finance Institute whose research spans asset pricing theory, OTC market microstructure, incomplete markets, and financial frictions, with active work on perpetual futures pricing, heterogeneous beliefs, and government debt dynamics.
 
 ### [Katerina Argyraki](professors/KATERINA-ARGYRAKI.md)
-*Network Architecture Laboratory (NAL)* · last updated 2026-08-10 · ✅ reviewed
+*Network Architecture Laboratory (NAL)* · last updated 2026-10-12 · ✅ reviewed
 
 [EPFL profile](https://people.epfl.ch/katerina.argyraki) · [epfl.ch](https://www.epfl.ch/labs/nal/) · [github.com/nal-epfl](https://github.com/nal-epfl) · [ORCID 0009-0004-9470-2819](https://orcid.org/0009-0004-9470-2819) · [OpenAlex A5011668097](https://openalex.org/A5011668097)
 
-Katerina Argyraki leads EPFL's Network Architecture Lab (NAL), researching network transparency, neutrality inference, Internet latency mapping from gaming footage, and edge caching as unintentional traffic differentiation.
+Katerina Argyraki leads EPFL's Network Architecture Lab (NAL), researching network transparency, neutrality inference, Internet latency mapping from gaming footage, and edge caching as unintentional traffic differentiation, while also serving as Associate Dean for Education in the IC School.
 
 ### [Marcel Salathé](professors/MARCEL-SALATHE.md)
 *Digital Epidemiology Lab (SALATHELAB)* · last updated 2026-08-11 · ✅ reviewed
