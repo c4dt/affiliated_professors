@@ -11,18 +11,27 @@
 **ORCID:** [0000-0002-5079-7797](https://orcid.org/0000-0002-5079-7797)  
 **OpenAlex:** [A5010649096](https://openalex.org/A5010649096)  
 
-Marcel Salathé leads the Digital Epidemiology Lab at EPFL, applying AI and mobile technologies to digital health cohorts, nutrition science, gut microbiome research, and LLM-based public health analysis.
+Marcel Salathé leads the Digital Epidemiology Lab at EPFL, applying AI and mobile technologies to digital health cohorts, with a growing focus on meal timing, glycemic response, night shift metabolism, and gut microbiome research using the Food & You cohort.
 
 ## Key research
 
 - [Digital Epidemiology Lab](https://www.digitalepidemiologylab.org/)
 - [EPFL People Page](https://people.epfl.ch/marcel.salathe)
 - [GitHub: digitalepidemiologylab](https://github.com/digitalepidemiologylab)
-- [The Lancet Digital Health: App-based interventions umbrella review (2026)](https://doi.org/10.1016/j.landig.2026.101009)
-- [Nature Communications: Dietary regularity & gut microbiome diversity](https://doi.org/10.1038/s41467-025-63799-z)
+- [Communications Health: Meal timing & glucose response (Oct 2026)](https://doi.org/10.1038/s44528-026-00033-2)
+- [Nature Communications: Dietary regularity & gut microbiome diversity (2025)](https://doi.org/10.1038/s41467-025-63799-z)
 - [GitHub: covid-twitter-bert (183 stars)](https://github.com/digitalepidemiologylab/covid-twitter-bert)
 
 ## Changelog
+
+### 2026-10-13
+
+- **New Communications Health paper (Oct 2026):** "Meal timing associations on dietary quality and glucose response" published in *Communications Health* (Nature Portfolio) — a large-scale study of 962 Food & You participants across 13,379 person-days linking meal timing, eating frequency, weekend behaviors, and BMI/glycemic outcomes using CGM data. This is new since the last profile update.
+- **New npj Biological Timing and Sleep paper (Sept 2026):** "The nutritional and metabolic impact of night shift work in a real-world setting" — extends the lab's circadian nutrition work to night shift workers; not previously captured.
+- **New medRxiv preprint (Sept 2026):** "Short-term postprandial glucose monitoring reveals stable traits from noisy free-living meals" (M. Toumi & M. Salathé), with accompanying GitHub repo `postprandial-glucose-traits-analyses` pushed on 2026-09-09.
+- **Nature Communications citation count:** Dietary regularity & gut microbiome paper now at 23 citations (up from 17 at last profile).
+- **New PhD student noted:** Laura Espinosa Montalb completed PhD in 2025 (thesis listed on EPFL people page, not previously logged alongside Sharada Prasanna Mohanty).
+- No other materially new developments beyond those already captured in the 2026-08-11 profile update.
 
 ### 2026-08-11
 
