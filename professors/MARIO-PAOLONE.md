@@ -10,7 +10,7 @@
 **ORCID:** [0000-0001-7073-9036](https://orcid.org/0000-0001-7073-9036)  
 **OpenAlex:** [A5050504092](https://openalex.org/A5050504092)  
 
-Mario Paolone leads EPFL's Distributed Electrical Systems Laboratory (DESL), advancing smart grid technologies including PMU-based monitoring of active distribution networks, optimal planning of distributed energy resources, EV integration, carbon flow tracing, and multi-energy system co-planning toward net-zero.
+Mario Paolone leads EPFL's Distributed Electrical Systems Laboratory (DESL), advancing smart grid technologies including PMU-based monitoring, optimal planning of distributed energy resources, EV integration, carbon flow tracing, battery systems, and multi-energy co-planning toward net-zero.
 
 ## Key research
 
@@ -22,6 +22,25 @@ Mario Paolone leads EPFL's Distributed Electrical Systems Laboratory (DESL), adv
 - [Google Scholar – Mario Paolone](https://scholar.google.com/citations?user=iJ5dtDkAAAAJ)
 
 ## Changelog
+
+### 2026-10-14
+
+- **New preprint – Real-time sustainable data center control**: "Real-Time Control of Sustainable Data Centers: A Two-Layer Model Predictive Control Framework with Workload Flexibility and Heat Recovery" posted on arXiv (Aug 17, 2026) — extends DESL's data-center energy management work with a new MPC framework integrating heat recovery.
+- **New preprint – Small-scale data center market participation**: "Should Small-Scale Data Centers Participate in the Day-Ahead Electricity Market?" (arXiv, May 2026) — a new policy-oriented research direction on data center flexibility.
+- **New preprint – Li-ion battery parameter identifiability**: "Identifiability of Low Frequency Li-ion Battery Parameters in Time Domain" (arXiv, May 2026) — theoretical contribution to battery modelling.
+- **New preprint – EV charging profile forecasting**: "Electric Vehicle Charging Profile Forecasting Using Hybrid Models" (arXiv, May 2026).
+- **New preprint – Game-theoretic EV charging control (Parts I & II)**: A two-part arXiv preprint on decentralized real-time control of EV charging stations via game theory and incentive design (Apr 2026).
+- **New paper – BESS siting/sizing for transmission adequacy**: "Enhancing Power Systems Transmission Adequacy via Optimal BESS Siting and Sizing using Benders Decomposition with Feasibility Cuts" (arXiv, Mar 2026).
+- **New paper – Probabilistic DER flexibility aggregation**: "Probabilistic Flexibility Aggregation of DERs for Ancillary Services Provision" in *IEEE Transactions on Power Systems* (Mar 2026, 1 citation).
+- **New paper – Li-ion battery thermal abuse**: "Impact of electrical and thermal abuse on the internal temperature estimation of Li-ion cells using electrochemical impedance spectroscopy" in *Journal of Energy Storage* (Feb 2026).
+- **New preprint – SOC relaxation tightness for OPF**: "On the Tightness of the Second-Order Cone Relaxation of the Optimal Power Flow with Angles Recovery in Meshed Networks" (arXiv, Feb 2026).
+- **New preprint – Power reserve procurement with PCE**: "Power Reserve Procurement Considering Dependent Random Variables with PCE" (arXiv, Feb 2026).
+- **New paper – EV feasible profiles for ancillary services**: "Feasible profile generation for ancillary services using electric vehicle batteries" in *Electric Power Systems Research* (Jul 2026).
+- **New paper – EV second-life battery scheduling**: "Optimal market-aware scheduling and control of EV batteries in second-life usage" in *Electric Power Systems Research* (Jul 2026).
+- **New paper – DCSOGI synchrophasor estimator**: Published version of "A synchrophasor estimator characterized by attenuated self-interference and robustness against DC offsets: The DCSOGI interpolated DFT" in *Electric Power Systems Research* (Sep 2026), confirming journal acceptance.
+- **New paper – BESS two-stage convex framework**: "A Two-Stage Convex Optimization Framework for Siting and Sizing Energy Storage Systems in Large-Scale Power Grids" published in *SSRN* (Jan 2026).
+- **No new GitHub repositories** detected beyond `cflowdist`; no new lab news items since the previously noted EPFLoop and ABB Award entries.
+- Publication pace remains very high across EV management, battery systems, data center flexibility, and stochastic OPF — no single breakthrough paper stands out above the broad sustained output.
 
 ### 2026-08-12
 

@@ -166,11 +166,11 @@ Katerina Argyraki leads EPFL's Network Architecture Lab (NAL), researching netwo
 Marcel Salathé leads the Digital Epidemiology Lab at EPFL, applying AI and mobile technologies to digital health cohorts, with a growing focus on meal timing, glycemic response, night shift metabolism, and gut microbiome research using the Food & You cohort.
 
 ### [Mario Paolone](professors/MARIO-PAOLONE.md)
-*Distributed Electrical Systems Laboratory (DESL)* · last updated 2026-08-12 · ✅ reviewed
+*Distributed Electrical Systems Laboratory (DESL)* · last updated 2026-10-14 · ✅ reviewed
 
 [EPFL profile](https://people.epfl.ch/mario.paolone) · [desl-pwrs.epfl.ch](https://desl-pwrs.epfl.ch/) · [ORCID 0000-0001-7073-9036](https://orcid.org/0000-0001-7073-9036) · [OpenAlex A5050504092](https://openalex.org/A5050504092)
 
-Mario Paolone leads EPFL's Distributed Electrical Systems Laboratory (DESL), advancing smart grid technologies including PMU-based monitoring of active distribution networks, optimal planning of distributed energy resources, EV integration, carbon flow tracing, and multi-energy system co-planning toward net-zero.
+Mario Paolone leads EPFL's Distributed Electrical Systems Laboratory (DESL), advancing smart grid technologies including PMU-based monitoring, optimal planning of distributed energy resources, EV integration, carbon flow tracing, battery systems, and multi-energy co-planning toward net-zero.
 
 ### [Martin Jaggi](professors/MARTIN-JAGGI.md)
 *Machine Learning and Optimization Laboratory (MLO)* · last updated 2026-08-13 · ✅ reviewed
