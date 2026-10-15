@@ -11,7 +11,7 @@
 **ORCID:** [0000-0003-1579-5558](https://orcid.org/0000-0003-1579-5558)  
 **OpenAlex:** [A5073756389](https://openalex.org/A5073756389)  
 
-Martin Jaggi leads the MLO lab at EPFL, researching scalable ML optimization, federated/distributed learning, and large language model training — including the Apertus open LLM, multilingual pre-training data, and LLM evaluation benchmarks.
+Martin Jaggi leads EPFL's MLO lab, focusing on scalable ML optimization, federated/distributed learning, and open LLM training — including the Apertus multilingual LLM family, hallucination benchmarking, and LLM pretraining data selection.
 
 ## Key research
 
@@ -19,10 +19,29 @@ Martin Jaggi leads the MLO lab at EPFL, researching scalable ML optimization, fe
 - [epfml GitHub Organization](https://github.com/epfml)
 - [Apertus — Fully Open LLM (Swiss AI)](https://www.swiss-ai.org/apertus)
 - [HalluHard: Hard Multi-Turn Hallucination Benchmark](https://github.com/epfml/halluhard)
-- [DISCO: Browser-Based Collaborative Learning (arXiv)](https://arxiv.org/abs/2511.19750)
+- [Apertus at ACL 2026 (cited 16×)](https://doi.org/10.18653/v1/2026.acl-long.2172)
 - [Benchmarking Optimizers for LLM Pretraining (arXiv)](https://arxiv.org/abs/2509.01440)
 
 ## Changelog
+
+### 2026-10-15
+
+- **Apertus at ACL 2026 (16 citations):** The Apertus paper "Democratizing Open and Compliant LLMs for Global Language Environments" was published at ACL 2026 and has already accumulated 16 citations — the most-cited recent output from the lab.
+- **Apertus family expansion (May 2026):** New arXiv paper on "Apertus LLM Family Expansion via Distillation and Quantization" (arXiv:2605.29128), extending the model family with smaller/quantized variants.
+- **Apertus engineering report (Apr 2026):** "An Engineering Journey Training Large Language Models at Scale on Alps: The Apertus Experience" (arXiv:2604.12973) details the large-scale training infrastructure on the Alps supercomputer.
+- **MXSens (Jul 2026):** New preprint on sensitivity-aware mixed-precision quantization for efficient LLM inference (arXiv:2607.17733).
+- **Use of LLMs in peer review — ICML 2026 study (Sep 2026):** MLO co-authored a randomized experiment and survey on LLM use in peer review at ICML 2026 (arXiv:2609.19420) — a notably broad-interest methodological contribution.
+- **New optimization preprints (Oct 2026):** Three new arXiv preprints posted Oct 9: "Randomized Momentum Transport with Cheap Predictors," "Partially Informed Stochastic Optimization via Zeroth-Order Residual Tracking," and "Geometry-Aware Multi-Objective Optimization: Norm-Constrained Oracles with Entropic Weight Updates."
+- **Multilingual data selection preprints (Oct 2026):** "Adapting English Quality Classifiers for Multilingual LLM Pretraining Data Selection" (arXiv:2610.11585) and "OptiSelect: How does the Optimizer Shape Data Curriculum?" continue the lab's multilingual pretraining data thread.
+- **Self-Repulsive Sampling for Diffusion LMs (Sep 2026):** New preprint extending the lab's LLM generation research to diffusion-based language models.
+- **Local MixVR (May 2026):** New preprint on breaking communication-sample dependence in distributed learning (arXiv:2606.01128).
+- **Looped Transformers stabilization (Jun 2026):** "Stabilizing Extrapolation in Looped Transformers via Learned Stochastic Stopping" (arXiv:2606.29983).
+- **Weight vector decoupling (Jun 2026):** "Improving Neural Network Training by Decoupling the Magnitude and Direction of Weight Vectors" (arXiv:2606.25971).
+- **HalluHard (previously noted):** Now at 36 stars (up from 34); last push Sep 2026.
+- **DISCO repo:** Now at 190 stars (up from 186); last push Oct 2026 — still actively maintained.
+- **ML_course:** Updated to Fall 2026 edition, now at 2088 stars.
+- **Vinko Sabolcec** appears as a new PhD student not listed in prior profiles.
+- No new lab news items on the MLO website beyond what was already captured in the 2026-08-13 changelog.
 
 ### 2026-08-13
 
