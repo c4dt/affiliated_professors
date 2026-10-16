@@ -180,11 +180,11 @@ Mario Paolone leads EPFL's Distributed Electrical Systems Laboratory (DESL), adv
 Martin Jaggi leads EPFL's MLO lab, focusing on scalable ML optimization, federated/distributed learning, and open LLM training — including the Apertus multilingual LLM family, hallucination benchmarking, and LLM pretraining data selection.
 
 ### [Martin Odersky](professors/MARTIN-ODERSKY.md)
-*Programming Methods Laboratory (LAMP)* · last updated 2026-08-14 · ✅ reviewed
+*Programming Methods Laboratory (LAMP)* · last updated 2026-10-16 · ✅ reviewed
 
 [EPFL profile](https://people.epfl.ch/martin.odersky) · [lamp.epfl.ch](https://lamp.epfl.ch/) · [github.com/lampepfl](https://github.com/lampepfl) · [ORCID 0009-0005-3923-8993](https://orcid.org/0009-0005-3923-8993) · [OpenAlex A5085410724](https://openalex.org/A5085410724)
 
-Martin Odersky leads EPFL's LAMP group, designing the Scala programming language with a focus on advanced type systems including capture checking, capability classifiers, first-class refinement types, and safe concurrency for AI agent security.
+Martin Odersky leads EPFL's LAMP group, designing Scala 3 with advanced type systems — especially capability/capture checking, substructural types, and first-class refinements — and applying them to AI agent safety and safe concurrency.
 
 ### [Mathias Payer](professors/MATHIAS-PAYER.md)
 *HexHive Laboratory (HEXHIVE)* · last updated 2026-08-17 · ✅ reviewed

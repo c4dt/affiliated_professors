@@ -11,18 +11,29 @@
 **ORCID:** [0009-0005-3923-8993](https://orcid.org/0009-0005-3923-8993)  
 **OpenAlex:** [A5085410724](https://openalex.org/A5085410724)  
 
-Martin Odersky leads EPFL's LAMP group, designing the Scala programming language with a focus on advanced type systems including capture checking, capability classifiers, first-class refinement types, and safe concurrency for AI agent security.
+Martin Odersky leads EPFL's LAMP group, designing Scala 3 with advanced type systems — especially capability/capture checking, substructural types, and first-class refinements — and applying them to AI agent safety and safe concurrency.
 
 ## Key research
 
 - [LAMP Lab website](https://lamp.epfl.ch/)
 - [Martin Odersky's EPFL profile](https://people.epfl.ch/martin.odersky)
 - [TACIT — Tracked Agent Capabilities In Types (GitHub)](https://github.com/lampepfl/tacit)
-- [Classifying Capabilities — OOPSLA 2026 (artifact)](https://doi.org/10.1145/3839474)
-- [First-Class Refinement Types in Scala (artifact, Aug 2026)](https://doi.org/10.5281/zenodo.21737492)
-- [gears — async library for Scala 3 (GitHub)](https://github.com/lampepfl/gears)
+- [ATC — A Safe Agent With Tracked Capabilities (GitHub)](https://github.com/lampepfl/atc)
+- [System Capybara: Tracking Capabilities for Separation and Freshness (arXiv)](https://arxiv.org/abs/2607.09383)
+- [LACUNA: Safe Agents as Recursive Program Holes (arXiv)](https://arxiv.org/abs/2605.28617)
 
 ## Changelog
+
+### 2026-10-16
+
+- **New paper published — "First-Class Refinement Types for Scala"** (PACMPL, Oct 2026, OOPSLA): The full paper (doi:10.1145/3839541) is now formally published in PACMPL — previously only the artifact was tracked.
+- **New paper published — "Classifying Capabilities"** (PACMPL, Oct 2026, OOPSLA): Formal publication confirmed (doi:10.1145/3839474); artifact already tracked.
+- **New preprint — "System Capybara: Tracking Capabilities for Separation and Freshness"** (arXiv, Jul 2026): Extended version presenting System Capybara, which retrofits substructural aliasing control (separation, freshness, read-only access) onto Scala's capture checking. Includes a Lean 4 soundness proof and implementation of Scala 3's new separation checker enabling fearless concurrency. Co-authored with Yichen Xu, Oliver Bračevac, Cao Nguyen Pham, Yaoyu Zhao.
+- **New preprint — "LACUNA: Safe Agents as Recursive Program Holes"** (arXiv, May 2026): A new programming model where LLM agent actions are typed `agent[T](task)` calls filled at runtime with type-checked code, bounding tool/data access. Evaluated on BrowseComp-Plus and τ²-bench.
+- **New repo — `atc`** ("A Safe Agent With Tracked Capabilities"): 23 stars, actively pushed Oct 2026 — a new project distinct from TACIT, complementing the agent-safety research strand.
+- **TACIT** now at 114 stars (up from 69 in Aug 2026), indicating significant community interest growth.
+- **scala3-benchmarks-data** continues active development (last pushed Oct 2026).
+- **gears** at 305 stars (marginal increase).
 
 ### 2026-08-14
 
