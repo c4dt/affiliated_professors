@@ -187,11 +187,11 @@ Martin Jaggi leads EPFL's MLO lab, focusing on scalable ML optimization, federat
 Martin Odersky leads EPFL's LAMP group, designing Scala 3 with advanced type systems — especially capability/capture checking, substructural types, and first-class refinements — and applying them to AI agent safety and safe concurrency.
 
 ### [Mathias Payer](professors/MATHIAS-PAYER.md)
-*HexHive Laboratory (HEXHIVE)* · last updated 2026-08-17 · ✅ reviewed
+*HexHive Laboratory (HEXHIVE)* · last updated 2026-10-19 · ✅ reviewed
 
 [EPFL profile](https://people.epfl.ch/mathias.payer) · [hexhive.epfl.ch](https://hexhive.epfl.ch/) · [github.com/HexHive](https://github.com/HexHive) · [ORCID 0000-0001-5054-7547](https://orcid.org/0000-0001-5054-7547) · [OpenAlex A5065116578](https://openalex.org/A5065116578)
 
-Mathias Payer leads the HexHive Laboratory at EPFL, pioneering systems and software security research through fuzzing, sanitization, exploit mitigations, and compartmentalization, with a prolific publication record at top security venues and consistent award recognition.
+Mathias Payer leads the HexHive Laboratory at EPFL, conducting cutting-edge research in systems and software security spanning fuzzing, sanitization, exploit mitigations, firmware rehosting, and blockchain security, with a prolific record at top venues and multiple best-paper awards.
 
 ### [Mats Stensrud](professors/MATS-STENSRUD.md)
 *Chair of Biostatistics (BIOSTAT)* · last updated 2026-10-06 · ✅ reviewed

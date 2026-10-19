@@ -11,7 +11,7 @@
 **ORCID:** [0000-0001-5054-7547](https://orcid.org/0000-0001-5054-7547)  
 **OpenAlex:** [A5065116578](https://openalex.org/A5065116578)  
 
-Mathias Payer leads the HexHive Laboratory at EPFL, pioneering systems and software security research through fuzzing, sanitization, exploit mitigations, and compartmentalization, with a prolific publication record at top security venues and consistent award recognition.
+Mathias Payer leads the HexHive Laboratory at EPFL, conducting cutting-edge research in systems and software security spanning fuzzing, sanitization, exploit mitigations, firmware rehosting, and blockchain security, with a prolific record at top venues and multiple best-paper awards.
 
 ## Key research
 
@@ -19,10 +19,22 @@ Mathias Payer leads the HexHive Laboratory at EPFL, pioneering systems and softw
 - [HexHive GitHub Organization](https://github.com/HexHive)
 - [HexHive Publications](https://hexhive.epfl.ch/publications/)
 - [liberator – Automated Fuzz Driver Generation (FSE'25)](https://github.com/HexHive/liberator)
-- [x402scope – x402 Blockchain Payment Risks (SEC'26)](https://github.com/HexHive/x402scope)
-- [Grape – new HexHive repo (Python, 13★)](https://github.com/HexHive/Grape)
+- [Magma – Ground-Truth Fuzzing Benchmark](https://github.com/HexHive/magma)
+- [SDP – New Active Repo (C)](https://github.com/HexHive/SDP)
 
 ## Changelog
+
+### 2026-10-19
+
+- **New paper at CCS'26:** *"Meme Coin Factories: Uncovering Large-Scale Manipulations on pump.fun"* (Nicolas Szwajcok, Taro Tsuchiya, Enze Liu, Kyle Soska, Mathias Payer, Nicolas Christin) — large-scale study of 15 million coins on pump.fun, identifying five manipulation strategy classes including wash trading, MMaaS, and social media manipulation. Accepted at ACM CCS'26.
+- **New arXiv preprint (firmware security):** *"Reactive Peripheral Modeling for Faithful Firmware Rehosting"* (Qinying Wang et al.) — introduces RPM abstraction for faithful BLE firmware rehosting; tool **Bluezz** achieves >2.6× basic-block coverage vs. prior art and uncovers 5 new vulnerabilities. Submitted to CCS'26 (noted in comments).
+- **New arXiv preprints (since last update):** *"The Impact of Magma: A Ground-Truth Fuzzing Benchmark"* (self-reflective evaluation of Magma benchmark), *"CodeMechanic: Bug-Property-Guided Program Mitigation"*, *"'Operator, can you hear me?' A Faithful Line into the UNISOC Baseband"*, *"SoK: Taxonomizing the Low-Level Attack Surface of Modern Web Browsers"* — all new since 2026-08-17 profile.
+- **New GitHub repo `SDP`** (C, pushed 2026-10-17) — no description yet, most recently active repo in the org; likely a new research artifact.
+- **`magma` repo** active again (pushed 2026-10-11, 345★); correlates with "Impact of Magma" paper submission.
+- **`taemu` gained stars:** now 16★ (up from 9★ in prior profile), reflecting growing interest in TrustZone emulation work.
+- **`Grape` gained stars:** now 17★ (up from 13★); still no public description.
+- **Team:** New PhD student **Shibo Ai** and MSc Research Scholar **Miloš Medić** now listed on the lab webpage — both new since the 2026-08-17 profile. Past visitor Yi Xiang (fall '25) has now rolled off.
+- **No new awards or structural lab changes** beyond the above.
 
 ### 2026-08-17
 
