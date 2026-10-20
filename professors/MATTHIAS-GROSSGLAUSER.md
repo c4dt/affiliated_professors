@@ -10,18 +10,26 @@
 **ORCID:** [0000-0002-3031-1438](https://orcid.org/0000-0002-3031-1438)  
 **OpenAlex:** [A5014508720](https://openalex.org/A5014508720)  
 
-Matthias Grossglauser leads EPFL's INDY Lab, researching machine learning, stochastic networks, and discrete choice models with applications in reinforcement learning, network science, graph mining, and recommender systems.
+Matthias Grossglauser leads EPFL's INDY Lab, researching machine learning, stochastic networks, and discrete choice models with applications in reinforcement learning, LLM alignment, network science, graph mining, and recommender systems.
 
 ## Key research
 
 - [INDY Lab website](https://indy.epfl.ch/)
 - [Grossglauser personal page](https://indy.epfl.ch/grossglauser/)
 - [EPFL people page](https://people.epfl.ch/matthias.grossglauser)
-- [ICML 2025: Hierarchical RL with Targeted Causal Interventions](https://indy.epfl.ch/publication/infoscience/4163046931)
+- [arXiv: Uncertainty-Normalized Margins for DPO (Sep 2026)](https://arxiv.org/abs/2609.38647)
+- [arXiv: Hierarchical Clustering — Richness, Consistency, Scale Invariance (Sep 2026)](https://arxiv.org/abs/2609.11173)
 - [NeurIPS 2025: Optimal Graph Clustering without Edge Density Signals](https://indy.epfl.ch/publication/infoscience/4027491887)
-- [JASA 2025: When does bottom-up beat top-down in hierarchical community detection?](https://indy.epfl.ch/publication/infoscience/1405706870)
 
 ## Changelog
+
+### 2026-10-20
+
+- **New arXiv preprint (Sep 2026)**: "Uncertainty-Normalized Margins for Direct Preference Optimization" (Khorasani, Mikkola, Grossglauser) — introduces UNM-DPO, combining strength-dependent margins with a learned prompt scale motivated by a heteroskedastic Bradley-Terry model; ULNM-DPO-WR achieves a length-controlled win rate of 21.62% on AlpacaEval vs. 16.39% for standard DPO with Llama-3.1-8B-Instruct. Marks the lab's first foray into LLM alignment / RLHF territory.
+- **New arXiv preprint (Sep 2026)**: "Hierarchical Clustering Can Jointly Satisfy Richness, Consistency, and Scale Invariance" (Kuroda, Dreveton, Grossglauser, Thiran) — resolves a long-standing open question by showing that Kleinberg's Impossibility Theorem does *not* extend to hierarchical clustering; constructs uncountably many "admissible" hierarchical clustering methods satisfying all three axioms simultaneously.
+- **New arXiv preprint (Aug 2026)**: "Measuring IIA Violations in Similarity Choices with Bayesian Models" (Grossglauser et al.) — examines violations of the Independence of Irrelevant Alternatives axiom in discrete-choice settings using Bayesian approaches.
+- **New arXiv preprint (Feb 2026)**: "The Benefits of Diversity: Combining Comparisons and Ratings for Efficient Scoring" — explores how mixing pairwise comparison and rating data improves scoring efficiency.
+- All previously noted papers remain current (ICML 2025 HRL, NeurIPS 2025 graph clustering, UAI 2025 saddle points, ALT 2026 ranking, JASA 2025, Statistica Neerlandica 2026, SIGMETRICS 2025). No retractions or updates noted.
 
 ### 2026-08-18
 

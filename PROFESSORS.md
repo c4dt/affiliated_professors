@@ -201,11 +201,11 @@ Mathias Payer leads the HexHive Laboratory at EPFL, conducting cutting-edge rese
 Mats Stensrud is an Associate Professor of Biostatistics at EPFL developing causal and statistical methodology for longitudinal and time-to-event data, with applications in clinical medicine and epidemiology.
 
 ### [Matthias Grossglauser](professors/MATTHIAS-GROSSGLAUSER.md)
-*Information and Network Dynamics Laboratory (INDY)* · last updated 2026-08-18 · ✅ reviewed
+*Information and Network Dynamics Laboratory (INDY)* · last updated 2026-10-20 · ✅ reviewed
 
 [EPFL profile](https://people.epfl.ch/matthias.grossglauser) · [indy.epfl.ch](https://indy.epfl.ch/) · [ORCID 0000-0002-3031-1438](https://orcid.org/0000-0002-3031-1438) · [OpenAlex A5014508720](https://openalex.org/A5014508720)
 
-Matthias Grossglauser leads EPFL's INDY Lab, researching machine learning, stochastic networks, and discrete choice models with applications in reinforcement learning, network science, graph mining, and recommender systems.
+Matthias Grossglauser leads EPFL's INDY Lab, researching machine learning, stochastic networks, and discrete choice models with applications in reinforcement learning, LLM alignment, network science, graph mining, and recommender systems.
 
 ### [Nate Foster](professors/NATE-FOSTER.md)
 *Networked Systems Abstractions Lab (LASER)* · last updated 2026-08-19 · ✅ reviewed
