@@ -208,7 +208,7 @@ Mats Stensrud is an Associate Professor of Biostatistics at EPFL developing caus
 Matthias Grossglauser leads EPFL's INDY Lab, researching machine learning, stochastic networks, and discrete choice models with applications in reinforcement learning, LLM alignment, network science, graph mining, and recommender systems.
 
 ### [Nate Foster](professors/NATE-FOSTER.md)
-*Networked Systems Abstractions Lab (LASER)* · last updated 2026-08-19 · ✅ reviewed
+*Networked Systems Abstractions Lab (LASER)* · last updated 2026-10-21 · ✅ reviewed
 
 [EPFL profile](https://people.epfl.ch/nate.foster) · [laser.epfl.ch](https://laser.epfl.ch/) · [ORCID 0000-0002-6557-684X](https://orcid.org/0000-0002-6557-684X) · [OpenAlex A5013378091](https://openalex.org/A5013378091)
 

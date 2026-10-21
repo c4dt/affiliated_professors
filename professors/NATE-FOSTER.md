@@ -23,6 +23,12 @@ Nate Foster leads EPFL's LASeR lab, developing programming languages and formal 
 
 ## Changelog
 
+### 2026-10-21
+
+- **New artifact (October 2026)**: Zenodo artifact for *A Fast Quantitative Analyzer for NetKAT* published (2026-10-12), accompanying the July 2026 arXiv preprint.
+- **New preprint (April 2026)**: *Building Better Environments for Autonomous Cyber Defence* (arXiv:2604.08805) — a new paper not previously noted in the profile, co-authored by Foster's group, addressing autonomous cyber defence environments.
+- No other materially new papers or developments beyond what was recorded in the 2026-08-19 profile update.
+
 ### 2026-08-19
 
 - **New preprint (July 2026)**: *A Fast Quantitative Analyzer for NetKAT* (arXiv:2607.14420) — presents wSPPs (weighted symbolic packet programs), a symbolic data structure for quantitative network analysis based on weighted NetKAT. Implemented in Lean (formalization) and Rust (optimized implementation); shown to be competitive with KATch on Boolean reachability and orders of magnitude faster than McNetKAT/Storm on probabilistic analyses.
