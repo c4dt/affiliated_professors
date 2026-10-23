@@ -11,7 +11,7 @@
 **ORCID:** [0000-0002-6142-7345](https://orcid.org/0000-0002-6142-7345)  
 **OpenAlex:** [A5020575991](https://openalex.org/A5020575991)  
 
-Paolo Ienne leads EPFL's Processor Architecture Laboratory (LAP), specializing in computer architecture, FPGAs, reconfigurable computing, dynamic high-level synthesis (DHLS), and electronic design automation.
+Paolo Ienne leads EPFL's Processor Architecture Laboratory (LAP), focusing on dynamic high-level synthesis, dataflow circuits, FPGAs, reconfigurable computing, and electronic design automation.
 
 ## Key research
 
@@ -23,6 +23,15 @@ Paolo Ienne leads EPFL's Processor Architecture Laboratory (LAP), specializing i
 - [NetCilk: Extending Task-Level Parallelism Seamlessly across FPGAs (FCCM 2026)](https://doi.org/10.1109/fccm68464.2026.00021)
 
 ## Changelog
+
+### 2026-10-23
+
+- **Dynamatic repo milestone:** The flagship DHLS compiler has grown to **211 stars** (up from 201 at last update) and was pushed as recently as 2026-10-22, confirming continued high-velocity development.
+- **HardCilk and cs473 still active:** Both repos pushed in mid-to-late October 2026, consistent with ongoing research and teaching activity.
+- **FPL Community Award 2026:** Dynamatic (developed jointly with Lana Josipović's group at ETH Zurich) received the **FPL Community Award in 2026** — noted in the updated EPFL biography but not previously logged.
+- **Best paper runner-up at FPGA 2026 and honourable mention at ASPLOS 2026:** Both distinctions now appear in the official biography, confirming recognition for the FPGA 2026 and ASPLOS 2026 papers already logged.
+- **PhD completions:** Two new past PhD students listed — **Ayatallah Elakhras (2026)** and **Canberk Sönmez (2026)** — both graduated since the last profile update.
+- **No new papers** since the last profile update; publication list is unchanged.
 
 ### 2026-08-21
 
