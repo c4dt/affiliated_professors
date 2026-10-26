@@ -272,6 +272,19 @@
   last_updated: "2026-10-12"
   reviewed: true
   retired: false
+- slug: ken-holstein
+  name: Ken Holstein
+  lab: Co-Augmentation, Co-Learning, & Collaborative AI Lab (CoALA Lab)
+  epfl_profile: https://people.epfl.ch/ken.holstein
+  lab_urls:
+    - https://www.thecoalalab.com/
+    - https://www.thecoalalab.com/kenholstein
+  code_urls: []
+  orcid: 0000-0001-6730-922X
+  openalex_id: A5022664382
+  last_updated: null
+  reviewed: true
+  retired: false
 - slug: marcel-salathe
   name: Marcel Salathé
   lab: Digital Epidemiology Lab (SALATHELAB)
