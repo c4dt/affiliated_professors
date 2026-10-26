@@ -10,18 +10,31 @@
 **ORCID:** [0000-0002-4010-714X](https://orcid.org/0000-0002-4010-714X)  
 **OpenAlex:** [A5000947076](https://openalex.org/A5000947076)  
 
-Pascal Frossard leads EPFL's LTS4 lab, researching machine learning, graph signal processing, generative models, and AI applications in biomedical science—including drug discovery and computational pathology.
+Pascal Frossard leads EPFL's LTS4 lab, researching machine learning, graph signal processing, generative models, and AI applications in biomedical science—including drug discovery, computational pathology, and spatial proteomics.
 
 ## Key research
 
 - [LTS4 Lab Website](https://lts4.epfl.ch/)
 - [Pascal Frossard – EPFL Profile](https://people.epfl.ch/pascal.frossard)
 - [EPFL AI Center](https://ai.epfl.ch/)
-- [Swiss Data Science Center](https://www.datascience.ch/)
 - [DBMol: De Novo Drug Design via Structure Prediction Models (arXiv 2026)](https://doi.org/10.48550/arxiv.2607.19237)
 - [DiPhon: Diffusion on Graphons for Scalable Graph Generation (arXiv 2026)](https://doi.org/10.48550/arxiv.2607.07232)
+- [spora: A Unified Multimodal Dataset for Spatial Proteomics (arXiv 2026)](https://doi.org/10.48550/arxiv.2610.24002)
 
 ## Changelog
+
+### 2026-10-26
+
+- **New paper – Loopholing (Oct 21, 2026):** *Loopholing All the Way: Language Modeling with pure Self-Conditioning* (arXiv:2610.30068) — a new approach to discrete/masked diffusion language modeling using pure self-conditioning, extending LTS4's work on masked generative models.
+- **New paper – Edge-aware graph generation (Oct 20, 2026):** *Efficient Edge-aware Attention Network for Graph Generation* (arXiv:2610.28618) — advances LTS4's graph generation research thread.
+- **New dataset/platform – spora (Oct 15, 2026):** *spora: A Unified Multimodal Dataset and Platform for Spatial Proteomics* (arXiv:2610.24002) — a new multimodal spatial proteomics resource, expanding the lab's biomedical data infrastructure efforts.
+- **New paper – PING physics-informed GNN (Oct 13, 2026):** *PING: Physics Informed Graph Neural Network for Advection-Diffusion Processes with Applications to Solar Power Forecasting* (arXiv:2610.18280) — applies physics-informed GNNs to renewable energy forecasting, a new application domain for LTS4.
+- **New paper – Diffusion LM post-training (Oct 6, 2026):** *Enhancing Diffusion Language Models with Autoregressive Post-Training Weights* (arXiv:2610.08108) — builds on the lab's diffusion/masked language model research.
+- **New paper – Speech/audio (Oct 2, 2026):** Two new arXiv papers on speech: *Multiclass Speech Classification Under Noise Disparity* and *Augmenting Large Audio Language Models with Low-Level Acoustic Features for Dysarthric Speech Detection* — a somewhat new direction for LTS4 toward audio/speech AI.
+- **New paper – Adversarial attack (Sept 25, 2026):** *Frame the adversary: A Structure-Aware Attack Methodology* (arXiv:2609.31128).
+- **New bioRxiv preprint – Protein-protein interactomes (Sept 14, 2026):** *Resolving Context-Specific Protein-Protein Interactomes for Biological Discovery and Therapeutic Target Prioritisation* — further expansion into computational biology/systems biology.
+- **New paper – PriFT supervised fine-tuning (June 2026):** *PriFT: Prior-Support Guided Supervised Fine-Tuning* (arXiv:2606.09396) — not captured in previous profile.
+- **New paper – Lane-changing prediction (June 2026):** *Lane-Changing Maneuver Prediction With Urban Arterial Traffic Data From Drones* published in IEEE Transactions on Intelligent Transportation Systems — a new applied domain (autonomous driving/traffic).
 
 ### 2026-08-24
 
