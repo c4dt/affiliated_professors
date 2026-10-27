@@ -293,6 +293,8 @@ def _upload_photo(homeserver: str, token: str, slug: str) -> str | None:
 
 
 def cmd_announce(args: argparse.Namespace) -> int:
+    import re
+
     from . import matrix
 
     homeserver = os.environ["MATRIX_HOMESERVER_URL"].rstrip("/")
@@ -309,8 +311,19 @@ def cmd_announce(args: argparse.Namespace) -> int:
         summary = data.get("one_sentence_summary", "")
         ms = data.get("matrix_summary", "")
 
-        plain = f"{name} ({lab}) — {summary}\n{ms}\nFull profile: {url}"
-        header = f'<b>{name}</b> ({lab})<br/><a href="{url}">Full profile</a>'
+        links = [("Full profile", url)]
+        prof = get_by_slug(load_registry(), data["slug"])
+        if prof is not None:
+            if prof.lab_urls:
+                m = re.search(r"\(([^()]+)\)\s*$", prof.lab)
+                links.append((m.group(1) if m else prof.lab, prof.lab_urls[0]))
+            if prof.epfl_profile:
+                links.append(("@people.epfl.ch", prof.epfl_profile))
+
+        plain_links = "\n".join(f"{label}: {href}" for label, href in links)
+        html_links = " - ".join(f'<a href="{href}">{label}</a>' for label, href in links)
+        plain = f"{name} ({lab}) — {summary}\n{ms}\n{plain_links}"
+        header = f"<b>{name}</b> ({lab})<br/>{html_links}"
         photo = _upload_photo(homeserver, token, data["slug"])
         if photo:
             header = (
