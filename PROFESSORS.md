@@ -159,9 +159,11 @@ Julien Hugonnier is a Full Professor of Finance at EPFL/Swiss Finance Institute 
 Katerina Argyraki leads EPFL's Network Architecture Lab (NAL), researching network transparency, neutrality inference, Internet latency mapping from gaming footage, and edge caching as unintentional traffic differentiation, while also serving as Associate Dean for Education in the IC School.
 
 ### [Ken Holstein](professors/KEN-HOLSTEIN.md)
-*Co-Augmentation, Co-Learning, & Collaborative AI Lab (CoALA Lab)* · last updated — · ✅ reviewed
+*Co-Augmentation, Co-Learning, & Collaborative AI Lab (CoALA Lab)* · last updated 2026-10-27 · ✅ reviewed
 
 [EPFL profile](https://people.epfl.ch/ken.holstein) · [thecoalalab.com](https://www.thecoalalab.com/) · [thecoalalab.com](https://www.thecoalalab.com/kenholstein) · [ORCID 0000-0001-6730-922X](https://orcid.org/0000-0001-6730-922X) · [OpenAlex A5022664382](https://openalex.org/A5022664382)
+
+Ken Holstein is a Tenure Track Assistant Professor at EPFL directing the CoALA Lab, researching human-AI complementarity, participatory AI design, and AI augmentation of human expertise across HCI, learning sciences, and responsible AI.
 
 ### [Marcel Salathé](professors/MARCEL-SALATHE.md)
 *Digital Epidemiology Lab (SALATHELAB)* · last updated 2026-10-13 · ✅ reviewed
