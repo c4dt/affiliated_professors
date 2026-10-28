@@ -21,6 +21,14 @@ Pierre Collin-Dufresne is a Full Professor at EPFL/Swiss Finance Institute whose
 
 ## Changelog
 
+### 2026-10-28
+
+### 2026-09-XX
+
+- **New PhD student additions detected:** The EPFL profile now lists two new PhD students — **Javad Kashizadeh** and **Johan Morin** and **Caterina Negri** — alongside the previously known Darius Nik Nejad and Luca Pagliuca. This expands the active PhD cohort from 3 to 5 students.
+- **Federico Baldi Lanfranchi confirmed graduated (2026):** Now listed under "Past EPFL PhD Students" with a thesis DOI, confirming his 2026 graduation.
+- No new publications, working papers, or awards detected beyond those already recorded. Lab website content and publication list remain unchanged.
+
 ### 2026-08-25
 
 - No materially new developments detected since the last profile update. The lab website and EPFL profile remain unchanged: the same publications, awards (EFA 2024 Best Conference Paper Prize being the most recent), working papers, and PhD student roster (Federico Baldi Lanfranchi, Darius Nik Nejad, Luca Pagliuca) are listed. No new papers, news posts, or repository activity observed.
