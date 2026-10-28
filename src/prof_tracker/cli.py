@@ -20,7 +20,9 @@ from .registry import (
 from .render import regen_professors_md, write_profile
 
 RUN_DIR = Path(".run")
-ANNOUNCEMENT = RUN_DIR / "announcement.json"
+# committed (not in .run/) so a local `announce` after `git pull` posts the
+# same professor the CI run just updated
+ANNOUNCEMENT = Path("announcement.json")
 COMMIT_MSG = RUN_DIR / "commit-msg.txt"
 
 logger = logging.getLogger(__name__)
@@ -209,6 +211,7 @@ def cmd_update(args: argparse.Namespace) -> int:
     ANNOUNCEMENT.write_text(
         json.dumps(
             {
+                "date": today,
                 "slug": prof.slug,
                 "name": prof.name,
                 "lab": prof.lab,
@@ -301,11 +304,17 @@ def cmd_announce(args: argparse.Namespace) -> int:
     token = matrix.resolve_token(homeserver)
     room = matrix.resolve_room(homeserver, token, os.environ["MATRIX_ROOM_ID"])
 
-    if not ANNOUNCEMENT.exists():
+    data = json.loads(ANNOUNCEMENT.read_text()) if ANNOUNCEMENT.exists() else None
+    if data is not None and data.get("date") != _today() and not args.force:
+        logger.warning(
+            "%s is from %s, not today; use --force to post it anyway",
+            ANNOUNCEMENT, data.get("date", "an unknown date"),
+        )
+        data = None
+    if data is None:
         plain = "Professor tracker: no update was run today."
         html = plain
     else:
-        data = json.loads(ANNOUNCEMENT.read_text())
         url = _profile_url(data["profile_path"])
         name, lab = data["name"], data.get("lab", "")
         summary = data.get("one_sentence_summary", "")
@@ -495,6 +504,8 @@ def main(argv: list[str] | None = None) -> int:
     p_update.set_defaults(func=cmd_update)
 
     p_announce = sub.add_parser("announce", help="post the last update to Matrix")
+    p_announce.add_argument("--force", action="store_true", default=False,
+                            help="post the announcement even if it is not from today")
     p_announce.set_defaults(func=cmd_announce)
 
     p_boot = sub.add_parser("bootstrap", help="build professors.yaml from C4DT labs")

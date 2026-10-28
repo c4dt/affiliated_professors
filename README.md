@@ -27,6 +27,7 @@ Other commands:
 devbox run update                    # update the least-recently-updated professor
 devbox run update -- --slug <slug>   # update one specific professor
 devbox run announce                  # post the last update to Matrix
+devbox run announce -- --force        # re-post announcement.json even if it is not from today
 devbox run resolve-orcids            # fill candidate ORCIDs for review
 devbox run bootstrap                 # (re)build the registry from the C4DT labs listing
 devbox run retire <slug>             # freeze a profile and drop it from rotation
