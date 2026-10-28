@@ -92,6 +92,9 @@ def send_html(
             "body": plain_body,
             "format": "org.matrix.custom.html",
             "formatted_body": html_body,
+            # MSC4095: an empty bundle tells clients (Element Web) not to
+            # render URL previews for this message.
+            "com.beeper.linkpreviews": [],
         },
         timeout=_TIMEOUT,
     )
