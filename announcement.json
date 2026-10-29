@@ -1,0 +1,10 @@
+{
+  "date": "2026-10-29",
+  "slug": "rachid-guerraoui",
+  "name": "Rachid Guerraoui",
+  "lab": "Distributed Computing Laboratory (DCL)",
+  "one_sentence_summary": "Rachid Guerraoui leads EPFL's Distributed Computing Laboratory (DCL), pioneering research in Byzantine-resilient machine learning, distributed algorithms, AI-assisted protocol discovery, and concurrent computing.",
+  "matrix_summary": "Guerraoui's lab just released a striking new paper, \"The End of Consensus Research?\" (arXiv, Oct 2026), reporting how AI agents were used to autonomously discover *A-greement*, a new geo-distributed consensus protocol that beats state-of-the-art by up to 33% on latency \u2014 with a Lean-based verification framework that also found previously unknown bugs in existing protocols. The lab also released the companion *KCensus* open-source Rust system and several new papers on backdoor mitigation in decentralized LLM fine-tuning and multi-agent security.",
+  "significant": true,
+  "profile_path": "professors/RACHID-GUERRAOUI.md"
+}

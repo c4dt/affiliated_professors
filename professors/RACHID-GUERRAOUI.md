@@ -12,18 +12,31 @@
 **ORCID:** [0000-0002-4794-8902](https://orcid.org/0000-0002-4794-8902)  
 **OpenAlex:** [A5049321288](https://openalex.org/A5049321288)  
 
-Rachid Guerraoui leads EPFL's Distributed Computing Laboratory (DCL), pioneering research in Byzantine-resilient machine learning, distributed algorithms, secure distributed storage, and concurrent computing.
+Rachid Guerraoui leads EPFL's Distributed Computing Laboratory (DCL), pioneering research in Byzantine-resilient machine learning, distributed algorithms, AI-assisted protocol discovery, and concurrent computing.
 
 ## Key research
 
 - [DCL Lab Website](https://dcl.epfl.ch/)
 - [Rachid Guerraoui – EPFL Profile](https://people.epfl.ch/rachid.guerraoui)
 - [ByzFL – Byzantine-Resilient Federated Learning Library (GitHub)](https://github.com/LPD-EPFL/byzfl)
-- [SWARM: Replicating Shared Disaggregated-Memory Data (GitHub)](https://github.com/LPD-EPFL/swarm-kv)
+- [KCensus: Latency-Optimal Consensus-Based Replication (GitHub)](https://github.com/LPD-EPFL/kcensus)
 - [LPD-EPFL GitHub Organisation](https://github.com/LPD-EPFL)
 - [Distributed-EPFL GitHub Organisation](https://github.com/Distributed-EPFL)
 
 ## Changelog
+
+### 2026-10-29
+
+- **Standout new paper – "The End of Consensus Research?" (arXiv, Oct 2026):** Guerraoui et al. report on using AI agents (the "AI-greement" harness) to autonomously discover, implement, and verify a new geo-distributed consensus protocol called *A-greement*, which outperforms state-of-the-art solutions by 12–33% on latency across 5- and 9-replica deployments. The paper also introduces a Lean-based verification framework that uncovered previously unreported vulnerabilities in existing consensus protocols. This represents a genuinely novel intersection of LLM/AI agents and distributed systems theory from the lab.
+- **New paper – "KCensus: Synthesizing Latency-Optimal Consensus Fast Paths" (arXiv, Sep 2026):** Accompanied by a new open-source Rust repo (`LPD-EPFL/kcensus`, Sep 2026), this work focuses on synthesizing optimal fast paths for consensus protocols.
+- **New paper – "AgentWeave: Efficient Distributed Agent Serving via Flow Decomposition" (arXiv, Oct 2026):** Explores efficient serving of distributed AI agent workflows.
+- **New paper – "Backdoor Mitigation in Decentralized LLM Fine-Tuning" (arXiv, Sep 2026):** Extends the lab's backdoor/Byzantine-robustness thread to LLM fine-tuning in decentralized settings.
+- **New paper – "CAPMAS: Capability-Based Delegation of Privileges in Multi-Agent Systems" (arXiv, Sep 2026):** Addresses security/privilege delegation in multi-agent AI systems.
+- **New paper – "ThreadShift: Transparent Thread-Level Offloading on Transient Cloud Resources Using MPKs" (arXiv, Sep 2026):** Systems paper on cloud thread offloading.
+- **New PhD student:** Grigorii Emdin now appears in the current PhD student list (not previously recorded).
+- **PhD graduate – Antoine Murat (2026):** Now listed as a past PhD student (thesis completed 2026). Diana Andreea Petrescu (2026) also completed as co-directed student.
+- **New course repo:** `CS451-2027-project` created (Sep 2026) and `CS453-2026-project` updated (Oct 2026) for the upcoming academic year.
+- **Routine:** ByzFL library remains actively maintained (last push Oct 2026, 36 ⭐). High publication pace continues across Byzantine FL, machine unlearning, and decentralized learning security.
 
 ### 2026-08-26
 
