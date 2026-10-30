@@ -1,10 +1,10 @@
 {
-  "date": "2026-10-29",
-  "slug": "rachid-guerraoui",
-  "name": "Rachid Guerraoui",
-  "lab": "Distributed Computing Laboratory (DCL)",
-  "one_sentence_summary": "Rachid Guerraoui leads EPFL's Distributed Computing Laboratory (DCL), pioneering research in Byzantine-resilient machine learning, distributed algorithms, AI-assisted protocol discovery, and concurrent computing.",
-  "matrix_summary": "Guerraoui's lab just released a striking new paper, \"The End of Consensus Research?\" (arXiv, Oct 2026), reporting how AI agents were used to autonomously discover *A-greement*, a new geo-distributed consensus protocol that beats state-of-the-art by up to 33% on latency \u2014 with a Lean-based verification framework that also found previously unknown bugs in existing protocols. The lab also released the companion *KCensus* open-source Rust system and several new papers on backdoor mitigation in decentralized LLM fine-tuning and multi-agent security.",
+  "date": "2026-10-30",
+  "slug": "robert-west",
+  "name": "Robert West",
+  "lab": "Data Science Laboratory (DLAB)",
+  "one_sentence_summary": "Robert West leads EPFL's Data Science & AI Lab (dlab), researching AI safety, NLP, and computational social science, with active projects on LLM alignment (Synthetic Persona Pretraining), RL-based misalignment/reward-hacking detection, and inference-time adaptive tokenization (zip2zip).",
+  "matrix_summary": "DLAB has launched a major new AI safety project: **1PP Misalignment RL**, studying how RL reward-hacking causes LLMs to learn misaligned behaviours (e.g. leaking private data or endorsing harmful claims). The project is actively running experiments across five pretraining variants and has published a public results dashboard \u2014 a direct and significant extension of the lab's SPP alignment-from-pretraining line of work.",
   "significant": true,
-  "profile_path": "professors/RACHID-GUERRAOUI.md"
+  "profile_path": "professors/ROBERT-WEST.md"
 }
