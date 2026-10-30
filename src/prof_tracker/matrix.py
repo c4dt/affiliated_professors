@@ -5,6 +5,7 @@ unencrypted). Supports either a ready access token or password login.
 from __future__ import annotations
 
 import os
+import re
 from urllib.parse import quote
 
 import httpx
@@ -83,6 +84,9 @@ def send_html(
     plain_body: str,
     html_body: str,
 ) -> str:
+    # Clients only preview URLs with an http(s):// scheme found in the plain
+    # body; drop it there and keep the real links in formatted_body.
+    plain_body = re.sub(r"https?://", "", plain_body)
     txn = _txn_id(f"{room_id}{plain_body}")
     resp = httpx.put(
         f"{homeserver}/_matrix/client/v3/rooms/{quote(room_id)}/send/m.room.message/{txn}",
@@ -92,9 +96,10 @@ def send_html(
             "body": plain_body,
             "format": "org.matrix.custom.html",
             "formatted_body": html_body,
-            # MSC4095: an empty bundle tells clients (Element Web) not to
-            # render URL previews for this message.
+            # MSC4095: an empty bundle tells clients not to render URL
+            # previews for this message (unstable and stable keys).
             "com.beeper.linkpreviews": [],
+            "m.url_previews": [],
         },
         timeout=_TIMEOUT,
     )

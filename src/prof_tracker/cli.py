@@ -331,13 +331,16 @@ def cmd_announce(args: argparse.Namespace) -> int:
 
         plain_links = "\n".join(f"{label}: {href}" for label, href in links)
         html_links = " - ".join(f'<a href="{href}">{label}</a>' for label, href in links)
-        plain = f"{name} ({lab}) — {summary}\n{ms}\n{plain_links}"
-        header = f"<b>{name}</b> ({lab})<br/>{html_links}"
+        plain = f"{name} - ({lab})\n{summary}\n{ms}\n{plain_links}\n"
+        header = f"<br><b>{name}</b> ({lab})<br/>{html_links}"
         photo = _upload_photo(homeserver, token, data["slug"])
         if photo:
             header = (
                 f'<table><tr><td><img src="{photo}" alt="{name}" height="100"/></td>'
-                f"<td>{header}</td></tr></table>"
+                # Trailing <br/> is invisible in a table cell, but keeps the
+                # summary on its own line in clients that drop tables
+                # (Element Classic on Android).
+                f"<td>{header}<br/><br/></td></tr></table>"
             )
         else:
             header += "<br/>"
