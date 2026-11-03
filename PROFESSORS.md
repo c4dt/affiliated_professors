@@ -215,9 +215,11 @@ Mats Stensrud is an Associate Professor of Biostatistics at EPFL developing caus
 Matthias Grossglauser leads EPFL's INDY Lab, researching machine learning, stochastic networks, and discrete choice models with applications in reinforcement learning, LLM alignment, network science, graph mining, and recommender systems.
 
 ### [Miranda Wei](professors/MIRANDA-WEI.md)
-*Unité de la Prof. Wei (UPWEI)* · last updated — · ✅ reviewed
+*Unité de la Prof. Wei (UPWEI)* · last updated 2026-11-03 · ✅ reviewed
 
 [EPFL profile](https://people.epfl.ch/miranda.wei) · [mirandawei.com](https://mirandawei.com) · [ORCID 0000-0003-2539-0730](https://orcid.org/0000-0003-2539-0730) · [OpenAlex A5040630331](https://openalex.org/A5040630331)
+
+Miranda Wei is an incoming EPFL Tenure-Track Assistant Professor (fall 2026) whose research sits at the intersection of security & privacy, HCI, and feminist STS, with a focus on online abuse, digital safety threats, and sociotechnically-informed approaches to harm reduction.
 
 ### [Nate Foster](professors/NATE-FOSTER.md)
 *Networked Systems Abstractions Lab (LASER)* · last updated 2026-10-21 · ✅ reviewed
