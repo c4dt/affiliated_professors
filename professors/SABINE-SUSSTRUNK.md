@@ -11,18 +11,31 @@
 **ORCID:** [0000-0002-0441-6068](https://orcid.org/0000-0002-0441-6068)  
 **OpenAlex:** [A5078201467](https://openalex.org/A5078201467)  
 
-Sabine Süsstrunk leads IVRL at EPFL, researching computational photography, color image processing, computer vision, and image quality, with recent highlights including three CVPR 2026 papers, new work on neural cellular/particle automata presented at ALIFE 2026, and ongoing deepfake detection and diffusion-model research.
+Sabine Süsstrunk leads IVRL at EPFL, researching computational photography, color image processing, computer vision, and image quality, with recent highlights including three CVPR 2026 papers, new SIGGRAPH 2026 publications on neural automata, an HDR diffusion preprint, and three invited talks at high-profile venues.
 
 ## Key research
 
 - [IVRL Lab Website](https://ivrl.epfl.ch/)
 - [IVRL GitHub Organisation](https://github.com/IVRL)
-- [2-Shots in the Dark (CVPR 2026)](https://openaccess.thecvf.com/content/CVPR2026/html/Lu_2-Shots_in_the_Dark_Low-Light_Denoising_with_Minimal_Data_Acquisition_CVPR_2026_paper.html)
-- [Weight Space Representation Learning (CVPR 2026)](https://openaccess.thecvf.com/content/CVPR2026/html/Yang_Weight_Space_Representation_Learning_via_Neural_Field_Adaptation_CVPR_2026_paper.html)
 - [NoiseDiff – Dark Noise Diffusion (TPAMI 2025, most active repo)](https://github.com/IVRL/NoiseDiff)
+- [2-Shots in the Dark (CVPR 2026)](https://github.com/IVRL/2-Shots-in-the-Dark)
+- [ExpandDiff: HDR Reconstruction via Diffusion (arXiv Sept 2026)](https://doi.org/10.48550/arxiv.2609.39624)
 - [Sabine Süsstrunk EPFL Profile](https://people.epfl.ch/sabine.susstrunk)
 
 ## Changelog
+
+### 2026-11-04
+
+### 2026-10-XX
+
+- **New arXiv preprint (Sept 30, 2026):** *ExpandDiff: Dynamic Range Expanding Diffusion for Single-Image HDR Reconstruction* — a new diffusion-based approach for HDR reconstruction from a single LDR image, not previously listed.
+- **Martin Nicolas Everaert received his PhD** (defended October 9, 2026), the most recent doctoral graduate from IVRL.
+- **ICIP 2026 paper presented (Oct 6, 2026):** *Color Constancy in Hyperspectral Imaging via Reduced Spectral Spaces* (Vidarsson, Lu, Süsstrunk) — formal conference presentation of the previously noted ICIP 2026 paper.
+- **Three invited talks (Sept 2026):** Prof. Süsstrunk delivered talks at the Swiss Vision Symposium (Neural Cellular Automata, Sept 1), Paul Scherrer Institute (On Generating Image and Video Hallucinations, Sept 18), and the HUAWEI Future Device Technology Alps Summit in Vienna (Color & Noise, Sept 23–25) — broad visibility across scientific and industry audiences.
+- **Deepfakes public lecture at Scientifica:** Süsstrunk gave a public lecture "Deepfakes: Blurring Facts and Fiction" at Zurich Science Days (Scientifica, Aug 30, 2026).
+- **VibrantLeaves accepted to TIP 2026:** The previously noted arXiv preprint *VibrantLeaves: A principled parametric image generator for training deep restoration models* is confirmed to appear in IEEE Transactions on Image Processing (TIP) 2026.
+- **Neural automata papers clarified as SIGGRAPH 2026:** The ALIFE-attributed NCA/NPA papers (*Neural Cellular Automata: From Cells to Pixels* and *Neural Particle Automata: Learning Self-Organizing Particle Dynamics*) are confirmed published at ACM SIGGRAPH 2026 (not ALIFE 2026 as previously noted).
+- **Ali Garjani passed his PhD candidacy exam** (Sept 1, 2026), on "Understanding Multimodal Interactions: From Theory to Practice."
 
 ### 2026-08-31
 
