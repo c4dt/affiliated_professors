@@ -1,10 +1,10 @@
 {
-  "date": "2026-11-04",
-  "slug": "sabine-susstrunk",
-  "name": "Sabine S\u00fcsstrunk",
-  "lab": "Image and Visual Representation Laboratory (IVRL)",
-  "one_sentence_summary": "Sabine S\u00fcsstrunk leads IVRL at EPFL, researching computational photography, color image processing, computer vision, and image quality, with recent highlights including three CVPR 2026 papers, new SIGGRAPH 2026 publications on neural automata, an HDR diffusion preprint, and three invited talks at high-profile venues.",
-  "matrix_summary": "IVRL has a new arXiv preprint on HDR reconstruction via diffusion (*ExpandDiff*, Sept 2026), confirmed TIP 2026 acceptance for *VibrantLeaves*, and the NCA/NPA papers are clarified as SIGGRAPH 2026 publications. Prof. S\u00fcsstrunk gave three notable invited talks in September at the Swiss Vision Symposium, Paul Scherrer Institute, and the HUAWEI Alps Summit, while Dr. Martin Everaert completed his PhD (Oct 2026).",
+  "date": "2026-11-05",
+  "slug": "sanidhya-kashyap",
+  "name": "Sanidhya Kashyap",
+  "lab": "Robust Scalable Systems Software Lab (RS3Lab)",
+  "one_sentence_summary": "Sanidhya Kashyap leads RS3Lab at EPFL, building performant, scalable, and robust systems software spanning OS kernels, concurrency, memory management, file systems, fuzzing, and networks for modern heterogeneous hardware.",
+  "matrix_summary": "RS3Lab has a new paper accepted to CIDR'27 (*\"Know Thy State\"*) \u2014 the lab's first acceptance at this prestigious data systems conference. Additionally, a new arXiv preprint on efficient KV caching for LLMs (*CacheWeave*) hints at a potential new research direction in ML systems.",
   "significant": true,
-  "profile_path": "professors/SABINE-SUSSTRUNK.md"
+  "profile_path": "professors/SANIDHYA-KASHYAP.md"
 }

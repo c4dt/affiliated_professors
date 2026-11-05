@@ -25,6 +25,13 @@ Sanidhya Kashyap leads RS3Lab at EPFL, building performant, scalable, and robust
 
 ## Changelog
 
+### 2026-11-05
+
+- **New paper accepted (CIDR'27, Sep 2026):** *"Know Thy State"* accepted to [CIDR 2027](https://www.cidrdb.org/cidr2027/) — a new data systems paper from RS3Lab expanding into the database/systems state management space. This is the lab's first CIDR acceptance.
+- **New arXiv preprint (Nov 2026):** *"CacheWeave: Learning to Recompute for Efficient Position-Independent KV Caching"* — a new preprint on efficient KV caching for LLMs, suggesting a new research direction or collaboration touching ML systems.
+- **GitHub activity:** `rs3lab.github.io` and `die` (paper template) repos updated in October 2026; no new major code repositories since last changelog.
+- No new conference acceptances beyond CIDR'27 noted above; publication and GitHub activity otherwise consistent with prior profile.
+
 ### 2026-09-01
 
 - **New journal publication (TOCS, Jul 2026):** *"Performance and Security in Userspace NVM File Systems through State Separation"* — a journal version of the Trio architecture (best paper at SOSP'23), published in ACM Transactions on Computer Systems (DOI: 10.1145/3828543). This extends the conference paper with additional evaluation and discussion.

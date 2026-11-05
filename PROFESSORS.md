@@ -285,7 +285,7 @@ Rüdiger Fahlenbrach is a Full Professor of Finance at EPFL and Director of the 
 Sabine Süsstrunk leads IVRL at EPFL, researching computational photography, color image processing, computer vision, and image quality, with recent highlights including three CVPR 2026 papers, new SIGGRAPH 2026 publications on neural automata, an HDR diffusion preprint, and three invited talks at high-profile venues.
 
 ### [Sanidhya Kashyap](professors/SANIDHYA-KASHYAP.md)
-*Robust Scalable Systems Software Lab (RS3Lab)* · last updated 2026-09-01 · ✅ reviewed
+*Robust Scalable Systems Software Lab (RS3Lab)* · last updated 2026-11-05 · ✅ reviewed
 
 [EPFL profile](https://people.epfl.ch/sanidhya.kashyap) · [sanidhya.github.io](https://sanidhya.github.io/) · [rs3lab.github.io](https://rs3lab.github.io) · [github.com/rs3lab](https://github.com/rs3lab) · [ORCID 0000-0002-9534-8565](https://orcid.org/0000-0002-9534-8565) · [OpenAlex A5030479442](https://openalex.org/A5030479442)
 
