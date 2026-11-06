@@ -1,10 +1,10 @@
 {
-  "date": "2026-11-05",
-  "slug": "sanidhya-kashyap",
-  "name": "Sanidhya Kashyap",
-  "lab": "Robust Scalable Systems Software Lab (RS3Lab)",
-  "one_sentence_summary": "Sanidhya Kashyap leads RS3Lab at EPFL, building performant, scalable, and robust systems software spanning OS kernels, concurrency, memory management, file systems, fuzzing, and networks for modern heterogeneous hardware.",
-  "matrix_summary": "RS3Lab has a new paper accepted to CIDR'27 (*\"Know Thy State\"*) \u2014 the lab's first acceptance at this prestigious data systems conference. Additionally, a new arXiv preprint on efficient KV caching for LLMs (*CacheWeave*) hints at a potential new research direction in ML systems.",
+  "date": "2026-11-06",
+  "slug": "semyon-malamud",
+  "name": "Semyon Malamud",
+  "lab": "Chair SFI-SM",
+  "one_sentence_summary": "Semyon Malamud is an EPFL Full Professor whose research fuses machine learning, high-dimensional statistics, and financial economics to advance asset pricing, portfolio theory, and market microstructure.",
+  "matrix_summary": "Semyon Malamud has been promoted to Full Professor at EPFL and published two major journal papers (*Universal Portfolio Shrinkage* and *Signaling with Debt Currency Choice*, both in top-3 finance journals) alongside a significant new NBER working paper (*Infinite Factor Structure in Conditional Asset Pricing*) that challenges foundational assumptions of the arbitrage pricing theory using operator-theoretic methods. A new working paper *The Hidden Sharpe Ratio* also appeared.",
   "significant": true,
-  "profile_path": "professors/SANIDHYA-KASHYAP.md"
+  "profile_path": "professors/SEMYON-MALAMUD.md"
 }

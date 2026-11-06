@@ -292,11 +292,11 @@ Sabine Süsstrunk leads IVRL at EPFL, researching computational photography, col
 Sanidhya Kashyap leads RS3Lab at EPFL, building performant, scalable, and robust systems software spanning OS kernels, concurrency, memory management, file systems, fuzzing, and networks for modern heterogeneous hardware.
 
 ### [Semyon Malamud](professors/SEMYON-MALAMUD.md)
-*Chair SFI-SM* · last updated 2026-09-02 · ✅ reviewed
+*Chair SFI-SM* · last updated 2026-11-06 · ✅ reviewed
 
 [EPFL profile](https://people.epfl.ch/semyon.malamud) · [epfl.ch](https://www.epfl.ch/labs/sfi-sm/) · [ORCID 0000-0001-6574-7322](https://orcid.org/0000-0001-6574-7322) · [OpenAlex A5067616912](https://openalex.org/A5067616912)
 
-Semyon Malamud is an EPFL Associate Professor and SFI chair whose research fuses machine learning, high-dimensional statistics, and financial economics to advance asset pricing, portfolio theory, and market microstructure.
+Semyon Malamud is an EPFL Full Professor whose research fuses machine learning, high-dimensional statistics, and financial economics to advance asset pricing, portfolio theory, and market microstructure.
 
 ### [Serge Vaudenay](professors/SERGE-VAUDENAY.md)
 *Security and Cryptography Laboratory (LASEC)* · last updated 2026-09-03 · ✅ reviewed

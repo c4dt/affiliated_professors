@@ -10,18 +10,30 @@
 **ORCID:** [0000-0001-6574-7322](https://orcid.org/0000-0001-6574-7322)  
 **OpenAlex:** [A5067616912](https://openalex.org/A5067616912)  
 
-Semyon Malamud is an EPFL Associate Professor and SFI chair whose research fuses machine learning, high-dimensional statistics, and financial economics to advance asset pricing, portfolio theory, and market microstructure.
+Semyon Malamud is an EPFL Full Professor whose research fuses machine learning, high-dimensional statistics, and financial economics to advance asset pricing, portfolio theory, and market microstructure.
 
 ## Key research
 
 - [SFI-SM Lab Website](https://www.epfl.ch/labs/sfi-sm/)
-- [Limits To (Machine) Learning (arXiv, Dec 2025)](https://doi.org/10.48550/arxiv.2512.12735)
+- [Infinite Factor Structure in Conditional Asset Pricing (NBER, Oct 2026)](https://doi.org/10.3386/w35910)
+- [Universal Portfolio Shrinkage (Review of Financial Studies, Sep 2026)](https://doi.org/10.1093/rfs/hhag084)
+- [Signaling with Debt Currency Choice (Journal of Financial Economics, Sep 2026)](https://doi.org/10.1016/j.jfineco.2026.104355)
 - [Complex Modern Portfolio Theory (NBER, May 2026)](https://doi.org/10.3386/w35246)
-- [Recursive Portfolio Machines (SSRN, Apr 2026)](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6615198)
-- [Artificial Intelligence Asset Pricing Models (NBER, Jan 2025)](https://doi.org/10.3386/w33351)
-- [Machine Learning and the Implementable Efficient Frontier (RFS, forthcoming)](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4187217)
+- [Machine Learning and the Implementable Efficient Frontier (Review of Financial Studies, Mar 2026)](https://doi.org/10.1093/rfs/hhag022)
 
 ## Changelog
+
+### 2026-11-06
+
+### 2026-10-XX
+
+- **Promotion to Full Professor:** Malamud's EPFL profile now lists him as **Full Professor** (previously Associate Professor), and also as Director of the Financial Engineering Section (IF).
+- **New NBER working paper (Oct 2026):** *Infinite Factor Structure in Conditional Asset Pricing* (with Chernov, Kelly & Schwab, NBER w35910) — shows that conditioning information generically breaks the "eigenvalue cliff" of approximate factor models, so unconditionally infinitely many eigenvalues diverge and infinitely many components are priced; standard PCA truncation discards priced systematic risk. A major theoretical contribution to asset pricing.
+- **New SSRN working paper:** *The Hidden Sharpe Ratio* — a further new working paper appearing in the recent publications list.
+- **Journal publication (Sep 2026):** *Universal Portfolio Shrinkage* (with Kelly, Trojani & Pourmohammadi) accepted and published in *Review of Financial Studies* (hhag084); replication package released on Harvard Dataverse.
+- **Journal publication (Sep 2026):** *Signaling with Debt Currency Choice* (with Eren & Zhou) published in *Journal of Financial Economics* (104355); replication package released on Mendeley Data.
+- **Journal publication (Mar 2026):** *Machine Learning and the Implementable Efficient Frontier* (with Jensen, Kelly & Pedersen) published in *Review of Financial Studies* (hhag022), already accumulating 56 citations.
+- Previously logged papers (*Complex Modern Portfolio Theory*, *Scaling Point-in-Time Language Models*, *Recursive Portfolio Machines*, *Limits To (Machine) Learning*, *Training NTK to Generalize with KARE*) remain active working papers with no further venue changes detected.
 
 ### 2026-09-02
 
