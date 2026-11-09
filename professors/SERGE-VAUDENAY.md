@@ -10,22 +10,24 @@
 **ORCID:** [0000-0001-9185-1449](https://orcid.org/0000-0001-9185-1449)  
 **OpenAlex:** [A5073902849](https://openalex.org/A5073902849)  
 
-Serge Vaudenay leads EPFL's LASEC, conducting foundational research in cryptographic analysis, post-quantum cryptography (isogenies, KEMs, code-based), side-channel attacks, anonymous tokens, and blockchain-related fair exchange protocols.
+Serge Vaudenay leads EPFL's LASEC, with research spanning post-quantum cryptography (isogenies, KEMs, code-based), side-channel attacks, biometric authentication protocols, anonymous tokens, and blockchain-related cryptography.
 
 ## Key research
 
 - [LASEC Lab Website](https://lasec.epfl.ch/)
 - [Vaudenay Publications List](http://lasec.epfl.ch/people/vaudenay/pub.html)
 - [LASEC Publications (Infoscience)](https://infoscience.epfl.ch/entities/orgunit/d7a6896a-217a-418f-b31e-b419a884b9e8)
+- [VeinoCert: Binding an Object to an Owner (ICICS 2026)](https://doi.org/10.1007/978-981-92-6843-6_37)
 - [PEGASIS: Practical Effective Class Group Action using 4-Dimensional Isogenies (CRYPTO 2025)](https://infoscience.epfl.ch/entities/publication/670061a9-5a82-47bf-95cf-ee0aeeb9c8dc)
 - [Verifiable Decapsulation: Recognizing Faulty Implementations of Post-quantum KEMs (CRYPTO 2025)](https://infoscience.epfl.ch/entities/publication/a94f967c-e989-40d2-a695-21ad574418c9)
-- [The Cryptographic Layer of Biometric Authentication (LNCS 2026)](https://doi.org/10.1007/978-3-032-32575-4_11)
 
 ## Changelog
 
 ### 2026-11-09
 
-- Update failed (LLM error); sources fetched but not summarized.
+- **New publication:** "VeinoCert: Binding an Object to an Owner" (ICICS 2026, published October 23, 2026) — a new paper by Vaudenay presenting a biometric+RFID protocol to bind an official document (e.g. diploma) to its legitimate owner using fingervein biometry, without storing biometric data at rest. Supported by GlobalID (globalid.swiss). Eprint available at https://eprint.iacr.org/2026/986.
+- **New PhD student:** Mathias Marty and Beren Aydogan now appear on the LASEC website's researcher list, which is new compared to previously recorded active students (Keng-Yu Chen, Max Duparc, Lewis Glabush). This expands the lab's current PhD cohort.
+- No other materially new announcements or publications beyond those previously recorded.
 
 ### 2026-09-03
 

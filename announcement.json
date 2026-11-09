@@ -3,8 +3,8 @@
   "slug": "serge-vaudenay",
   "name": "Serge Vaudenay",
   "lab": "Security and Cryptography Laboratory (LASEC)",
-  "one_sentence_summary": "",
-  "matrix_summary": "",
-  "significant": false,
+  "one_sentence_summary": "Serge Vaudenay leads EPFL's LASEC, with research spanning post-quantum cryptography (isogenies, KEMs, code-based), side-channel attacks, biometric authentication protocols, anonymous tokens, and blockchain-related cryptography.",
+  "matrix_summary": "Vaudenay published a new paper at ICICS 2026: \"VeinoCert: Binding an Object to an Owner\" \u2014 a practical biometric+RFID protocol for binding official documents to their owners using fingervein recognition, with no biometric data stored at rest (supported by GlobalID). Two new PhD students, Mathias Marty and Beren Aydogan, have also joined LASEC.",
+  "significant": true,
   "profile_path": "professors/SERGE-VAUDENAY.md"
 }
