@@ -24,6 +24,8 @@ RUN_DIR = Path(".run")
 # same professor the CI run just updated
 ANNOUNCEMENT = Path("announcement.json")
 COMMIT_MSG = RUN_DIR / "commit-msg.txt"
+# written by a failed `update`, posted by `announce` in the same CI job
+FAILURE = RUN_DIR / "failure.json"
 
 logger = logging.getLogger(__name__)
 
@@ -175,29 +177,23 @@ def cmd_update(args: argparse.Namespace) -> int:
 
     sources_text, any_source_ok = _fetch_sources(prof)
 
-    failed = False
     if not any_source_ok:
-        logger.warning("All sources unavailable — writing fallback entry")
-        update = _fallback_update(prof, "- All sources were unavailable today; no changes.")
-        failed = True
-    else:
-        try:
-            from .agent import run_update
+        return _fail(prof, today, "All sources were unavailable.")
+    try:
+        from .agent import run_update
 
-            logger.info("Running agent to produce profile update")
-            update = run_update(
-                _build_prompt(prof, sources_text, existing),
-                firecrawl_api_key=os.environ.get("FIRECRAWL_API_KEY"),
-            )
-            logger.info(
-                "Agent done: significant=%s, changelog=%d chars",
-                update.significant,
-                len(update.changelog_entry),
-            )
-        except Exception as e:  # noqa: BLE001
-            logger.warning("Agent run failed: %s", e)
-            update = _fallback_update(prof, "- Update failed (LLM error); sources fetched but not summarized.")
-            failed = True
+        logger.info("Running agent to produce profile update")
+        update = run_update(
+            _build_prompt(prof, sources_text, existing),
+            firecrawl_api_key=os.environ.get("FIRECRAWL_API_KEY"),
+        )
+        logger.info(
+            "Agent done: significant=%s, changelog=%d chars",
+            update.significant,
+            len(update.changelog_entry),
+        )
+    except Exception as e:  # noqa: BLE001
+        return _fail(prof, today, f"Agent run failed: {e}")
 
     # write the profile (prose lives there), bump rotation state, rebuild index
     write_profile(prof, update, today)
@@ -207,7 +203,6 @@ def cmd_update(args: argparse.Namespace) -> int:
 
     # emit run artifacts for the workflow
     RUN_DIR.mkdir(exist_ok=True)
-    announce = update.significant and not failed
     ANNOUNCEMENT.write_text(
         json.dumps(
             {
@@ -217,29 +212,28 @@ def cmd_update(args: argparse.Namespace) -> int:
                 "lab": prof.lab,
                 "one_sentence_summary": update.one_sentence_summary,
                 "matrix_summary": update.matrix_summary,
-                "significant": bool(announce),
+                "significant": bool(update.significant),
                 "profile_path": f"professors/{profile_filename(prof.slug)}",
             },
             indent=2,
         )
     )
-    suffix = " [sources unavailable]" if failed else ""
-    COMMIT_MSG.write_text(f"Update {prof.name} ({prof.slug}) — {today}{suffix}\n")
+    COMMIT_MSG.write_text(f"Update {prof.name} ({prof.slug}) — {today}\n")
+    FAILURE.unlink(missing_ok=True)
 
-    logger.info("Wrote %s; significant=%s", path, announce)
-    return 1 if failed else 0
+    logger.info("Wrote %s; significant=%s", path, update.significant)
+    return 0
 
 
-def _fallback_update(prof: Professor, changelog: str) -> ProfileUpdate:
-    # empty summary/links -> build_profile preserves whatever is in the existing
-    # profile file, so a failed run only appends a changelog line
-    return ProfileUpdate(
-        one_sentence_summary="",
-        important_links=[],
-        changelog_entry=changelog,
-        significant=False,
-        matrix_summary="",
+def _fail(prof: Professor, today: str, reason: str) -> int:
+    """Record a failed update for `announce` and leave every tracked file
+    untouched, so last_updated is not bumped and the next run retries."""
+    logger.error("Update of %s failed: %s", prof.slug, reason)
+    RUN_DIR.mkdir(exist_ok=True)
+    FAILURE.write_text(
+        json.dumps({"date": today, "slug": prof.slug, "name": prof.name, "reason": reason}, indent=2)
     )
+    return 1
 
 
 # --------------------------------------------------------------------------- #
@@ -279,6 +273,15 @@ def _github_repo_from_git_remote() -> str | None:
     return m.group(1) if m else None
 
 
+def _run_url() -> str | None:
+    run_id = os.environ.get("GITHUB_RUN_ID")
+    repo = os.environ.get("GITHUB_REPOSITORY")
+    if not (run_id and repo):
+        return None
+    server = os.environ.get("GITHUB_SERVER_URL", "https://github.com")
+    return f"{server}/{repo}/actions/runs/{run_id}"
+
+
 def _upload_photo(homeserver: str, token: str, slug: str) -> str | None:
     """Re-host the professor's people.epfl.ch photo on the homeserver. Best
     effort: a missing photo must not block the announcement."""
@@ -297,12 +300,26 @@ def _upload_photo(homeserver: str, token: str, slug: str) -> str | None:
 
 def cmd_announce(args: argparse.Namespace) -> int:
     import re
+    from html import escape
 
     from . import matrix
 
     homeserver = os.environ["MATRIX_HOMESERVER_URL"].rstrip("/")
     token = matrix.resolve_token(homeserver)
     room = matrix.resolve_room(homeserver, token, os.environ["MATRIX_ROOM_ID"])
+
+    failure = json.loads(FAILURE.read_text()) if FAILURE.exists() else None
+    if failure is not None and failure.get("date") == _today():
+        name = f"{failure['name']} ({failure['slug']})"
+        plain = f"⚠️ Professor tracker: update failed for {name}\n{failure['reason']}"
+        html = f"⚠️ Professor tracker: update failed for <b>{name}</b><br/>{escape(failure['reason'])}"
+        run_url = _run_url()
+        if run_url:
+            plain += f"\nRun: {run_url}"
+            html += f'<br/><a href="{run_url}">Workflow run</a>'
+        event_id = matrix.send_html(homeserver, token, room, plain, html)
+        logger.info("Posted failure to Matrix: %s", event_id)
+        return 0
 
     data = json.loads(ANNOUNCEMENT.read_text()) if ANNOUNCEMENT.exists() else None
     if data is not None and data.get("date") != _today() and not args.force:
