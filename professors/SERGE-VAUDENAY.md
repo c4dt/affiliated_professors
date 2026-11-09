@@ -23,6 +23,10 @@ Serge Vaudenay leads EPFL's LASEC, conducting foundational research in cryptogra
 
 ## Changelog
 
+### 2026-11-09
+
+- Update failed (LLM error); sources fetched but not summarized.
+
 ### 2026-09-03
 
 ### 2026-07-XX

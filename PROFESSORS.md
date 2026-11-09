@@ -299,7 +299,7 @@ Sanidhya Kashyap leads RS3Lab at EPFL, building performant, scalable, and robust
 Semyon Malamud is an EPFL Full Professor whose research fuses machine learning, high-dimensional statistics, and financial economics to advance asset pricing, portfolio theory, and market microstructure.
 
 ### [Serge Vaudenay](professors/SERGE-VAUDENAY.md)
-*Security and Cryptography Laboratory (LASEC)* · last updated 2026-09-03 · ✅ reviewed
+*Security and Cryptography Laboratory (LASEC)* · last updated 2026-11-09 · ✅ reviewed
 
 [EPFL profile](https://people.epfl.ch/serge.vaudenay) · [lasec.epfl.ch](https://lasec.epfl.ch/) · [ORCID 0000-0001-9185-1449](https://orcid.org/0000-0001-9185-1449) · [OpenAlex A5073902849](https://openalex.org/A5073902849)
 
