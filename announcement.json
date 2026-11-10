@@ -1,10 +1,10 @@
 {
-  "date": "2026-11-09",
-  "slug": "serge-vaudenay",
-  "name": "Serge Vaudenay",
-  "lab": "Security and Cryptography Laboratory (LASEC)",
-  "one_sentence_summary": "Serge Vaudenay leads EPFL's LASEC, with research spanning post-quantum cryptography (isogenies, KEMs, code-based), side-channel attacks, biometric authentication protocols, anonymous tokens, and blockchain-related cryptography.",
-  "matrix_summary": "Vaudenay published a new paper at ICICS 2026: \"VeinoCert: Binding an Object to an Owner\" \u2014 a practical biometric+RFID protocol for binding official documents to their owners using fingervein recognition, with no biometric data stored at rest (supported by GlobalID). Two new PhD students, Mathias Marty and Beren Aydogan, have also joined LASEC.",
+  "date": "2026-11-10",
+  "slug": "thomas-bourgeat",
+  "name": "Thomas Bourgeat",
+  "lab": "Verification and Computer Architecture Lab (VCA)",
+  "one_sentence_summary": "Thomas Bourgeat leads the VCA lab at EPFL, researching formal verification of hardware (processors, dataflow circuits, cache coherence protocols), hardware\u2013software interface specifications, and security verification at the RTL level.",
+  "matrix_summary": "**Thomas Bourgeat / VCA lab** has a new ASPLOS '27 paper: *Flashpoint*, which isolates privileged firmware on RISC-V using a minimal ISA extension, formally verified with Sail + Kani model checking on the XiangShan processor. Additionally, the OOPSLA '26 HyperTest paper is now fully published as *\"A Language Approach to Fine-Grained Microarchitectural Observation\"*, and a new PLOS '26 workshop paper on automated assembly-to-Rust lifting appeared. The lab has grown to 9 PhD students.",
   "significant": true,
-  "profile_path": "professors/SERGE-VAUDENAY.md"
+  "profile_path": "professors/THOMAS-BOURGEAT.md"
 }

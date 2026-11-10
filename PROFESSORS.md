@@ -306,7 +306,7 @@ Semyon Malamud is an EPFL Full Professor whose research fuses machine learning, 
 Serge Vaudenay leads EPFL's LASEC, with research spanning post-quantum cryptography (isogenies, KEMs, code-based), side-channel attacks, biometric authentication protocols, anonymous tokens, and blockchain-related cryptography.
 
 ### [Thomas Bourgeat](professors/THOMAS-BOURGEAT.md)
-*Verification and Computer Architecture Lab (VCA)* · last updated 2026-09-04 · ✅ reviewed
+*Verification and Computer Architecture Lab (VCA)* · last updated 2026-11-10 · ✅ reviewed
 
 [EPFL profile](https://people.epfl.ch/thomas.bourgeat) · [vca.epfl.ch](https://vca.epfl.ch/) · [ORCID 0000-0002-8468-8409](https://orcid.org/0000-0002-8468-8409) · [OpenAlex A5031573662](https://openalex.org/A5031573662)
 

@@ -18,10 +18,20 @@ Thomas Bourgeat leads the VCA lab at EPFL, researching formal verification of ha
 - [EPFL People Page](https://people.epfl.ch/thomas.bourgeat)
 - [PLDI '25 – Making Concurrent Hardware Verification Sequential](https://doi.org/10.1145/3729331)
 - [ASPLOS '26 – Graphiti: Formally Verified Out-of-Order Execution in Dataflow Circuits](https://doi.org/10.1145/3779212.3790166)
-- [Graphiti Artefact (GitHub)](https://github.com/vca-epfl/graphiti)
-- [HyperTest Artifact for OOPSLA 2026 (Zenodo)](https://doi.org/10.5281/zenodo.21701376)
+- [ASPLOS '27 – Flashpoint: Privileged-Software Isolation on RISC-V for Dynamic Root of Trust](https://doi.org/10.1145/3845814.3850073)
+- [OOPSLA '26 – HyperTest (A Language Approach to Fine-Grained Microarchitectural Observation)](https://doi.org/10.1145/3839486)
 
 ## Changelog
+
+### 2026-11-10
+
+### 2026-11-XX
+
+- **ASPLOS '27 – Flashpoint:** New paper (Alexandre Pinazza et al., with Bourgeat) on privileged-software isolation on RISC-V for dynamic root of trust. Extends the open-source XiangShan processor with a minimal ISA extension, uses Sail formal specification + Kani model checker to verify isolation, and demonstrates end-to-end dynamic root of trust with a TPM emulator. Artifact released on Zenodo (doi: 10.5281/zenodo.22688439). This is a genuinely new venue/paper not in the previous profile.
+- **OOPSLA '26 – HyperTest (full paper):** The *HyperTest* paper is now confirmed as *"A Language Approach to Fine-Grained Microarchitectural Observation"* (Guokai Chen, Sergi Soler Arrufat, Clément Pit-Claudel, Thomas Bourgeat), published in PACMPL OOPSLA2 2026. It introduces a DSL + SMT-based framework (HT) for constructing and observing microarchitectural tests on XiangShan RISC-V; covers performance analysis, side-channel attack reproduction, and branch predictor characterisation. Previously only the artifact was noted; full title/DOI now confirmed.
+- **New preprints (Sep 2026):** Two new arXiv preprints attributed to the lab appeared: *"Efficient Hardware Information-Flow Tracking for Pre-Silicon Security Testing"* (arXiv:2609.06791) and *"AI as a Compiler: Compiling Triton kernels without the Triton compiler"* (arXiv:2609.36800). The first is directly in the lab's security verification theme; the second is more peripheral.
+- **PLOS '26 workshop paper:** *"All Your Assembly Belongs to Rust: Automated Lifting for Uniform Testing and Verification"* (Castes, Debaussart, Bourgeat) — automated lifting of assembly to Rust for uniform testing/verification. New venue not in prior profile.
+- **PhD student count increased:** Now 9 PhD students listed (Martina Camaioni, Guokai Chen, Gurvan Debaussart, Neelu Kalani, Jiawei Lin, Jiacheng Ma, Alexandre Pinazza, Mohammadarman Soleimani, Tz-Ching Yu), up from 7 previously noted.
 
 ### 2026-09-04
 
