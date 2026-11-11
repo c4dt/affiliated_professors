@@ -1,10 +1,10 @@
 {
-  "date": "2026-11-10",
-  "slug": "thomas-bourgeat",
-  "name": "Thomas Bourgeat",
-  "lab": "Verification and Computer Architecture Lab (VCA)",
-  "one_sentence_summary": "Thomas Bourgeat leads the VCA lab at EPFL, researching formal verification of hardware (processors, dataflow circuits, cache coherence protocols), hardware\u2013software interface specifications, and security verification at the RTL level.",
-  "matrix_summary": "**Thomas Bourgeat / VCA lab** has a new ASPLOS '27 paper: *Flashpoint*, which isolates privileged firmware on RISC-V using a minimal ISA extension, formally verified with Sail + Kani model checking on the XiangShan processor. Additionally, the OOPSLA '26 HyperTest paper is now fully published as *\"A Language Approach to Fine-Grained Microarchitectural Observation\"*, and a new PLOS '26 workshop paper on automated assembly-to-Rust lifting appeared. The lab has grown to 9 PhD students.",
+  "date": "2026-11-11",
+  "slug": "thomas-vidick",
+  "name": "Thomas Vidick",
+  "lab": "Quantum Complexity and Cryptography Laboratory (QCC)",
+  "one_sentence_summary": "Thomas Vidick leads the QCC Lab at EPFL, working at the intersection of quantum complexity theory, interactive proof systems, quantum error correction, and the stability of group representations.",
+  "matrix_summary": "Thomas Vidick (QCC Lab) has a notable new result: \"Achieving Perfect Completeness for One- and Two-Message Quantum Proof Systems\" (arXiv:2609.15926, with Yupan Liu, Sep 2026), which resolves decade-old open problems by showing QMA, QAM, and QIP(2) can achieve perfect completeness. Additionally, his earlier quantum PCP work was accepted at CCC 2026.",
   "significant": true,
-  "profile_path": "professors/THOMAS-BOURGEAT.md"
+  "profile_path": "professors/THOMAS-VIDICK.md"
 }

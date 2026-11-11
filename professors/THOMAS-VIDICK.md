@@ -16,12 +16,21 @@ Thomas Vidick leads the QCC Lab at EPFL, working at the intersection of quantum 
 
 - [QCC Lab Website](https://qcc.epfl.ch)
 - [EPFL People Profile](https://people.epfl.ch/thomas.vidick)
-- [New (Jul 2026): Polynomial Hilbert-Schmidt Stability of the Lamplighter Group (arXiv:2607.20135)](https://arxiv.org/abs/2607.20135)
-- [Probabilistically Checking Quantum Proofs, with Interaction (arXiv:2606.09588)](https://arxiv.org/abs/2606.09588)
-- [Quantum Interactive Oracle Proofs (arXiv:2601.12874)](https://arxiv.org/abs/2601.12874)
+- [New (Sep 2026): Achieving Perfect Completeness for One- and Two-Message Quantum Proof Systems (arXiv:2609.15926)](https://arxiv.org/abs/2609.15926)
+- [Probabilistically Checking Quantum Proofs, with Interaction — CCC 2026 (arXiv:2606.09588)](https://arxiv.org/abs/2606.09588)
+- [Polynomial Hilbert-Schmidt Stability of the Lamplighter Group (arXiv:2607.20135)](https://arxiv.org/abs/2607.20135)
 - [Good Quantum LDPC Codes with Linear Time Decoders (STOC 2023)](https://doi.org/10.1145/3564246.3585101)
 
 ## Changelog
+
+### 2026-11-11
+
+### 2026-10-XX
+
+- **New preprint (Sep 2026):** "Achieving Perfect Completeness for One- and Two-Message Quantum Proof Systems" (arXiv:2609.15926, with Yupan Liu) — resolves two long-standing open problems in quantum complexity: shows that QMA, QAM, qq-QAM, and QIP(2) can all achieve **perfect completeness** (error = 0). This answers questions posed by Watrous (FOCS 2000) and Aharonov & Naveh (2002) for QMA, and by Jain et al. (FOCS 2009) and Kobayashi et al. (SICOMP 2019) for QIP(2). The paper already has 3 citations within weeks of posting and was revised to v3 by October 9. This is a notable result settling fundamental open problems in quantum complexity.
+- **"Probabilistically Checking Quantum Proofs, with Interaction"** now appears with a formal CCC 2026 proceedings DOI (doi:10.4230/lipics.ccc.2026.4), confirming acceptance at CCC 2026 — previously only the arXiv preprint was recorded.
+- **"Swiss Quantum Strategy"** (Zenodo, Jan 2026) — Vidick is a co-author/contributor on this national policy document on quantum computing strategy in Switzerland.
+- No new lab members or other structural changes beyond what was noted previously (Petia Arabadjieva and Aviv Taller remain as PhD students).
 
 ### 2026-09-07
 

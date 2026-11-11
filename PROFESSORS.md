@@ -313,7 +313,7 @@ Serge Vaudenay leads EPFL's LASEC, with research spanning post-quantum cryptogra
 Thomas Bourgeat leads the VCA lab at EPFL, researching formal verification of hardware (processors, dataflow circuits, cache coherence protocols), hardware–software interface specifications, and security verification at the RTL level.
 
 ### [Thomas Vidick](professors/THOMAS-VIDICK.md)
-*Quantum Complexity and Cryptography Laboratory (QCC)* · last updated 2026-09-07 · ✅ reviewed
+*Quantum Complexity and Cryptography Laboratory (QCC)* · last updated 2026-11-11 · ✅ reviewed
 
 [EPFL profile](https://people.epfl.ch/thomas.vidick) · [epfl.ch](https://www.epfl.ch/labs/qcc/) · [ORCID 0000-0002-6405-365X](https://orcid.org/0000-0002-6405-365X) · [OpenAlex A5019616211](https://openalex.org/A5019616211)
 
