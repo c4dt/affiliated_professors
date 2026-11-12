@@ -1,10 +1,10 @@
 {
-  "date": "2026-11-11",
-  "slug": "thomas-vidick",
-  "name": "Thomas Vidick",
-  "lab": "Quantum Complexity and Cryptography Laboratory (QCC)",
-  "one_sentence_summary": "Thomas Vidick leads the QCC Lab at EPFL, working at the intersection of quantum complexity theory, interactive proof systems, quantum error correction, and the stability of group representations.",
-  "matrix_summary": "Thomas Vidick (QCC Lab) has a notable new result: \"Achieving Perfect Completeness for One- and Two-Message Quantum Proof Systems\" (arXiv:2609.15926, with Yupan Liu, Sep 2026), which resolves decade-old open problems by showing QMA, QAM, and QIP(2) can achieve perfect completeness. Additionally, his earlier quantum PCP work was accepted at CCC 2026.",
+  "date": "2026-11-12",
+  "slug": "touradj-ebrahimi",
+  "name": "Touradj Ebrahimi",
+  "lab": "Multimedia Signal Processing Group (MMSPG)",
+  "one_sentence_summary": "Touradj Ebrahimi leads EPFL's MMSPG, focusing on AI-powered image/video coding, JPEG standardization (JPEG AI, JPEG Trust, JPEG XE, JPEG DNA), media security, and fine-grained quality assessment.",
+  "matrix_summary": "MMSPG has published three new papers at SPIE (Oct 2026) covering facial privacy (FaceShield), a new JPEG XE standard for event-based vision systems, and fact-checking within JPEG Trust \u2014 plus a new arXiv preprint on event-guided neural video compression. The JPEG AI IEEE Multimedia paper has surged to 37 citations.",
   "significant": true,
-  "profile_path": "professors/THOMAS-VIDICK.md"
+  "profile_path": "professors/TOURADJ-EBRAHIMI.md"
 }

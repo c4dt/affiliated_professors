@@ -10,7 +10,7 @@
 **ORCID:** [0000-0002-9900-3687](https://orcid.org/0000-0002-9900-3687)  
 **OpenAlex:** [A5082188773](https://openalex.org/A5082188773)  
 
-Touradj Ebrahimi leads EPFL's Multimedia Signal Processing Group (MMSPG), focusing on AI-powered image/video coding, JPEG standardization (JPEG AI, JPEG Trust, JPEG DNA), media security, and fine-grained quality assessment.
+Touradj Ebrahimi leads EPFL's MMSPG, focusing on AI-powered image/video coding, JPEG standardization (JPEG AI, JPEG Trust, JPEG XE, JPEG DNA), media security, and fine-grained quality assessment.
 
 ## Key research
 
@@ -22,6 +22,17 @@ Touradj Ebrahimi leads EPFL's Multimedia Signal Processing Group (MMSPG), focusi
 - [MMSPG on X (Twitter)](https://twitter.com/mmspg)
 
 ## Changelog
+
+### 2026-11-12
+
+- **Three new papers at SPIE Applications of Digital Image Processing (October 2026)**:
+  - **FaceShield** (Oct 2026): A versatile approach to protect facial privacy — new work extending the lab's privacy/security research.
+  - **JPEG XE** (Oct 2026): A new paper enabling interoperable event-based vision systems under a proposed JPEG XE standard — signals MMSPG's expansion into event camera standardization.
+  - **Fact-checking as a trust indicator** (Oct 2026): Content-based factuality assessment within the JPEG Trust framework, further broadening JPEG Trust scope.
+- **Event-guided Neural Video Compression** (arXiv, Oct 2026): New preprint combining event camera data with neural video compression, building on the lab's learning-based event data compression work.
+- **JPEG AI citation count up**: The flagship IEEE Multimedia paper now has 37 citations (up from 25 at last profile update), and the DCC 2025 fine-grained quality paper has reached 9 citations.
+- **Pose-invariant face recognition** (ICIP 2025) now at 3 citations; HDR quality paper at 1 citation.
+- No new PhD students noted; Enes Eray Demirtas remains the sole current PhD student.
 
 ### 2026-09-08
 
