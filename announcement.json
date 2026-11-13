@@ -1,10 +1,10 @@
 {
-  "date": "2026-11-12",
-  "slug": "touradj-ebrahimi",
-  "name": "Touradj Ebrahimi",
-  "lab": "Multimedia Signal Processing Group (MMSPG)",
-  "one_sentence_summary": "Touradj Ebrahimi leads EPFL's MMSPG, focusing on AI-powered image/video coding, JPEG standardization (JPEG AI, JPEG Trust, JPEG XE, JPEG DNA), media security, and fine-grained quality assessment.",
-  "matrix_summary": "MMSPG has published three new papers at SPIE (Oct 2026) covering facial privacy (FaceShield), a new JPEG XE standard for event-based vision systems, and fact-checking within JPEG Trust \u2014 plus a new arXiv preprint on event-guided neural video compression. The JPEG AI IEEE Multimedia paper has surged to 37 citations.",
+  "date": "2026-11-13",
+  "slug": "viktor-kuncak",
+  "name": "Viktor Kun\u010dak",
+  "lab": "Lab for Automated Reasoning and Analysis (LARA)",
+  "one_sentence_summary": "Viktor Kun\u010dak leads EPFL's LARA lab, advancing formal verification (Stainless for Scala), AI-driven Lean 4 autoformalization (LeanFlow, LeanFlow Web), and neural theorem proving \u2014 now extending into learned GPU-accelerated proof evaluators and a browser-based Lean proof environment.",
+  "matrix_summary": "LARA has two notable new developments since September 2026: (1) a NeurIPS 2026 workshop paper on GPU-accelerated neural Lean proof evaluators trained on 4.84M programs, achieving 4.2\u00d7 throughput and a ~31% GRPO training speedup; and (2) the launch of **LeanFlow Web**, a browser-based Lean 4 proof environment with live feedback and an AI assistant (Lemex), now in EPFL early access. Stainless v0.10.3 also shipped and star counts continue to grow.",
   "significant": true,
-  "profile_path": "professors/TOURADJ-EBRAHIMI.md"
+  "profile_path": "professors/VIKTOR-KUNCAK.md"
 }
