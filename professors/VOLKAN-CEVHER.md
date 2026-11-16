@@ -10,18 +10,37 @@
 **ORCID:** [0000-0002-5004-201X](https://orcid.org/0000-0002-5004-201X)  
 **OpenAlex:** [A5027059837](https://openalex.org/A5027059837)  
 
-Volkan Cevher leads EPFL's LIONS lab, advancing machine learning through optimization theory, LLM training, adversarial robustness, and online learning in games.
+Volkan Cevher leads EPFL's LIONS lab, advancing machine learning through optimization theory, LLM training, sequence modeling, adversarial robustness, and multi-agent imitation learning.
 
 ## Key research
 
 - [LIONS Lab Website](https://lions.epfl.ch/)
 - [Volkan Cevher – EPFL People Page](https://people.epfl.ch/volkan.cevher)
 - [Google Scholar Profile](https://scholar.google.com/citations?user=hlWhzU8AAAAJ)
-- [Scion: Training Deep Learning Models with Norm-Constrained LMOs (Aug 2026)](https://doi.org/10.5281/zenodo.22145504)
+- [LIONS @ NeurIPS 2026 (11 papers accepted)](https://actu.epfl.ch/news/lions-neurips-2026)
+- [Scion: Training Deep Learning Models with Norm-Constrained LMOs](https://doi.org/10.5281/zenodo.22145503)
 - [Optimistic Dual Averaging Unifies Modern Optimizers (arXiv 2026)](https://doi.org/10.48550/arxiv.2605.11172)
-- [Training Neural Networks at Any Scale (arXiv 2025)](https://doi.org/10.48550/arxiv.2511.11163)
 
 ## Changelog
+
+### 2026-11-16
+
+- **Major NeurIPS 2026 success (announced Oct 1, 2026):** 11 LIONS papers accepted to NeurIPS 2026 (Sydney, Dec 6–12). Highlights include:
+  - *Optimistic Dual Averaging Unifies Modern Optimizers* (Pethick, Xie, Machacek, Cevher)
+  - *AcceleGrad#: Adaptive Geometry-Aware Acceleration* (Goralija, Tonin, Antonakopoulos, Yurtsever, Cevher)
+  - *Constrained Stochastic Spectral Preconditioning Converges for Nonconvex Objectives*
+  - *Raven: High-Recall Sequence Modeling via Sparse Memory Routing* (Afzal, Bick, Xing, Cevher, Gu)
+  - *Attention-Discounted Adaptive Sampler for Masked Diffusion Language Models*
+  - *Why Routers Freeze: Infinite Width Learning Dynamics for Mixture of Experts*
+  - *Split the Differences, Pool the Rest: Provably Efficient Multi-Objective Imitation*
+  - *When Does Interaction Help? Representational Tradeoffs in Value-Based Imitation Learning*
+- **New preprints (Sep–Nov 2026):**
+  - *Extending Reasoning in Typed Decision Models via Looping* (arXiv, Nov 5 2026)
+  - *Spherical Fixed-Point Reasoners: Adaptive Loop Halting on the Hypersphere* (arXiv, Oct 19 2026) — 1 citation
+  - *Complex KDA: Understanding and Enhancing the Expressivity of Kimi Delta Attention* (arXiv, Sep 21 2026)
+  - *Demystifying Variance in Circuit Discovery of LLMs* (arXiv, Jun 2026)
+  - *GRASP: Deterministic argument ranking in interaction graphs* (arXiv, May 2026)
+  - *Faster Inference of Flow-Based Generative Models via Improved Data-Noise Coupling* (arXiv, Mar 2026)
 
 ### 2026-09-10
 

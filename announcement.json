@@ -1,10 +1,10 @@
 {
-  "date": "2026-11-13",
-  "slug": "viktor-kuncak",
-  "name": "Viktor Kun\u010dak",
-  "lab": "Lab for Automated Reasoning and Analysis (LARA)",
-  "one_sentence_summary": "Viktor Kun\u010dak leads EPFL's LARA lab, advancing formal verification (Stainless for Scala), AI-driven Lean 4 autoformalization (LeanFlow, LeanFlow Web), and neural theorem proving \u2014 now extending into learned GPU-accelerated proof evaluators and a browser-based Lean proof environment.",
-  "matrix_summary": "LARA has two notable new developments since September 2026: (1) a NeurIPS 2026 workshop paper on GPU-accelerated neural Lean proof evaluators trained on 4.84M programs, achieving 4.2\u00d7 throughput and a ~31% GRPO training speedup; and (2) the launch of **LeanFlow Web**, a browser-based Lean 4 proof environment with live feedback and an AI assistant (Lemex), now in EPFL early access. Stainless v0.10.3 also shipped and star counts continue to grow.",
+  "date": "2026-11-16",
+  "slug": "volkan-cevher",
+  "name": "Volkan Cevher",
+  "lab": "Laboratory for Information and Inference Systems (LIONS)",
+  "one_sentence_summary": "Volkan Cevher leads EPFL's LIONS lab, advancing machine learning through optimization theory, LLM training, sequence modeling, adversarial robustness, and multi-agent imitation learning.",
+  "matrix_summary": "LIONS lab had a standout NeurIPS 2026 showing with 11 accepted papers (announced Oct 1), spanning optimization, sequence modeling (Raven), diffusion LMs, MoE theory, and multi-agent imitation learning. Several new preprints on reasoning models and attention mechanisms have also appeared since the last update.",
   "significant": true,
-  "profile_path": "professors/VIKTOR-KUNCAK.md"
+  "profile_path": "professors/VOLKAN-CEVHER.md"
 }
