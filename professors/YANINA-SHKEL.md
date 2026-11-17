@@ -10,18 +10,27 @@
 **ORCID:** [0000-0002-2575-1762](https://orcid.org/0000-0002-2575-1762)  
 **OpenAlex:** [A5052329970](https://openalex.org/A5052329970)  
 
-Yanina Shkel is an Assistant Professor at EPFL's Mathematics of Information Laboratory (MIL) working on the theoretical foundations of data privacy (differential privacy, maximal leakage), information-theoretic secrecy, minimum entropy couplings, and functional representations.
+Yanina Shkel is an EPFL Assistant Professor at the Mathematics of Information Laboratory whose research focuses on the theoretical foundations of data privacy (differential privacy, maximal leakage), information-theoretic secrecy, minimum entropy couplings, and functional representations.
 
 ## Key research
 
 - [MIL Lab – Yanina Shkel's Homepage](https://theory.epfl.ch/yanina/)
 - [EPFL People Profile](https://people.epfl.ch/yanina.shkel)
+- [arXiv: Couplings and Entropic Inequalities on the Majorization Lattice (2026)](https://infoscience.epfl.ch/handle/20.500.14299/268328)
 - [arXiv: Geometry of Rényi Entropy on the Majorization Lattice (2026)](https://arxiv.org/pdf/2605.09655)
 - [arXiv: Composition Theorems for Multiple Differential Privacy Constraints (2026)](https://doi.org/10.48550/arXiv.2603.20968)
-- [arXiv: Locally Private Parametric Methods for Change-Point Detection (2026)](https://arxiv.org/abs/2602.13619)
 - [Learning and Information Theory Workshop (LITH @ EPFL, Feb 2026)](https://lith.epfl.ch/)
 
 ## Changelog
+
+### 2026-11-17
+
+### 2026-10-XX
+
+- **New preprint (Oct 2026):** "Couplings and Entropic Inequalities on the Majorization Lattice" (Yadav & Shkel) — posted to Infoscience/EPFL. This companion paper to the earlier "Geometry of Rényi Entropy on the Majorization Lattice" preprint establishes fundamental coupling–majorization relations, derives strengthened Tsallis entropy inequalities, proves subadditivity of Rényi and Tsallis entropies on the majorization lattice, and gives a polynomial-time algorithm for minimum Rényi entropy couplings with approximation guarantees. Applications span econometrics, optimal transport, and entropy regularization.
+- "On Perfect Functional Representations" (ISIT 2026) now has 1 citation; "Geometry of Rényi Entropy on the Majorization Lattice" preprint has accumulated 4 citations; "Locally Private Parametric Methods for Change-Point Detection" has 2 citations.
+- Teaching update: COM-404 (Information Theory and Coding) is listed for Fall 2026; COM-417 (Advanced Probability) is confirmed for Spring 2027.
+- No new PhD students or other lab news since last update.
 
 ### 2026-09-11
 

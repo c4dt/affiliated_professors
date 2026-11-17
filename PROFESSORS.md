@@ -341,8 +341,8 @@ Viktor Kunčak leads EPFL's LARA lab, advancing formal verification (Stainless f
 Volkan Cevher leads EPFL's LIONS lab, advancing machine learning through optimization theory, LLM training, sequence modeling, adversarial robustness, and multi-agent imitation learning.
 
 ### [Yanina Shkel](professors/YANINA-SHKEL.md)
-*Mathematics of Information Laboratory (MIL)* · last updated 2026-09-11 · ✅ reviewed
+*Mathematics of Information Laboratory (MIL)* · last updated 2026-11-17 · ✅ reviewed
 
 [EPFL profile](https://people.epfl.ch/yanina.shkel) · [theory.epfl.ch](https://theory.epfl.ch/yanina/) · [ORCID 0000-0002-2575-1762](https://orcid.org/0000-0002-2575-1762) · [OpenAlex A5052329970](https://openalex.org/A5052329970)
 
-Yanina Shkel is an Assistant Professor at EPFL's Mathematics of Information Laboratory (MIL) working on the theoretical foundations of data privacy (differential privacy, maximal leakage), information-theoretic secrecy, minimum entropy couplings, and functional representations.
+Yanina Shkel is an EPFL Assistant Professor at the Mathematics of Information Laboratory whose research focuses on the theoretical foundations of data privacy (differential privacy, maximal leakage), information-theoretic secrecy, minimum entropy couplings, and functional representations.

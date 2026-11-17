@@ -1,10 +1,10 @@
 {
-  "date": "2026-11-16",
-  "slug": "volkan-cevher",
-  "name": "Volkan Cevher",
-  "lab": "Laboratory for Information and Inference Systems (LIONS)",
-  "one_sentence_summary": "Volkan Cevher leads EPFL's LIONS lab, advancing machine learning through optimization theory, LLM training, sequence modeling, adversarial robustness, and multi-agent imitation learning.",
-  "matrix_summary": "LIONS lab had a standout NeurIPS 2026 showing with 11 accepted papers (announced Oct 1), spanning optimization, sequence modeling (Raven), diffusion LMs, MoE theory, and multi-agent imitation learning. Several new preprints on reasoning models and attention mechanisms have also appeared since the last update.",
+  "date": "2026-11-17",
+  "slug": "yanina-shkel",
+  "name": "Yanina Shkel",
+  "lab": "Mathematics of Information Laboratory (MIL)",
+  "one_sentence_summary": "Yanina Shkel is an EPFL Assistant Professor at the Mathematics of Information Laboratory whose research focuses on the theoretical foundations of data privacy (differential privacy, maximal leakage), information-theoretic secrecy, minimum entropy couplings, and functional representations.",
+  "matrix_summary": "Yanina Shkel and PhD student Anuj Kumar Yadav have posted a substantial new preprint, \"Couplings and Entropic Inequalities on the Majorization Lattice\" (Oct 2026), which extends their earlier work on R\u00e9nyi entropy geometry to establish coupling-based entropic inequalities, supermodularity results, and a polynomial-time minimum entropy coupling algorithm with applications to optimal transport and econometrics.",
   "significant": true,
-  "profile_path": "professors/VOLKAN-CEVHER.md"
+  "profile_path": "professors/YANINA-SHKEL.md"
 }
