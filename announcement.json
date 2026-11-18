@@ -1,10 +1,10 @@
 {
-  "date": "2026-11-17",
-  "slug": "yanina-shkel",
-  "name": "Yanina Shkel",
-  "lab": "Mathematics of Information Laboratory (MIL)",
-  "one_sentence_summary": "Yanina Shkel is an EPFL Assistant Professor at the Mathematics of Information Laboratory whose research focuses on the theoretical foundations of data privacy (differential privacy, maximal leakage), information-theoretic secrecy, minimum entropy couplings, and functional representations.",
-  "matrix_summary": "Yanina Shkel and PhD student Anuj Kumar Yadav have posted a substantial new preprint, \"Couplings and Entropic Inequalities on the Majorization Lattice\" (Oct 2026), which extends their earlier work on R\u00e9nyi entropy geometry to establish coupling-based entropic inequalities, supermodularity results, and a polynomial-time minimum entropy coupling algorithm with applications to optimal transport and econometrics.",
+  "date": "2026-11-18",
+  "slug": "alessandro-chiesa",
+  "name": "Alessandro Chiesa",
+  "lab": "Laboratory for Computation Security (COMPSEC)",
+  "one_sentence_summary": "Alessandro Chiesa leads COMPSEC at EPFL, researching the theoretical foundations and practical constructions of cryptographic proofs including zkSNARKs, IOPs, proof-carrying data, and post-quantum secure argument systems, with new forays into provable AI inference.",
+  "matrix_summary": "Alessandro Chiesa (COMPSEC) co-released **FlashProve** with Anthropic \u2014 an open-source zkSNARK system for provable AI inference that can prove a 400B-parameter LLM produced specific outputs at ~110 tokens/sec on one H100, with Lean formal proofs and Apache 2.0 code on GitHub. This is a high-profile real-world application of his cryptographic proof research with direct implications for AI safety, pacing, and regulation. Several new preprints and publications also dropped this cycle.",
   "significant": true,
-  "profile_path": "professors/YANINA-SHKEL.md"
+  "profile_path": "professors/ALESSANDRO-CHIESA.md"
 }

@@ -11,18 +11,31 @@
 **ORCID:** [0000-0002-3029-2353](https://orcid.org/0000-0002-3029-2353)  
 **OpenAlex:** [A5101591310](https://openalex.org/A5101591310)  
 
-Alessandro Chiesa leads COMPSEC at EPFL, researching the theoretical foundations and practical constructions of cryptographic proofs including zkSNARKs, IOPs, proof-carrying data, and post-quantum secure argument systems.
+Alessandro Chiesa leads COMPSEC at EPFL, researching the theoretical foundations and practical constructions of cryptographic proofs including zkSNARKs, IOPs, proof-carrying data, and post-quantum secure argument systems, with new forays into provable AI inference.
 
 ## Key research
 
 - [COMPSEC Lab](https://compsec.epfl.ch)
 - [Personal Website (ic-people)](https://ic-people.epfl.ch/~achiesa/)
-- [Preprint: Zero-Knowledge IOPPs for Constrained Interleaved Codes (ePrint 2026/391)](https://eprint.iacr.org/2026/391)
+- [FlashProve: Provable Inference (Anthropic blog post)](https://www.anthropic.com/research/provable-inference)
+- [FlashProve GitHub (open-source)](https://github.com/anthropics/FlashProve)
 - [Book: Building Cryptographic Proofs from Hash Functions](https://hash-based-snargs-book.github.io/)
-- [arkworks (zkSNARK ecosystem)](https://arkworks.rs/)
 - [EPFL profile](https://people.epfl.ch/alessandro.chiesa)
 
 ## Changelog
+
+### 2026-11-18
+
+- **Major new project: FlashProve (November 2026)** — Chiesa co-authored "FlashProve: an open-source library for provable inference" (Technical Report, Nov 2, 2026) in collaboration with Anthropic. The system applies zkSNARKs to prove that large MoE language models (e.g. Llama 4 Maverick, 400B params) produced specific outputs, achieving ~110 tokens/second proof generation on a single H100. Code, Lean formal proofs, and documentation released open-source under Apache 2.0 at [github.com/anthropics/FlashProve](https://github.com/anthropics/FlashProve). This is a high-profile real-world deployment of COMPSEC's cryptographic proof research with direct AI safety / pacing implications.
+- **New preprint: "Time-Space Tradeoffs for Probabilistic Proofs"** (ePrint 2026/2406) — with Ziyi Guan, Omer Paneth, and Nicholas Spooner. Establishes time-space tradeoffs for PCPs and IOPs with straightline knowledge soundness, extending prior work on error-correcting codes.
+- **New preprint: "Can AI Oversight Be Zero Knowledge?"** (ePrint 2026/2299) — with Ziyi Guan and Burcu Yıldız. Studies ZK verification of AI outputs from confidential data.
+- **New preprint: "Affine Combiners for Reed-Solomon Proximity Gaps"** (arXiv, Nov 11, 2026) — new coding-theory result relevant to proof systems.
+- **New publication: "Round-by-Round Knowledge Soundness for Linear-Time IOPs"** — published in *IACR Communications in Cryptology* (Oct 2026).
+- **New publication: "STIR: Reed–Solomon Proximity Testing with Fewer Queries"** — published in *Journal of the ACM* (Oct 2026), journal version of the CRYPTO 2024 paper.
+- **New publication: "Interactive Proofs for Batch Polynomial Evaluation"** — published in DROPS (ITC 2026).
+- **New publication: "Succinct Arguments for QMA in the Quantum Random Oracle Model"** (arXiv, Sep 2026) — new quantum result not previously tracked.
+- **Teaching:** F2026 is a teaching leave; S2027 he teaches CS250 (Algorithms).
+- **Lab roster:** The personal website and EPFL profile now also list Yuxi Zheng as a current PhD student (not previously noted). The COMPSEC website still shows Ziyi Guan's email for student project inquiries (stale).
 
 ### 2026-09-14
 
