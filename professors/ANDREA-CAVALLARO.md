@@ -10,18 +10,27 @@
 **ORCID:** [0000-0001-5086-7858](https://orcid.org/0000-0001-5086-7858)  
 **OpenAlex:** [A5004087827](https://openalex.org/A5004087827)  
 
-Andrea Cavallaro leads the MINTS lab at EPFL, advancing multimodal intelligent systems across privacy-preserving AI, vision-language models, cross-modal explainability, video anomaly detection, and multimodal perception for autonomous and robotic systems.
+Andrea Cavallaro leads the MINTS lab at EPFL, advancing multimodal intelligent systems across privacy-preserving AI, vision-language models, mechanistic interpretability, video anomaly detection, and multimodal perception for autonomous and robotic systems.
 
 ## Key research
 
 - [MINTS Lab Website](https://www.epfl.ch/labs/mints/)
 - [EPFL Profile – Andrea Cavallaro](https://people.epfl.ch/andrea.cavallaro)
+- [Mechanistic Interpretability of Deep Neural Networks (arXiv Nov 2026)](https://arxiv.org/abs/2611.13868)
+- [Reproducible Multimodal Affordance Prediction – ECCV Workshop 2026 (arXiv Aug 2026)](https://arxiv.org/abs/2608.18317)
 - [CSI-VAD: Context-structured Video Anomaly Detection (arXiv Jul 2026)](https://arxiv.org/abs/2607.19077)
-- [PrivLEX: Detecting Legal Concepts in Images via VLMs (arXiv 2026)](https://arxiv.org/abs/2601.09449)
-- [Cross-modal Counterfactual Explanations: DeX Framework (arXiv Dec 2025)](https://arxiv.org/abs/2512.18864)
 - [MM-HSD: Multi-Modal Hate Speech Detection in Videos (ACM MM 2025)](https://doi.org/10.1145/3746027.3754558)
 
 ## Changelog
+
+### 2026-11-19
+
+- **New paper – Mechanistic Interpretability of Deep Neural Networks: Methods, Frameworks, and Perspectives (arXiv Nov 2026):** A survey/overview article by Cavallaro with Cirillo and Amerini, covering methods and frameworks for mechanistic interpretability of deep neural networks across image, audio, and language domains. Extends the lab's existing explainability thread (DeX, GraphNEx) into the mechanistic interpretability direction — a new and notable thematic expansion.
+- **New paper – Reproducible Multimodal Affordance Prediction (arXiv Aug 2026, accepted at ECCV 2026 Workshop HCMIW):** Proposes the "Affordance Sheet" documentation framework to standardise benchmarking of multimodal affordance prediction methods for robotics. Accepted at the Human-Centered Multimodal Intelligence in the Wild workshop at ECCV 2026.
+- **On the Robustness of Vision-Language Models in Zero-Shot Privacy Classification** formally published in Lecture Notes in Computer Science (Sep 2026, 3 citations), previously tracked as an arXiv preprint.
+- Notable citation growth since last update: MM-HSD (ACM MM 2025) now has 20 citations; High-Resolution 6D Pose Estimation (IEEE TPAMI) has 16 citations; Specializing LLM Embeddings for Hate Speech Detection has 9 citations; Let's DENSE (npj Robotics) has 6 citations — indicating strong community uptake across multiple research threads.
+- Medical/clinical publications in ORCID feed continue to be false-positive matches (mesenteric ischemia, eating disorders, rehabilitation); not attributed to this Andrea Cavallaro.
+- No new institutional changes or awards beyond those previously recorded (ELLIS Fellowship 2025 remains most recent).
 
 ### 2026-09-15
 
