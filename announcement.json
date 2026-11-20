@@ -1,10 +1,10 @@
 {
-  "date": "2026-11-19",
-  "slug": "andrea-cavallaro",
-  "name": "Andrea Cavallaro",
-  "lab": "Laboratory of Multimodal Intelligent Systems (MINTS)",
-  "one_sentence_summary": "Andrea Cavallaro leads the MINTS lab at EPFL, advancing multimodal intelligent systems across privacy-preserving AI, vision-language models, mechanistic interpretability, video anomaly detection, and multimodal perception for autonomous and robotic systems.",
-  "matrix_summary": "Two new papers since the last update: a survey on **Mechanistic Interpretability of Deep Neural Networks** (arXiv Nov 2026) expanding MINTS's explainability research, and **Reproducible Multimodal Affordance Prediction** accepted at the ECCV 2026 HCMIW workshop. Citation counts for prior MINTS papers are climbing steadily (MM-HSD at 20, 6D Pose at 16), but no major institutional news.",
-  "significant": false,
-  "profile_path": "professors/ANDREA-CAVALLARO.md"
+  "date": "2026-11-20",
+  "slug": "anne-marie-kermarrec",
+  "name": "Anne-Marie Kermarrec",
+  "lab": "Scalable Computing Systems Laboratory (SaCS)",
+  "one_sentence_summary": "Anne-Marie Kermarrec leads the SACS lab at EPFL, researching large-scale distributed systems with a focus on decentralized/federated machine learning, scalable LLM and MoE inference, agentic AI, privacy-preserving vector search, and now fully decentralized RAG.",
+  "matrix_summary": "The SACS lab released **ZeroRAG** (arXiv Nov 2026), a fully decentralised RAG system that routes queries semantically across up to 100k peers with no central coordinator \u2014 a notable step beyond the earlier RAGRoute work. Several other new preprints also appeared (AgentWeave, backdoor mitigation in decentralised LLM fine-tuning, robust fairness auditing, a provocative \"End of Consensus Research?\" position paper) alongside three new GitHub repos including one in Lean for formal verification.",
+  "significant": true,
+  "profile_path": "professors/ANNE-MARIE-KERMARREC.md"
 }

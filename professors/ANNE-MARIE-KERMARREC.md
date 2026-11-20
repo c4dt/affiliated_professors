@@ -11,18 +11,34 @@
 **ORCID:** [0000-0001-8187-724X](https://orcid.org/0000-0001-8187-724X)  
 **OpenAlex:** [A5031849486](https://openalex.org/A5031849486)  
 
-Anne-Marie Kermarrec leads the SACS lab at EPFL, researching large-scale distributed systems with a focus on federated/decentralized machine learning, scalable LLM/MoE inference, agentic AI, and now privacy-preserving vector search.
+Anne-Marie Kermarrec leads the SACS lab at EPFL, researching large-scale distributed systems with a focus on decentralized/federated machine learning, scalable LLM and MoE inference, agentic AI, privacy-preserving vector search, and now fully decentralized RAG.
 
 ## Key research
 
 - [SACS Lab Website](https://www.epfl.ch/labs/sacs/)
 - [EPFL People Profile](https://people.epfl.ch/anne-marie.kermarrec)
 - [GitHub: sacs-epfl](https://github.com/sacs-epfl)
-- [Secure Vector Search (arXiv:2608.01192)](https://arxiv.org/abs/2608.01192)
+- [ZeroRAG – Decentralized RAG (arXiv:2611.07928)](https://arxiv.org/abs/2611.07928)
 - [CESAR – Communication-Efficient Secure Aggregation in Decentralized Learning](https://github.com/sacs-epfl/cesar)
 - [RAGRoute – Efficient Federated Search for RAG](https://github.com/sacs-epfl/ragroute)
 
 ## Changelog
+
+### 2026-11-20
+
+- **New paper: ZeroRAG** (arXiv:2611.07928, Nov 2026) — *"Adaptive Semantic Peer Routing for Decentralized Retrieval-Augmented Generation"*. Introduces a fully decentralized routing layer for document retrieval in RAG that works without global data structures or centralized orchestration; documents stay with their owners and the network self-organises via a best-first semantic walk. Evaluated at up to 100,000 peers, it approaches centralized recall. This is a significant extension of the RAGRoute line of work.
+- **New paper: "The End of Consensus Research?"** (arXiv:2610.30114, Oct 2026) — a position/opinion paper questioning the future of classical consensus research; already has 1 citation.
+- **New paper: AgentWeave** (arXiv:2610.14804, Oct 2026) — *"Efficient Distributed Agent Serving via Flow Decomposition"*; continues the lab's agentic AI thrust.
+- **New paper: "Robust Decentralized Fairness Auditing"** (arXiv:2610.10199, Oct 2026) — extends the ML auditing / decentralized fairness theme.
+- **New paper: "Backdoor Mitigation in Decentralized LLM Fine-Tuning"** (arXiv:2609.37367, Sep 2026) — addresses backdoor attacks specifically in decentralised LLM fine-tuning settings.
+- **New repos (GitHub activity since last profile):**
+  - `Argus` (Python, pushed Oct 2026) — no public description; likely related to auditing/monitoring work.
+  - `peerswap` (Lean, pushed Oct 2026) — formally verified peer-swap protocol; notable use of Lean proof assistant.
+  - `SAFHIRE` (Julia, pushed Oct 2026) — no public description yet.
+- **Third PhD completion (2026):** Diana Andreea Petrescu defended (doi:10.5075/epfl-thesis-11716), now listed among past students.
+- **`decentralized-learning-simulator`** continues to be the most recently active repo (pushed Nov 2026), reflecting ongoing decentralised ML experiments.
+- **New PhD student listed:** Ramya Narasimha Prabhu (newly appearing in current student list).
+- No new institutional role changes or awards beyond those already recorded.
 
 ### 2026-09-16
 
