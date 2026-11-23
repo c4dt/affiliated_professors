@@ -1,10 +1,10 @@
 {
-  "date": "2026-11-20",
-  "slug": "anne-marie-kermarrec",
-  "name": "Anne-Marie Kermarrec",
-  "lab": "Scalable Computing Systems Laboratory (SaCS)",
-  "one_sentence_summary": "Anne-Marie Kermarrec leads the SACS lab at EPFL, researching large-scale distributed systems with a focus on decentralized/federated machine learning, scalable LLM and MoE inference, agentic AI, privacy-preserving vector search, and now fully decentralized RAG.",
-  "matrix_summary": "The SACS lab released **ZeroRAG** (arXiv Nov 2026), a fully decentralised RAG system that routes queries semantically across up to 100k peers with no central coordinator \u2014 a notable step beyond the earlier RAGRoute work. Several other new preprints also appeared (AgentWeave, backdoor mitigation in decentralised LLM fine-tuning, robust fairness auditing, a provocative \"End of Consensus Research?\" position paper) alongside three new GitHub repos including one in Lean for formal verification.",
+  "date": "2026-11-23",
+  "slug": "annie-hartley",
+  "name": "Annie Hartley",
+  "lab": "Laboratory for Intelligent Global Health and Humanitarian Response Technologies (LiGHT)",
+  "one_sentence_summary": "Annie Hartley leads EPFL's LiGHT lab, developing open, auditable AI systems\u2014most notably the Meditron clinical LLM family\u2014for global health equity and humanitarian response in low-resource settings.",
+  "matrix_summary": "Annie Hartley's LiGHT lab has a notable new publication in **Nature Medicine** (Oct 2026): the MAGIC international network for evaluating generative AI in global health \u2014 a high-profile multi-institution initiative co-led by the lab. Additionally, a burst of new papers covers LLM evaluation in Tanzanian emergency medicine, EHR-driven LLM adaptation, two new lung ultrasound TB-detection preprints (including a cross-modal transfer learning approach), and a new clinical multimorbidity benchmark (CLIMB).",
   "significant": true,
-  "profile_path": "professors/ANNE-MARIE-KERMARREC.md"
+  "profile_path": "professors/ANNIE-HARTLEY.md"
 }

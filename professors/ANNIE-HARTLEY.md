@@ -19,9 +19,22 @@ Annie Hartley leads EPFL's LiGHT lab, developing open, auditable AI systems—mo
 - [Fully Open Meditron (arXiv 2605.16215)](https://arxiv.org/abs/2605.16215)
 - [FullyOpenMeditron GitHub (EPFLiGHT)](https://github.com/EPFLiGHT/FullyOpenMeditron)
 - [MOOVE Clinical Evaluation Platform](https://jointhemoove.org/)
-- [MoBayes: Modular Bayesian Clinical Decision Support (arXiv 2604.20022)](https://arxiv.org/abs/2604.20022)
+- [MAGIC: International Network for Evaluating GenAI in Global Health (Nature Medicine)](https://doi.org/10.1038/s41591-026-04706-x)
 
 ## Changelog
+
+### 2026-11-23
+
+- **New paper – MAGIC network (Nature Medicine, Oct 2026):** Co-authored perspective in *Nature Medicine* introducing the **MAGIC** international network for evaluating generative AI in global health — a multi-institution initiative addressing real-world heterogeneity in LLM deployment across low-resource settings. This is a high-profile venue publication reflecting the lab's growing international leadership in clinical AI evaluation.
+- **New paper – LLM evaluation for Emergency Medicine in Tanzania (African Journal of Emergency Medicine, Nov 2026):** Conference abstract/paper assessing LLM contextual awareness, safety, and accuracy for clinical decision support in Tanzania emergency settings — expanding the lab's clinical domain coverage into emergency medicine in Africa.
+- **New paper – EHR user-driven LLM evaluation (Methods of Information in Medicine, Oct 2026):** Formal publication on user-driven evaluation and adaptation of LLMs for clinical applications using electronic health records.
+- **New preprint – SAADI (Zenodo, Oct 2026):** "Understand Once, Retrieve Many Times" — single-pass retrieval of distributed evidence in long documents; a new retrieval/RAG-focused technical contribution.
+- **New preprint – CAPO (bioRxiv, Oct 2026):** Compute-aware automated protein-model optimization — an unexpected direction into computational biology/protein modeling.
+- **New preprints – Lung ultrasound for TB (arXiv, Oct 2026, x2):** Two new papers on AI-assisted TB screening via lung ultrasound: (1) demographic/clinical variables aiding point-of-care US TB classification; (2) "Wrong Organ, Right Physics" — transferring echocardiography pretraining to lung ultrasound (cross-modal transfer learning). Continues growing ultrasound AI portfolio.
+- **New paper – CLIMB benchmark (arXiv, Sept 2026):** Clinical multimorbidity benchmark for diagnosing co-occurring conditions through multi-turn conversations (1 citation already).
+- **New LNCS paper – Hierarchical Multi-video MIL for TB detection (Sept 2026):** Published in Lecture Notes in Computer Science — AI-interpreted point-of-care ultrasound for TB detection using hierarchical multi-video multiple instance learning.
+- **Fairness-aware voice classification formally published (Pattern Recognition Letters, Nov 2026):** Previously a preprint; now formally published.
+- **Lancet HIV Commission citation count updated:** Now at 9 citations (up from 1 in prior profile), indicating strong uptake.
 
 ### 2026-09-17
 
