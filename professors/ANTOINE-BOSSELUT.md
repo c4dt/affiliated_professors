@@ -10,18 +10,28 @@
 **ORCID:** [0000-0001-8968-9649](https://orcid.org/0000-0001-8968-9649)  
 **OpenAlex:** [A5088410008](https://openalex.org/A5088410008)  
 
-Antoine Bosselut leads the EPFL NLP Lab, researching knowledge representation, commonsense reasoning, and language generation, with recent work spanning LLM-brain alignment, multimodal reasoning, multilingual evaluation, and test-time learning.
+Antoine Bosselut leads the EPFL NLP Lab, researching knowledge representation, commonsense reasoning, and language generation, with recent work spanning open multimodal LLMs (Apertus), test-time training for reasoning consolidation, multilingual/multimodal evaluation, and LLM-brain alignment.
 
 ## Key research
 
 - [NLP Lab Website](https://nlp.epfl.ch/)
 - [EPFL Profile](https://people.epfl.ch/antoine.bosselut)
 - [Personal Website](https://atcbosselut.github.io)
-- [Apertus: Democratizing Open and Compliant LLMs (ACL 2026)](https://openalex.org/W4416255919)
-- [PERK: Long-Context Reasoning as Test-Time Learning (arXiv 2507)](https://openalex.org/W4416101719)
-- [Global MMLU (ACL 2025)](https://openalex.org/W4412944984)
+- [Apertus 1.5: Open Multimodal Reasoners (arXiv Oct 2026)](https://arxiv.org/abs/2610.15542)
+- [TTT-Consolidate: Consolidating Reasoning with Test-Time Training (NeurIPS 2026)](https://arxiv.org/abs/2611.02104)
+- [PERK: Long-Context Reasoning as Test-Time Learning (ICLR 2026)](https://openalex.org/W4416101719)
 
 ## Changelog
+
+### 2026-11-24
+
+- **Apertus 1.5** (arXiv:2610.15542, Oct 2026, 1 citation): Major follow-up to Apertus 1.0, extending the fully open Swiss LLM family from text to **multimodal reasoning** (image + audio), adding 4T tokens continued pretraining for the 8B model and fourfold context window expansion to 262K tokens. Leads among fully open models on knowledge, instruction-following, and cultural benchmarks.
+- **TTT-Consolidate** (arXiv:2611.02104, **NeurIPS 2026**): New paper proposing a framework that uses multi-agent reasoning trajectories as adaptation data via test-time training (LoRA + bi-level meta-learning) to consolidate distributed reasoning — outperforms baselines by up to 20 percentage points on math/STEM benchmarks. Introduces the **OpenParallelThinking** corpus (12,810 math problems × 6 LLMs).
+- **Second PhD graduate**: **Angelika Romanou (2026)** newly listed as past EPFL PhD student, alongside Silin Gao (2026).
+- New ICML 2026 papers (accepted): *Helpful to a Fault* (multilingual LLM agent safety, 3 citations), *Diversity Matters: Revisiting Test-Time Compute in VLMs* (2 citations), *DynaVieW: Schema-Guided World Modeling for Hierarchical Visual Dynamics*.
+- Additional October 2026 preprints: *Latent Taxonomies: How Property Induction Develops in LM Pre-training*; *Scaling Laws for Multimodal Data Mixtures*; *Overcoming Data Imbalances with Expert Selection Biases*; *Language-Specific Effects of Tokenizer Choice*; *Learning What to Imitate: Entropy-Aware Distribution Mixing*; *An Engineering Journey Training LLMs at Scale on Alps: The Apertus Experience*.
+- *Mixture of Cognitive Reasoners* (ICLR 2026) now at 11 citations; *PERK* (ICLR 2026) at 5 citations.
+- *Do LLMs Game Formalization?* (arXiv Apr 2026) at 3 citations; *AI meets Mathematics Education* (CHI 2026) at 2 citations.
 
 ### 2026-09-18
 

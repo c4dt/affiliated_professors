@@ -33,11 +33,11 @@ Anne-Marie Kermarrec leads the SACS lab at EPFL, researching large-scale distrib
 Annie Hartley leads EPFL's LiGHT lab, developing open, auditable AI systems—most notably the Meditron clinical LLM family—for global health equity and humanitarian response in low-resource settings.
 
 ### [Antoine Bosselut](professors/ANTOINE-BOSSELUT.md)
-*Natural Language Processing Lab (NLP Lab)* · last updated 2026-09-18 · ✅ reviewed
+*Natural Language Processing Lab (NLP Lab)* · last updated 2026-11-24 · ✅ reviewed
 
 [EPFL profile](https://people.epfl.ch/antoine.bosselut) · [nlp.epfl.ch](https://nlp.epfl.ch/) · [ORCID 0000-0001-8968-9649](https://orcid.org/0000-0001-8968-9649) · [OpenAlex A5088410008](https://openalex.org/A5088410008)
 
-Antoine Bosselut leads the EPFL NLP Lab, researching knowledge representation, commonsense reasoning, and language generation, with recent work spanning LLM-brain alignment, multimodal reasoning, multilingual evaluation, and test-time learning.
+Antoine Bosselut leads the EPFL NLP Lab, researching knowledge representation, commonsense reasoning, and language generation, with recent work spanning open multimodal LLMs (Apertus), test-time training for reasoning consolidation, multilingual/multimodal evaluation, and LLM-brain alignment.
 
 ### [Babak Falsafi](professors/BABAK-FALSAFI.md)
 *Parallel Systems Architecture Laboratory (PARSA)* · last updated 2026-09-21 · ✅ reviewed

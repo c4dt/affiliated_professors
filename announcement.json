@@ -1,10 +1,10 @@
 {
-  "date": "2026-11-23",
-  "slug": "annie-hartley",
-  "name": "Annie Hartley",
-  "lab": "Laboratory for Intelligent Global Health and Humanitarian Response Technologies (LiGHT)",
-  "one_sentence_summary": "Annie Hartley leads EPFL's LiGHT lab, developing open, auditable AI systems\u2014most notably the Meditron clinical LLM family\u2014for global health equity and humanitarian response in low-resource settings.",
-  "matrix_summary": "Annie Hartley's LiGHT lab has a notable new publication in **Nature Medicine** (Oct 2026): the MAGIC international network for evaluating generative AI in global health \u2014 a high-profile multi-institution initiative co-led by the lab. Additionally, a burst of new papers covers LLM evaluation in Tanzanian emergency medicine, EHR-driven LLM adaptation, two new lung ultrasound TB-detection preprints (including a cross-modal transfer learning approach), and a new clinical multimorbidity benchmark (CLIMB).",
+  "date": "2026-11-24",
+  "slug": "antoine-bosselut",
+  "name": "Antoine Bosselut",
+  "lab": "Natural Language Processing Lab (NLP Lab)",
+  "one_sentence_summary": "Antoine Bosselut leads the EPFL NLP Lab, researching knowledge representation, commonsense reasoning, and language generation, with recent work spanning open multimodal LLMs (Apertus), test-time training for reasoning consolidation, multilingual/multimodal evaluation, and LLM-brain alignment.",
+  "matrix_summary": "Antoine Bosselut's lab released two major items since the last update: **Apertus 1.5** (Oct 2026), extending Switzerland's fully open LLM to multimodal reasoning (image + audio, 262K context), and **TTT-Consolidate** accepted at **NeurIPS 2026**, which uses test-time training to consolidate multi-agent reasoning trajectories and beats baselines by up to 20 points on math benchmarks. A second PhD student (Angelika Romanou) also graduated, and three additional papers were accepted at ICML 2026.",
   "significant": true,
-  "profile_path": "professors/ANNIE-HARTLEY.md"
+  "profile_path": "professors/ANTOINE-BOSSELUT.md"
 }
