@@ -40,11 +40,11 @@ Annie Hartley leads EPFL's LiGHT lab, developing open, auditable AI systems—mo
 Antoine Bosselut leads the EPFL NLP Lab, researching knowledge representation, commonsense reasoning, and language generation, with recent work spanning open multimodal LLMs (Apertus), test-time training for reasoning consolidation, multilingual/multimodal evaluation, and LLM-brain alignment.
 
 ### [Babak Falsafi](professors/BABAK-FALSAFI.md)
-*Parallel Systems Architecture Laboratory (PARSA)* · last updated 2026-09-21 · ✅ reviewed
+*Parallel Systems Architecture Laboratory (PARSA)* · last updated 2026-11-25 · ✅ reviewed
 
 [EPFL profile](https://people.epfl.ch/babak.falsafi) · [parsa.epfl.ch](https://parsa.epfl.ch/) · [ORCID 0000-0001-5916-8068](https://orcid.org/0000-0001-5916-8068) · [OpenAlex A5057697787](https://openalex.org/A5057697787)
 
-Babak Falsafi leads PARSA at EPFL, researching post-Moore server architecture, datacenter systems, GPU microarchitecture, and AI hardware efficiency — most recently focusing on mixed-precision quantization for efficient LLM inference using microscaling (MX) formats.
+Babak Falsafi leads PARSA at EPFL, researching post-Moore server architecture, datacenter systems, GPU microarchitecture, and AI hardware efficiency — with recent work on mixed-precision quantization for LLM inference, silicon-efficient chiplets, and full-system simulation.
 
 ### [Boi Faltings](professors/BOI-FALTINGS.md)
 *Artificial Intelligence Laboratory (LIA)* · last updated 2026-07-20 · ✅ reviewed · 🏁 retired

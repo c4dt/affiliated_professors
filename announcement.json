@@ -1,10 +1,10 @@
 {
-  "date": "2026-11-24",
-  "slug": "antoine-bosselut",
-  "name": "Antoine Bosselut",
-  "lab": "Natural Language Processing Lab (NLP Lab)",
-  "one_sentence_summary": "Antoine Bosselut leads the EPFL NLP Lab, researching knowledge representation, commonsense reasoning, and language generation, with recent work spanning open multimodal LLMs (Apertus), test-time training for reasoning consolidation, multilingual/multimodal evaluation, and LLM-brain alignment.",
-  "matrix_summary": "Antoine Bosselut's lab released two major items since the last update: **Apertus 1.5** (Oct 2026), extending Switzerland's fully open LLM to multimodal reasoning (image + audio, 262K context), and **TTT-Consolidate** accepted at **NeurIPS 2026**, which uses test-time training to consolidate multi-agent reasoning trajectories and beats baselines by up to 20 points on math benchmarks. A second PhD student (Angelika Romanou) also graduated, and three additional papers were accepted at ICML 2026.",
-  "significant": true,
-  "profile_path": "professors/ANTOINE-BOSSELUT.md"
+  "date": "2026-11-25",
+  "slug": "babak-falsafi",
+  "name": "Babak Falsafi",
+  "lab": "Parallel Systems Architecture Laboratory (PARSA)",
+  "one_sentence_summary": "Babak Falsafi leads PARSA at EPFL, researching post-Moore server architecture, datacenter systems, GPU microarchitecture, and AI hardware efficiency \u2014 with recent work on mixed-precision quantization for LLM inference, silicon-efficient chiplets, and full-system simulation.",
+  "matrix_summary": "PARSA's Shilin Lin and Yifan Li have both completed their PhDs in 2026, and Lin's MICRO 2026 paper on scalable time-based full-system simulation sampling is now on record. No major new research directions since the last update.",
+  "significant": false,
+  "profile_path": "professors/BABAK-FALSAFI.md"
 }

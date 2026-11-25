@@ -10,7 +10,7 @@
 **ORCID:** [0000-0001-5916-8068](https://orcid.org/0000-0001-5916-8068)  
 **OpenAlex:** [A5057697787](https://openalex.org/A5057697787)  
 
-Babak Falsafi leads PARSA at EPFL, researching post-Moore server architecture, datacenter systems, GPU microarchitecture, and AI hardware efficiency — most recently focusing on mixed-precision quantization for efficient LLM inference using microscaling (MX) formats.
+Babak Falsafi leads PARSA at EPFL, researching post-Moore server architecture, datacenter systems, GPU microarchitecture, and AI hardware efficiency — with recent work on mixed-precision quantization for LLM inference, silicon-efficient chiplets, and full-system simulation.
 
 ## Key research
 
@@ -22,6 +22,13 @@ Babak Falsafi leads PARSA at EPFL, researching post-Moore server architecture, d
 - [QFlex: Full-System Server Simulation](https://qflex.epfl.ch/)
 
 ## Changelog
+
+### 2026-11-25
+
+- **New MICRO 2026 paper — Time-Based Sampling:** "Accurate & Scalable Time-Based Sampling of Full-System Simulation" (S. Lin, Y. Li, M. Alian, B. Falsafi, K. Lai) accepted at the 59th IEEE/ACM International Symposium on Microarchitecture (MICRO), Athens, Greece, October–November 2026. This extends QFlex simulation methodology with scalable sampling techniques.
+- **Two new PhD theses defended (2026):** Yifan Li ("Redesigning Hardware/Software Contracts for Modern Datacenter Systems", EPFL thesis 10865) and Shilin Lin ("Accurate, Scalable, and Fast Time-Based Sampling of Full-System Simulation", EPFL thesis 10878) — both supervised by Falsafi — have completed their degrees. A third thesis, "From Monolithic to Multi-Stage Routing for FPGAs" (Shrivastava, EPFL thesis 11430, co-supervised with Stojilovic), also completed in 2026.
+- **MXSens (arXiv 2026) has received its first citation** since the last update, indicating early community uptake.
+- No other materially new papers or lab news beyond the above since the 2026-09-21 update.
 
 ### 2026-09-21
 
