@@ -11,7 +11,7 @@
 **ORCID:** [0000-0002-0528-3033](https://orcid.org/0000-0002-0528-3033)  
 **OpenAlex:** [A5045962151](https://openalex.org/A5045962151)  
 
-Bryan Ford leads DEDIS at EPFL, researching decentralized trust, scalable consensus, coercion-resistant e-voting, and privacy-preserving distributed systems, with an active thread on formal foundations via grounded deduction logic formalized in Isabelle.
+Bryan Ford leads DEDIS at EPFL, researching decentralized trust, scalable consensus, coercion-resistant e-voting, and privacy-preserving distributed systems, with an increasingly prominent thread on formal logic via a growing suite of Grounded Arithmetic papers formalized in Isabelle.
 
 ## Key research
 
@@ -19,10 +19,19 @@ Bryan Ford leads DEDIS at EPFL, researching decentralized trust, scalable consen
 - [DEDIS GitHub Organisation](https://github.com/dedis)
 - [Kyber: Advanced Crypto Library (Go)](https://github.com/dedis/kyber)
 - [gd-pure: Grounded Deduction atop Isabelle/Pure](https://github.com/dedis/gd-pure)
-- [QuePaxa: Escaping Timeout Tyranny in Consensus (SOSP '23)](https://github.com/dedis/quepaxa)
+- [Gödel's Incompleteness Theorems in Grounded Arithmetic (arXiv, Nov 2026)](https://arxiv.org/abs/2611.13697)
 - [Votegral: Coercion-Resistant E-Voting System](https://github.com/dedis/votegral)
 
 ## Changelog
+
+### 2026-11-26
+
+- **Major new paper — Gödel's Incompleteness Theorems in Grounded Arithmetic (arXiv, 10 Nov 2026):** A 103-page machine-checked Isabelle/HOL paper showing how Gödel's first and second incompleteness theorems hold for Reflective Grounded Arithmetic (RGA) and its extensions (IGA, RGA+, IGA+). This is the most substantial publication since the last update and directly extends the earlier "Internal Reasoning" companion paper (arXiv:2608.16140).
+- **Coinduction in Grounded Arithmetic (arXiv, 30 Oct 2026):** A new preprint exploring coinductive reasoning within the Grounded Arithmetic framework.
+- **Inductive Grounded Arithmetic: Goodstein, the Hydra, and Γ₀ (arXiv, 25 Oct 2026):** Another new preprint (already 2 citations) establishing strength results for Inductive Grounded Arithmetic via classical combinatorial independence results.
+- **matchertext ecosystem expanded:** Three new repos appeared alongside the existing `matchertext` and `matchertext-sqlite`: `matchertext-security` (Nov 2026), `matchertex-parse5` (HTML5 parser for Node.js, TypeScript), and `matchertext-archive`. All were pushed 2026-11-17/18, suggesting an active development sprint on the matchertext injection-safety tooling.
+- **`accountability_for_acs` repo (Rust) is the most recently pushed repo** (2026-11-19), with no description — likely a new research artifact related to accountability for anonymous communication systems; worth watching.
+- `gd-pure` continues active development (last push 2026-11-15).
 
 ### 2026-09-22
 

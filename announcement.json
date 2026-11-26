@@ -1,10 +1,10 @@
 {
-  "date": "2026-11-25",
-  "slug": "babak-falsafi",
-  "name": "Babak Falsafi",
-  "lab": "Parallel Systems Architecture Laboratory (PARSA)",
-  "one_sentence_summary": "Babak Falsafi leads PARSA at EPFL, researching post-Moore server architecture, datacenter systems, GPU microarchitecture, and AI hardware efficiency \u2014 with recent work on mixed-precision quantization for LLM inference, silicon-efficient chiplets, and full-system simulation.",
-  "matrix_summary": "PARSA's Shilin Lin and Yifan Li have both completed their PhDs in 2026, and Lin's MICRO 2026 paper on scalable time-based full-system simulation sampling is now on record. No major new research directions since the last update.",
-  "significant": false,
-  "profile_path": "professors/BABAK-FALSAFI.md"
+  "date": "2026-11-26",
+  "slug": "bryan-ford",
+  "name": "Bryan Ford",
+  "lab": "Decentralized and Distributed Systems Lab (DEDIS)",
+  "one_sentence_summary": "Bryan Ford leads DEDIS at EPFL, researching decentralized trust, scalable consensus, coercion-resistant e-voting, and privacy-preserving distributed systems, with an increasingly prominent thread on formal logic via a growing suite of Grounded Arithmetic papers formalized in Isabelle.",
+  "matrix_summary": "Bryan Ford has posted three new Grounded Arithmetic preprints in October\u2013November 2026, culminating in a 103-page machine-checked Isabelle/HOL paper proving G\u00f6del's Incompleteness Theorems within Reflective Grounded Arithmetic (RGA). Simultaneously, the DEDIS GitHub shows a burst of activity on the matchertext injection-safety ecosystem (3 new repos) and a new mysterious `accountability_for_acs` Rust repo.",
+  "significant": true,
+  "profile_path": "professors/BRYAN-FORD.md"
 }
