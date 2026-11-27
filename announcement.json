@@ -1,10 +1,10 @@
 {
-  "date": "2026-11-26",
-  "slug": "bryan-ford",
-  "name": "Bryan Ford",
-  "lab": "Decentralized and Distributed Systems Lab (DEDIS)",
-  "one_sentence_summary": "Bryan Ford leads DEDIS at EPFL, researching decentralized trust, scalable consensus, coercion-resistant e-voting, and privacy-preserving distributed systems, with an increasingly prominent thread on formal logic via a growing suite of Grounded Arithmetic papers formalized in Isabelle.",
-  "matrix_summary": "Bryan Ford has posted three new Grounded Arithmetic preprints in October\u2013November 2026, culminating in a 103-page machine-checked Isabelle/HOL paper proving G\u00f6del's Incompleteness Theorems within Reflective Grounded Arithmetic (RGA). Simultaneously, the DEDIS GitHub shows a burst of activity on the matchertext injection-safety ecosystem (3 new repos) and a new mysterious `accountability_for_acs` Rust repo.",
+  "date": "2026-11-27",
+  "slug": "caglar-gulcehre",
+  "name": "Caglar Gulcehre",
+  "lab": "Caglar Gulcehre Lab for AI Research (CLAIRE)",
+  "one_sentence_summary": "Caglar Gulcehre leads CLAIRE at EPFL, researching efficient deep learning spanning reinforcement learning, large language model training, sequence modeling architectures (RNNs/Transformers/SSMs/diffusion), AI safety/alignment, and system-2 reasoning.",
+  "matrix_summary": "CLAIRE has two notable new developments: **RAT+** (Recurrence Augmented Attention+) was accepted at **ICML 2026**, showing a single densely pre-trained model can achieve up to 64\u00d7 inference-time attention sparsity with minimal accuracy loss at 7.6B scale. Additionally, a new preprint **\"Loopholing All the Way\" (LAW)** proposes a pure self-conditioning language model that outperforms prior diffusion LMs on reasoning tasks and approaches autoregressive models on text generation.",
   "significant": true,
-  "profile_path": "professors/BRYAN-FORD.md"
+  "profile_path": "professors/CAGLAR-GULCEHRE.md"
 }

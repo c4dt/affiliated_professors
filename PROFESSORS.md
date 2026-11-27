@@ -61,11 +61,11 @@ Boi Faltings (Professor Emeritus, LIA closed July 2025) researched multi-agent s
 Bryan Ford leads DEDIS at EPFL, researching decentralized trust, scalable consensus, coercion-resistant e-voting, and privacy-preserving distributed systems, with an increasingly prominent thread on formal logic via a growing suite of Grounded Arithmetic papers formalized in Isabelle.
 
 ### [Caglar Gulcehre](professors/CAGLAR-GULCEHRE.md)
-*Caglar Gulcehre Lab for AI Research (CLAIRE)* · last updated 2026-09-23 · ✅ reviewed
+*Caglar Gulcehre Lab for AI Research (CLAIRE)* · last updated 2026-11-27 · ✅ reviewed
 
 [EPFL profile](https://people.epfl.ch/caglar.gulcehre) · [epfl.ch](https://www.epfl.ch/labs/claire/) · [ORCID 0009-0003-4124-1687](https://orcid.org/0009-0003-4124-1687) · [OpenAlex A5041145688](https://openalex.org/A5041145688)
 
-Caglar Gulcehre leads CLAIRE at EPFL, researching efficient and safe deep learning algorithms spanning reinforcement learning, large language model training, sequence modeling architectures, alignment/safety, and system-2 level reasoning.
+Caglar Gulcehre leads CLAIRE at EPFL, researching efficient deep learning spanning reinforcement learning, large language model training, sequence modeling architectures (RNNs/Transformers/SSMs/diffusion), AI safety/alignment, and system-2 reasoning.
 
 ### [Carmela Troncoso](professors/CARMELA-TRONCOSO.md)
 *Security and Privacy Engineering Lab (SPRING)* · last updated 2026-09-24 · ✅ reviewed

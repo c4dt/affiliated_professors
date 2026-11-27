@@ -10,18 +10,32 @@
 **ORCID:** [0009-0003-4124-1687](https://orcid.org/0009-0003-4124-1687)  
 **OpenAlex:** [A5041145688](https://openalex.org/A5041145688)  
 
-Caglar Gulcehre leads CLAIRE at EPFL, researching efficient and safe deep learning algorithms spanning reinforcement learning, large language model training, sequence modeling architectures, alignment/safety, and system-2 level reasoning.
+Caglar Gulcehre leads CLAIRE at EPFL, researching efficient deep learning spanning reinforcement learning, large language model training, sequence modeling architectures (RNNs/Transformers/SSMs/diffusion), AI safety/alignment, and system-2 reasoning.
 
 ## Key research
 
 - [CLAIRE Lab Website](https://www.epfl.ch/labs/claire/)
 - [Caglar Gulcehre Personal Website](https://www.caglar.ai)
-- [Apertus: Democratizing Open and Compliant LLMs (ACL 2026)](https://aclanthology.org/2026.acl-long.2172/)
-- [Sequence Modeling Architectures: Foundations (IEEE Signal Processing Magazine, May 2026)](https://doi.org/10.1109/msp.2026.3682808)
-- [RAT: Bridging RNN Efficiency and Attention Accuracy (arXiv 2025)](https://doi.org/10.48550/arxiv.2507.04416)
+- [RAT+: Train Dense, Infer Sparse (ICML 2026)](https://arxiv.org/abs/2602.18196)
+- [Loopholing All the Way: Language Modeling with Pure Self-Conditioning (arXiv Oct 2026)](https://arxiv.org/abs/2610.30068)
+- [Language Modeling with Hyperspherical Flows (TMLR Oct 2026)](https://arxiv.org/abs/2605.11125)
 - [Google Scholar Profile](https://scholar.google.com/citations?user=7hwJ2ckAAAAJ&hl=en)
 
 ## Changelog
+
+### 2026-11-27
+
+- **RAT+ accepted at ICML 2026:** "RAT+: Train Dense, Infer Sparse — Recurrence Augmented Attention for Dilated Inference" (Xiuying Wei & Gulcehre) was accepted at ICML 2026. The paper extends the RAT architecture with full-sequence recurrence so a single densely pre-trained model can be flexibly switched at inference to dilated attention (up to 64× reduction in attention FLOPs and KV cache size), demonstrated at scales up to 7.6B parameters.
+- **New arXiv preprint — LAW (Oct 2026):** "Loopholing All the Way: Language Modeling with Pure Self-Conditioning" presents the LAW model, a continuous generative LM that relies entirely on self-conditioning/loopholing across diffusion steps (no mask tokens, no discrete sampling). It outperforms prior diffusion LMs on Sudoku, Maze, and GSM8K, and approaches autoregressive models on OpenWebText at 64 NFE.
+- **Language Modeling with Hyperspherical Flows published in TMLR (Oct 2026):** Paper tracking 37 citations, now formally published in *Transactions on Machine Learning Research*.
+- **Benchmarking Non-Invasive Speech BCIs (Nov 2026):** A proceedings paper in *PMLR* extending the 2025 PNPL Competition work on the LibriBrain dataset — peripheral to core CLAIRE research.
+- **Mikhail Terekhov completed EPFL PhD (2026):** Listed as past EPFL PhD student (co-director), thesis at http://dx.doi.org/10.5075/epfl-thesis-12434.
+- **New preprints since last update (not previously tracked):**
+  - "Diffuse AI Control on Fuzzy Tasks" (arXiv, Jun 2026) — AI safety/control extension.
+  - "BlockGen: Flexible Blockwise Sequence Modeling with Hybrid Samplers" (arXiv, Jun 2026) — generative modeling preprint.
+  - "Augmenting Attention with Exponentially Decaying Memory Improves Query-Aware KV Sparsity" (arXiv, May 2026).
+  - "The Future of Facts: Tracing the Factual Generation-Verification Gap" (arXiv, May 2026).
+  - "The Diffusion Duality, Chapter II: Ψ-Samplers" (ICLR 2026) — previously untracked.
 
 ### 2026-09-23
 
